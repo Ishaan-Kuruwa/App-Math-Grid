@@ -1,0 +1,329 @@
+{
+  "method": "optimization",
+  "field": "public-policy",
+  "generatedAt": "2026-11-02T22:20:35.436Z",
+  "queries": [
+    "optimization public policy",
+    "optimization public policy introduction",
+    "optimization public policy tutorial",
+    "optimization public policy review",
+    "facility location problem public services",
+    "ambulance location model",
+    "school bus routing problem"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "Cooperative Facility Location Games",
+      "authors": [
+        "Michel X. Goemans",
+        "Martin Skutella"
+      ],
+      "year": 2000,
+      "doi": null,
+      "openAlexId": "W2039224531",
+      "openAccessUrl": "http://hdl.handle.net/2078.1/4103",
+      "citationCount": 142,
+      "abstract": "The location of facilities in order to provide service for customers is a \\nwell-studied problem in\\nthe operations research literature. In the basic model, there is a predefined \\ncost for opening a facility\\nand also for connecting a customer to a facility, the goal being to minimize \\nthe total cost. Often,\\nboth in the case of public facilities (such as libraries, municipal swimming \\npools, fire stations, ...)\\nand private facilities (such as distribution centers, switching stations, ...), \\nwe may want to find a\\n‘fair’ allocation of the total cost to the customers—--this is known as the \\ncost allocation problem.\\nA central question in cooperative game theory is whether the total cost can be \\nallocated to the\\ncustomers such that no coalition of customers has any incentive to build their \\nown facility or to ask a\\ncompetitor to service them. We establish strong connections between fair cost \\nallocations and linear\\nprogramming relaxations for several variants of the facility location problem. \\nIn particular, we show\\nthat a fair cost allocation exists if and only if there is no integrality gap \\nfor a corresponding linear\\nprogramming relaxation; this was only known for the simplest unconstrained \\nvariant of the facility\\nlocation problem. Moreover, we introduce a subtle variant of randomized \\nrounding and derive new\\nproofs for the existence of fair cost allocations for several classes of \\ninstances. We also show that it is\\nin general NP-complete to decide whether a fair cost allocation exists and \\nwhether a given allocation\\nis fair.",
+      "score": 0.86,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "facility location problem public services"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Facility location: a review of context-free and EMS models.",
+      "authors": [
+        "Charles ReVelle",
+        "David Bigman",
+        "David A. Schilling",
+        "Jared L. Cohon",
+        "Richard L. Church"
+      ],
+      "year": 1977,
+      "doi": null,
+      "openAlexId": "W39162586",
+      "openAccessUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1071976/pdf/hsresearch00547-0010.pdf",
+      "citationCount": 118,
+      "abstract": "EMS location models are those formulated to address specific problems of emergency medical services systems; context-free location models are those developed without reference to particular applications. The literature on these two types of public facility location models is reviewed, and the development of the maximal covering model from several earlier context-free models is described, with emphasis on problem statements and articulation of service objectives. An application of the maximal covering model to fire truck location points up the ability of this model to handle multiple objectives; its ability to compare alternative solutions gives it great utility for planning and evaluating EMS systems of a wide range of complexity. Potential applications of the maximal covering model are discussed regarding EMS problems involving multiple time standards and service objectives, location of special equipment, and siting of fixed facilities.",
+      "score": 0.811,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "facility location problem public services"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A hybrid column generation and clustering approach to the school bus routing problem with time windows",
+      "authors": [
+        "Eduyn Ramiro López-Santana",
+        "Jose de Jesus Romero Carvajal"
+      ],
+      "year": 2015,
+      "doi": "10.14483/udistrital.jour.reving.2015.1.a07",
+      "openAlexId": "W1585439337",
+      "openAccessUrl": "https://doi.org/10.14483/udistrital.jour.reving.2015.1.a07",
+      "citationCount": 28,
+      "abstract": "This paper attempts to solve the School Bus Routing Problem with Time Windows that consists of finding the best set of routes to pick up students distributed geographically with constraints as capacity, time windows and maximum travel time. We formulated the problem as a classic Vehicle Routing Problem with Time Windows and solved it using an approach based on a clustering algorithm and column generation method. A real world case from a school in Bogotá, Colombiais presented including 600 students to pick up in near 400 nodes located in urban and rural areas. The obtained results demonstrate a reduction as the problem’s complexity and an improvement on the performance measures of the proposed method.",
+      "score": 0.775,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "school bus routing problem"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A novel GIS-based decision-making framework for the school bus routing problem",
+      "authors": [
+        "Khalid Aly Eldrandaly",
+        "AbdelMonaem F. M. AbdAllah"
+      ],
+      "year": 2012,
+      "doi": "10.1080/10095020.2012.708151",
+      "openAlexId": "W1998195281",
+      "openAccessUrl": "https://www.tandfonline.com/doi/pdf/10.1080/10095020.2012.708151?needAccess=true&role=button",
+      "citationCount": 21,
+      "abstract": "The school bus routing problem (SBRP) is a central issue in transportation planning and optimization systems. SBRP seeks to plan an efficient schedule for a fleet of school buses where each bus picks up students from various bus stops and delivers them to their designated schools while satisfying various constraints such as the maximum capacity of a bus, and the time window of a school. Due to its inherent complexity, many heuristics have been proposed to solve this combinatorial problem in an effective way. In this paper, a novel geographic information systems (GIS)-based decision-making framework that combines GIS, clustering techniques, network cutting techniques, and a hybrid ant colony optimization metaheuristic with the iterated Lin–Kernighan local improvement heuristic is proposed for solving the SBRP as a split delivery vehicle routing problem (SDVRP). Experiments were conducted for evaluating the proposed framework by comparing the results for solving 11 routing problems using both the proposed decision-making framework and ArcGIS 9.2 Network Analyst which uses the greedy Dijkstra’s algorithm. The reported results of the proposed framework generally outperform that of the ArcGIS Network Analyst. In addition, the proposed decision-making framework was applied to solve a real life SBRP to demonstrate its application.",
+      "score": 0.762,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "school bus routing problem"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Exploring optimal air ambulance base locations in Norway using advanced mathematical modelling",
+      "authors": [
+        "Jo Røislien",
+        "Pieter L. van den Berg",
+        "Thomas Werner Lindner",
+        "Erik Zakariassen",
+        "Karen Aardal",
+        "J. Theresia van Essen"
+      ],
+      "year": 2016,
+      "doi": "10.1136/injuryprev-2016-041973",
+      "openAlexId": "W2467751433",
+      "openAccessUrl": "https://injuryprevention.bmj.com/content/injuryprev/23/1/10.full.pdf",
+      "citationCount": 37,
+      "abstract": "BACKGROUND: Helicopter emergency medical services are an important part of many healthcare systems. Norway has a nationwide physician staffed air ambulance service with 12 bases servicing a country with large geographical variations in population density. The aim of the study was to estimate optimal air ambulance base locations. METHODS: We used high resolution population data for Norway from 2015, dividing Norway into >300 000 1 km×1 km cells. Inhabited cells had a median (5-95 percentile) of 13 (1-391) inhabitants. Optimal helicopter base locations were estimated using the maximal covering location problem facility location optimisation model, exploring the number of bases needed to cover various fractions of the population for time thresholds 30 and 45 min, both in green field scenarios and conditioning on the current base structure. We reanalysed on municipality level data to explore the potential information loss using coarser population data. RESULTS: For a 45 min threshold, 90% of the population could be covered using four bases, and 100% using nine bases. Given the existing bases, the calculations imply the need for two more bases to achieve full coverage. Decreasing the threshold to 30 min approximately doubles the number of bases needed. Results using municipality level data were remarkably similar to those using fine grid information. CONCLUSIONS: The whole population could be reached in 45 min or less using nine optimally placed bases. The current base structure could be improved by moving or adding one or two select bases. Municipality level data appears sufficient for proper analysis.",
+      "score": 0.732,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "ambulance location model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Framework Of Taz_Opt Model For Ambulance Location And Allocation Problem",
+      "authors": [
+        "Adibah Shuib",
+        "Zati Aqmar Zaharudin"
+      ],
+      "year": 2010,
+      "doi": "10.5281/zenodo.1080753",
+      "openAlexId": "W2605653775",
+      "openAccessUrl": "https://zenodo.org/record/1080754",
+      "citationCount": 7,
+      "abstract": "Our study is concerned with the development of an Emergency Medical Services (EMS) ambulance location and allocation model called the Time-based Ambulance Zoning Optimization Model (TAZ_OPT). This paper presents the framework of the study. The model is formulated using the goal programming (GP), where the goals are to determine the satellite locations of ambulances and the number of ambulances to be allocated at these locations. The model aims at maximizing the expected demand coverage based on probability of reaching the emergency location within targetted time, and minimizing the ambulance busyness likelihood value. Among the benefits of the model is the increased accessibility and availability of ambulances, thus, enhanced quality of the EMS ambulance services.",
+      "score": 0.709,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "ambulance location model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A Survey of Approximation Algorithms for the Universal Facility Location Problem",
+      "authors": [
+        "Hanyin Xiao",
+        "Jiaming Zhang",
+        "Zhikang Zhang",
+        "Weidong Li"
+      ],
+      "year": 2025,
+      "doi": "10.3390/math13071023",
+      "openAlexId": "W4408726893",
+      "openAccessUrl": "https://doi.org/10.3390/math13071023",
+      "citationCount": 21,
+      "abstract": "The facility location problem is a classical combinatorial optimization problem with extensive applications spanning communication technology, economic management, traffic governance, and public services. The facility location problem is to assign a set of clients to a set of facilities such that each client connects to a facility and the total cost (open cost and connection cost) is as low as possible. Among its various models, the uncapacitated facility location (UFL) problem is the most fundamental and widely studied. However, in real-world scenarios, resource constraints often make the UFL problem insufficient, necessitating more generalized models. This investigation primarily focuses on the universal facility location (Uni-FL) problem, a generalized framework encompassing both capacitated facility location problems (with hard and soft capacity constraints) and the UFL problem. Through a systematic analysis, we examine the Uni-FL problem alongside its specialized variants: the hard capacitated facility location (HCFL) problem and soft capacitated facility location (SCFL) problem. A comprehensive survey is conducted of existing approximation algorithms and theoretical results. The relevant results of their important variants are also discussed. In addition, we propose some open questions and future research directions for this problem based on existing research.",
+      "score": 0.703,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "facility location problem public services"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "An Optimization-Based Econometric Framework for the Evaluation of Monetary Policy",
+      "authors": [
+        "Julio J. Rotemberg",
+        "Michael Woodford"
+      ],
+      "year": 1997,
+      "doi": "10.1086/654340",
+      "openAlexId": "W2127680685",
+      "openAccessUrl": "https://www.journals.uchicago.edu/doi/epdf/10.1086/654340",
+      "citationCount": 2079,
+      "abstract": "This paper considers a simple quantitative model of output, interest rate and inflation determination in the United States, and uses it to evaluate alternative rules by which the Fed may set interest rates. The model is derived from optimizing behavior under rational expectations, both on the part of the purchasers of goods (who choose quantities to purchase given the expected path of real interest rates), and upon that of the sellers of goods (who set prices on the basis of the expected evolution of demand). Numerical parameter values are obtained in part by seeking to match the actual responses of the economy to a monetary shock to the responses predicted by the model. The resulting model matches the empirical responses quite well and, once due account is taken of its structural disturbances, can account for our data nearly as well as an unrestricted VAR. The monetary policy rule that most reduces inflation variability (and is best on this account) requires very variable interest rates, which in turn is possible only in the case of a high average inflation rate. But even in the case of a constrained-optimal policy, that takes into account some of the costs of average inflation and constrains the variability of interest rates so as to keep average inflation low, inflation would be stabilized considerably more and output stabilized considerably less than under our estimates of current policy. Moreover, this constrained-optimal policy also allows average inflation to be much smaller.",
+      "score": 0.977,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization public policy introduction",
+        "optimization public policy review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Measurement, Optimization, and Impact of Health Care Accessibility: A Methodological Review",
+      "authors": [
+        "Fahui Wang"
+      ],
+      "year": 2012,
+      "doi": "10.1080/00045608.2012.657146",
+      "openAlexId": "W2161987701",
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/3547595",
+      "citationCount": 701,
+      "abstract": "Despite spending more than any other nation on medical care per person, the United States ranks behind other industrialized nations in key health performance measures. A main cause is the deep disparities in access to care and health outcomes. Federal programs such as the designations of Medically Underserved Areas/Populations and Health Professional Shortage Areas are designed to boost the number of health professionals serving these areas and to help alleviate the access problem. Their effectiveness relies first and foremost on an accurate measure of accessibility so that resources can be allocated to truly needy areas. Various measures of accessibility need to be integrated into one framework for comparison and evaluation. Optimization methods can be used to improve the distribution and supply of health care providers to maximize service coverage, minimize travel needs of patients, limit the number of facilities, and maximize health or access equality. Inequality in health care access comes at a personal and societal price, evidenced in disparities in health outcomes, including late-stage cancer diagnosis. This review surveys recent literature on the three named issues with emphasis on methodological advancements and implications for public policy.",
+      "score": 0.943,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization public policy review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A review of hybrid renewable energy systems: Solar and wind-powered solutions: Challenges, opportunities, and policy implications",
+      "authors": [
+        "Qusay Hassan",
+        "Sameer Saadoon Algburi",
+        "Aws Zuhair Sameen",
+        "Hayder Mahmood Salman",
+        "Marek Jaszczur"
+      ],
+      "year": 2023,
+      "doi": "10.1016/j.rineng.2023.101621",
+      "openAlexId": "W4388948709",
+      "openAccessUrl": "https://doi.org/10.1016/j.rineng.2023.101621",
+      "citationCount": 851,
+      "abstract": "The review comprehensively examines hybrid renewable energy systems that combine solar and wind energy technologies, focusing on their current challenges, opportunities, and policy implications. Despite the individual merits of solar and wind energy systems, their intermittent nature and geographical limitations have spurred interest in hybrid solutions that maximize efficiency and reliability through integrated systems. A critical analysis of available literature indicates that hybrid systems significantly mitigate energy intermittency issues, enhance grid stability, and can be more cost-effective due to shared infrastructure. The review identifies key challenges, such as system optimization, energy storage, and seamless power management, and discusses technological innovations like machine learning algorithms and advanced inverters that hold the potential for overcoming these hurdles. Importantly, the review elucidates the role of policy in accelerating the adoption of these systems by highlighting successful case studies of government incentives, public-private partnerships, and regulatory frameworks that have fostered investments in hybrid renewable energy systems. The study concludes with the outcomes obtained that signify the potential for hybrid renewable energy systems to not only meet but exceed future energy demands sustainably, provided there is concerted effort in research, investment, and policy-making.",
+      "score": 0.897,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization public policy review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Identifying Locations for Public Access Defibrillators Using Mathematical Optimization",
+      "authors": [
+        "Timothy C. Y. Chan",
+        "Heyse Li",
+        "Gerald Lebovic",
+        "Sabrina K. Tang",
+        "Joyce Y.T. Chan",
+        "Horace C.K. Cheng",
+        "Laurie J. Morrison",
+        "Steven C. Brooks"
+      ],
+      "year": 2013,
+      "doi": "10.1161/circulationaha.113.001953",
+      "openAlexId": "W2031813555",
+      "openAccessUrl": "https://www.ahajournals.org/doi/pdf/10.1161/CIRCULATIONAHA.113.001953",
+      "citationCount": 145,
+      "abstract": "BACKGROUND: Geospatial methods using mathematical optimization to identify clusters of cardiac arrests and prioritize public locations for defibrillator deployment have not been studied. Our objective was to develop such a method and test its performance against a population-guided approach. METHODS AND RESULTS: All public location cardiac arrests in Toronto, Ontario, Canada, from December 16, 2005, to July 15, 2010, and all automated external defibrillator (AED) locations registered with Toronto Emergency Medical Services as of September 2009 were plotted geographically. Current AED coverage was quantified by determining the number of cardiac arrests occurring within 100 m of a registered AED. Clusters of cardiac arrests without a registered AED within 100 m were identified. With the use of mathematical optimization techniques, cardiac arrest coverage improvements were computed and shown to be superior to results from a population-guided deployment method. There were 1310 eligible public location cardiac arrests and 1669 registered AEDs. Of the eligible cardiac arrests, 304 were within 100 m of at least 1 registered AED (23% coverage). The average distance from a cardiac arrest to the closest AED was 281 m. With AEDs deployed in the top 30 locations, an additional 112 historical cardiac arrests would be covered (32% total coverage), and the average distance to the closest AED would be 262 m. CONCLUSIONS: Geographic clusters of cardiac arrests can be easily identified and prioritized with the use of mathematical modeling. Optimized AED deployment can increase cardiac arrest coverage and decrease the distance to the closest AED. Mathematical modeling can augment public AED deployment programs.",
+      "score": 0.765,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization public policy introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "The Policy to Optimization of Social Media for Traffic Management in Islamic Perspectives",
+      "authors": [
+        "Rio Febriannur Rachman"
+      ],
+      "year": 2021,
+      "doi": "10.33086/jic.v3i1.2082",
+      "openAlexId": "W3181744614",
+      "openAccessUrl": "https://journal2.unusa.ac.id/index.php/JIC/article/download/2082/1395",
+      "citationCount": 4,
+      "abstract": "This study discusses on how information and communication technology-based policies in the field of transportation was carried out by the Department of Transportation, City of Surabaya, through the Surabaya Intelligent Transport System or SITS program. This research used the theory of technological determination and public policy as the basis of thought. In addition, the concept of maqâsid syari'ah was also used to consider how the implementation of this policy, towards the benefit or welfare for the society, in an Islamic perspective was done. Descriptive qualitative method with literature review approach was used as a framework for formulating conclusions. Data collection was carried out through searching literature and other documents related to the topic. The results of this study indicated that the SITS policy of the Department of Transportation, City of Surabaya, was running well and had positive impact. This public policy which utilizes digital media was in line with the concept of maqâsid syari'ah.",
+      "score": 0.684,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization public policy tutorial"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Policy-Combination Oriented Optimization for Public Transportation Based on the Game Theory",
+      "authors": [
+        "Zhu Wen-tao",
+        "Mengwei Chen",
+        "Dianhai Wang",
+        "Dongfang Ma"
+      ],
+      "year": 2018,
+      "doi": "10.1155/2018/7510279",
+      "openAlexId": "W2883825585",
+      "openAccessUrl": "http://downloads.hindawi.com/journals/mpe/2018/7510279.pdf",
+      "citationCount": 12,
+      "abstract": "This research aims at detecting the interactions between policy maker and travelers when making public transport policy and strategies to optimize relevant policy combination. In the two scenarios of whether to set a bus lane or not, travel cost functions of bus and car are proposed, respectively, with the in-vehicle comfort level of passengers considered. By introducing the bottleneck model and transit assignment model, travelers’ behaviors are revealed according to different travel mode. Focusing on minimizing the total cost of the system (TSC), Stackelberg game model is built to describe the dynamic interactions between the government, the bus company, and travelers. Finally, kriging surrogate method is proposed on account of numerical simulation to find solution to the game model and propose the optimal policy combination and resource allocation. The results show an effective performance: under the assumption that the travel distance is 20km, the optimized policy combination can reduce TSC by 8.59% and 9.82% in two scenarios, respectively, and reduce travel cost per person by 10.28% and 15.85%, respectively.",
+      "score": 0.66,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization public policy",
+        "optimization public policy review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Optimizing Data Governance: Policies and Processes for Data Management in Public Administration and Large Organizations",
+      "authors": [
+        "Eirini Karamanoli",
+        "Panagiotis Tzavaras",
+        "Spyridon Stelios",
+        "Konstantinos Sgantzos",
+        "Vasileios Baratsas"
+      ],
+      "year": 2023,
+      "doi": "10.33422/6th.icrbmf.2023.09.105",
+      "openAlexId": "W4391975825",
+      "openAccessUrl": "https://www.dpublication.com/wp-content/uploads/2023/09/20-IMF-6-5082.pdf",
+      "citationCount": 3,
+      "abstract": "Data management in public administration and large organizations requires policies and procedures that enable the proper use and preservation of digital archival documents.New ways of information affect the governance of citizens in modern democracies, and therefore the effective functioning of institutions and organizations in the digital environment is essential.Organizing, describing, clearing, and maintaining records is vital to effective data management.By examining recent developments in data management practices, this article offers insights and recommendations for organizations striving to optimize their data governance strategies.Effective data management in public administration and large organizations contributes to enhanced decision-making, transparency, accountability, and citizen engagement.The article underscores the importance of data governance frameworks, data classification, access and security policies, data quality assurance, and retention procedures through a comprehensive review and analysis of existing literature, regulations, and case studies related to data management in public administration and large organizations.The study draws insights from scholarly articles, government reports, and industry publications to understand current trends, challenges, and best practices in data governance.",
+      "score": 0.649,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization public policy",
+        "optimization public policy review"
+      ]
+    },
+    {
+      "needsHumanReview": true,
+      "reviewReason": "sensitive topic",
+      "title": "Optimizing Public Policy Evaluation Using Data and Evidence-Based Approaches for Sunan Kuning Semarang, Indonesia Closure",
+      "authors": [
+        "Isnaeni Yuliani",
+        "Amrizarois Ismail",
+        "Ainun Nazriah",
+        "Robe’ah Yusuf"
+      ],
+      "year": 2025,
+      "doi": "10.18196/jgpp.v12i2.22299",
+      "openAlexId": "W4411854920",
+      "openAccessUrl": "https://journal.umy.ac.id/index.php/GPP/article/download/22299/11686",
+      "citationCount": 2,
+      "abstract": "Since the closure of the Sunan Kuning (Argorejo) localization area in Semarang in 2019, a range of secondary issues have emerged, including not only morality concerns but also impacts on economic cycles, public health, and social structures. The closure, part of a national initiative to eliminate prostitution, aimed to address moral and health concerns but unintentionally led to challenges such as the displacement of sex workers and the shift of prostitution to online platforms. This study aims to evaluate the policy surrounding closure using Robert E. Stake’s Countenance Model (1967), which includes three stages: (1) antecedent, (2) transactions, and (3) outcomes. A qualitative approach was adopted, with purposive sampling to select stakeholders for Delphi interviews, supplemented by a literature review. Data analysis followed an interactive model comprising data reduction, data display, and conclusion drawing and verification. These processes were conducted simultaneously to enable structured and focused data collection. The findings indicated that the policy has not been optimally implemented. Key recommendations include the necessity of strong political will by the government in every stage of the policy process and the importance of incorporating insights from prior research and past policy experiences. The study’s main contribution lies in developing innovative strategies for the systematic involvement of stakeholders, ensuring that public policy is both data-driven and responsive to the real-world challenges affected communities face. This research offers a novel framework for integrating qualitative policy evaluation with participatory stakeholder engagement in post-localization contexts.",
+      "score": 0.423,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization public policy",
+        "optimization public policy tutorial"
+      ]
+    }
+  ]
+}

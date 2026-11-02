@@ -8,8 +8,9 @@
 //
 // These are candidates for a human to read, not citations to paste in: check
 // that each one really applies the method in the field before using it.
-// Candidates with needsHumanReview: true (no abstract on OpenAlex) must never
-// be picked automatically; someone has to read the paper itself first.
+// Candidates with needsHumanReview: true (no abstract on OpenAlex, or a
+// sensitive topic; see reviewReason) must never be picked automatically;
+// someone has to read the paper itself first.
 //
 // Usage: npm run find-papers -- <method-slug> <field-slug>
 // Set OPENALEX_MAILTO=you@example.com to use OpenAlex's faster "polite pool".
@@ -29,9 +30,9 @@ const GUARANTEED_PER_QUERY = 2;
 // Weights for the final score; both parts are scaled to 0–1 first.
 const RELEVANCE_WEIGHT = 0.6;
 const CITATION_WEIGHT = 0.4;
-// Subtracted from the score of papers with no abstract, so they rank below
-// comparable papers that have one without being dropped.
-const NO_ABSTRACT_PENALTY = 0.15;
+// Subtracted from the score of papers that need human review, so they rank
+// below comparable papers that don't without being dropped.
+const REVIEW_PENALTY = 0.15;
 
 // For each slug: the phrase to search for, and patterns a paper's title or
 // abstract must match to count as on-topic. OpenAlex search also matches
@@ -53,13 +54,56 @@ const FIELDS = {
   epidemiology: { query: 'epidemiology', match: [/epidemi/, /infecti/, /disease/, /public health/] },
   economics: { query: 'economics', match: [/econom/, /financ/, /market/, /portfolio/] },
   sports: { query: 'sports', match: [/\bsports?\b/, /athlet/, /football|soccer|basketball|baseball|tennis|cricket|hockey/] },
-  'public-policy': { query: 'public policy', match: [/polic/, /urban/, /government/, /public services?/] },
+  // Not a bare /polic/: machine-learning papers use "policy" for a decision rule.
+  'public-policy': {
+    query: 'public policy',
+    match: [/public polic/, /government polic/, /policy maker/, /policymak/, /urban/, /government/, /public services?/],
+  },
   psychology: { query: 'psychology', match: [/psycholog/, /behavio/, /cogniti/, /decision making/] },
   climate: { query: 'climate', match: [/climat/, /environment/, /temperature/, /precipitation/] },
   medicine: { query: 'medicine', match: [/medic/, /clinical/, /patients?\b/, /\bdrugs?\b/, /pharmaco/] },
 };
 
+// More ways a paper can show it belongs to a field, added to FIELDS[field].match
+// for every method in that field (an ambulance-location paper may never say
+// "policy" or "government").
+const FIELD_SYNONYMS = {
+  ecology: [/fisher(y|ies)/, /wildlife/, /habitat/, /biodiversity/, /ecosystem/, /predator|prey/],
+  epidemiology: [/pandemic/, /outbreak/, /vaccin/, /disease transmission/, /covid|influenza|measles|malaria|\bhiv\b/],
+  economics: [/stock market|stock pric|stock return/, /asset pric/, /option pric/, /inflation/, /monetary/, /consumer/, /investment/, /retirement/],
+  sports: [/\b(nba|nfl|mlb|nhl)\b/, /olympic/, /league/, /tournament/, /rugby|golf|volleyball/],
+  'public-policy': [/emergency medical services?/, /\bems\b/, /ambulance/, /public transportation|transportation planning/, /transit/, /municipal/, /urban planning/, /school district/, /program evaluation/, /fire station/],
+  psychology: [/mental health/, /psychiatr/, /emotion/, /social influence/, /neuroscien/],
+  climate: [/global warming/, /sea level/, /rainfall/, /drought/, /flood/, /greenhouse|carbon dioxide|\bco2\b/, /weather/],
+  medicine: [/diagnos/, /hospital/, /therap/, /surg(ery|ical|eon)/, /cancer|tumou?r/],
+};
+
 const QUERY_SUFFIXES = ['', 'introduction', 'tutorial', 'review'];
+
+// Papers on these topics are flagged for a person to judge, never picked
+// automatically (see the sensitive-topics rule in AGENTS.md).
+const SENSITIVE_PATTERNS = [
+  // Suicide and self-harm
+  /suicid/, // suicide, suicidal, parasuicide
+  /self[- ]?harm/,
+  /self[- ]?injur/, // self-injury, self-injurious
+  // Sexual violence and abuse
+  /sexual (violence|assault|abuse|exploitation|harassment)/,
+  /\brap(e|ed|ist)\b/,
+  /child (sexual )?abuse|child maltreatment/,
+  /domestic (violence|abuse)|intimate partner violence/,
+  /(sex|human) trafficking/,
+  // Sex work
+  /sex work/, // sex work, sex worker(s)
+  /prostitut/,
+  /commercial sex/,
+  /brothel|red[- ]light district/,
+  // Eating disorders
+  /eating disorder/,
+  /anorexia nervosa|\banorexic\b/,
+  /bulimi/,
+  /binge[- ]eating/,
+];
 
 // Extra searches for specific cells, built around the model names students
 // actually meet (papers about "the SIR model" often never say "differential
@@ -82,6 +126,54 @@ const CELL_KEYWORDS = {
   'game-theory--ecology': {
     queries: ['evolutionary game theory hawk dove'],
     match: [/evolutionar(il)?y stable/, /hawk.dove/],
+  },
+  'markov-chains--sports': {
+    queries: ['Markov chain baseball run expectancy', 'Markov model tennis win probability', 'Markov chain basketball possession'],
+    match: [/run expectancy/, /transition matri/, /absorbing state/],
+  },
+  'markov-chains--medicine': {
+    queries: ['Markov model cost-effectiveness analysis', 'Markov model disease progression introduction', 'multi-state model disease progression'],
+    match: [/multi-?state model/, /state.transition model/],
+  },
+  'optimization--ecology': {
+    queries: ['optimal harvesting fisheries model', 'reserve selection conservation planning', 'maximum sustainable yield model'],
+    match: [/optimal harvest/, /reserve selection/, /systematic conservation planning/, /maximum sustainable yield/],
+  },
+  'optimization--public-policy': {
+    queries: ['facility location problem public services', 'ambulance location model', 'school bus routing problem'],
+    match: [/facility location/, /location.allocation/, /vehicle routing/, /p-median/],
+  },
+  'optimization--economics': {
+    queries: ['mean-variance portfolio optimization introduction', 'linear programming economics introduction', 'utility maximization consumer choice'],
+    match: [/mean.variance/, /markowitz/, /efficient frontier/, /utility maximi[sz]/],
+  },
+  'network-analysis--epidemiology': {
+    queries: ['contact network disease transmission', 'epidemics on networks introduction', 'superspreading network model'],
+    match: [/centrality/, /degree distribution/],
+  },
+  'network-analysis--ecology': {
+    queries: ['food web network structure', 'plant pollinator network', 'habitat connectivity graph theory'],
+    match: [/food webs?/, /graph theor/, /habitat connectivity/],
+  },
+  'monte-carlo--climate': {
+    queries: ['Monte Carlo uncertainty climate projection', 'stochastic weather generator', 'Latin hypercube sampling climate model'],
+    match: [/latin hypercube/, /weather generator/, /stochastic simulation/],
+  },
+  'monte-carlo--economics': {
+    queries: ['Monte Carlo option pricing introduction', 'Monte Carlo value at risk', 'retirement savings Monte Carlo simulation'],
+    match: [/stochastic simulation/],
+  },
+  'bayesian-inference--medicine': {
+    queries: ["Bayes' theorem diagnostic test interpretation", 'positive predictive value sensitivity specificity', 'Bayesian clinical trial introduction'],
+    match: [/predictive value/, /pre-?test probabilit/, /post-?test probabilit/],
+  },
+  'bayesian-inference--sports': {
+    queries: ['Bayesian hierarchical model player performance', 'Glicko rating system', 'Bayesian prediction football match outcomes'],
+    match: [/glicko/, /trueskill/, /posterior distribution/, /prior distribution/],
+  },
+  'regression--public-policy': {
+    queries: ['difference-in-differences policy evaluation introduction', 'regression discontinuity design policy', 'program evaluation regression introduction'],
+    match: [/difference.in.difference/, /instrumental variables?/],
   },
 };
 
@@ -111,11 +203,16 @@ async function parseArgs([method, field]) {
   return { method, field };
 }
 
+// Patterns are written in lowercase, but a pattern like /SIR/ shouldn't
+// silently miss "sir", so every pattern is matched case-insensitively.
+const caseInsensitive = (re) => (re.flags.includes('i') ? re : new RegExp(re.source, `${re.flags}i`));
+
 function isOnTopic(work, method, field) {
-  const text = `${work.display_name ?? ''} ${reconstructAbstract(work.abstract_inverted_index) ?? ''}`.toLowerCase();
-  const mentions = (patterns) => patterns.some((re) => re.test(text));
+  const text = `${work.display_name ?? ''} ${reconstructAbstract(work.abstract_inverted_index) ?? ''}`;
+  const mentions = (patterns) => patterns.some((re) => caseInsensitive(re).test(text));
   const methodPatterns = [...METHODS[method].match, ...(CELL_KEYWORDS[`${method}--${field}`]?.match ?? [])];
-  return mentions(methodPatterns) && mentions(FIELDS[field].match);
+  const fieldPatterns = [...FIELDS[field].match, ...(FIELD_SYNONYMS[field] ?? [])];
+  return mentions(methodPatterns) && mentions(fieldPatterns);
 }
 
 // --- OpenAlex -------------------------------------------------------------
@@ -174,10 +271,16 @@ function normalizeTitle(s) {
 
 function toCandidate(work) {
   const abstract = reconstructAbstract(work.abstract_inverted_index);
-  return {
+  const text = `${work.display_name ?? ''} ${abstract ?? ''}`;
+  const reasons = [
+    // A person decides whether these suit a high school audience.
+    ...(SENSITIVE_PATTERNS.some((re) => caseInsensitive(re).test(text)) ? ['sensitive topic'] : []),
     // Without an abstract nobody can judge fit from this file alone.
-    needsHumanReview: !abstract,
-    ...(abstract ? {} : { reviewReason: 'no abstract on OpenAlex; read the paper before using it' }),
+    ...(abstract ? [] : ['no abstract on OpenAlex; read the paper before using it']),
+  ];
+  return {
+    needsHumanReview: reasons.length > 0,
+    ...(reasons.length ? { reviewReason: reasons.join('; ') } : {}),
     title: work.display_name,
     authors: (work.authorships ?? []).map((a) => a.author?.display_name ?? a.raw_author_name).filter(Boolean),
     year: work.publication_year,
@@ -197,7 +300,11 @@ function toCandidate(work) {
 // queries keeps its best scaled score. The same paper can appear twice (e.g. a
 // preprint and the published version) with different IDs, so works are also
 // merged by normalized title, keeping the more-cited copy.
-function rank(resultsByQuery) {
+//
+// For cells with CELL_KEYWORDS, papers found by any of the cell's own queries
+// rank above papers found only by the generic ones, whatever their scores; the
+// score (and so citation weight) only orders papers within each group.
+function rank(resultsByQuery, cellQueries = []) {
   const byTitle = new Map();
   for (const { query, results } of resultsByQuery) {
     const top = Math.max(...results.map((w) => w.relevance_score ?? 0), 0);
@@ -224,10 +331,11 @@ function rank(resultsByQuery) {
       const candidate = toCandidate(p.work);
       const citations = maxCites > 0 ? Math.log1p(p.work.cited_by_count ?? 0) / maxCites : 0;
       let score = RELEVANCE_WEIGHT * p.relevance + CITATION_WEIGHT * citations;
-      if (candidate.needsHumanReview) score -= NO_ABSTRACT_PENALTY;
-      return { ...candidate, score: Number(score.toFixed(3)), matchedQueries: p.queries };
+      if (candidate.needsHumanReview) score -= REVIEW_PENALTY;
+      const fromCellQuery = p.queries.some((q) => cellQueries.includes(q));
+      return { ...candidate, score: Number(score.toFixed(3)), fromCellQuery, matchedQueries: p.queries };
     })
-    .sort((a, b) => b.score - a.score);
+    .sort((a, b) => b.fromCellQuery - a.fromCellQuery || b.score - a.score);
 
   // First give every query its best GUARANTEED_PER_QUERY papers (by final
   // score, among the papers that query found and that aren't already picked),
@@ -254,10 +362,8 @@ try {
   if (!MAILTO) console.warn('Note: OPENALEX_MAILTO is not set, so requests use the slower common pool.');
 
   const base = `${METHODS[method].query} ${FIELDS[field].query}`;
-  const queries = [
-    ...QUERY_SUFFIXES.map((s) => (s ? `${base} ${s}` : base)),
-    ...(CELL_KEYWORDS[`${method}--${field}`]?.queries ?? []),
-  ];
+  const cellQueries = CELL_KEYWORDS[`${method}--${field}`]?.queries ?? [];
+  const queries = [...QUERY_SUFFIXES.map((s) => (s ? `${base} ${s}` : base)), ...cellQueries];
   const resultsByQuery = [];
   for (const query of queries) {
     const found = await search(query);
@@ -266,7 +372,7 @@ try {
     resultsByQuery.push({ query, results });
   }
 
-  const candidates = rank(resultsByQuery);
+  const candidates = rank(resultsByQuery, cellQueries);
   const outFile = path.join(OUT_DIR, `${method}--${field}.json`);
   await mkdir(OUT_DIR, { recursive: true });
   await writeFile(
@@ -276,11 +382,11 @@ try {
 
   console.log(`\nTop ${candidates.length} candidate(s) for ${method} × ${field}:`);
   for (const [i, c] of candidates.entries()) {
-    const flag = c.needsHumanReview ? '  [needs human review: no abstract]' : '';
+    const flag = c.needsHumanReview ? `  [needs human review: ${c.reviewReason.split(';')[0].replace(' on OpenAlex', '')}]` : '';
     console.log(`${String(i + 1).padStart(2)}. ${c.title} (${c.year ?? 'n.d.'}) — ${c.citationCount} citations, score ${c.score}${flag}`);
   }
   const flagged = candidates.filter((c) => c.needsHumanReview).length;
-  if (flagged) console.log(`\n${flagged} candidate(s) have no abstract and need human review before use.`);
+  if (flagged) console.log(`\n${flagged} candidate(s) need human review before use (see reviewReason).`);
   console.log(`\nSaved to ${path.relative(ROOT, outFile)}`);
 } catch (err) {
   console.error(err.message);

@@ -46,6 +46,8 @@ Fields: `ecology`, `epidemiology`, `economics`, `sports`, `public-policy`,
 - NEVER cite a paper from memory. Papers may only come from (a) the prompt,
   (b) existing content files, or (c) results returned by `npm run find-papers`.
   Every paper must include the OpenAlex ID or DOI from those results.
+- When selecting papers automatically, avoid papers centered on suicide, self-harm,
+  or other sensitive topics unsuitable for a general high school audience.
 - Never change the content schema without explicitly saying so and explaining why.
 - Run `npm run build` before declaring any task done. If content was touched, also
   run `npm run verify`.
