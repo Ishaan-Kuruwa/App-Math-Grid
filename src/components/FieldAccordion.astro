@@ -1,0 +1,56 @@
+---
+import type { GridData } from '../lib/grid';
+import GridCell from './GridCell.astro';
+
+// Mobile layout (below 768px): the grid grouped by field, one collapsible section each.
+
+type Props = GridData;
+
+const { methods, fields, cellFor } = Astro.props;
+
+const link =
+  'rounded underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:focus-visible:outline-indigo-400';
+---
+
+<div class="space-y-3 md:hidden">
+  {
+    fields.map((field) => {
+      const filled = methods.filter((method) => cellFor(method.data.slug, field.data.slug)).length;
+      return (
+        <details class="group rounded-lg border border-slate-300 dark:border-slate-700">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-3 rounded-lg p-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:focus-visible:outline-indigo-400 [&::-webkit-details-marker]:hidden">
+            <span class="font-semibold">{field.data.name}</span>
+            <span class="flex shrink-0 items-center gap-2 text-sm text-slate-600 dark:text-slate-400">
+              {filled} of {methods.length} filled
+              <span aria-hidden="true" class="transition-transform group-open:rotate-180">
+                ▾
+              </span>
+            </span>
+          </summary>
+          <div class="space-y-4 border-t border-slate-300 p-4 dark:border-slate-700">
+            <a
+              href={`/field/${field.data.slug}`}
+              class:list={[link, 'text-sm font-medium text-indigo-700 dark:text-indigo-300']}
+            >
+              See all methods in {field.data.name} →
+            </a>
+            <ul class="space-y-4">
+              {methods.map((method) => (
+                <li class="space-y-1">
+                  <a href={`/method/${method.data.slug}`} class:list={[link, 'text-sm font-semibold']}>
+                    {method.data.name}
+                  </a>
+                  <GridCell
+                    entry={cellFor(method.data.slug, field.data.slug)}
+                    methodName={method.data.name}
+                    fieldName={field.data.name}
+                  />
+                </li>
+              ))}
+            </ul>
+          </div>
+        </details>
+      );
+    })
+  }
+</div>

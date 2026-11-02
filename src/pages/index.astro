@@ -1,11 +1,20 @@
 ---
-import Welcome from '../components/Welcome.astro';
+import FieldAccordion from '../components/FieldAccordion.astro';
+import MethodGrid from '../components/MethodGrid.astro';
 import Layout from '../layouts/Layout.astro';
+import { getGridData } from '../lib/grid';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const grid = await getGridData();
 ---
 
 <Layout>
-	<Welcome />
+  <main class="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
+    <h1 class="text-3xl font-bold tracking-tight">Applied Math Method Map</h1>
+    <p class="mt-2 mb-8 max-w-2xl text-slate-700 dark:text-slate-300">
+      Each row is a math method and each column is a research field. Pick a filled square to see how
+      that method is used in that field, with a starter research question and real papers to read.
+    </p>
+    <MethodGrid {...grid} />
+    <FieldAccordion {...grid} />
+  </main>
 </Layout>

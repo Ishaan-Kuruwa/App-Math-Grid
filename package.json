@@ -14,7 +14,9 @@
     "find-papers": "node scripts/find-papers.mjs"
   },
   "dependencies": {
-    "astro": "^7.3.8"
+    "@tailwindcss/vite": "^4.3.4",
+    "astro": "^7.3.8",
+    "tailwindcss": "^4.3.4"
   },
   "devDependencies": {
     "yaml": "^2.9.1"
