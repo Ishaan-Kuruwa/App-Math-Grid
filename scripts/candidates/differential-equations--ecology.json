@@ -1,0 +1,332 @@
+{
+  "method": "differential-equations",
+  "field": "ecology",
+  "generatedAt": "2026-11-02T22:21:36.574Z",
+  "queries": [
+    "differential equations ecology",
+    "differential equations ecology introduction",
+    "differential equations ecology tutorial",
+    "differential equations ecology review",
+    "Lotka-Volterra predator prey model",
+    "logistic growth population model"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "A Multipatch Malaria Model with Logistic Growth Populations",
+      "authors": [
+        "Daozhou Gao",
+        "Shigui Ruan"
+      ],
+      "year": 2012,
+      "doi": "10.1137/110850761",
+      "openAlexId": "W2018651775",
+      "openAccessUrl": "http://europepmc.org/articles/PMC3665429",
+      "citationCount": 131,
+      "abstract": "In this paper, we propose a multi-patch model to study the effects of population dispersal on the spatial spread of malaria between patches. The basic reproduction number [Formula: see text] is derived and it is shown that the disease-free equilibrium is locally asymptotically stable if [Formula: see text] and unstable if [Formula: see text]. Bounds on the disease-free equilibrium and [Formula: see text] are given. A sufficient condition for the existence of an endemic equilibrium when [Formula: see text] is obtained. For the two-patch submodel, the dependence of [Formula: see text] on the movement of exposed, infectious, and recovered humans between the two patches is investigated. Numerical simulations indicate that travel can help the disease to become endemic in both patches, even though the disease dies out in each isolated patch. However, if travel rates are continuously increased, the disease may die out again in both patches.",
+      "score": 0.949,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "logistic growth population model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Dynamic behaviors of Lotka–Volterra predator–prey model incorporating predator cannibalism",
+      "authors": [
+        "Hang Deng",
+        "Fengde Chen",
+        "Zhenliang Zhu",
+        "Zhong Li"
+      ],
+      "year": 2019,
+      "doi": "10.1186/s13662-019-2289-8",
+      "openAlexId": "W2970341660",
+      "openAccessUrl": "https://advancesincontinuousanddiscretemodels.springeropen.com/counter/pdf/10.1186/s13662-019-2289-8",
+      "citationCount": 67,
+      "abstract": "A Lotka–Volterra predator–prey model incorporating predator cannibalism is proposed and studied in this paper. The existence and stability of all possible equilibria of the system are investigated. Our study shows that cannibalism has both positive and negative effect on the stability of the system, it depends on the dynamic behaviors of the original system. If the predator species in the system without cannibalism is extinct, then suitable cannibalism may lead to the coexistence of both species, in this case, cannibalism stabilizes the system. If the cannibalism rate is large enough, the prey species maybe driven to extinction, while the predator species are permanent. If the two species coexist in the stable state in the original system, then predator cannibalism may lead to the extinction of the prey species. In this case, cannibalism has an unstable effect. Numeric simulations support our findings.",
+      "score": 0.902,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Lotka-Volterra predator prey model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Stability and Hopf bifurcation analysis for a Lotka-Volterra predator-prey model with two delays",
+      "authors": [
+        "Changjin Xu",
+        "Maoxin Liao",
+        "Xiaofei He"
+      ],
+      "year": 2011,
+      "doi": "10.2478/v10006-011-0007-0",
+      "openAlexId": "W2019823335",
+      "openAccessUrl": "https://sciendo.com/pdf/10.2478/v10006-011-0007-0",
+      "citationCount": 53,
+      "abstract": "Stability and Hopf bifurcation analysis for a Lotka-Volterra predator-prey model with two delays In this paper, a two-species Lotka-Volterra predator-prey model with two delays is considered. By analyzing the associated characteristic transcendental equation, the linear stability of the positive equilibrium is investigated and Hopf bifurcation is demonstrated. Some explicit formulae for determining the stability and direction of Hopf bifurcation periodic solutions bifurcating from Hopf bifurcations are obtained by using normal form theory and center manifold theory. Some numerical simulations for supporting the theoretical results are also included.",
+      "score": 0.848,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Lotka-Volterra predator prey model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Psi-Caputo Logistic Population Growth Model",
+      "authors": [
+        "Muath Awadalla",
+        "Yves Yannick Yameni Noupoue",
+        "Kinda Abuasbeh"
+      ],
+      "year": 2021,
+      "doi": "10.1155/2021/8634280",
+      "openAlexId": "W3185185870",
+      "openAccessUrl": "https://downloads.hindawi.com/journals/jmath/2021/8634280.pdf",
+      "citationCount": 23,
+      "abstract": "This article studies modeling of a population growth by logistic equation when the population carrying capacity K tends to infinity. Results are obtained using fractional calculus theories. A fractional derivative known as psi-Caputo plays a substantial role in the study. We proved existence and uniqueness of the solution to the problem using the psi-Caputo fractional derivative. The Chinese population, whose carrying capacity, K, tends to infinity, is used as evidence to prove that the proposed approach is appropriate and performs better than the usual logistic growth equation for a population with a large carrying capacity. A psi-Caputo logistic model with the kernel function x + 1 performed the best as it minimized the error rate to 3.20% with a fractional order of derivative α = 1.6455.",
+      "score": 0.747,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "logistic growth population model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Hybrid control of Hopf bifurcation in a Lotka-Volterra predator-prey model with two delays",
+      "authors": [
+        "Miao Peng",
+        "Zhengdi Zhang",
+        "Xuedi Wang"
+      ],
+      "year": 2017,
+      "doi": "10.1186/s13662-017-1434-5",
+      "openAlexId": "W2779475614",
+      "openAccessUrl": "https://advancesindifferenceequations.springeropen.com/track/pdf/10.1186/s13662-017-1434-5",
+      "citationCount": 23,
+      "abstract": "In this paper, the Hopf bifurcation control for a Lotka-Volterra predator-prey model with two delays is studied by using a hybrid control strategy. By analyzing the associated characteristic equation, its local stability and the existence of Hopf bifurcation with respect to both delays are established. In addition, the onset of an inherent bifurcation is delayed. Based on the normal form theory and the center manifold theorem, explicit formulas are derived to determine the direction of Hopf bifurcation and stability of the bifurcating periodic solution. Numerical simulation results confirm that the hybrid controller is efficient in controlling Hopf bifurcation.",
+      "score": 0.735,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Lotka-Volterra predator prey model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Global stability in n-dimensional discrete Lotka-Volterra predator-prey models",
+      "authors": [
+        "Sang‐Mok Choo"
+      ],
+      "year": 2014,
+      "doi": "10.1186/1687-1847-2014-11",
+      "openAlexId": "W2068587630",
+      "openAccessUrl": "https://advancesindifferenceequations.springeropen.com/counter/pdf/10.1186/1687-1847-2014-11",
+      "citationCount": 17,
+      "abstract": "There are few theoretical works on global stability of Euler difference schemes for two-dimensional Lotka-Volterra predator-prey models. Furthermore no attempt is made to show that the Euler schemes have positive solutions. In this paper, we consider Euler difference schemes for both the two-dimensional models and n -dimensional models that are a generalization of the two-dimensional models. It is first shown that the difference schemes have positive solutions and equilibrium points which are globally asymptotically stable in the two-dimensional cases. The approaches used in the two-dimensional models are extended to the n -dimensional models for obtaining the positivity and the global stability. Numerical examples are presented to verify the results. MSC: 34A34, 39A10, 40A05.",
+      "score": 0.719,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Lotka-Volterra predator prey model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Extinction in a generalized Lotka‐Volterra predator‐prey model",
+      "authors": [
+        "Azmy S. Ackleh",
+        "David F. Marshall",
+        "Henry E. Heatherly"
+      ],
+      "year": 2000,
+      "doi": "10.1155/s1048953300000253",
+      "openAlexId": "W2127981676",
+      "openAccessUrl": "https://downloads.hindawi.com/archive/2000/103641.pdf",
+      "citationCount": 13,
+      "abstract": "In this paper we discuss the asymptotic behavior of a predator‐prey model with distributed growth and mortality rates. We exhibit simple criteria on the parameters which guarantee that all subpopulations but one predator‐prey pair are driven to extinction as t → ∞. Finally, we present numerical simulations to illustrate the theoretical results.",
+      "score": 0.703,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Lotka-Volterra predator prey model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Delay Ordinary and Partial Differential Equations",
+      "authors": [
+        "Andrei D. Polyanin",
+        "Vsevolod G. Sorokin",
+        "Alexei I. Zhurov"
+      ],
+      "year": 2023,
+      "doi": "10.1201/9781003042310",
+      "openAlexId": "W4385697988",
+      "openAccessUrl": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.1201/9781003042310&type=googlepdf",
+      "citationCount": 37,
+      "abstract": "Delay Ordinary and Partial Differential Equations is devoted to linear and nonlinear ordinary and partial differential equations with constant and variable delay. It considers qualitative features of delay differential equations and formulates typical problem statements. Exact, approximate analytical and numerical methods for solving such equations are described, including the method of steps, methods of integral transformations, method of regular expansion in a small parameter, method of matched asymptotic expansions, iteration-type methods, Adomian decomposition method, collocation method, Galerkin-type projection methods, Euler and Runge-Kutta methods, shooting method, method of lines, finite-difference methods for PDEs, methods of generalized and functional separation of variables, method of functional constraints, method of generating equations, and more. The presentation of the theoretical material is accompanied by examples of the practical application of methods to obtain the desired solutions. Exact solutions are constructed for many nonlinear delay reaction-diffusion and wave-type PDEs that depend on one or more arbitrary functions. A review is given of the most common mathematical models with delay used in population theory, biology, medicine, economics, and other applications. The book contains much new material previously unpublished in monographs. It is intended for a broad audience of scientists, university professors, and graduate and postgraduate students specializing in applied and computational mathematics, mathematical physics, mechanics, control theory, biology, medicine, chemical technology, ecology, economics, and other disciplines. Individual sections of the book and examples are suitable for lecture courses on applied mathematics, mathematical physics, and differential equations for delivering special courses and for practical training.",
+      "score": 0.86,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations ecology",
+        "differential equations ecology introduction",
+        "differential equations ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Varying-Coefficient Stochastic Differential Equations with Applications in Ecology",
+      "authors": [
+        "Théo Michelot",
+        "Richard Glennie",
+        "Catriona M. Harris",
+        "Len Thomas"
+      ],
+      "year": 2021,
+      "doi": "10.1007/s13253-021-00450-6",
+      "openAlexId": "W3077487918",
+      "openAccessUrl": "https://link.springer.com/content/pdf/10.1007/s13253-021-00450-6.pdf",
+      "citationCount": 26,
+      "abstract": "Abstract Stochastic differential equations (SDEs) are popular tools to analyse time series data in many areas, such as mathematical finance, physics, and biology. They provide a mechanistic description of the phenomenon of interest, and their parameters often have a clear interpretation. These advantages come at the cost of requiring a relatively simple model specification. We propose a flexible model for SDEs with time-varying dynamics where the parameters of the process are nonparametric functions of covariates, similar to generalized additive models. Combining the SDE and nonparametric approaches allows for the SDE to capture more detailed, non-stationary, features of the data-generating process. We present a computationally efficient method of approximate inference, where the SDE parameters can vary according to fixed covariate effects, random effects, or basis-penalty smoothing splines. We demonstrate the versatility and utility of this approach with three applications in ecology, where there is often a modelling trade-off between interpretability and flexibility. Supplementary materials accompanying this paper appear online.",
+      "score": 0.836,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations ecology",
+        "differential equations ecology introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Learning differential equation models from stochastic agent-based model simulations",
+      "authors": [
+        "John T. Nardini",
+        "Ruth E. Baker",
+        "Matthew J. Simpson",
+        "Kevin Flores"
+      ],
+      "year": 2021,
+      "doi": "10.1098/rsif.2020.0987",
+      "openAlexId": "W3106339085",
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/8086865",
+      "citationCount": 56,
+      "abstract": "Agent-based models provide a flexible framework that is frequently used for modelling many biological systems, including cell migration, molecular dynamics, ecology and epidemiology. Analysis of the model dynamics can be challenging due to their inherent stochasticity and heavy computational requirements. Common approaches to the analysis of agent-based models include extensive Monte Carlo simulation of the model or the derivation of coarse-grained differential equation models to predict the expected or averaged output from the agent-based model. Both of these approaches have limitations, however, as extensive computation of complex agent-based models may be infeasible, and coarse-grained differential equation models can fail to accurately describe model dynamics in certain parameter regimes. We propose that methods from the equation learning field provide a promising, novel and unifying approach for agent-based model analysis. Equation learning is a recent field of research from data science that aims to infer differential equation models directly from data. We use this tutorial to review how methods from equation learning can be used to learn differential equation models from agent-based model simulations. We demonstrate that this framework is easy to use, requires few model simulations, and accurately predicts model dynamics in parameter regions where coarse-grained differential equation models fail to do so. We highlight these advantages through several case studies involving two agent-based models that are broadly applicable to biological phenomena: a birth-death-migration model commonly used to explore cell biology experiments and a susceptible-infected-recovered model of infectious disease spread.",
+      "score": 0.805,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations ecology tutorial",
+        "differential equations ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Fitting functional responses: Direct parameter estimation by simulating differential equations",
+      "authors": [
+        "Benjamin Rosenbaum",
+        "Björn Christian Rall"
+      ],
+      "year": 2018,
+      "doi": "10.1111/2041-210x.13039",
+      "openAlexId": "W2770536835",
+      "openAccessUrl": "https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.13039",
+      "citationCount": 115,
+      "abstract": "Abstract The feeding functional response is one of the most widespread mathematical frameworks in ecology, marine biology, freshwater biology, microbiology, and related scientific fields describing the resource‐dependent uptake of a consumer. Since the exact knowledge of its parameters is crucial to predict, for example, the efficiency of biocontrol agents, population dynamics, food web structure, and subsequently biodiversity, a trustworthy parameter estimation method is highly important for scientists using this framework. Classical approaches for estimating functional response parameters lack flexibility and often only provide approximations of the correct parameters. Here, we combined ordinary differential equation (ODE) models that were numerically solved using computer simulations with an iterative maximum likelihood fitting approach. We compared our method to classical approaches of fitting functional responses using data both with and without additional resource growth and mortality. We found that for classical functional response models, such as the frequently used type II and type III functional responses, the established fitting methods are reliable. However, by using more complex and flexible functional responses, our new method outperforms the traditional methods. Additionally, our method allows the incorporation of side effects such as resource growth and background mortality. Our method will enable researchers from different scientific fields who are measuring functional responses to calculate more accurate parameter estimates. These estimates will enable community ecologists to parameterize their models more precisely, thus allowing a deeper understanding of complex ecological systems, and will increase the quality of ecological prediction models.",
+      "score": 0.781,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations ecology",
+        "differential equations ecology introduction",
+        "differential equations ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Universal Differential Equations for Scientific Machine Learning",
+      "authors": [
+        "Christopher Rackauckas",
+        "Yingbo Ma",
+        "Martensen, Julius",
+        "Collin Warner",
+        "Kirill Zubov",
+        "Rohit Supekar",
+        "Dominic J. Skinner",
+        "Ali Ramadhan",
+        "Alan S. Edelman"
+      ],
+      "year": 2020,
+      "doi": "10.48550/arxiv.2001.04385",
+      "openAlexId": "W4287904729",
+      "openAccessUrl": "https://arxiv.org/pdf/2001.04385",
+      "citationCount": 77,
+      "abstract": "In the context of science, the well-known adage \"a picture is worth a thousand words\" might well be \"a model is worth a thousand datasets.\" In this manuscript we introduce the SciML software ecosystem as a tool for mixing the information of physical laws and scientific models with data-driven machine learning approaches. We describe a mathematical object, which we denote universal differential equations (UDEs), as the unifying framework connecting the ecosystem. We show how a wide variety of applications, from automatically discovering biological mechanisms to solving high-dimensional Hamilton-Jacobi-Bellman equations, can be phrased and efficiently handled through the UDE formalism and its tooling. We demonstrate the generality of the software tooling to handle stochasticity, delays, and implicit constraints. This funnels the wide variety of SciML applications into a core set of training mechanisms which are highly optimized, stabilized for stiff equations, and compatible with distributed parallelism and GPU accelerators.",
+      "score": 0.768,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations ecology introduction",
+        "differential equations ecology tutorial",
+        "differential equations ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Abstract Differential and Difference Equations",
+      "authors": [
+        "Gaston M. N‘Guérékata",
+        "Toka Diagana",
+        "А. А. Панков"
+      ],
+      "year": 2010,
+      "doi": "10.1155/2010/857306",
+      "openAlexId": "W2025994185",
+      "openAccessUrl": "https://advancesindifferenceequations.springeropen.com/counter/pdf/10.1155/2010/857306",
+      "citationCount": 5,
+      "abstract": "This special issue of Advances in Difference Equations is devoted to highlight some recent developments in abstract differential equations, fractional differential equations, and difference equations and their applications to mathematical physics, engineering, and biology. It consists of 20 papers carefully selected through a rigorous peer review. The first category of papers deals with the asymptotic and oscillatory behavior of solutions to various abstract differential equations and fractional differential equations. Periodic problems involving the scalar p-Laplacian equation on time scales, or n-species nonautonomous food chains with harvesting terms are studied using the Mawhin’s continuation theorem. Some new oscillation criteria for the second-order quasilinear neutral delay dynamic equations and nonlinear delay dynamic equations on a time scale T, are established, improving some known results for oscillation of second-order nonlinear delay dynamic equations on time scales. The study of almost automorphic functions in Bochner’s sense have attracted several mathematicians since the publication of N’Guerekata’s book in 2001. Recently, their applications to fractional differential equations have become an emerging field. A new and general existence and uniqueness theorem of almost automorphic solutions for the semilinear fractional differential equation",
+      "score": 0.656,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations ecology",
+        "differential equations ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Does Demography Need Differential Equations?",
+      "authors": [
+        "Thomas K. Burch"
+      ],
+      "year": 2017,
+      "doi": "10.1007/978-3-319-65433-1_5",
+      "openAlexId": "W2161158213",
+      "openAccessUrl": "https://link.springer.com/content/pdf/10.1007%2F978-3-319-65433-1_5.pdf",
+      "citationCount": 5,
+      "abstract": "The starting point for this essay is the observation, partly impressionistic, that demography has tended to neglect the predator-prey equations in courses, textbooks, compendia, and research papers. This is surprising, since the equations bear the name of A. J. Lotka, one of the acknowledged founders of modern demography. This relative neglect is unfortunate also, since a central fact about the human species is that we are deeply implicated in nature as both predator and prey. Possible explanations for this situation are discussed, including a general neglect of systematic theory, and of differential equations, a branch of mathematics especially suited to the statement and exploration of theories of demographic processes.",
+      "score": 0.638,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations ecology",
+        "differential equations ecology introduction",
+        "differential equations ecology tutorial",
+        "differential equations ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Critical Transitions for Asymptotically Concave or d-Concave Nonautonomous Differential Equations with Applications in Ecology",
+      "authors": [
+        "Jesús García de Dueñas",
+        "Carmen Núñez",
+        "Rafael Obaya"
+      ],
+      "year": 2024,
+      "doi": "10.1007/s00332-024-10088-6",
+      "openAlexId": "W4402605127",
+      "openAccessUrl": "https://link.springer.com/content/pdf/10.1007/s00332-024-10088-6.pdf",
+      "citationCount": 6,
+      "abstract": "Abstract The occurrence of tracking or tipping situations for a transition equation $$x'=f(t,x,\\Gamma (t,x))$$ x ′ = f ( t , x , Γ ( t , x ) ) with asymptotic limits $$x'=f(t,x,\\Gamma _\\pm (t,x))$$ x ′ = f ( t , x , Γ ± ( t , x ) ) is analyzed. The approaching condition is just $$\\lim _{t\\rightarrow \\pm \\infty }(\\Gamma (t,x)-\\Gamma _\\pm (t,x))=0$$ lim t → ± ∞ ( Γ ( t , x ) - Γ ± ( t , x ) ) = 0 uniformly on compact real sets, and so there is no restriction to the dependence on time of the asymptotic equations. The hypotheses assume concavity in x either of the maps $$x\\mapsto f(t,x,\\Gamma _\\pm (t,x))$$ x ↦ f ( t , x , Γ ± ( t , x ) ) or of their derivatives with respect to the state variable (d-concavity), but not of $$x\\mapsto f(t,x,\\Gamma (t,x))$$ x ↦ f ( t , x , Γ ( t , x ) ) nor of its derivative. The analysis provides a powerful tool to analyze the occurrence of critical transitions for one-parametric families $$x'=f(t,x,\\Gamma ^c(t,x))$$ x ′ = f ( t , x , Γ c ( t , x ) ) </",
+      "score": 0.633,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations ecology",
+        "differential equations ecology introduction",
+        "differential equations ecology review"
+      ]
+    }
+  ]
+}

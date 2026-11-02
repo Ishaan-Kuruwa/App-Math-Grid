@@ -1,0 +1,318 @@
+{
+  "method": "differential-equations",
+  "field": "medicine",
+  "generatedAt": "2026-11-02T22:21:39.437Z",
+  "queries": [
+    "differential equations medicine",
+    "differential equations medicine introduction",
+    "differential equations medicine tutorial",
+    "differential equations medicine review",
+    "pharmacokinetic compartment model introduction"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "Basic Concepts in Population Modeling, Simulation, and Model‐Based Drug Development—Part 2: Introduction to Pharmacokinetic Modeling Methods",
+      "authors": [
+        "DR Mould",
+        "Richard Neil Upton"
+      ],
+      "year": 2013,
+      "doi": "10.1038/psp.2013.14",
+      "openAlexId": "W2035387023",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1038/psp.2013.14",
+      "citationCount": 900,
+      "abstract": "Population pharmacokinetic models are used to describe the time course of drug exposure in patients and to investigate sources of variability in patient exposure. They can be used to simulate alternative dose regimens, allowing for informed assessment of dose regimens before study conduct. This paper is the second in a three‐part series, providing an introduction into methods for developing and evaluating population pharmacokinetic models. Example model files are available in the Supplementary Data online. CPT: Pharmacometrics & Systems Pharmacology (2013) 2, e38; doi: 10.1038/psp.2013.14 ; advance online publication 17 April 2013",
+      "score": 0.773,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "pharmacokinetic compartment model introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Pharmacokinetic and Pharmacodynamic Data Analysis: Concepts and Applications",
+      "authors": [
+        "XH Huang",
+        "QS Zheng"
+      ],
+      "year": 2010,
+      "doi": null,
+      "openAlexId": "W1834879878",
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/2865421",
+      "citationCount": 532,
+      "abstract": "The importance of pharmacokinetics(PK) and pharmacodynamics(PD) in drug development is becoming increasingly recognized and now permeates the program from preclinical development through Phase IV clinical trials.1-2 However, PK/PD data is generally very noisy and sophisticated data analysis techniques must be used to estimate parameters of interest. Modern PK/PD has developed into a relatively sophisticated mathematical discipline. Scientists involved with PK/PD data are dependent on the availability of sophisticated software packages. Despite the lack of a complete understanding of the methodology, the user of such packages needs to be convinced of their accuracy and reliability. It is incumbent on the PK/PD scientists to obtain a reasonable understanding of the methodology behind a software package to correctly interpret the output and diagnostics.3 However, until now there has been very little literature available that explains, in simple terms, how to fit models and interpret output data.\r\n\r\nAnyone desiring a single definitive source of information on PK/PD modeling should consider Pharmacokinetic and Pharmacodynamic Data Analysis: Concepts and Applications. It is an extraordinary book covering virtually all mathematical and conceptual perspectives inherent within the PK/PD modeling process. It provides an introduction into PK/PD concepts using simple illustrations, and differentiates itself from other texts in this area in that it bridges the gap between relevant theory and the actual application of theory to real life situations.4 The fourth edition continues the central thesis of the first 3 editions: How do we go from kinetic and dynamic data to insight in the most effective way? This edition is the fourth in an evolution of the original text published in 1994 and has been expanded to over 1200 pages, mirroring the growth of the subject over the last decade. It is also a testament to the increasing sophistication of PK/PD analyses being undertaken by scientists working in the drug discovery/development arena. The new edition contains many new case studies, but also includes an extension of the experimental design chapter.\r\n\r\nThis book emphasizes how to critically evaluate the output from fitting a model to data to applying statistical techniques for model selection and discussion. Chapters 1 to 6 make up the concepts section of the book, and the case studies make up the applications section. The concepts section provides a basic introduction to PK/PD modeling principles. Chapter 1 briefly introduces the general principles and the book's contents. Chapter 2 emphasizes various aspects of pharmacokinetics, including one- and multi-compartment systems, absorption and disposition kinetics, clearance concepts, turnover, nonlinearities, non-compartmental analysis, exposure assessment, and inter-species scaling. Chapter 3 presents an extensive library of basic and mechanistic pharmacodynamic models, including receptor binding models, pharmacodynamic models, kinetics of drug actions, interaction models, effect compartment models, turnover models, dose-response-time data analysis, tolerance and rebound models, and transduction models. Chapter 4 provides an overview of parameter estimates, including criteria for best fit, search algorithms, and weighing. Chapter 5 is placed intentionally after the pharmacokinetics and pharmacodynamics chapters, and covers general modeling strategies. Chapter 6 contains a brief discussion of design elements, including tools for experimental design, and general design issues of kinetic/dynamic studies. The applications section of the book illustrates the application of concepts to specific modeling situations commonly encountered in the drug industry and in research laboratories. More than 100 data sets and practical solutions are included. Several new exciting data sets on tolerance-rebound, dose-response-time models, bacterial growth model, turnover, non-linear kinetics, oscillating input functions, and toxicokinetics are also solved and discussed in this section.\r\n\r\nThe book has several key strengths. First, and perhaps most important, this book bridges the gap between standard texts in pharmacokinetics, pharmacology, and numerical analysis, and provides unique insight into the field of pharmacometrics in a manner that is easy to understand. Complex mathematics is minimized, and extensive graphical presentations accompany the theory, which enables the scientist with little formal training in this area to conceptualize the underlying principles. The second major strength is that, in addition to its clear and straightforward presentation of methodology, this book also includes a CD with all application examples and WinNonlin (Pharsight, St. Louis, MO) command files. The command files are intended both as a complement to the book and as a framework for the user's own modeling problems, thereby saving time when carrying out data analysis. Many thoughts and ideas presented in the book have evolved from the authors' own practice and teaching experiences, while observing and evaluating students' work. Thus, some of the theories have been formulated to help students overcome common mistakes and misconceptions typical among kineticists and junior modelers. Therefore, another important strength is that the book can also serve to remedy the most common dysfunctions of a modeler, including lack of experience with exploratory data analysis, too much trust in the modeling software, weighting away data, slavery under formulas, and lack of holistic view of the analysis-modeling process.5\r\n\r\nThis book is both a valuable introductory text for new researchers and a useful reference for established scientists. In addition, it is a useful reference for a variety of undergraduate and graduate courses in PK/PD. Overall, we believe that this book is an essential resource for anyone wanting to gain a better understanding and awareness of the modeling carousel.",
+      "score": 0.7,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "pharmacokinetic compartment model introduction"
+      ]
+    },
+    {
+      "needsHumanReview": true,
+      "reviewReason": "no abstract on OpenAlex; read the paper before using it",
+      "title": "The two-compartment recirculatory pharmacokinetic model'an introduction to recirculatory pharmacokinetic concepts",
+      "authors": [
+        "Richard Neil Upton"
+      ],
+      "year": 2004,
+      "doi": "10.1093/bja/aeh089",
+      "openAlexId": "W2129725525",
+      "openAccessUrl": "https://doi.org/10.1093/bja/aeh089",
+      "citationCount": 61,
+      "abstract": null,
+      "score": 0.673,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "pharmacokinetic compartment model introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Basic Concepts in Physiologically Based Pharmacokinetic Modeling in Drug Discovery and Development",
+      "authors": [
+        "HM Jones",
+        "K Rowland‐Yeo"
+      ],
+      "year": 2013,
+      "doi": "10.1038/psp.2013.41",
+      "openAlexId": "W2027143209",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1038/psp.2013.41",
+      "citationCount": 625,
+      "abstract": "The aim of this tutorial is to introduce the concept of physiologically based pharmacokinetic (PBPK) modeling to individuals in the pharmaceutical industry who may be relatively new to this area and to demonstrate application of this approach in a preclinical and clinical setting. The tutorial provides some background on PBPK models and their data requirements, introduces strategies for PBPK modeling in drug development, and includes a discussion on regulatory considerations and potential resource issues. CPT: Pharmacometrics & Systems Pharmacology (2013) 2, e63; doi: 10.1038/psp.2013.41 ; published online 14 August 2013",
+      "score": 0.664,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "pharmacokinetic compartment model introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "An introduction to physiologically‐based pharmacokinetic models",
+      "authors": [
+        "Richard Neil Upton",
+        "David J. R. Foster",
+        "Ahmad Y. Abuhelwa"
+      ],
+      "year": 2016,
+      "doi": "10.1111/pan.12995",
+      "openAlexId": "W2507987915",
+      "openAccessUrl": "https://hdl.handle.net/11541.2/123609",
+      "citationCount": 52,
+      "abstract": "Physiologically-based pharmacokinetic (PBPK) models represent drug kinetics in one or more 'real' organs (and hence require submodels of organs/tissues) and they describe 'whole-body' kinetics by joining together submodels with drug transport by blood flow as dictated by anatomy. They attempt to reproduce 'measureable' physiological and/or pharmacokinetic processes rather than more abstract rate constants and volumes. PBPK models may be built using a 'bottom-up' approach, where parameters are chosen from first principles, literature, or in vitro data as opposed to a 'top-down' approach, where all parameters are estimated from data. The basic principles of PBPK models are described, focusing on the equations for three individual organs: a single flow-limited compartment describing distribution only, a membrane-limited compartment describing distribution, and a single flow-limited compartment with elimination. These organ models are linked to make a basic three-compartment physiological model of the whole body. PBPK models are particularly suited to scaling kinetics across body size (e.g., adult to neonate) and species (e.g., animal to first-in-man) as physiology and pharmacology can be represented by independent parameters. Maturation models can be incorporated as for compartmental models. PBPK models are now available in commercial software packages, and are perhaps now more accessible than ever. Alternatively, even complex PBPK models can be represented in generic differential equation-solving software using the simple principles described here. The relative ease of constructing the code for PBPK models belies the most difficult aspect of their implementation-collecting, collating, and justifying the data used to parameterize the model.",
+      "score": 0.659,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "pharmacokinetic compartment model introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Pharmacology, Part 2: Introduction to Pharmacokinetics",
+      "authors": [
+        "Geoffrey Michael Currie"
+      ],
+      "year": 2018,
+      "doi": "10.2967/jnmt.117.199638",
+      "openAlexId": "W2802793685",
+      "openAccessUrl": "http://tech.snmjournals.org/content/46/3/221.full.pdf",
+      "citationCount": 129,
+      "abstract": "Pharmacology principles provide a key understanding that underpins the clinical and research roles of nuclear medicine practitioners. This article is the second in a series of articles that aims to enhance the understanding of pharmacologic principles relevant to nuclear medicine. This article will build on the introductory concepts, terminology, and principles of pharmacodynamics explored in the first article in the series. Specifically, this article will focus on the basic principles associated with pharmacokinetics. Article 3 will outline pharmacology relevant to pharmaceutical interventions and adjunctive medications used in general nuclear medicine; article 4, pharmacology relevant to pharmaceutical interventions and adjunctive medications used in nuclear cardiology; article 5, pharmacology relevant to contrast media associated with CT and MRI; and article 6, drugs in the emergency cart.",
+      "score": 0.639,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "pharmacokinetic compartment model introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A pharmacokinetic model of lead absorption and calcium competitive dynamics",
+      "authors": [
+        "Anca Rǎdulescu",
+        "Steven Lundgren"
+      ],
+      "year": 2019,
+      "doi": "10.1038/s41598-019-50654-7",
+      "openAlexId": "W2913234636",
+      "openAccessUrl": "https://www.nature.com/articles/s41598-019-50654-7.pdf",
+      "citationCount": 147,
+      "abstract": "Lead is a naturally-occurring element. It has been known to man for a long time, and it is one of the longest established poisons. The current consensus is that no level of lead exposure should be deemed \"safe\". New evidence regarding the blood levels at which morbidities occur has prompted the CDC to reduce the screening guideline of 10 μg/dl to 2 μg/dl. Measurable cognitive decline (reduced IQ, academic deficits) have been found to occur at levels below 10 μg/dl, especially in children. Knowledge of lead pharmacology allows us to better understand its absorption and metabolization, mechanisms that produce its medical consequences. Based upon an original and very simplified compartmental model of Rabinowitz (1973) with only three major compartments (blood, bone and soft tissue), extensive biophysical models sprouted over the following two decades. However, none of these models have been specifically designed to use new knowledge of lead molecular dynamics to understand its deleterious effects on the brain. We build and analyze a compartmental model of lead pharmacokinetics, focused specifically on addressing neurotoxicity. We use traditional phase space methods, parameter sensitivity analysis and bifurcation theory to study the transitions in the system's behavior in response to various physiological parameters. We conclude that modeling the complex interaction of lead and calcium along their dynamic trajectory may successfully explain counter-intuitive effects on systemic function and neural behavior which could not be addressed by existing linear models. Our results encourage further efforts towards using nonlinear phenomenology in conjunction with empirically driven system parameters, to obtain a biophysical model able to provide clinical assessments and predictions.",
+      "score": 0.606,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "pharmacokinetic compartment model introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Delay Ordinary and Partial Differential Equations",
+      "authors": [
+        "Andrei D. Polyanin",
+        "Vsevolod G. Sorokin",
+        "Alexei I. Zhurov"
+      ],
+      "year": 2023,
+      "doi": "10.1201/9781003042310",
+      "openAlexId": "W4385697988",
+      "openAccessUrl": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.1201/9781003042310&type=googlepdf",
+      "citationCount": 37,
+      "abstract": "Delay Ordinary and Partial Differential Equations is devoted to linear and nonlinear ordinary and partial differential equations with constant and variable delay. It considers qualitative features of delay differential equations and formulates typical problem statements. Exact, approximate analytical and numerical methods for solving such equations are described, including the method of steps, methods of integral transformations, method of regular expansion in a small parameter, method of matched asymptotic expansions, iteration-type methods, Adomian decomposition method, collocation method, Galerkin-type projection methods, Euler and Runge-Kutta methods, shooting method, method of lines, finite-difference methods for PDEs, methods of generalized and functional separation of variables, method of functional constraints, method of generating equations, and more. The presentation of the theoretical material is accompanied by examples of the practical application of methods to obtain the desired solutions. Exact solutions are constructed for many nonlinear delay reaction-diffusion and wave-type PDEs that depend on one or more arbitrary functions. A review is given of the most common mathematical models with delay used in population theory, biology, medicine, economics, and other applications. The book contains much new material previously unpublished in monographs. It is intended for a broad audience of scientists, university professors, and graduate and postgraduate students specializing in applied and computational mathematics, mathematical physics, mechanics, control theory, biology, medicine, chemical technology, ecology, economics, and other disciplines. Individual sections of the book and examples are suitable for lecture courses on applied mathematics, mathematical physics, and differential equations for delivering special courses and for practical training.",
+      "score": 0.797,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations medicine",
+        "differential equations medicine introduction",
+        "differential equations medicine review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Transforming frontiers: The next decade of differential equations and control processes",
+      "authors": [
+        "Ji‐Huan He"
+      ],
+      "year": 2025,
+      "doi": "10.59400/adecp2589",
+      "openAlexId": "W4406646205",
+      "openAccessUrl": "https://ojs.acad-pub.com/index.php/ADECP/article/download/2589/1264",
+      "citationCount": 24,
+      "abstract": "Mathematics serves as the fundamental basis for innovation, propelling technological advancement. In the forthcoming decade, the convergence of differential equations and control processes is poised to redefine the frontiers of scientific exploration. The integration of artificial intelligence and machine learning with differential equations is set to inaugurate a new era of problem-solving, enabling the extraction of latent physical insights and accelerating solution discovery. Multi-scale modeling, with its capacity to span disparate physical domains, has the potential to resolve long-standing puzzles in fields such as fluid mechanics and nanoscience. Furthermore, the integration of fractal geometry with differential equations holds the promise of novel perspectives for understanding and optimizing complex systems, ranging from urban landscapes to turbulent flows. The integration of artificial intelligence (AI) with control innovations is poised to play a pivotal role in the development of next-generation technologies, with the potential to transform diverse sectors such as medicine, communication, and autonomous systems. This paper explores these developments, highlighting their potential impacts and emphasizing the necessity for interdisciplinary collaboration to leverage their full potential.",
+      "score": 0.759,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations medicine",
+        "differential equations medicine introduction",
+        "differential equations medicine review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Partial Differential Equations Meet Deep Neural Networks: A Survey",
+      "authors": [
+        "Shudong Huang",
+        "Wentao Feng",
+        "Chenwei Tang",
+        "Zhenan He",
+        "Caiyang Yu",
+        "Jiancheng Lv"
+      ],
+      "year": 2025,
+      "doi": "10.1109/tnnls.2025.3545967",
+      "openAlexId": "W4408441353",
+      "openAccessUrl": "https://arxiv.org/pdf/2211.05567",
+      "citationCount": 61,
+      "abstract": "Many problems in science and engineering can be mathematically modeled using partial differential equations (PDEs), which are essential for fields like computational fluid dynamics (CFD), molecular dynamics, and dynamical systems. Although traditional numerical methods like the finite difference/element method are widely used, their computational inefficiency, due to the large number of iterations required, has long been a challenge. Recently, deep learning (DL) has emerged as a promising alternative for solving PDEs, offering new paradigms beyond conventional methods. Despite the growing interest in techniques like physics-informed neural networks (PINNs), a systematic review of the diverse neural network (NN) approaches for PDEs is still missing. This survey fills that gap by categorizing and reviewing the current progress of deep NNs (DNNs) for PDEs. Unlike previous reviews focused on specific methods like PINNs, we offer a broader taxonomy and analyze applications across scientific, engineering, and medical fields. We also provide a historical overview, key challenges, and future trends, aiming to serve both researchers and practitioners with insights into how DNNs can be effectively applied to solve PDEs.",
+      "score": 0.736,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations medicine introduction",
+        "differential equations medicine review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A Tutorial on Pharmacodynamic Scripting Facility in Simcyp",
+      "authors": [
+        "Khaled Abduljalil",
+        "Duncan L. Edwards",
+        "A Barnett",
+        "RH Rose",
+        "T Cain",
+        "Masoud Jamei"
+      ],
+      "year": 2016,
+      "doi": "10.1002/psp4.12102",
+      "openAlexId": "W2471625978",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/psp4.12102",
+      "citationCount": 15,
+      "abstract": "The Simcyp Simulator provides a framework for mechanistic Physiologically-Based Pharmacokinetic/Pharmacodynamic modeling of potentially interacting drugs. It also provides a scripting facility, using the Lua language, for developing customized pharmacodynamic and toxicity models driven by drug concentrations at the site of action. We present an overview of the scripting facility including the scripting language, the editor, and how scripts are embedded within the Simulator. Examples incorporating differential equations and including inter-individual variability on parameters are presented. The Simcyp population-based Simulator is a widely used platform for predictive simulation of pharmacokinetic/pharmacodynamic (PKPD) parameters and profiles, and drug-drug interaction (DDI) based largely on the extrapolation of a limited set of physicochemical properties and in vitro experimental data, such as the clearance and transport of a drug by one or more metabolizing enzymes and transporters.1, 2 In a clinical setting, several predictive variable factors, i.e. covariates, may be measured in an individual patient or volunteer and used to improve a PKPD model prediction and describe the observed variability. To incorporate inter-individual variability, the Simcyp Simulator generates virtual populations of individuals from models incorporating structural correlation of multiple factors (including demographics, genetic and disease status) generating an individual subject with its own set of parameters.1 A more mechanistic simulation approach can incorporate model components that account for and predict individual covariates. The Simcyp Simulator uses such mechanisms benefiting from both \"bottom-up\" and \"top-down\" paradigms, called by some the \"middle out approach\".1, 3 While prediction of PBPK involves a certain level of modeling complexity, the extension of such predictions to PD outcomes requires an even more complex layer. Linking PD to the PBPK model allows the possibility of deriving the response (pharmacological or toxicological) by the organ concentration. The Simulator provides common empirical and semi-mechanistic \"Built-In\" pharmacometric building-blocks to ease construction of quite complex models by picking and mixing such building blocks, in a flexible environment, to various input tissue/organ concentrations to drive the response. These built-in PD models have been described earlier,1 but are defined further here to fully understand the architecture of the environment that includes the scripting features. Briefly, the architecture of the Simcyp PD module presents a number of different model-building blocks called PD Response Units (Figure 1). Such units can be linked together to develop more complex responses via certain \"transduction\" options offered by the platform (for the basics of transduction see4). There are two types of PD Response unit; a PD Basic unit and a PD Link unit.1 The PD Basic unit offers the most commonly used simple response models that include, linear, exponential and sigmoidal/Hill,5 providing an option to link them to an effect compartment. These models can represent a kinetic receptor binding model and be transduced to a stimulus response model in a subsequent PD Basic unit. The PD Link unit includes transform link models, which are simple transforms to convert response to a probability or event count rate, and parameterised link models which include indirect response models6 and survival models.7 The PD Link unit does not include the effect compartment or kinetic receptor binding links as these models are available in the PD Basic unit. PD Response units are subdivided into a sequence of steps with associated model choices from unit input to unit output. Each step calculates values according to a chosen model for that step and passes its result to the next step in the sequence. Applications of linking PBPK and these PD models to predict the impact of genotypic variability, formulation differences, differences in target binding capacity and target site drug concentrations on drug responses and variability have been described previously.8 Simcyp PD response unit structure and interconnections enabling various combinations of PD units up to three layers. Since a Simcyp PD model is linked onto the PBPK simulation model for a specific compound via a chain of response units and each unit comprises a number of built-in steps in a data flow, this design gives an opportunity for replacing a step within a unit by a custom model (Figure 2). In the same way as for a built-in model, the custom model connects to its input and passes on its output. By this mechanism, the input of the custom model acts in the same manner as the input into the processing step it replaces, and the custom step output feeds back into the sequence of PD processing step in the same way that the output from the step it replaces would have done. Thus, the flow of the PD units is maintained in a sequential manner. The step replacement is represented by a Step function which substitutes a built-in function with a user-scripted function in the Simulator's C++ code. If the PD Custom step is on the first step occurrence in a chain of PD response steps (for example on PD Basic 1), the input to the PD Custom step can be a drug (total or free) concentration or amount in plasma, blood, effect compartment, or any other tissue in the PBPK model. It can be the total dose of the drug, if no PK model is assumed. If the PD Custom step is preceded by one or more PD steps, then the input to the PD Custom step is the output from the preceding step. The output response will be the response in the last step in the PD chain returned by the user, however when the codes contain ODEs, the output will also report all state variable profiles. More than one built-in step can be replaced by a custom step allowing more than 20 places across the various compound types to be used, however replacing only one step can be enough, depending on the PBPKPD model settings. General scheme shows the Custom PD Step within the PD Units Chain. The figure shows how the Custom Step replaces a default PD Step. Each figure block can be equivalent to a single script containing one or more functions. The output function, Rxu1, from an upstream step \"1\" is considered as an input function to the PD Custom Step, Xu,custom, while the output from the custom step, Rxu,custom, is considered as an input function, Xu3, to a subsequent step \"3\". Lua is a high-level freely available, very lightweight, and flexible scripting language (www.lua.org). It can easily be embedded in other programs with no need to run an external compiler, and scripts are run seamlessly as part of a \"live simulation.\" Lua is a relatively new language for PKPD scientists and modellers but it has been used extensively, particularly in computer games where very fast script execution is required. While advanced features in the Lua language are very powerful, the basics of Lua are rather easy to learn. There is extensive online documentation (www.lua.org/docs.html). Details of this documentation are beyond the scope of the current paper. Mathematical functions available in Standard Lua library are supported, for example logarithm, exponential, random distribution … etc. (www.lua.org/manual/5.1/manual.html#5.6). Only functions that are not required or potentially unsafe for the purposes of a modeling script were disabled. In addition to the requirement of valid Lua Syntax in a script, there are additional rules imposed for valid script execution in the Simcyp environment. Most of these are enforceable through a validation tool linked to the script editor; others through limited access provided by Simcyp Lua Library functions; a few by the user interface itself. The scripting editor is based on generic text editing components from the Scintilla project (www.scintilla.org) but is adapted for Simcyp PD scripting. When a simulation is executed, different branches of the simulator (trial design, population library, and compound library) are initiated in order and connected to generate individual values for the compound and population type under study. The engine then starts to run PKPD calculations and reports the results. A summary scheme of these processes have been provided in the supplementary material (Appendix A). Within a script, there are named script functions (e.g. \"Step\" and \"Setup\" functions) which are called by the Simulator platform at specific points in the simulation. Such functions are generically known to programmers as \"call-back\" functions. Simcyp maintains the signatures of these call-back functions and uses them to give controlled access to inputs and parameters through function arguments and the values to be passed onto as the function's return value. The particular function names are reserved and a particular signature is required for the function to be valid. Coding of Lua scripts is supported by a \"Functions\" dropdown menu, which provides templates for calls to Simcyp Library functions (calls to Simcyp C++ code available as Lua script functions) as well as function definition templates for user-coded Lua Setup and Step functions (Figure 3; see also Supplementary Materials for additional functions in the dropdown menu). A screenshot of the Simcyp Lua Editor shows the Functions dropdown menu. The expanded menu shows how to access various get functions templates to get individual covariates. Generally, Setup functions map onto execution of simulation contexts and called once a certain simulation context is reached, where Simcyp Library set and get functions can be used to manipulate data stores (see Figure 4). In order to control the information passage, the Simcyp data store provides four types of storage space to support PD custom scripting, namely: stores for values scoped at the simulation-population, compound, individual, and individual-compound data levels with one Setup function corresponding to each scoping level (Figure 4). Simcyp datastores for persistence of script variables at the different scoping levels, together with the Setup, Step, and Simcyp library (sc:) functions and Lua code that can access or modify them. Higher level stores can provide default parameters for lower level access when a requested value is not available at the same level as the get call. The set functions typically set store values at the same level as the function call. sc:sampleIIVDistribution generates individual values from the parameter distribution stored at the next higher level. The Step functions are used to code the model in algebraic or ODE equations. All step functions operate at the individual-compound specific level. They are called for each individual per active compound and could be for each time point if the model contains ODE. Most step functions have read access to an array of parameters (P) which are individualised model parameters specific to that step for a particular compound type (see the warfarin example below). Details of these functions are available in Simcyp help documentation. While PBPKPD applications using the Simcyp PD module with customized features have been published,9-11 the aim of this tutorial is to provide a description of the underlying structure and feature of the scripting environment and to demonstrate a case example of coding a PD model step by step. As the equations show, the time course of normal prothrombin (NPT) concentration in response to an increase in the S-warfarin plasma concentration (Cp(S)) after warfarin administration was described by an indirect model to express the time delay between Cp(S) and NPT, in which NPT synthesis was assumed to be inhibited by the Emax model. NPTij represents the NPT in the ith individual at the jth observation, Kin is expressed as Kout multiplied by NPT0 (baseline NPT before warfarin administration), IMax is the maximum decrease in NPT concentration assumed to be 1.0 (complete inhibition of NPT synthesis), Cp(S)ij is the Cp(S) in the ith individual at the jth time point, and IC50 is the Cp(S) that inhibits NPT synthesis at 50% of IMax. The time course of international normalized ratio (INR) in response to a decrease in the plasma concentration of NPT after warfarin administration was described based on the percentage inhibition of NPT0. INRij represents the INR in the ith individual at the jth observation, and INRBase and NPT0 represent the baseline INR and NPT before warfarin administration, respectively. INRMax is the maximum INR increase from the baseline, which was set at 5 (the maximum INRij was fixed at 6) because the observed maximum INRij in 97.3% of the study patients was less than 6. The exponent Gamma ( ) accounts for the nonlinear relationship between NPT inhibition and the increase in INR by warfarin and modified by inter-individual variability in an exponential manner ( after centring on the median value of NPT0 (119 µg/ml). The model parameter values are: Cp(S)ij is the S-warfarin plasma concentration NPT0 (µg/ml) = 118.2 ± 22.1 (mean ± SD) INR0 = 1.05 ± 0.10 (mean ± SD) Kout (1/hr) = 0.0138 (CV=44%) Kin = Kout · NPT0 Imax = 1 (fixed)m_IC50= IC50*(2.07 ^ VKORC1), where IC50 (µg/ml) = 0.072 (equivalent to 0.233 µM) (CV =37%) and VKORC1 code was 0 for VKORC1 *2/*2 and 1 otherwise. INRMax = 6 (Fixed) m_Gamma ( ) = Gamma * e(0.005886 * (NPT0 – 119), where Gamma = 3.48 (CV=23%). The Simcyp Lua code of this model is provided in Figure 5. To code this model, one needs functions that define and handle the structural model, define parameters and their distribution and covariate, generate individual values and sampling function. The first function is the function Simcyp Lua code for INR model after warfarin administration on function define how differential equations The function has the We have defined here the number of ODE in the In case have only one ODE for the It is to values that are for all and individuals this function does not need to be called at lower level of The in code is to the state but other including covariates, can be here as The function at the population and simulation level and is called only once per simulation. through all active scripts for a to will in order of compound then then and step sequence within need to coding on an individual or compound level. We will with coding individual level and then compound level the is also The function that on individual level is called function as function VKORC1 We have here a that was to The code for this is 1 or 0 for each individual of this will have a code of 0 (see the have to this variable as and a Lua function to generate an individual value for this of code here have assumed 50% of the population have the code 1 and 50% have the code but other can be The function is called once for each individual subject to individual parameter We have used this function to set up a of using Simcyp are in the example in In the last of the step function used a set function to store and this is the first parameter in model. need to code compound parameters with their distribution types on the compound level. The function that to that level is called function. function is called once for each active compound per response step in the then then function – NPT0 – INR0 – (1/hr) – – Imax – Gamma We have an and for and INR0 as baseline before administration of We will code them as parameters that have normal distribution with the and the of the parameter a distribution with was assumed. More on the distribution are in this The input to the PD model is the total plasma concentration of The simulator PD input as total or concentration or total amount in Since the input concentration is in the IC50 is from to We have these parameters from because have the first for that and Imax were will not have any the compound parameters and their distribution need in the next step to from these distribution types and parameter values to each To this need to a function called function. function at the individual-compound level and is called once for each individual per active compound and response step which on both compound type and individual, for example an individual clearance value of a drug, can be function for = = In model have for the under function, using the distribution associated to each of them and individual values to the level function to be used for the We have one differential with and one algebraic function. We will coding the for the NPT parameter using a function called function. function can be if the is it is required. can it function = return The type in Lua that can be not only with but also with or any other value of the language, to the code can names of by a and it to a variable as function = 1 = return The is a to or a reserved block of user state variables reserved by coding the can code the block of differential equations using a function called function. is to using the ODE block in other such as in or in The and the returned represent the input (e.g. drug concentration or amount from the PBPK model, such as concentration in the or In example represents total plasma concentration of The is a to a generic input parameter The and are to or a reserved block of user state and user variables reserved by Simcyp by and will to and names can be used of as The variables used within the scope of this function will be as In the IC50 is assumed to be on individual VKORC1 and Gamma is by individual NPT according to the code. The is the Lua library function for function VKORC1 NPT0 = INR0 = = IC50 = = Imax = Gamma = VKORC1 = = IC50 * = Kin = NPT0 * = 1 NPT = * NPT INR = INR0 * return INR up to can be in all custom The user needs to that the or names are used by each code example for this function is in the model code example (Appendix The total number of user be set up at the of a simulation via a within the function. The may also contain simple algebraic to other It is also to access the ODE state variables or concentration. it is to the impact of different for and the or If the model does not contain ODEs, such as simple or Emax models, then one can a different Step function from the dropdown menu called function (see example below). PD models6 or survival in their algebraic can be using a different function called function to the simulation time as the A code example of this function is for a survival model in in the supplementary have the of the Setup and Step functions of the Simcyp Lua script and have Simcyp Library Functions such as set functions and some for distribution functions providing of their These will be before to the next The Most custom Step functions have access to an array of individual parameters specific to the step model for a Lua code in Setup functions may define model parameter values and store a value in with the function as for the VKORC1 the stored value can be with additional see the survival model code (Appendix Such functions store values at the same scoping level as the function within which (Figure 4). The functions the same level and if the parameter information is not to the next higher scoping level to the functions need a value only as such as the one used at the of the code for the total number of in the simulation. the same used a function to the state variable and other if to function – define how differential equations code are in the supplementary material are stored and used for the output of inter-individual variability and individual The function can be used to any values stored for the current script or can be used to any within the Simcyp The Simcyp Library provides read only access to different as part of its virtual population to an individual value by one of such as from a or step function. A code example for using these functions is in the next example as well as in the supplementary (Appendix The of includes and and The in Figure 3 give an of the of The of as part of the PBPK model is that a that is also used by the PD model will be the same value for the same individual as is used in the PBPK model. The set function can be used to storage is provided at the level and at the individual levels through the and function, respectively. The storage allows additional values or variables to be set and stored for of the step function. for different may be stored at different functions to while and functions to storage (Figure 4). access is for at all levels with but is only for the same individual through in and Step functions as different individuals may be on different execution More are in the code (Appendix In warfarin different parameters for an inter-individual distribution that is used to generate individual values were set up with will be under the and there are types of random available for PD Custom scripting which are from the editor menu, normal normal and A distribution for inter-individual variability of model parameters can be through the function in the compound function. We have defined in the warfarin model two types of normal and in function, there was a via to from that The individual value is passed as to a step function. a user can from any of the distribution types via the library function to a Such calls will the same number within Simcyp as the function but the value can be and used however the user not for inter-individual variability. A Simcyp simulation with a particular number a user may from a or a with a fixed by a user or from a sequence will however be used to several other that individual can PD simulation of an individual is also set up with a with very from the PK approach maintains of various random of a simulation from a fixed even when some in a model have to Simcyp Library distribution functions will calls in the number specific to the PD context in which the script is but will not the random number of PK – based A user also has the option of generating random using in the Lua library for the library random number the functions. Since such calls are there is no to any built-in Simcyp sequence. Thus, the user will have to the effect of calls from multiple example shows a simple pharmacodynamic model commonly known as the Emax model, from a baseline and into a nonlinear population model. code a Emax model from a baseline that is in Simcyp using Lua script that is equivalent to a code in below). A = = = * = 1 1 The concentration used as the PD input is not defined however it can from the PK model or as part of the data set with will this code as a nonlinear model through a set of structural parameters (the by certain normal random variables (the inter-individual with structural parameter values in a block and of the random in a to the parameter and of by the parameter The prediction includes an random represented by an and normal variable with a fixed defined in the equivalent PD model can be in the PD model parameter Emax parameters specific to a and their associated inter-individual random distribution are defined in a function. to the the Simcyp Simulator can be to individual values from each such distribution in an function and the individual values in the underlying Simcyp The individual values will then be available to a parameterised step function as of parameter array function – – – Emax – effect of – used as function for = function = = = * = – effect of on baseline response = – PD input in the = – to = = * response model = response A variability in for can be through a Simcyp built-in The input include a feature called where this can be as the rather than example of Simcyp PD Custom scripting has been in this as part of an of factors response to the drug study of the of on the in synthesis using a indirect PKPD response model incorporating a Details of the code are in that Supplementary additional of scripts are and available of the Simcyp Simulator. These to with the scripting language, Syntax and provide a for to modify the that different of the code such as and survival models where a user can individual or or the storage are provided in the supplementary The model parameter are not by however the user can code the example of Simcyp Lua script for normal distribution is provided in the supplementary (Appendix The first of this scripting facility has on the simulation of custom PD models using the scripting language PKPD applications have their own coding language using named blocks of code which are and as by the for or for differential equations in PKPD or In some the provides for user code to for a particular context and a user code a user may to specific once in the simulation or specific parameters to each The population modeling when used with its library, calls user code represented by a block in the associated control to define algebraic equations for a PK model and a value to the that a first from a first subsequent for a new Simcyp also these two different and specific Lua functions for namely: for execution and Lua variables are places that store values and are by default in a They may however be to a particular function with the It is to variable to scope them within their variables have their scope limited and a to the block where are As in the the Simcyp Library includes a number of functions to store variables within the C++ across different script calls and functions to access them. have not as been to include parameter can be used for built-in PKPD model parameters when a user script is part of the model. a freely available library has been to a user to run Simcyp from the environment, commonly used for scripting facility has been for the will further of Simcyp parameters from these and could potentially be used for models as The current Simcyp architecture of PD response allows the replacement of built-in models seamlessly and is in to more complex of response of drug response on some and parameters have been the Simcyp Lua scripting features have been to the user to modify individual in the as part of the population library that generates virtual is potentially if the user to define these for a population of such as for a new disease or a particular Lua custom scripts may also help in the of model components with external model as part of an example project has been developing a of disease models, of which be into Lua A has been which the new allows with a Simcyp Simulator to run in with other such as and and using the allows of the Simulator's of and PBPK models through other such as and A scripting facility for PD response models within the Simcyp Simulator has been a user can the built-in model for a PD step with a script using a The editor a library of Simcyp functions for variables in the Simulator and for or of the PK and PD simulation. In addition it the of complex PD models defined using with limited the Simcyp platform the of the Lua code allowing less to access advanced modeling The Simcyp Simulator is freely available, of the to of and other for and A on Custom PD is provided in the Simcyp help facility and is freely from the to the Simcyp the and are freely available on the Simcyp or by We and for with of the All are of Simcyp and all the may be in the online of this The is not for the or of any information by the than be to the corresponding for the",
+      "score": 0.68,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations medicine tutorial"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Differential Equation Analysis on COVID-19",
+      "authors": [
+        "Bin Zhao"
+      ],
+      "year": 2020,
+      "doi": "10.31031/ntnf.2020.05.000606",
+      "openAlexId": "W3109589974",
+      "openAccessUrl": "http://crimsonpublishers.com/ntnf/pdf/NTNF.000606.pdf",
+      "citationCount": 3,
+      "abstract": "An infectious disease caused by a novel coronavirus called COVID-19 has raged across the world since December 2019. The novel coronavirus first appeared in Wuhan, China, and quickly spread to Asia and now many countries around the world are affected by the epidemic. The deaths of many patients, including medical staff, caused social panic, media attention, and high attention from governments and world organizations. Today, with the joint efforts of the government, the doctors and all walks of life, the epidemic in Hubei Province has been brought under control, preventing its spread from affecting the lives of the people. Because of its rapid spread and serious consequences, this sudden novel coronary pneumonia epidemic has become an important social hot spot event. Through the analysis of the novel coronary pneumonia epidemic situation, we can also have a better understanding of sudden infectious diseases in the future, so that we can take more effective response measures, establish a truly predictable and provide reliable and sufficient information for prevention and control model.",
+      "score": 0.675,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations medicine",
+        "differential equations medicine tutorial"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Editorial: Modeling and numerical simulations with differential equations in mathematical biology, medicine, and the environment",
+      "authors": [
+        "Appanah Rao Appadu",
+        "Ramoshweu Solomon Lebelo",
+        "H. H. Gidey",
+        "Bilge İnan"
+      ],
+      "year": 2023,
+      "doi": "10.3389/fams.2023.1150552",
+      "openAlexId": "W4321370718",
+      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/fams.2023.1150552/pdf",
+      "citationCount": 2,
+      "abstract": "EDITORIAL article Front. Appl. Math. Stat., 20 February 2023Sec. Mathematical Biology Volume 9 - 2023 | https://doi.org/10.3389/fams.2023.1150552",
+      "score": 0.609,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations medicine",
+        "differential equations medicine review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Useful Results for the Qualitative Analysis of Generalized Hattaf Mixed Fractional Differential Equations with Applications to Medicine",
+      "authors": [
+        "Khalid Hattaf"
+      ],
+      "year": 2025,
+      "doi": "10.3390/computation13070167",
+      "openAlexId": "W4412161638",
+      "openAccessUrl": "https://www.mdpi.com/2079-3197/13/7/167/pdf?version=1752152879",
+      "citationCount": 15,
+      "abstract": "Most solutions of fractional differential equations (FDEs) that model real-world phenomena in various fields of science, industry, and engineering are complex and cannot be solved analytically. This paper mainly aims to present some useful results for studying the qualitative properties of solutions of FDEs involving the new generalized Hattaf mixed (GHM) fractional derivative, which encompasses many types of fractional operators with both singular and non-singular kernels. In addition, this study also aims to unify and generalize existing results under a broader operator. Furthermore, the obtained results are applied to some linear systems arising from medicine.",
+      "score": 0.596,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations medicine",
+        "differential equations medicine review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "THE APPLICATION OF DIFFERENTIAL EQUATIONS IN ECONOMICS AND SOCIOLOGICAL RESEARCH",
+      "authors": [
+        "A.K. Baetov",
+        "A. Zhumadil uulu",
+        "A. Baktuyiar kyzy",
+        "G. Shekerbekova"
+      ],
+      "year": 2026,
+      "doi": "10.33514/1694-7851-2026-1/1-23-29",
+      "openAlexId": "W7140329617",
+      "openAccessUrl": "https://doi.org/10.33514/1694-7851-2026-1/1-23-29",
+      "citationCount": 0,
+      "abstract": "At present, the achievements of mathematical sciences are widely applied in various fields such as science, technology, medicine, and many others. The study of different problems helps solve numerous theoretical issues in mathematics; one example is the ability to transform an arbitrary function into a simpler form, which facilitates its analysis and understanding. This work examines the main applications of differential equations in economics and social research. In modeling economic dynamics, differential equations serve as an important mathematical tool, especially in analyzing processes such as market equilibrium, price changes, population growth, and resource allocation. This method also plays a significant role in understanding trends in social systems, migration flows, demographic changes, and the dynamics of social interaction. The work discusses key mathematical models constructed using differential equations, their theoretical foundations, and their areas of application. The results demonstrate that these methods enable a deeper understanding of dynamic processes in economics and social sciences and improve the accuracy of forecasting.",
+      "score": 0.589,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "differential equations medicine",
+        "differential equations medicine introduction"
+      ]
+    }
+  ]
+}

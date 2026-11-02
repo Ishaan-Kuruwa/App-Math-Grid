@@ -1,0 +1,307 @@
+{
+  "method": "game-theory",
+  "field": "ecology",
+  "generatedAt": "2026-11-02T22:21:42.663Z",
+  "queries": [
+    "game theory ecology",
+    "game theory ecology introduction",
+    "game theory ecology tutorial",
+    "game theory ecology review",
+    "evolutionary game theory hawk dove"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "Evolutionary game dynamics",
+      "authors": [
+        "Josef Hofbauer",
+        "Karl Sigmund"
+      ],
+      "year": 2003,
+      "doi": "10.1090/s0273-0979-03-00988-1",
+      "openAlexId": "W2036083037",
+      "openAccessUrl": "https://www.ams.org/bull/2003-40-04/S0273-0979-03-00988-1/S0273-0979-03-00988-1.pdf",
+      "citationCount": 1355,
+      "abstract": "Evolutionary game dynamics is the application of population dynamical methods to game theory. It has been introduced by evolutionary biologists, anticipated in part by classical game theorists. In this survey, we present an overview of the many brands of deterministic dynamical systems motivated by evolutionary game theory, including ordinary differential equations (and, in particular, the replicator equation), differential inclusions (the best response dynamics), difference equations (as, for instance, fictitious play) and reaction-diffusion systems. A recurrent theme (the so-called ‘folk theorem of evolutionary game theory’) is the close connection of the dynamical approach with the Nash equilibrium, but we show that a static, equilibrium-based viewpoint is, on principle, unable to always account for the long-term behaviour of players adjusting their behaviour to maximise their payoff.",
+      "score": 0.874,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "evolutionary game theory hawk dove"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "From Hawks and Doves to Self‐Consistent Games of Territorial Behavior",
+      "authors": [
+        "Hanna Kokko",
+        "Andrés López‐Sepulcre",
+        "Lesley J. Morrell"
+      ],
+      "year": 2006,
+      "doi": "10.1086/504604",
+      "openAlexId": "W2025252773",
+      "openAccessUrl": "https://hull-repository.worktribe.com/output/409412",
+      "citationCount": 212,
+      "abstract": "Explaining the \"prior-residence effect\" (automatic owner status of individuals who arrived first in an area) was one of the very first applications of game theory in animal behavior. These models, however, predict paradoxical solutions where intruders always win, with no satisfactory explanation for the absence of such cases in nature. We propose a solution based on new developments in evolutionary game theory. A self-consistent model with feedbacks between individual behavior and population dynamics produces qualitatively different frequency-dependent selection on intruders (floaters) than on territory owners. Starting with an ancestral population with no respect for ownership, the most likely evolutionary end point is complete or partial respect. Conventional rules of conflict resolution thus can rely on \"uncorrelated asymmetries\" without differences in resource-holding power or territory value, although they will be strengthened by such differences. We also review the empirical literature on animal contests, testing whether asymmetries in resource-holding power are required to explain the observations. Despite much empirical effort, results remain inconclusive, because experiments are often unable to distinguish between the motivation of individuals to fight and the behavioral outcome of a contest. To help arrive at conclusive answers, we suggest a standardized empirical approach to quantify prior-residence effects.",
+      "score": 0.779,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "evolutionary game theory hawk dove"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Evolutionary Stability for Two-Stage Hawk-Dove Games",
+      "authors": [
+        "Ross Cressman"
+      ],
+      "year": 1995,
+      "doi": "10.1216/rmjm/1181072273",
+      "openAlexId": "W2164878755",
+      "openAccessUrl": "https://projecteuclid.org/journals/rocky-mountain-journal-of-mathematics/volume-25/issue-1/Evolutionary-Stability-for-Two-Stage-Hawk-Dove-Games/10.1216/rmjm/1181072273.pdf",
+      "citationCount": 10,
+      "abstract": "Although two individuals in a biological species often interact with each other more than once, standard evolutionary game theory does not allow behaviors to depend on past interactions.This paper analyzes two-stage games where pairs of individuals compete twice.It is shown that evolutionary stability follows from a rational backwards induction procedure that first establishes stability at the second stage.All examples are of the hawk-dove type.",
+      "score": 0.733,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "evolutionary game theory hawk dove"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Evolutionary dynamics of N-person Hawk-Dove games",
+      "authors": [
+        "Wei Chen",
+        "Carlos Gracia-Lázaro",
+        "Zhiwu Li",
+        "Long Wang",
+        "Yamir Moreno"
+      ],
+      "year": 2017,
+      "doi": "10.1038/s41598-017-04284-6",
+      "openAlexId": "W2731046126",
+      "openAccessUrl": "https://www.nature.com/articles/s41598-017-04284-6.pdf",
+      "citationCount": 38,
+      "abstract": "In the animal world, the competition between individuals belonging to different species for a resource often requires the cooperation of several individuals in groups. This paper proposes a generalization of the Hawk-Dove Game for an arbitrary number of agents: the N-person Hawk-Dove Game. In this model, doves exemplify the cooperative behavior without intraspecies conflict, while hawks represent the aggressive behavior. In the absence of hawks, doves share the resource equally and avoid conflict, but having hawks around lead to doves escaping without fighting. Conversely, hawks fight for the resource at the cost of getting injured. Nevertheless, if doves are present in sufficient number to expel the hawks, they can aggregate to protect the resource, and thus avoid being plundered by hawks. We derive and numerically solve an exact equation for the evolution of the system in both finite and infinite well-mixed populations, finding the conditions for stable coexistence between both species. Furthermore, by varying the different parameters, we found a scenario of bifurcations that leads the system from dominating hawks and coexistence to bi-stability, multiple interior equilibria and dominating doves.",
+      "score": 0.733,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "evolutionary game theory hawk dove"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "The ‘Hawk-Dove’ Game and the Speed of the Evolutionary Process in Small Heterogeneous Populations",
+      "authors": [
+        "Bernhard Voelkl"
+      ],
+      "year": 2010,
+      "doi": "10.3390/g1020103",
+      "openAlexId": "W2061100157",
+      "openAccessUrl": "https://www.mdpi.com/2073-4336/1/2/103/pdf?version=1273148905",
+      "citationCount": 20,
+      "abstract": "I study the speed of the evolutionary process on small heterogeneous graphs using the Hawk-Dove game. The graphs are based on empirical observation data of grooming interactions in 81 primate groups. Analytic results for the star graph have revealed that irregular graphs can slow down the evolutionary process by increasing the mean time to absorption. Here I show that the same effects can be found for graphs representing natural animal populations which are much less heterogeneous than star graphs. Degree variance has proven to be a good predictor for the mean time to absorption also for these graphs.",
+      "score": 0.684,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "evolutionary game theory hawk dove"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Optimal dynamic incentive scheduling for Hawk-Dove evolutionary games",
+      "authors": [
+        "K. Stuckey",
+        "Renee Dua",
+        "Y. Ma",
+        "Joseph Parker",
+        "Paul K. Newton"
+      ],
+      "year": 2022,
+      "doi": "10.1103/physreve.105.014412",
+      "openAlexId": "W4226266163",
+      "openAccessUrl": "http://link.aps.org/pdf/10.1103/PhysRevE.105.014412",
+      "citationCount": 5,
+      "abstract": "The Hawk-Dove mathematical game offers a paradigm of the trade-offs associated with aggressive and passive behaviors. When two (or more) populations of players (animals, insect populations, countries in military conflict, economic competitors, microbial communities, populations of co-evolving tumor cells, or reinforcement learners adopting different strategies) compete, their success or failure can be measured by their frequency in the population (successful behavior is reinforced, unsuccessful behavior is not), and the system is governed by the replicator dynamical system. We develop a time-dependent optimal-adaptive control theory for this nonlinear dynamical system in which the payoffs of the Hawk-Dove payoff matrix are dynamically altered (dynamic incentives) to produce (bang-bang) control schedules that (i) maximize the aggressive population at the end of time T , and (ii) minimize the aggressive population at the end of time T . These two distinct time-dependent strategies produce upper and lower bounds on the outcomes from all strategies since they represent two extremizers of the cost function using the Pontryagin maximum (minimum) principle. We extend the results forward to times nT ( n = 1, …, 5) in an adaptive way that uses the optimal value at the end of time nT to produce the new schedule for time ( n + 1) T . Two special schedules and initial conditions are identified that produce absolute maximizers and minimizers over an arbitrary number of cycles for 0 ≤ T ≤ 3. For T > 3, our optimum schedules can drive either population to extinction or fixation. The method described can be used to produce optimal dynamic incentive schedules for many different applications in which the 2 × 2 replicator dynamics is used as a governing model.",
+      "score": 0.648,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "evolutionary game theory hawk dove"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Stags, Hawks, and Doves: Social Evolution Theory and Individual Variation in Cooperation",
+      "authors": [
+        "Jeremy Van Cleve"
+      ],
+      "year": 2017,
+      "doi": "10.1093/icb/icx071",
+      "openAlexId": "W2950350532",
+      "openAccessUrl": "https://academic.oup.com/icb/article-pdf/57/3/566/20129465/icx071.pdf",
+      "citationCount": 13,
+      "abstract": "One of the triumphs of evolutionary biology is the discovery of robust mechanisms that promote the evolution of cooperative behaviors even when cooperation reduces the fertility or survival of cooperators. These mechanisms include, kin selection, reciprocity, and direct benefits to cooperation that are often nonlinear. Though they have been extensively studied separately, investigating the joint action of these mechanisms has been more difficult. Moreover, how these mechanisms shape variation in cooperation is not well known. Such variation is crucial for understanding the evolution of behavioral syndromes and animal personality. Here, I use the tools of kin selection and evolutionary game theory to build a framework that integrates these mechanisms for pairwise social interactions. Using relatedness as a measure of the strength of kin selection, responsiveness as a measure of reciprocity, and synergy as a measure of payoff nonlinearity, I show how different combinations of these three parameters produce directional selection for or against cooperation or variation in levels of cooperation via stabilizing or diversifying selection. Moreover, each of these outcomes maps uniquely to one of four classic games from evolutionary game theory, which means that modulating relatedness, responsiveness, and synergy effectively transforms the payoff matrix from one the evolutionary game to another. Assuming that cooperation exacts a fertility cost on cooperators and provides a fertility benefit to social partners, a prisoner's dilemma game and directional selection against cooperation occur when relatedness and responsiveness are low and synergy is not too positive. Enough positive synergy in these conditions generates a stag-hunt game and diversifying selection. High levels of relatedness or responsiveness turn cooperation from a fitness cost into a fitness benefit, which produces a mutualism game and directional selection for cooperation when synergy is not too negative. Sufficiently negative synergy in this case creates a hawk-dove game and stabilizing selection for cooperation. I extend the results with relatedness and synergy to social groups and show that how group size changes the effect of relatedness and synergy on selection for cooperation depends on how the per capita benefit of cooperation changes with group size. Together, these results provide a general framework with which to generate comparative predictions that can be tested using quantitative genetic techniques and experimental techniques that manipulate investment in cooperation. These predictions will help us understand both interspecific variation in cooperation as well as within-population and within-group variation in cooperation related to behavioral syndromes.",
+      "score": 0.633,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "evolutionary game theory hawk dove"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Optimizing Cancer Treatment Using Game Theory",
+      "authors": [
+        "Kateřina Staňková",
+        "Joel S. Brown",
+        "William S. Dalton",
+        "Robert A. Gatenby"
+      ],
+      "year": 2018,
+      "doi": "10.1001/jamaoncol.2018.3395",
+      "openAlexId": "W2885596446",
+      "openAccessUrl": "https://jamanetwork.com/journals/jamaoncology/articlepdf/2696342/jamaoncology_stakov_2018_rv_180004.pdf",
+      "citationCount": 208,
+      "abstract": "Importance: While systemic therapy for disseminated cancer is often initially successful, malignant cells, using diverse adaptive strategies encoded in the human genome, almost invariably evolve resistance, leading to treatment failure. Thus, the Darwinian dynamics of resistance are formidable barriers to all forms of systemic cancer treatment but rarely integrated into clinical trial design or included within precision oncology initiatives. Observations: We investigate cancer treatment as a game theoretic contest between the physician's therapy and the cancer cells' resistance strategies. This game has 2 critical asymmetries: (1) Only the physician can play rationally. Cancer cells, like all evolving organisms, can only adapt to current conditions; they can neither anticipate nor evolve adaptations for treatments that the physician has not yet applied. (2) It has a distinctive leader-follower (or \"Stackelberg\") dynamics; the \"leader\" oncologist plays first and the \"follower\" cancer cells then respond and adapt to therapy. Current treatment protocols for metastatic cancer typically exploit neither asymmetry. By repeatedly administering the same drug(s) until disease progression, the physician \"plays\" a fixed strategy even as the opposing cancer cells continuously evolve successful adaptive responses. Furthermore, by changing treatment only when the tumor progresses, the physician cedes leadership to the cancer cells and treatment failure becomes nearly inevitable. Without fundamental changes in strategy, standard-of-care cancer therapy typically results in \"Nash solutions\" in which no unilateral change in treatment can favorably alter the outcome. Conclusions and Relevance: Physicians can exploit the advantages inherent in the asymmetries of the cancer treatment game, and likely improve outcomes, by adopting more dynamic treatment protocols that integrate eco-evolutionary dynamics and modulate therapy accordingly. Implementing this approach will require new metrics of tumor response that incorporate both ecological (ie, size) and evolutionary (ie, molecular mechanisms of resistance and relative size of resistant population) changes.",
+      "score": 0.843,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "game theory ecology",
+        "game theory ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "The ecology of cancer from an evolutionary game theory perspective",
+      "authors": [
+        "Jorge M. Pacheco",
+        "Francisco C. Santos",
+        "David Dingli"
+      ],
+      "year": 2014,
+      "doi": "10.1098/rsfs.2014.0019",
+      "openAlexId": "W2072351024",
+      "openAccessUrl": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsfs.2014.0019",
+      "citationCount": 75,
+      "abstract": "The accumulation of somatic mutations, to which the cellular genome is permanently exposed, often leads to cancer. Analysis of any tumour shows that, besides the malignant cells, one finds other 'supporting' cells such as fibroblasts, immune cells of various types and even blood vessels. Together, these cells generate the microenvironment that enables the malignant cell population to grow and ultimately lead to disease. Therefore, understanding the dynamics of tumour growth and response to therapy is incomplete unless the interactions between the malignant cells and normal cells are investigated in the environment in which they take place. The complex interactions between cells in such an ecosystem result from the exchange of information in the form of cytokines- and adhesion-dependent interactions. Such processes impose costs and benefits to the participating cells that may be conveniently recast in the form of a game pay-off matrix. As a result, tumour progression and dynamics can be described in terms of evolutionary game theory (EGT), which provides a convenient framework in which to capture the frequency-dependent nature of ecosystem dynamics. Here, we provide a tutorial review of the central aspects of EGT, establishing a relation with the problem of cancer. Along the way, we also digress on fitness and of ways to compute it. Subsequently, we show how EGT can be applied to the study of the various manifestations and dynamics of multiple myeloma bone disease and its preceding condition known as monoclonal gammopathy of undetermined significance. We translate the complex biochemical signals into costs and benefits of different cell types, thus defining a game pay-off matrix. Then we use the well-known properties of the EGT equations to reduce the number of core parameters that characterize disease evolution. Finally, we provide an interpretation of these core parameters in terms of what their function is in the ecosystem we are describing and generate predictions on the type and timing of interventions that can alter the natural history of these two conditions.",
+      "score": 0.84,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "game theory ecology",
+        "game theory ecology tutorial",
+        "game theory ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Emergent behaviours in multi-agent systems with Evolutionary Game Theory",
+      "authors": [
+        "The Anh Han"
+      ],
+      "year": 2022,
+      "doi": "10.3233/aic-220104",
+      "openAlexId": "W4294266437",
+      "openAccessUrl": "https://content.iospress.com:443/download/ai-communications/aic220104?id=ai-communications%2Faic220104",
+      "citationCount": 43,
+      "abstract": "The mechanisms of emergence and evolution of collective behaviours in dynamical Multi-Agent Systems (MAS) of multiple interacting agents, with diverse behavioral strategies in co-presence, have been undergoing mathematical study via Evolutionary Game Theory (EGT). Their systematic study also resorts to agent-based modelling and simulation (ABM) techniques, thus enabling the study of aforesaid mechanisms under a variety of conditions, parameters, and alternative virtual games. This paper summarises some main research directions and challenges tackled in our group, using methods from EGT and ABM. These range from the introduction of cognitive and emotional mechanisms into agents’ implementation in an evolving MAS, to the cost-efficient interference for promoting prosocial behaviours in complex networks, to the regulation and governance of AI safety development ecology, and to the equilibrium analysis of random evolutionary multi-player games. This brief aims to sensitize the reader to EGT based issues, results and prospects, which are accruing in importance for the modeling of minds with machines and the engineering of prosocial behaviours in dynamical MAS, with impact on our understanding of the emergence and stability of collective behaviours. In all cases, important open problems in MAS research as viewed or prioritised by the group are described.",
+      "score": 0.81,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "game theory ecology introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "The future of theoretical evolutionary game theory",
+      "authors": [
+        "Arne Traulsen",
+        "Nikoleta E. Glynatsi"
+      ],
+      "year": 2023,
+      "doi": "10.1098/rstb.2021.0508",
+      "openAlexId": "W4327860663",
+      "openAccessUrl": "https://doi.org/10.1098/rstb.2021.0508",
+      "citationCount": 141,
+      "abstract": "Evolutionary game theory is a truly interdisciplinary subject that goes well beyond the limits of biology. Mathematical minds get hooked up in simple models for evolution and often gradually move into other parts of evolutionary biology or ecology. Social scientists realize how much they can learn from evolutionary thinking and gradually transfer insight that was originally generated in biology. Computer scientists can use their algorithms to explore a new field where machines not only learn from the environment, but also from each other. The breadth of the field and the focus on a few very popular issues, such as cooperation, comes at a price: several insights are re-discovered in different fields under different labels with different heroes and modelling traditions. For example, reciprocity or spatial structure are treated differently. Will we continue to develop things in parallel? Or can we converge to a single set of ideas, a single tradition and eventually a single software repository? Or will these fields continue to cross-fertilize each other, learning from each other and engaging in a constructive exchange between fields? Ultimately, the popularity of evolutionary game theory rests not only on its explanatory power, but also on the intuitive character of its models. This article is part of the theme issue 'Half a century of evolutionary games: a synthesis of theory, application and future directions'.",
+      "score": 0.746,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "game theory ecology",
+        "game theory ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Urban Planning: a Game Theory Application for the Travel Demand Management",
+      "authors": [
+        "Марк Евгеньевич Корягин"
+      ],
+      "year": 2017,
+      "doi": "10.3311/pptr.9410",
+      "openAlexId": "W2753548898",
+      "openAccessUrl": "https://pp.bme.hu/tr/article/download/9410/7826",
+      "citationCount": 29,
+      "abstract": "Urban infrastructure in the developing nations is generating a great number of environmental problems. Therefore, the problem of land distribution among road networks, parking spaces and landscaped parks is to be researched. The passenger behavior depends on traffic congestion, parking search time, public transport frequency, parking fee, etc. The travel mode choice model is described by logit function.A city territory is subdivided into three districts, residential, central and industrial, each of them trying to develop and implement the optimal policy of land use. The district criterion includes residential travel times, congestion and impacts of the parks on the environment. Any district should solve the effective land use problem while the public transport system tries to find the optimal frequency.The travel time depends on road capacity and is described by Greenshields model. The influence of parking capacity upon the parking search time is described by the BPR formula.Participants’ solutions influence one another; therefore, the coalition-free game is constructed. The existence of Nash equilibrium is proved for districts, passengers and public transport. The numerical example shows the impacts of value of time (VOT), population density and parking fee rates on districts land use.",
+      "score": 0.705,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "game theory ecology introduction",
+        "game theory ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A review of game-theoretic models of fishing",
+      "authors": [
+        "U. Rashid Sumaila"
+      ],
+      "year": 1999,
+      "doi": "10.1016/s0308-597x(97)00045-6",
+      "openAlexId": "W2070560949",
+      "openAccessUrl": "https://www.sciencedirect.com/science/article/pii/S0308597X97000456",
+      "citationCount": 114,
+      "abstract": "Game theory is a formal tool for analysing strategic interaction between a finite number of agents. The fact that usually more than one entity or agent has property rights to fishery resources, has led to an explosion in the use of game theory and applications thereof to analyse fishery management problems. This review shows that game-theoretic modelling has made significant contributions to our understanding of the problems of fishery resource management. However, many challenges still remain. For instance, models of straddling stocks are yet to be fully developed. In addition, fisheries economists have not yet fully exploited the opportunity provided by computational methods now available, and the ever increasing power of computers, to develop more empirical game-theoretic models for practical fisheries management.",
+      "score": 0.698,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "game theory ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Beyond evolution: game theory and the progression of cancer",
+      "authors": [
+        "Robert H. Austin"
+      ],
+      "year": 2014,
+      "doi": "10.1098/rsfs.2014.0044",
+      "openAlexId": "W2126482678",
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/4071515",
+      "citationCount": 0,
+      "abstract": "I occasionally teach a graduate-level biological physics course, not very well at all of course but I try to teach what is not known. Although I do cover some of the classic ‘nuts and bolts’ topics of biomolecules and biological systems, in this course I deliberately try to take to heart the famous statement by Dobzhansky that ‘Nothing in Biology Makes Sense in the Light of Evolution’ (although Dobzhansky himself unfortunately was actually espousing theistic evolution). If you actually look at the several graduate-level textbooks out there on biophysics or biological physics (e.g. those by Phillips et al., Nelson, Bialek) the number of times the subject of evolution is tackled is … zero. So, apparently the most important idea in biology is not worthy of mention by biological physicists. That is a huge omission, and it shows no signs of being corrected in the near future.\r\n\r\nIgnoring evolution in biology is a particularly bad mistake if one wants to understand cancer at a deep level, which is one of the charges that the National Cancer Institute gave the 12 Physical Sciences Oncology Centers that were founded as an experiment in 2009. Cancer, to first order, is an incurable condition, and it is incurable because of evolution: cancer cells typically evolve resistance to whatever toxic chemotherapy or treatment the patient is subjected to … a losing game generally.\r\n\r\nNot all physicists doing biology ignore evolution. The Princeton Physical Sciences Oncology Center takes evolution very seriously, and it takes the dynamics of evolution among interacting cells seriously because we feel that understanding complex evolution amongst different phenotype cells is one of the keys to understanding cancer. More formally, evolution dynamics among interacting cells falls into the domain of a fascinating branch of science called evolutionary game theory.\r\n\r\nThe series of papers presented in this Theme Issue stem from a second-day Workshop on Game Theory held at Johns Hopkins University by the Princeton Physical Sciences Oncology Center in June 2013 to try and explore the implications of game theory in cancer progression, with an emphasis on evolutionary game theory. Unfortunately, only about one-half of the speakers responded to our call to submit papers for this issue, but fortunately the ones we did get capture I think the range of game theory ideas and their applications to cancer progression discussed at the workshop.\r\n\r\nI believe the papers should be read in a particular order for the serious student. For a solid introduction to game theory from a broad perspective, I can highly recommend the paper by Lambert et al. [1] in spite of being a co-author. The title seems a bit bizarre, what does game theory have to do to bacteria and further, what does it have to do with cancer? But the paper starts with an elegant description of evolutionary game theory and uses the rapidly growing communities of bacteria to quickly explore some of the basic concepts.\r\n\r\nThe next two papers to be digested are the pairs of papers submitted by Liao & Tlsty [2,3]. The paper by Lambert et al. [1] really takes place in one spatial dimension, with general concepts. This pair of papers by Liao and Tlsty offers a wonderful introduction to how one can generalize the concepts to two spatial dimensions, how you can extract the relevant reward matrix elements from the data, and, in addition, provides a provocative section on the dangers in this approach to over-fitting the data, and more powerfully the dangers in making the agents in game theory sentient beings rather than variables in a set ordinary differential equations.\r\n\r\nThe next paper, by Wu et al. [4], where again my name appears at the end, is a natural extension of the Liao and Tlsty papers where the calculus of evolutionary game theory is applied to an in vitro system designed to mimic the spatial complexity of a true cancer ecology, and attempts to see how in this semi-simplified setting the deterministic solutions to evolutionary game theory can be used to extrapolate forwards in time, with some promising results.\r\n\r\nThe last two papers get down to the hard business of applying game theory to actual cancer cell populations in a clinical setting. The paper by Pacheco et al. [5] is the more complete and tutorial of the two hardcore cancer game theory papers and can be read as a companion to the paper by Liao and Tlsty for a more direct connection to the clinical implications of the more classical elements of evolutionary game theory in terms of interacting populations of cells.\r\n\r\nThe paper by Kianercy et al. [6] really is an outlier in the sense that here the game is played not so much between the players but rather between the players and the metabolic resources of the ecology, and in that sense goes beyond the normal boundaries of game theory into new territory. It is succinct to the point of leaving a lot of the math hidden to the reader, and demands the most of the reader if you want to understand it.\r\n\r\nTaken together, I think the papers capture a great deal of what was covered at the workshop, and with a minimum of hand waving and ‘it can be shown that’ (really? Can it?) statements allow an interested physicist or well-educated biologist some real insights into where game theory can truly be applied to one of the great problems in biology, which may only make sense in the light of evolution.",
+      "score": 0.556,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "game theory ecology introduction",
+        "game theory ecology tutorial"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Game Theory-Inspired Evolutionary Algorithm for Global Optimization",
+      "authors": [
+        "Guanci Yang"
+      ],
+      "year": 2017,
+      "doi": "10.3390/a10040111",
+      "openAlexId": "W2758017456",
+      "openAccessUrl": "https://www.mdpi.com/1999-4893/10/4/111/pdf?version=1506770977",
+      "citationCount": 15,
+      "abstract": "Many approaches that model specific intelligent behaviors perform excellently in solving complex optimization problems. Game theory is widely recognized as an important tool in many fields. This paper introduces a game theory-inspired evolutionary algorithm for global optimization (GameEA). A formulation to estimate payoff expectations is provided, which is a mechanism to make a player become a rational decision-maker. GameEA has one population (i.e., set of players) and generates new offspring only through an imitation operator and a belief-learning operator. An imitation operator adopts learning strategies and actions from other players to improve its competitiveness and applies these strategies to future games where one player updates its chromosome by strategically copying segments of gene sequences from a competitor. Belief learning refers to models in which a player adjusts his/her strategies, behavior or chromosomes by analyzing the current history information to improve solution quality. Experimental results on various classes of problems show that GameEA outperforms the other four algorithms on stability, robustness, and accuracy.",
+      "score": 0.495,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "game theory ecology tutorial"
+      ]
+    }
+  ]
+}

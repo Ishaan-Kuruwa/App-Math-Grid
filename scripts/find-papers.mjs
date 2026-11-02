@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // Finds candidate papers for one method × field cell by searching OpenAlex.
-// Runs several query variations (plain, plus "introduction", "tutorial" and
-// "review" phrasings, plus named models for cells listed in CELL_KEYWORDS),
-// keeps open-access works only, merges duplicates, and ranks them by a mix of
+// Runs several query variations (plain, plus "introduction", "tutorial",
+// "review", and one "teaching OR classroom OR undergraduate" search, plus
+// named models for cells listed in CELL_KEYWORDS), keeps open-access works only,
+// merges duplicates, and ranks them by a mix of
 // search relevance and citation count. Writes the top candidates to
 // scripts/candidates/{method}--{field}.json.
 //
@@ -12,21 +13,36 @@
 // sensitive topic; see reviewReason) must never be picked automatically;
 // someone has to read the paper itself first.
 //
-// Usage: npm run find-papers -- <method-slug> <field-slug>
-// Set OPENALEX_MAILTO=you@example.com to use OpenAlex's faster "polite pool".
+// Every search's raw results are cached in scripts/cache/searches/, keyed by
+// the exact query and filters, and reused on later runs so tuning the ranking
+// or patterns costs no OpenAlex budget. Pass --refresh to search again.
+//
+// Usage: npm run find-papers -- <method-slug> <field-slug> [--refresh]
+// Reads OPENALEX_API_KEY from .env (a free key raises OpenAlex's daily budget
+// 10x) and sends it with every request; without one it runs on the smaller
+// keyless budget. OPENALEX_MAILTO=you@example.com is optional.
 
-import { mkdir, readdir, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT_DIR = path.join(ROOT, 'scripts/candidates');
+const CACHE_DIR = path.join(ROOT, 'scripts/cache/searches');
 const API = 'https://api.openalex.org';
+// Values already set in the environment win over .env.
+try {
+  process.loadEnvFile(path.join(ROOT, '.env'));
+} catch (err) {
+  if (err.code !== 'ENOENT') throw err;
+}
+const API_KEY = process.env.OPENALEX_API_KEY?.trim() || null;
 const MAILTO = process.env.OPENALEX_MAILTO;
 const PER_QUERY = 50;
 const TOP_N = 15;
 // Each query's best papers that make the list no matter how the other queries score.
-const GUARANTEED_PER_QUERY = 2;
+const GUARANTEED_PER_QUERY = 1;
 // Weights for the final score; both parts are scaled to 0–1 first.
 const RELEVANCE_WEIGHT = 0.6;
 const CITATION_WEIGHT = 0.4;
@@ -78,7 +94,8 @@ const FIELD_SYNONYMS = {
   medicine: [/diagnos/, /hospital/, /therap/, /surg(ery|ical|eon)/, /cancer|tumou?r/],
 };
 
-const QUERY_SUFFIXES = ['', 'introduction', 'tutorial', 'review'];
+// The last one is a single boolean search (OpenAlex needs uppercase OR).
+const QUERY_SUFFIXES = ['', 'introduction', 'tutorial', 'review', '(teaching OR classroom OR undergraduate)'];
 
 // Papers on these topics are flagged for a person to judge, never picked
 // automatically (see the sensitive-topics rule in AGENTS.md).
@@ -116,7 +133,13 @@ const CELL_KEYWORDS = {
     match: [/\bsir\b/, /\bseir\b/, /compartmental model/],
   },
   'differential-equations--ecology': {
-    queries: ['Lotka-Volterra predator prey model', 'logistic growth population model'],
+    queries: [
+      'Lotka-Volterra predator prey model',
+      'logistic growth population model',
+      'Lotka-Volterra model classroom',
+      'predator prey model undergraduate',
+      'logistic growth model teaching',
+    ],
     match: [/lotka/, /predator.prey/, /logistic growth/],
   },
   'differential-equations--medicine': {
@@ -189,8 +212,12 @@ async function contentSlugs(collection) {
   }
 }
 
-async function parseArgs([method, field]) {
-  const usage = 'Usage: npm run find-papers -- <method-slug> <field-slug>';
+async function parseArgs(argv) {
+  const usage = 'Usage: npm run find-papers -- <method-slug> <field-slug> [--refresh]';
+  const flags = argv.filter((a) => a.startsWith('--'));
+  const unknown = flags.filter((f) => f !== '--refresh');
+  if (unknown.length) throw new Error(`Unknown option ${unknown.join(', ')}\n${usage}`);
+  const [method, field] = argv.filter((a) => !a.startsWith('--'));
   if (!method || !field) throw new Error(usage);
   const methods = await contentSlugs('methods');
   const fields = await contentSlugs('fields');
@@ -200,7 +227,7 @@ async function parseArgs([method, field]) {
   if (!FIELDS[field] || !fields.has(field)) {
     throw new Error(`Unknown field "${field}". Choose one of: ${Object.keys(FIELDS).join(', ')}\n${usage}`);
   }
-  return { method, field };
+  return { method, field, refresh: flags.includes('--refresh') };
 }
 
 // Patterns are written in lowercase, but a pattern like /SIR/ shouldn't
@@ -219,28 +246,57 @@ function isOnTopic(work, method, field) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// The URL carries the API key, so strip it before the URL goes in any message.
+function redact(url) {
+  const safe = new URL(url);
+  safe.searchParams.delete('api_key');
+  return safe.toString();
+}
+
 async function openAlex(pathAndQuery) {
   const url = new URL(API + pathAndQuery);
+  if (API_KEY) url.searchParams.set('api_key', API_KEY);
   if (MAILTO) url.searchParams.set('mailto', MAILTO);
   for (let attempt = 0; ; attempt++) {
     const res = await fetch(url, { headers: { Accept: 'application/json' } });
     if (res.ok) return res.json();
+    // A long Retry-After means the daily budget is spent, not a brief burst
+    // limit, so retrying now would only waste time.
+    const retryAfter = Number(res.headers.get('retry-after'));
+    if (res.status === 429 && retryAfter > 60) {
+      throw new Error(`OpenAlex daily budget used up; it resets in about ${Math.ceil(retryAfter / 60)} min.`);
+    }
     if ((res.status === 429 || res.status >= 500) && attempt < 4) {
       await sleep(1000 * 2 ** attempt);
       continue;
     }
-    throw new Error(`OpenAlex ${res.status} for ${url}`);
+    throw new Error(`OpenAlex ${res.status} for ${redact(url)}`);
   }
 }
 
-async function search(query) {
+// Returns { results, cached }. The cache key covers every parameter sent
+// except mailto, so changing the query, filters or page size searches afresh.
+async function search(query, { refresh = false } = {}) {
   const q = new URLSearchParams({
     search: query,
     filter: 'is_oa:true,is_retracted:false,is_paratext:false',
     'per-page': String(PER_QUERY),
   });
+  const key = q.toString();
+  const file = path.join(CACHE_DIR, `${createHash('sha256').update(key).digest('hex').slice(0, 16)}.json`);
+  if (!refresh) {
+    try {
+      const hit = JSON.parse(await readFile(file, 'utf8'));
+      if (hit.key === key) return { results: hit.results, cached: true };
+    } catch (err) {
+      if (err.code !== 'ENOENT') console.warn(`Ignoring unreadable cache file ${path.relative(ROOT, file)}`);
+    }
+  }
   const data = await openAlex(`/works?${q}`);
-  return data?.results ?? [];
+  const results = data?.results ?? [];
+  await mkdir(CACHE_DIR, { recursive: true });
+  await writeFile(file, JSON.stringify({ key, fetchedAt: new Date().toISOString(), results }) + '\n');
+  return { results, cached: false };
 }
 
 // --- Shaping results ------------------------------------------------------
@@ -358,17 +414,17 @@ function rank(resultsByQuery, cellQueries = []) {
 // --- Main -----------------------------------------------------------------
 
 try {
-  const { method, field } = await parseArgs(process.argv.slice(2));
-  if (!MAILTO) console.warn('Note: OPENALEX_MAILTO is not set, so requests use the slower common pool.');
+  const { method, field, refresh } = await parseArgs(process.argv.slice(2));
+  if (!API_KEY) console.warn('Note: no OPENALEX_API_KEY in .env, so searches use the smaller keyless daily budget.');
 
   const base = `${METHODS[method].query} ${FIELDS[field].query}`;
   const cellQueries = CELL_KEYWORDS[`${method}--${field}`]?.queries ?? [];
   const queries = [...QUERY_SUFFIXES.map((s) => (s ? `${base} ${s}` : base)), ...cellQueries];
   const resultsByQuery = [];
   for (const query of queries) {
-    const found = await search(query);
+    const { results: found, cached } = await search(query, { refresh });
     const results = found.filter((w) => isOnTopic(w, method, field));
-    console.log(`  "${query}": ${found.length} open-access result(s), ${results.length} on topic`);
+    console.log(`  "${query}": ${found.length} open-access result(s), ${results.length} on topic${cached ? ' (cached)' : ''}`);
     resultsByQuery.push({ query, results });
   }
 
