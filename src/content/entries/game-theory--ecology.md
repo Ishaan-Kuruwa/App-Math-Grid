@@ -2,7 +2,7 @@
 title: "Fight or back off? Game theory in animal behavior"
 method: game-theory
 field: ecology
-status: draft
+status: reviewed
 difficulty: intermediate
 summary: >-
   When two animals compete for food or territory, each one's best move depends on

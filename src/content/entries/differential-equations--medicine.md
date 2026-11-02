@@ -2,7 +2,7 @@
 title: "How drug levels rise and fall in the body"
 method: differential-equations
 field: medicine
-status: draft
+status: reviewed
 difficulty: intro
 summary: >-
   Pharmacokinetics is the study of how a drug moves through the body after a dose.

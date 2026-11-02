@@ -2,7 +2,7 @@
 title: "Where to put defibrillators, ambulances, and bus stops"
 method: optimization
 field: public-policy
-status: draft
+status: reviewed
 difficulty: intro
 summary: >-
   Cities have limited money for services like ambulances, defibrillators, and school

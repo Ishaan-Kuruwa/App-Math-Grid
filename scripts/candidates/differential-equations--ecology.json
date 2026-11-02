@@ -1,14 +1,18 @@
 {
   "method": "differential-equations",
   "field": "ecology",
-  "generatedAt": "2026-11-02T22:21:36.574Z",
+  "generatedAt": "2026-11-02T22:36:29.522Z",
   "queries": [
     "differential equations ecology",
     "differential equations ecology introduction",
     "differential equations ecology tutorial",
     "differential equations ecology review",
+    "differential equations ecology (teaching OR classroom OR undergraduate)",
     "Lotka-Volterra predator prey model",
-    "logistic growth population model"
+    "logistic growth population model",
+    "Lotka-Volterra model classroom",
+    "predator prey model undergraduate",
+    "logistic growth model teaching"
   ],
   "candidates": [
     {
@@ -53,6 +57,48 @@
     },
     {
       "needsHumanReview": false,
+      "title": "The Nutritional Content of Prey Affects the Foraging of a Generalist Arthropod Predator",
+      "authors": [
+        "Jason M. Schmidt",
+        "Peter J. Sebastian",
+        "Shawn M. Wilder",
+        "Ann Lundie Rypstra"
+      ],
+      "year": 2012,
+      "doi": "10.1371/journal.pone.0049223",
+      "openAlexId": "W1987838928",
+      "openAccessUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0049223&type=printable",
+      "citationCount": 133,
+      "abstract": "While foraging theory predicts that predatory responses should be determined by the energy content and size of prey, it is becoming increasingly clear that carnivores regulate their intake of specific nutrients. We tested the hypothesis that prey nutrient composition and predator nutritional history affects foraging intensity, consumption, and prey selection by the wolf spider, Pardosa milvina. By altering the rearing environment for fruit flies, Drosophila melanogaster, we produced high quality flies containing more nitrogen and protein and less lipid than low quality fruit flies. In one experiment, we quantified the proportion of flies taken and consumption across a range of densities of either high or low quality flies and, in a second experiment, we determined the prey capture and consumption of spiders that had been maintained on contrasting diets prior to testing. In both cases, the proportion of prey captured declined with increasing prey density, which characterizes the Type II functional response that is typical of wolf spiders. Spiders with similar nutritional histories killed similar numbers of each prey type but consumed more of the low quality prey. Spiders provided high quality prey in the weeks prior to testing killed more prey than those on the low quality diet but there was no effect of prior diet on consumption. In the third experiment, spiders were maintained on contrasting diets for three weeks and then allowed to select from a mixture of high and low quality prey. Interestingly, feeding history affected prey preferences: spiders that had been on a low quality diet showed no preference but those on the high quality diet selected high quality flies from the mixture. Our results suggest that, even when prey size and species identity are controlled, the nutritional experience of the predator as well as the specific content of the prey shapes predator-prey interactions.",
+      "score": 0.866,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "predator prey model undergraduate"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Whole‐lake influences of littoral structural complexity and prey body morphology on fish predator–prey interactions",
+      "authors": [
+        "Greg G. Sass",
+        "Caitlin M. Gille",
+        "Jefferson T. Hinke",
+        "James F. Kitchell"
+      ],
+      "year": 2006,
+      "doi": "10.1111/j.1600-0633.2006.00158.x",
+      "openAlexId": "W2114528617",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1600-0633.2006.00158.x",
+      "citationCount": 121,
+      "abstract": "Abstract – We used a longline tethering method to examine the relationship between prey refugia, prey body morphology and the location and magnitude of predation mortality within an individual lake and among three lakes that differed in coarse woody habitat (CWH) and aquatic macrophyte abundances. Predation events were lowest in the macrophyte and/or CWH refuges, peaked at or just beyond the refuge edge and declined in pelagic portions of the lakes. Predation risk at the refuge edge and just beyond was positively correlated with the abundance of littoral refuge. In contrast, predation events within the refuge and in the pelagic zone were negatively correlated with littoral refuge abundance. Deep‐bodied and spiny prey morphologies were less vulnerable to predation than fusiform prey lacking fin spines. The structural complexity of littoral zones and prey fish body morphology may influence the outcome of predator–prey interactions and ultimately determine fish species assemblages in lakes.",
+      "score": 0.853,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "predator prey model undergraduate"
+      ]
+    },
+    {
+      "needsHumanReview": false,
       "title": "Stability and Hopf bifurcation analysis for a Lotka-Volterra predator-prey model with two delays",
       "authors": [
         "Changjin Xu",
@@ -69,6 +115,48 @@
       "fromCellQuery": true,
       "matchedQueries": [
         "Lotka-Volterra predator prey model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "The Effect of Structural Complexity, Prey Density, and “Predator-Free Space” on Prey Survivorship at Created Oyster Reef Mesocosms",
+      "authors": [
+        "Austin T. Humphries",
+        "Megan K. La Peyre",
+        "Gary Decossas"
+      ],
+      "year": 2011,
+      "doi": "10.1371/journal.pone.0028339",
+      "openAlexId": "W2168393616",
+      "openAccessUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0028339&type=printable",
+      "citationCount": 76,
+      "abstract": "Interactions between predators and their prey are influenced by the habitat they occupy. Using created oyster (Crassostrea virginica) reef mesocosms, we conducted a series of laboratory experiments that created structure and manipulated complexity as well as prey density and \"predator-free space\" to examine the relationship between structural complexity and prey survivorship. Specifically, volume and spatial arrangement of oysters as well as prey density were manipulated, and the survivorship of prey (grass shrimp, Palaemonetes pugio) in the presence of a predator (wild red drum, Sciaenops ocellatus) was quantified. We found that the presence of structure increased prey survivorship, and that increasing complexity of this structure further increased survivorship, but only to a point. This agrees with the theory that structural complexity may influence predator-prey dynamics, but that a threshold exists with diminishing returns. These results held true even when prey density was scaled to structural complexity, or the amount of \"predator-free space\" was manipulated within our created reef mesocosms. The presence of structure and its complexity (oyster shell volume) were more important in facilitating prey survivorship than perceived refugia or density-dependent prey effects. A more accurate indicator of refugia might require \"predator-free space\" measures that also account for the available area within the structure itself (i.e., volume) and not just on the surface of a structure. Creating experiments that better mimic natural conditions and test a wider range of \"predator-free space\" are suggested to better understand the role of structural complexity in oyster reefs and other complex habitats.",
+      "score": 0.784,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "predator prey model undergraduate"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "The Impact of Microplastic Particles on Population Dynamics of Predator and Prey: Implication of the Lotka-Volterra Model",
+      "authors": [
+        "Qi Huang",
+        "Yuyang Lin",
+        "Qiyin Zhong",
+        "Fei Ma",
+        "Yixin Zhang"
+      ],
+      "year": 2020,
+      "doi": "10.1038/s41598-020-61414-3",
+      "openAlexId": "W3012287595",
+      "openAccessUrl": "https://www.nature.com/articles/s41598-020-61414-3.pdf",
+      "citationCount": 42,
+      "abstract": "Microplastic particles are widely distributed in a variety of ecosystems and can be transferred to predators along a food chain after being ingested by prey. However, how microplastic particles affect prey and predator populations is not fully understood. In this study, using the Lotka-Volterra model, we theoretically investigated predator-prey population dynamics in terms of toxicological response intensity (strength to population growth rate) to microplastic particles, and examined the negative effects on prey feeding ability and predator performance due to microplastic particles. Results of numerical simulations indicate the critical properties of the predator-prey system in response to microplastic particles: (i) predators are more vulnerable than prey under exposure to microplastic particles; (ii) the effect of microplastic particles on prey and predator population growths can be negligible when toxicological response intensities of prey and predator are small; (iii) this system is prey dependent for predator functional response, whose stability highly relies on the density of prey; (iv) the reduced feeding capacity of prey and predator induced by microplastic particles does not significantly affect the population dynamics of the predator-prey system. Moreover, our analysis suggests that dynamic Lotka-Volterra models can play a vital role in predicting ecological impacts of microplastic particles on predator-prey population dynamics.",
+      "score": 0.753,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "predator prey model undergraduate"
       ]
     },
     {
@@ -93,60 +181,42 @@
     },
     {
       "needsHumanReview": false,
-      "title": "Hybrid control of Hopf bifurcation in a Lotka-Volterra predator-prey model with two delays",
+      "title": "STM32F429 Discovery Board-Based Emulator for Lotka-Volterra Equations",
       "authors": [
-        "Miao Peng",
-        "Zhengdi Zhang",
-        "Xuedi Wang"
+        "Ertuğrul KARAKULAK",
+        "Rabia Korkmaz Tan",
+        "Reşat MUTLU"
       ],
-      "year": 2017,
-      "doi": "10.1186/s13662-017-1434-5",
-      "openAlexId": "W2779475614",
-      "openAccessUrl": "https://advancesindifferenceequations.springeropen.com/track/pdf/10.1186/s13662-017-1434-5",
-      "citationCount": 23,
-      "abstract": "In this paper, the Hopf bifurcation control for a Lotka-Volterra predator-prey model with two delays is studied by using a hybrid control strategy. By analyzing the associated characteristic equation, its local stability and the existence of Hopf bifurcation with respect to both delays are established. In addition, the onset of an inherent bifurcation is delayed. Based on the normal form theory and the center manifold theorem, explicit formulas are derived to determine the direction of Hopf bifurcation and stability of the bifurcating periodic solution. Numerical simulation results confirm that the hybrid controller is efficient in controlling Hopf bifurcation.",
-      "score": 0.735,
+      "year": 2021,
+      "doi": "10.21597/jist.804591",
+      "openAlexId": "W3195497852",
+      "openAccessUrl": "https://dergipark.org.tr/en/download/article-file/1325393",
+      "citationCount": 2,
+      "abstract": "Lotka-Volterra equations are commonly used in prey-predator population studies. Simulation programs are commonly used to produce solutions of Lotka-Volterra equations and to examine their initial value dependendence. In literature, chaotic waveform generators, ECG and EEG generators have been made and used for research and education. To the best of our knowledge, such an electrical circuit to produce the Lotka-Volterra waveforms does not exist. Such a circuit can be made using either analog or digital circuit components. However, such a device may be used for education in classroom and also to prove concepts by population researchers. In this study, implementation and experimental verification of the microcontroller-based circuit which solves LotkaVolterra equations in real time and produces its waveforms are presented. Euler method is used to solve the equation system in discrete time. Presented design has been implemented using an STM32F429 Discovery Board, two DACs and four opamps. The microcontroller sends the signals to the outputs of the circuit using digital-to-analog converters and opamps. The waveforms acquired experimentally from the implemented circuit outputs matches well with those obtained from numerical simulations.",
+      "score": 0.679,
       "fromCellQuery": true,
       "matchedQueries": [
-        "Lotka-Volterra predator prey model"
+        "Lotka-Volterra model classroom"
       ]
     },
     {
       "needsHumanReview": false,
-      "title": "Global stability in n-dimensional discrete Lotka-Volterra predator-prey models",
+      "title": "Teaching the Logistic Growth Difference Equation Using Spreadsheets",
       "authors": [
-        "Sang‐Mok Choo"
+        "Fred J. Rispoli",
+        "J. Feuer",
+        "Richard T. Wilkens"
       ],
-      "year": 2014,
-      "doi": "10.1186/1687-1847-2014-11",
-      "openAlexId": "W2068587630",
-      "openAccessUrl": "https://advancesindifferenceequations.springeropen.com/counter/pdf/10.1186/1687-1847-2014-11",
-      "citationCount": 17,
-      "abstract": "There are few theoretical works on global stability of Euler difference schemes for two-dimensional Lotka-Volterra predator-prey models. Furthermore no attempt is made to show that the Euler schemes have positive solutions. In this paper, we consider Euler difference schemes for both the two-dimensional models and n -dimensional models that are a generalization of the two-dimensional models. It is first shown that the difference schemes have positive solutions and equilibrium points which are globally asymptotically stable in the two-dimensional cases. The approaches used in the two-dimensional models are extended to the n -dimensional models for obtaining the positivity and the global stability. Numerical examples are presented to verify the results. MSC: 34A34, 39A10, 40A05.",
-      "score": 0.719,
+      "year": 2010,
+      "doi": null,
+      "openAlexId": "W1554211603",
+      "openAccessUrl": "http://epublications.bond.edu.au/ejsie/vol3/iss3/3",
+      "citationCount": 1,
+      "abstract": "The logistic growth difference equation is often used in biology to model population growth. The terms that satisfy the difference equation have many remarkable mathematical properties such as exhibiting chaotic behavior. Using spreadsheet modeling tools, the properties of logistic growth can be investigated by students in a user friendly environment. Students will learn about useful computational and modeling tools, while also learning about a new area of mathematics that has fascinated many (e.g. James Gleick’s Chaos: Making a New Science is a national best seller). Moreover, the model has many real world applications in biology. Unfortunately, many mathematics and computer science students do not see the logistic growth model because it does not appear in the standard set of required courses. In this paper we describe a how to implement the logistic growth model, and describe related applications and student exercises.",
+      "score": 0.627,
       "fromCellQuery": true,
       "matchedQueries": [
-        "Lotka-Volterra predator prey model"
-      ]
-    },
-    {
-      "needsHumanReview": false,
-      "title": "Extinction in a generalized Lotka‐Volterra predator‐prey model",
-      "authors": [
-        "Azmy S. Ackleh",
-        "David F. Marshall",
-        "Henry E. Heatherly"
-      ],
-      "year": 2000,
-      "doi": "10.1155/s1048953300000253",
-      "openAlexId": "W2127981676",
-      "openAccessUrl": "https://downloads.hindawi.com/archive/2000/103641.pdf",
-      "citationCount": 13,
-      "abstract": "In this paper we discuss the asymptotic behavior of a predator‐prey model with distributed growth and mortality rates. We exhibit simple criteria on the parameters which guarantee that all subpopulations but one predator‐prey pair are driven to extinction as t → ∞. Finally, we present numerical simulations to illustrate the theoretical results.",
-      "score": 0.703,
-      "fromCellQuery": true,
-      "matchedQueries": [
-        "Lotka-Volterra predator prey model"
+        "logistic growth model teaching"
       ]
     },
     {
@@ -238,94 +308,23 @@
     },
     {
       "needsHumanReview": false,
-      "title": "Universal Differential Equations for Scientific Machine Learning",
+      "title": "Differential Equations TUTORIAL For Lecture and for Practical Exercise",
       "authors": [
-        "Christopher Rackauckas",
-        "Yingbo Ma",
-        "Martensen, Julius",
-        "Collin Warner",
-        "Kirill Zubov",
-        "Rohit Supekar",
-        "Dominic J. Skinner",
-        "Ali Ramadhan",
-        "Alan S. Edelman"
-      ],
-      "year": 2020,
-      "doi": "10.48550/arxiv.2001.04385",
-      "openAlexId": "W4287904729",
-      "openAccessUrl": "https://arxiv.org/pdf/2001.04385",
-      "citationCount": 77,
-      "abstract": "In the context of science, the well-known adage \"a picture is worth a thousand words\" might well be \"a model is worth a thousand datasets.\" In this manuscript we introduce the SciML software ecosystem as a tool for mixing the information of physical laws and scientific models with data-driven machine learning approaches. We describe a mathematical object, which we denote universal differential equations (UDEs), as the unifying framework connecting the ecosystem. We show how a wide variety of applications, from automatically discovering biological mechanisms to solving high-dimensional Hamilton-Jacobi-Bellman equations, can be phrased and efficiently handled through the UDE formalism and its tooling. We demonstrate the generality of the software tooling to handle stochasticity, delays, and implicit constraints. This funnels the wide variety of SciML applications into a core set of training mechanisms which are highly optimized, stabilized for stiff equations, and compatible with distributed parallelism and GPU accelerators.",
-      "score": 0.768,
-      "fromCellQuery": false,
-      "matchedQueries": [
-        "differential equations ecology introduction",
-        "differential equations ecology tutorial",
-        "differential equations ecology review"
-      ]
-    },
-    {
-      "needsHumanReview": false,
-      "title": "Abstract Differential and Difference Equations",
-      "authors": [
-        "Gaston M. N‘Guérékata",
-        "Toka Diagana",
-        "А. А. Панков"
-      ],
-      "year": 2010,
-      "doi": "10.1155/2010/857306",
-      "openAlexId": "W2025994185",
-      "openAccessUrl": "https://advancesindifferenceequations.springeropen.com/counter/pdf/10.1155/2010/857306",
-      "citationCount": 5,
-      "abstract": "This special issue of Advances in Difference Equations is devoted to highlight some recent developments in abstract differential equations, fractional differential equations, and difference equations and their applications to mathematical physics, engineering, and biology. It consists of 20 papers carefully selected through a rigorous peer review. The first category of papers deals with the asymptotic and oscillatory behavior of solutions to various abstract differential equations and fractional differential equations. Periodic problems involving the scalar p-Laplacian equation on time scales, or n-species nonautonomous food chains with harvesting terms are studied using the Mawhin’s continuation theorem. Some new oscillation criteria for the second-order quasilinear neutral delay dynamic equations and nonlinear delay dynamic equations on a time scale T, are established, improving some known results for oscillation of second-order nonlinear delay dynamic equations on time scales. The study of almost automorphic functions in Bochner’s sense have attracted several mathematicians since the publication of N’Guerekata’s book in 2001. Recently, their applications to fractional differential equations have become an emerging field. A new and general existence and uniqueness theorem of almost automorphic solutions for the semilinear fractional differential equation",
-      "score": 0.656,
-      "fromCellQuery": false,
-      "matchedQueries": [
-        "differential equations ecology",
-        "differential equations ecology review"
-      ]
-    },
-    {
-      "needsHumanReview": false,
-      "title": "Does Demography Need Differential Equations?",
-      "authors": [
-        "Thomas K. Burch"
-      ],
-      "year": 2017,
-      "doi": "10.1007/978-3-319-65433-1_5",
-      "openAlexId": "W2161158213",
-      "openAccessUrl": "https://link.springer.com/content/pdf/10.1007%2F978-3-319-65433-1_5.pdf",
-      "citationCount": 5,
-      "abstract": "The starting point for this essay is the observation, partly impressionistic, that demography has tended to neglect the predator-prey equations in courses, textbooks, compendia, and research papers. This is surprising, since the equations bear the name of A. J. Lotka, one of the acknowledged founders of modern demography. This relative neglect is unfortunate also, since a central fact about the human species is that we are deeply implicated in nature as both predator and prey. Possible explanations for this situation are discussed, including a general neglect of systematic theory, and of differential equations, a branch of mathematics especially suited to the statement and exploration of theories of demographic processes.",
-      "score": 0.638,
-      "fromCellQuery": false,
-      "matchedQueries": [
-        "differential equations ecology",
-        "differential equations ecology introduction",
-        "differential equations ecology tutorial",
-        "differential equations ecology review"
-      ]
-    },
-    {
-      "needsHumanReview": false,
-      "title": "Critical Transitions for Asymptotically Concave or d-Concave Nonautonomous Differential Equations with Applications in Ecology",
-      "authors": [
-        "Jesús García de Dueñas",
-        "Carmen Núñez",
-        "Rafael Obaya"
+        "Kulmirzayeva Gulrabo Abduganiyevna",
+        "Muhammad Alvan Rizki"
       ],
       "year": 2024,
-      "doi": "10.1007/s00332-024-10088-6",
-      "openAlexId": "W4402605127",
-      "openAccessUrl": "https://link.springer.com/content/pdf/10.1007/s00332-024-10088-6.pdf",
-      "citationCount": 6,
-      "abstract": "Abstract The occurrence of tracking or tipping situations for a transition equation $$x'=f(t,x,\\Gamma (t,x))$$ x ′ = f ( t , x , Γ ( t , x ) ) with asymptotic limits $$x'=f(t,x,\\Gamma _\\pm (t,x))$$ x ′ = f ( t , x , Γ ± ( t , x ) ) is analyzed. The approaching condition is just $$\\lim _{t\\rightarrow \\pm \\infty }(\\Gamma (t,x)-\\Gamma _\\pm (t,x))=0$$ lim t → ± ∞ ( Γ ( t , x ) - Γ ± ( t , x ) ) = 0 uniformly on compact real sets, and so there is no restriction to the dependence on time of the asymptotic equations. The hypotheses assume concavity in x either of the maps $$x\\mapsto f(t,x,\\Gamma _\\pm (t,x))$$ x ↦ f ( t , x , Γ ± ( t , x ) ) or of their derivatives with respect to the state variable (d-concavity), but not of $$x\\mapsto f(t,x,\\Gamma (t,x))$$ x ↦ f ( t , x , Γ ( t , x ) ) nor of its derivative. The analysis provides a powerful tool to analyze the occurrence of critical transitions for one-parametric families $$x'=f(t,x,\\Gamma ^c(t,x))$$ x ′ = f ( t , x , Γ c ( t , x ) ) </",
-      "score": 0.633,
+      "doi": "10.21070/2024/978-623-464-095-3",
+      "openAlexId": "W4399906308",
+      "openAccessUrl": "https://press.umsida.ac.id/index.php/umsidapress/article/download/978-623-464-095-3/1232",
+      "citationCount": 0,
+      "abstract": "The textbook is compiled in accordance with the program of the discipline “Differential Equations” (Section - Ordinary Differential Equations). Basic theoretical information and 115 examples of solving typical problems are given, as well as recommendations for studying the discipline. Examples are provided for independent work, 85 examples and 20 questions for self-test, recommended literature.This collection was prepared in accordance with the undergraduate curriculum (Construction) in the subject “Differential Equations” in the Republic of Uzbekistan based on existing state educational standards. 60730500 – Design and operation of water supply and sewerage systems, 60730800 – Road construction (by type of activity), 60710400 – Ecology and environmental protection (by industry sector), 60722500 – Geodesy, cartography and cadastre (by function), 60722800 – Cadastre (by type of activity), 60730300 – Civil engineering: construction of buildings and structures, 60730400 – Construction and installation of engineering communications (according to types) provided for by the undergraduate curriculum, Prepared according to the scientific program.",
+      "score": 0.6,
       "fromCellQuery": false,
       "matchedQueries": [
         "differential equations ecology",
-        "differential equations ecology introduction",
-        "differential equations ecology review"
+        "differential equations ecology tutorial",
+        "differential equations ecology (teaching OR classroom OR undergraduate)"
       ]
     }
   ]
