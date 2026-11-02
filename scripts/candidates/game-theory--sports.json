@@ -1,0 +1,228 @@
+{
+  "method": "game-theory",
+  "field": "sports",
+  "generatedAt": "2026-11-02T21:49:40.912Z",
+  "queries": [
+    "game theory sports",
+    "game theory sports introduction",
+    "game theory sports tutorial",
+    "game theory sports review"
+  ],
+  "candidates": [
+    {
+      "title": "Game Plan: What AI can do for Football, and What Football can do for AI",
+      "authors": [
+        "Karl Tuyls",
+        "Shayegan Omidshafiei",
+        "Paul Friedrich Müller",
+        "Zhe Wang",
+        "Jerome T. Connor",
+        "Daniel Hennes",
+        "Ian Graham",
+        "William Spearman",
+        "Tim Waskett",
+        "Dafydd Steele",
+        "Pauline Luc",
+        "Adrià Recasens",
+        "Alexandre Galashov",
+        "Gregory Thornton",
+        "Romuald Élie",
+        "Pablo Sprechmann",
+        "Pol Moreno",
+        "Kris Cao",
+        "Marta Garnelo",
+        "Praneet Dutta",
+        "Michal Valko",
+        "Nicolas Heess",
+        "Alex Bridgland",
+        "Julien Pérolat",
+        "Bart De Vylder",
+        "S. M. Ali Eslami",
+        "Mark Rowland",
+        "Andrew Jaegle",
+        "Rémi Munos",
+        "Trevor Back",
+        "Razia Ahamed",
+        "Simon Bouton",
+        "Nathalie Beauguerlange",
+        "Jackson Broshear",
+        "Thore Graepel",
+        "Demis Hassabis"
+      ],
+      "year": 2021,
+      "doi": "10.1613/jair.1.12505",
+      "openAlexId": "W3102441345",
+      "openAccessUrl": "https://jair.org/index.php/jair/article/download/12505/26683",
+      "citationCount": 116,
+      "abstract": "The rapid progress in artificial intelligence (AI) and machine learning has opened unprecedented analytics possibilities in various team and individual sports, including baseball, basketball, and tennis. More recently, AI techniques have been applied to football, due to a huge increase in data collection by professional teams, increased computational power, and advances in machine learning, with the goal of better addressing new scientific challenges involved in the analysis of both individual players’ and coordinated teams’ behaviors. The research challenges associated with predictive and prescriptive football analytics require new developments and progress at the intersection of statistical learning, game theory, and computer vision. In this paper, we provide an overarching perspective highlighting how the combination of these fields, in particular, forms a unique microcosm for AI research, while offering mutual benefits for professional teams, spectators, and broadcasters in the years to come. We illustrate that this duality makes football analytics a game changer of tremendous value, in terms of not only changing the game of football itself, but also in terms of what this domain can mean for the field of AI. We review the state-of-the-art and exemplify the types of analysis enabled by combining the aforementioned fields, including illustrative examples of counterfactual analysis using predictive models, and the combination of game-theoretic analysis of penalty kicks with statistical learning of player attributes. We conclude by highlighting envisioned downstream impacts, including possibilities for extensions to other sports (real and virtual).",
+      "score": 0.892,
+      "matchedQueries": [
+        "game theory sports",
+        "game theory sports review"
+      ]
+    },
+    {
+      "title": "Game Intelligence in Team Sports",
+      "authors": [
+        "Jan Lennartsson",
+        "Nicklas Lidström",
+        "Carl Lindberg"
+      ],
+      "year": 2015,
+      "doi": "10.1371/journal.pone.0125453",
+      "openAlexId": "W1568209698",
+      "openAccessUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0125453&type=printable",
+      "citationCount": 28,
+      "abstract": "We set up a game theoretic framework to analyze a wide range of situations from team sports. A fundamental idea is the concept of potential; the probability of the offense scoring the next goal minus the probability that the next goal is made by the defense. We develop categorical as well as continuous models, and obtain optimal strategies for both offense and defense. A main result is that the optimal defensive strategy is to minimize the maximum potential of all offensive strategies.",
+      "score": 0.883,
+      "matchedQueries": [
+        "game theory sports",
+        "game theory sports introduction",
+        "game theory sports review"
+      ]
+    },
+    {
+      "title": "Review of Barry J. Nalebuff and Adam N. Brandenburger, Co-opetition 1. Revolutionary Mindset that Redefines Competition and Co-operation 2. The Game Theory Strategy that's Changing the Game of Business",
+      "authors": [
+        "J. Scott Armstrong",
+        "Terry W. Clark"
+      ],
+      "year": 1997,
+      "doi": null,
+      "openAlexId": "W180046124",
+      "openAccessUrl": "https://repository.upenn.edu/marketing_papers/119",
+      "citationCount": 20,
+      "abstract": "In this book, Brandenburger and Nalebuff use game theory to develop a set of guidelines that will \"make it easier to explain the reasoning behind a proposed strategy.\" The games that they use as analogies do not involve sports with their zero-sum outcomes; instead, they consider a variety of games that allow for mutual benefit, as well as harm, for the players. They use the term co-opetition, which is consistent with their message that cooperation pays off in some situations, competition in others. They encourage readers to think about not only how to play the game, but also how to change the rules. Examination of these games leads them to make recommendations for managers, many of which are relevant to marketing managers. So, to the extent that a game is like a business, this book should be useful. My aims in reviewing the book are to ask: (1) Is it new? (2) Is it useful? and (3) Is it supported? The book has flaws, particularly in the area of supporting evidence, but it is an important book.",
+      "score": 0.79,
+      "matchedQueries": [
+        "game theory sports review"
+      ]
+    },
+    {
+      "title": "Game Theoretic Analysis of Basic Team Sports Leagues",
+      "authors": [
+        "Paul J. Madden"
+      ],
+      "year": 2010,
+      "doi": "10.1177/1527002510381721",
+      "openAlexId": "W2128122245",
+      "openAccessUrl": "http://hummedia.manchester.ac.uk/schools/soss/economics/discussionpapers/EDP-1006.pdf",
+      "citationCount": 35,
+      "abstract": "The article proposes a new ‘‘strategic market game’’ (SMG) approach to modeling strategic interactions between clubs in professional team sports leagues, and generalizes a basic framework used in previous literature (two clubs, fixed talent supply and club revenues that depend only on relative team qualities), to allow variable talent supply and club revenues that depend on absolute (and relative) team qualities. The new approach incorporates club talent market power (duopsony), overlooked by existing approaches; in both the basic and the more general framework, Nash equilibrium competitive balance is analyzed, with and without revenue sharing and with comparisons to existing analyses.",
+      "score": 0.769,
+      "matchedQueries": [
+        "game theory sports introduction",
+        "game theory sports review"
+      ]
+    },
+    {
+      "title": "APPLICATION OF GAME THEORY IN DESCRIBING EFFICACY OF DECISION MAKING IN SPORTSMAN'S TACTICAL PERFORMANCE IN TEAM SPORTS",
+      "authors": [
+        "Joško Sindik",
+        "Nives Vidak"
+      ],
+      "year": 2008,
+      "doi": null,
+      "openAlexId": "W2164204680",
+      "openAccessUrl": "http://hrcak.srce.hr/76865",
+      "citationCount": 13,
+      "abstract": "A mathematical method of decision-making in which a competitive or cooperative situation is analyzed to determine the optimal course of action for an interested \"player\" is often called game theory. Game theory has very broad application in different sciences. Team sports tactical performance is considered from the aspects of data processing theory and the phenomenon of selective attention, as well as from the game theory. Team sports tactical performance is an asymmetric, sequential (of imperfect information), non-zero-sum game. In decision making, predictability in team sports is in fact bargaining, and the player has to use a mixed strategy for choosing option with highest expected utility. Player could choose a trembling hand equilibrium, to eliminate imperfect equilibrium. Strategic dominance conceipt can explain that a player could choose strategy which dominates between other possible strategies, and/or could be led by \"team reasoning\", too. In this article, the level of predictability of the most frequent tactical performance of one player in a team sport game is considered, reflecting outcomes both for the same team’s tactical performance (co-players in one player’s team), as well as for the opponent team’s tactical performance. Four different possible situations during team sport competition could lead to considering utilities of one player’s specific decisions.",
+      "score": 0.724,
+      "matchedQueries": [
+        "game theory sports"
+      ]
+    },
+    {
+      "title": "Game Theory Solutions in Sensor-Based Human Activity Recognition: A Review",
+      "authors": [
+        "Mohammad Hossein Shayesteh",
+        "Behrooz Sharokhzadeh",
+        "Behrooz Masoumi"
+      ],
+      "year": 2023,
+      "doi": "10.48550/arxiv.2311.06311",
+      "openAlexId": "W4388684415",
+      "openAccessUrl": "https://arxiv.org/pdf/2311.06311",
+      "citationCount": 3,
+      "abstract": "The Human Activity Recognition (HAR) tasks automatically identify human activities using the sensor data, which has numerous applications in healthcare, sports, security, and human-computer interaction. Despite significant advances in HAR, critical challenges still exist. Game theory has emerged as a promising solution to address these challenges in machine learning problems including HAR. However, there is a lack of research work on applying game theory solutions to the HAR problems. This review paper explores the potential of game theory as a solution for HAR tasks, and bridges the gap between game theory and HAR research work by suggesting novel game-theoretic approaches for HAR problems. The contributions of this work include exploring how game theory can improve the accuracy and robustness of HAR models, investigating how game-theoretic concepts can optimize recognition algorithms, and discussing the game-theoretic approaches against the existing HAR methods. The objective is to provide insights into the potential of game theory as a solution for sensor-based HAR, and contribute to develop a more accurate and efficient recognition system in the future research directions.",
+      "score": 0.713,
+      "matchedQueries": [
+        "game theory sports",
+        "game theory sports review"
+      ]
+    },
+    {
+      "title": "An Overview to Game Theory, Physical Education and Sports, Its Thirteen Essentials and Categories",
+      "authors": [
+        "Ismael Tabuñar Fortunado"
+      ],
+      "year": 2016,
+      "doi": "10.11648/j.edu.20160505.12",
+      "openAlexId": "W2511189714",
+      "openAccessUrl": "http://article.sciencepublishinggroup.com/pdf/10.11648.j.edu.20160505.12.pdf",
+      "citationCount": 2,
+      "abstract": "The study aimed to develop a relationship for Game theory, Physical Education and Sports. The author gathered facts about game theory, physical education and sports to be supported by its foundations through data gathering, observation, immersion and previous experiences. The results showed that there are thirteen essential and categories for game theory, physical education and sports. The completeness and the categorizations may be revised or extended depending on the need and a more diversified, thorough research which the author welcomes.",
+      "score": 0.687,
+      "matchedQueries": [
+        "game theory sports",
+        "game theory sports introduction"
+      ]
+    },
+    {
+      "title": "Research on Application of Game Theory in Sports Teaching",
+      "authors": [
+        "Hong-Mei WEN",
+        "Tie-Xiong ZHANG",
+        "Lu Lu",
+        "Zhen CAI"
+      ],
+      "year": 2017,
+      "doi": "10.12783/dtetr/mdm2016/4969",
+      "openAlexId": "W2589703161",
+      "openAccessUrl": "https://doi.org/10.12783/dtetr/mdm2016/4969",
+      "citationCount": 1,
+      "abstract": "Physical education teaching is a kind of organized and discipline education teaching process, it is a significant vulgar to focus, formation law of slow, gradually evolved into a process of Nash equilibrium. The result is the formation of teachers and students are willing to form the best ideal result; Due to the game between teachers and students is a long-term repeated game, must set up the prestige in the process of teachers in the game, set a quota system in class, students can achieve transmutation effect, get the scouring under repeated game, the Nash equilibrium of pareto optimality Game theory is to various events in people’s behavior strategy abstract, induction and summarizes the type and form of control theory, also the theory involves all aspects of people’s life, become a modern enterprise system, such as economy military strategy management of one of the theoretical basis. Sports as an important branch in education, is the key part of school sports work, pay more attention to the study of physical education teaching and discussion, is an important link in the school sports teaching. Through game analysis and discussion to the school sports teaching, the writers of the game between students and teachers is obtained as a result, to effectively promote the development of school sports teaching provides referential comments and Suggestions.",
+      "score": 0.658,
+      "matchedQueries": [
+        "game theory sports"
+      ]
+    },
+    {
+      "title": "Using Game Theory to maximize the chance of victory in two-player sports",
+      "authors": [
+        "Ambareesh Ravi",
+        "Atharva Gokhale",
+        "Anchit Nagwekar"
+      ],
+      "year": 2021,
+      "doi": "10.48550/arxiv.2105.11650",
+      "openAlexId": "W3165815401",
+      "openAccessUrl": "https://arxiv.org/pdf/2105.11650",
+      "citationCount": 1,
+      "abstract": "Game Theory concepts have been successfully applied in a wide variety of domains over the past decade. Sports and games are one of the popular areas of game theory application owing to its merits and benefits in solving complex scenarios. With recent advancements in technology, the technical and analytical assistance available to players before the match, during game-play and after the match in the form of post-match analysis for any kind of sport has improved to a great extent. In this paper, we propose three novel approaches towards the development of a tool that can assist the players by providing detailed analysis of optimal decisions so that the player is well prepared with the most appropriate strategy which would produce a favourable result for a given opponent's strategy. We also describe how the system changes when we consider real-time game-play wherein the history of the opponent's strategies in the current rally is also taken into consideration while suggesting.",
+      "score": 0.586,
+      "matchedQueries": [
+        "game theory sports"
+      ]
+    },
+    {
+      "title": "A Review of Mathematical Concepts in Sports and Games: Examining the Intersection of Mathematics and Sports",
+      "authors": [
+        "P. Ramulu",
+        "Esha Yadav",
+        "D. Sattemma"
+      ],
+      "year": 2024,
+      "doi": "10.55041/ijsrem39949",
+      "openAlexId": "W4405728162",
+      "openAccessUrl": "https://ijsrem.com/download/a-review-of-mathematical-concepts-in-sports-and-games-examining-the-intersection-of-mathematics-and-sports/?wpdmdl=41638&refresh=676ad7db05bca1735055323",
+      "citationCount": 0,
+      "abstract": "Math is essential to many sports and games, improving strategy, performance, and overall enjoyment. The mathematical ideas underlying various sports and games are reviewed in this essay, with an emphasis on their uses and ramifications. We look at the application of algebra, geometry, probability, and statistics in video games, chess, poker, and sports like basketball, football, tennis, golf, and cricket. According to our analysis, mathematical ideas are crucial for maximizing performance, arriving at wise decisions, and obtaining a competitive advantage. The possible advantages of combining mathematics instruction with games and sports are also covered, including enhanced analytical, problem-solving, and critical thinking abilities.. Key Words: Mathematics in Sports, Sports Analytics, Game Theory, Probability in Sports, Sports Statistics.",
+      "score": 0.566,
+      "matchedQueries": [
+        "game theory sports",
+        "game theory sports review"
+      ]
+    }
+  ]
+}

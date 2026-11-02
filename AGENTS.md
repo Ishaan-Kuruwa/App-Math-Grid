@@ -43,6 +43,9 @@ Fields: `ecology`, `epidemiology`, `economics`, `sports`, `public-policy`,
 - NEVER invent, guess, or add paper citations. Use only papers explicitly provided
   in the prompt or already present in the content files. If an entry needs papers
   and none were given, stop and ask.
+- NEVER cite a paper from memory. Papers may only come from (a) the prompt,
+  (b) existing content files, or (c) results returned by `npm run find-papers`.
+  Every paper must include the OpenAlex ID or DOI from those results.
 - Never change the content schema without explicitly saying so and explaining why.
 - Run `npm run build` before declaring any task done. If content was touched, also
   run `npm run verify`.

@@ -1,0 +1,306 @@
+{
+  "method": "differential-equations",
+  "field": "epidemiology",
+  "generatedAt": "2026-11-02T22:04:55.216Z",
+  "queries": [
+    "differential equations epidemiology",
+    "differential equations epidemiology introduction",
+    "differential equations epidemiology tutorial",
+    "differential equations epidemiology review",
+    "SIR model introduction",
+    "compartmental model epidemic"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "The construction of next-generation matrices for compartmental epidemic models",
+      "authors": [
+        "Odo Diekmann",
+        "Hans Heesterbeek",
+        "Michael C. Roberts"
+      ],
+      "year": 2009,
+      "doi": "10.1098/rsif.2009.0386",
+      "openAlexId": "W2113797309",
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/2871801",
+      "citationCount": 2133,
+      "abstract": "The basic reproduction number (0) is arguably the most important quantity in infectious disease epidemiology. The next-generation matrix (NGM) is the natural basis for the definition and calculation of (0) where finitely many different categories of individuals are recognized. We clear up confusion that has been around in the literature concerning the construction of this matrix, specifically for the most frequently used so-called compartmental models. We present a detailed easy recipe for the construction of the NGM from basic ingredients derived directly from the specifications of the model. We show that two related matrices exist which we define to be the NGM with large domain and the NGM with small domain. The three matrices together reflect the range of possibilities encountered in the literature for the characterization of (0). We show how they are connected and how their construction follows from the basic model ingredients, and establish that they have the same non-zero eigenvalues, the largest of which is the basic reproduction number (0). Although we present formal recipes based on linear algebra, we encourage the construction of the NGM by way of direct epidemiological reasoning, using the clear interpretation of the elements of the NGM and of the model ingredients. We present a selection of examples as a practical guide to our methods. In the appendix we present an elementary but complete proof that (0) defined as the dominant eigenvalue of the NGM for compartmental systems and the Malthusian parameter r, the real-time exponential growth rate in the early phase of an outbreak, are connected by the properties that (0) > 1 if and only if r > 0, and (0) = 1 if and only if r = 0.",
+      "score": 0.897,
+      "matchedQueries": [
+        "compartmental model epidemic"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Differential equation approximations for Markov chains",
+      "authors": [
+        "R. W. R. Darling",
+        "James R. Norris"
+      ],
+      "year": 2008,
+      "doi": "10.1214/07-ps121",
+      "openAlexId": "W2147568833",
+      "openAccessUrl": "https://projecteuclid.org/journals/probability-surveys/volume-5/issue-none/Differential-equation-approximations-for-Markov-chains/10.1214/07-PS121.pdf",
+      "citationCount": 279,
+      "abstract": "We formulate some simple conditions under which a Markov chain may be approximated by the solution to a differential equation, with quantifiable error probabilities. The role of a choice of coordinate functions for the Markov chain is emphasised. The general theory is illustrated in three examples: the classical stochastic epidemic, a population process model with fast and slow variables, and core-finding algorithms for large random hypergraphs.",
+      "score": 0.894,
+      "matchedQueries": [
+        "differential equations epidemiology",
+        "differential equations epidemiology introduction",
+        "differential equations epidemiology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "The SIR model and the Foundations of Public Health",
+      "authors": [
+        "Howard M. Weiss"
+      ],
+      "year": 2013,
+      "doi": null,
+      "openAlexId": "W888141997",
+      "openAccessUrl": "https://ddd.uab.cat/pub/matmat/matmat_a2013/matmat_a2013a3.pdf",
+      "citationCount": 224,
+      "abstract": "We introduce and analyze a basic transmission model for a directly transmitted infectious disease. The model consists of a system of three coupled non-linear ordinary differential equations which does not possess an explicit formula solution. However, simple tools from calculus allow us to extract a great deal of information about the solutions. Along the way we illustrate how this simple model helps to lay a theoretical foundation for public health interventions and how several cornerstones of public health required such a model to illuminate.",
+      "score": 0.875,
+      "matchedQueries": [
+        "SIR model introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "An Introduction to Compartmental Modeling for the Budding Infectious Disease Modeler",
+      "authors": [
+        "Julie C. Blackwood",
+        "Lauren M. Childs"
+      ],
+      "year": 2018,
+      "doi": "10.30707/lib5.1blackwood",
+      "openAlexId": "W4247836593",
+      "openAccessUrl": "https://doi.org/10.30707/lib5.1blackwood",
+      "citationCount": 152,
+      "abstract": "Mathematical models are ubiquitous in the study of the transmission dynamics of infectious diseases, In particular, the classic 'susceptible-infectious-recovered' (SIR<) paradigm provides a modeling framework that can be adapted to describe the core transmission dynamics of a range of human and wildlife diseases. These models provide an important tool for uncovering the mechanisms generating observed disease dynamics, evaluating potential control strategies, and predicting future outbreaks. With ongoing advances in computational tools as well as access to disease incidence data, the use of such models continues to increase. Here, we provide a basic introduction to disease modeling that is primarily intended for individuals who are new to developing SIR-type models. In particular, we highlight several common issues encountered when structuring and analyzing these models.",
+      "score": 0.853,
+      "matchedQueries": [
+        "SIR model introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Nonlinear equations with global differential and integral operators: Existence, uniqueness with application to epidemiology",
+      "authors": [
+        "Abdon Atangana",
+        "Seda İğret Araz"
+      ],
+      "year": 2020,
+      "doi": "10.1016/j.rinp.2020.103593",
+      "openAlexId": "W3106778318",
+      "openAccessUrl": "https://www.sciencedirect.com/science/article/pii/S2211379720320337/pdf",
+      "citationCount": 83,
+      "abstract": "Very recently, the concept of instantaneous change was extended with the aim to accommodate prediction of more complex real world problems that could not be predicted or depicted by the existing rate of change. The extension gave birth to a more general differential operator that to be a derivative associate to the well-known Riemann-Stieltjes integral. In addition to this, using specific functions, one is able to recover all existing local differential operators defined as rate of change. This extended concept is still at its genesis and more works need to be done to establish a Riemann-Stieltjes calculus. In this paper, we aim to present a detailed analysis of an important class of differential equations called stochastic equations with the new classes of differential operators with the global derivative with integer and non-integer orders. We considered many classes as nonlinear Cauchy problems, then we presented existence and the uniqueness of their solutions using the linear growth and the Lipchitz conditions. We derived numerical solutions for each class and presented the error analysis. To show the applicability of these operators, we considered three epidemiological problems, including the zombie virus spread model, the zika virus spread model and Ebola model. We solved each model using the suggested numerical scheme and presented the numerical solutions for different values of fractional order and the global function gt. Our results showed that, more complex real world problems could be depicted using these classes of differential equations.",
+      "score": 0.785,
+      "matchedQueries": [
+        "differential equations epidemiology",
+        "differential equations epidemiology introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Heterogeneity and Network Structure in the Dynamics of Diffusion: Comparing Agent-Based and Differential Equation Models",
+      "authors": [
+        "Hazhir Rahmandad",
+        "John D. Sterman"
+      ],
+      "year": 2008,
+      "doi": "10.1287/mnsc.1070.0787",
+      "openAlexId": "W2145736592",
+      "openAccessUrl": "https://dspace.mit.edu/bitstream/1721.1/102764/1/esd-wp-2004-05.pdf",
+      "citationCount": 737,
+      "abstract": "When is it better to use agent-based (AB) models, and when should differential equation (DE) models be used? Whereas DE models assume homogeneity and perfect mixing within compartments, AB models can capture heterogeneity across individuals and in the network of interactions among them. AB models relax aggregation assumptions, but entail computational and cognitive costs that may limit sensitivity analysis and model scope. Because resources are limited, the costs and benefits of such disaggregation should guide the choice of models for policy analysis. Using contagious disease as an example, we contrast the dynamics of a stochastic AB model with those of the analogous deterministic compartment DE model. We examine the impact of individual heterogeneity and different network topologies, including fully connected, random, Watts-Strogatz small world, scale-free, and lattice networks. Obviously, deterministic models yield a single trajectory for each parameter set, while stochastic models yield a distribution of outcomes. More interestingly, the DE and mean AB dynamics differ for several metrics relevant to public health, including diffusion speed, peak load on health services infrastructure, and total disease burden. The response of the models to policies can also differ even when their base case behavior is similar. In some conditions, however, these differences in means are small compared to variability caused by stochastic events, parameter uncertainty, and model boundary. We discuss implications for the choice among model types, focusing on policy design. The results apply beyond epidemiology: from innovation adoption to financial panics, many important social phenomena involve analogous processes of diffusion and social contagion.",
+      "score": 0.778,
+      "matchedQueries": [
+        "differential equations epidemiology",
+        "differential equations epidemiology introduction",
+        "differential equations epidemiology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Learning differential equation models from stochastic agent-based model simulations",
+      "authors": [
+        "John T. Nardini",
+        "Ruth E. Baker",
+        "Matthew J. Simpson",
+        "Kevin Flores"
+      ],
+      "year": 2021,
+      "doi": "10.1098/rsif.2020.0987",
+      "openAlexId": "W3106339085",
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/8086865",
+      "citationCount": 56,
+      "abstract": "Agent-based models provide a flexible framework that is frequently used for modelling many biological systems, including cell migration, molecular dynamics, ecology and epidemiology. Analysis of the model dynamics can be challenging due to their inherent stochasticity and heavy computational requirements. Common approaches to the analysis of agent-based models include extensive Monte Carlo simulation of the model or the derivation of coarse-grained differential equation models to predict the expected or averaged output from the agent-based model. Both of these approaches have limitations, however, as extensive computation of complex agent-based models may be infeasible, and coarse-grained differential equation models can fail to accurately describe model dynamics in certain parameter regimes. We propose that methods from the equation learning field provide a promising, novel and unifying approach for agent-based model analysis. Equation learning is a recent field of research from data science that aims to infer differential equation models directly from data. We use this tutorial to review how methods from equation learning can be used to learn differential equation models from agent-based model simulations. We demonstrate that this framework is easy to use, requires few model simulations, and accurately predicts model dynamics in parameter regions where coarse-grained differential equation models fail to do so. We highlight these advantages through several case studies involving two agent-based models that are broadly applicable to biological phenomena: a birth-death-migration model commonly used to explore cell biology experiments and a susceptible-infected-recovered model of infectious disease spread.",
+      "score": 0.777,
+      "matchedQueries": [
+        "differential equations epidemiology",
+        "differential equations epidemiology tutorial",
+        "differential equations epidemiology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "On Using SIR Models to Model Disease Scenarios for COVID-19",
+      "authors": [
+        "Andrew G. Atkeson"
+      ],
+      "year": 2020,
+      "doi": "10.21034/qr.4111",
+      "openAlexId": "W3033305373",
+      "openAccessUrl": "https://doi.org/10.21034/qr.4111",
+      "citationCount": 43,
+      "abstract": "From introduction: This paper is intended to introduce economists to a simple SIR model of the progression of COVID-19 to aid understanding of how such a model might be incorporated into more standard macroeconomic models. An SIR model is a Markov model of the spread of an epidemic in which the total population is divided into categories of being susceptible to the disease (S); actively infected with the disease (I); and resistant (R), meaning those that have recovered, died from the disease, or have been vaccinated. The initial distribution of the population across these states and the transition rates at which agents move between these three states determine how an epidemic plays out over time. These transition rates are determined by characteristics of the underlying disease and by the extent of mitigation and social distancing measures. This model allows for quantitative statements regarding the tradeoff between the severity and timing of suppression of the disease through social distancing and the progression of the disease in the population.",
+      "score": 0.774,
+      "matchedQueries": [
+        "SIR model introduction"
+      ]
+    },
+    {
+      "needsHumanReview": true,
+      "reviewReason": "no abstract on OpenAlex; read the paper before using it",
+      "title": "Exact analytical solutions of the Susceptible-Infected-Recovered (SIR) epidemic model and of the SIR model with equal death and birth rates",
+      "authors": [
+        "Tiberiu Harko",
+        "Francisco S. N. Lobo",
+        "M. K. Mak"
+      ],
+      "year": 2014,
+      "doi": "10.1016/j.amc.2014.03.030",
+      "openAlexId": "W2020165868",
+      "openAccessUrl": "https://arxiv.org/pdf/1403.2160",
+      "citationCount": 491,
+      "abstract": null,
+      "score": 0.773,
+      "matchedQueries": [
+        "SIR model introduction"
+      ]
+    },
+    {
+      "needsHumanReview": true,
+      "reviewReason": "no abstract on OpenAlex; read the paper before using it",
+      "title": "Lyapunov Functions and Global Stability for SIR and SIRS Epidemiological Models with Non-Linear Transmission",
+      "authors": [
+        "Andrei Korobeinikov"
+      ],
+      "year": 2006,
+      "doi": "10.1007/s11538-005-9037-9",
+      "openAlexId": "W2087275152",
+      "openAccessUrl": "https://eprints.lib.hokudai.ac.jp/repo/huscap/all/33886/aper2.pdf",
+      "citationCount": 363,
+      "abstract": null,
+      "score": 0.754,
+      "matchedQueries": [
+        "SIR model introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Efficient quantum algorithm for dissipative nonlinear differential equations",
+      "authors": [
+        "Jin-Peng Liu",
+        "Herman Øie Kolden",
+        "Hari Krovi",
+        "Nuno Loureiro",
+        "Konstantina Trivisa",
+        "Andrew M. Childs"
+      ],
+      "year": 2021,
+      "doi": "10.1073/pnas.2026805118",
+      "openAlexId": "W3104901447",
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/8536387",
+      "citationCount": 238,
+      "abstract": "Nonlinear differential equations model diverse phenomena but are notoriously difficult to solve. While there has been extensive previous work on efficient quantum algorithms for linear differential equations, the linearity of quantum mechanics has limited analogous progress for the nonlinear case. Despite this obstacle, we develop a quantum algorithm for dissipative quadratic n-dimensional ordinary differential equations. Assuming [Formula: see text], where R is a parameter characterizing the ratio of the nonlinearity and forcing to the linear dissipation, this algorithm has complexity [Formula: see text], where T is the evolution time, ϵ is the allowed error, and q measures decay of the solution. This is an exponential improvement over the best previous quantum algorithms, whose complexity is exponential in T. While exponential decay precludes efficiency, driven equations can avoid this issue despite the presence of dissipation. Our algorithm uses the method of Carleman linearization, for which we give a convergence theorem. This method maps a system of nonlinear differential equations to an infinite-dimensional system of linear differential equations, which we discretize, truncate, and solve using the forward Euler method and the quantum linear system algorithm. We also provide a lower bound on the worst-case complexity of quantum algorithms for general quadratic differential equations, showing that the problem is intractable for [Formula: see text] Finally, we discuss potential applications, showing that the [Formula: see text] condition can be satisfied in realistic epidemiological models and giving numerical evidence that the method may describe a model of fluid dynamics even for larger values of R.",
+      "score": 0.752,
+      "matchedQueries": [
+        "differential equations epidemiology",
+        "differential equations epidemiology introduction",
+        "differential equations epidemiology review"
+      ]
+    },
+    {
+      "needsHumanReview": true,
+      "reviewReason": "no abstract on OpenAlex; read the paper before using it",
+      "title": "Modeling Epidemics With Compartmental Models",
+      "authors": [
+        "Juliana Tolles",
+        "ThaiBinh Luong"
+      ],
+      "year": 2020,
+      "doi": "10.1001/jama.2020.8420",
+      "openAlexId": "W3030952633",
+      "openAccessUrl": "https://jamanetwork.com/journals/jama/articlepdf/2766672/jama_tolles_2020_gm_200010.pdf",
+      "citationCount": 230,
+      "abstract": null,
+      "score": 0.734,
+      "matchedQueries": [
+        "compartmental model epidemic"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Illness-Death Model in Chronic Disease Epidemiology: Characteristics of a Related, Differential Equation and an Inverse Problem",
+      "authors": [
+        "Ralph Brinks"
+      ],
+      "year": 2018,
+      "doi": "10.1155/2018/5091096",
+      "openAlexId": "W2891854514",
+      "openAccessUrl": "https://downloads.hindawi.com/journals/cmmm/2018/5091096.pdf",
+      "citationCount": 18,
+      "abstract": "Chronic diseases impose a huge burden for mankind. Recently, a mathematical relation between the incidence and prevalence of a chronic disease in terms of a differential equation has been described. In this article, we study the characteristics of this differential equation. Furthermore, we prove the ill-posedness of a related inverse problem arising in chronic disease epidemiology. An example application for the inverse problem about type 1 diabetes in German women aged up to 35 years is given.",
+      "score": 0.705,
+      "matchedQueries": [
+        "differential equations epidemiology",
+        "differential equations epidemiology introduction",
+        "differential equations epidemiology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Reaction–Diffusion Equations in Mathematical Models Arising in Epidemiology",
+      "authors": [
+        "Vasyl’ Davydovych",
+        "V. A. Dutka",
+        "Roman M Cherniha"
+      ],
+      "year": 2023,
+      "doi": "10.3390/sym15112025",
+      "openAlexId": "W4388465406",
+      "openAccessUrl": "https://www.mdpi.com/2073-8994/15/11/2025/pdf?version=1699347645",
+      "citationCount": 18,
+      "abstract": "The review is devoted to an analysis of mathematical models used for describing epidemic processes. Our main focus is on the models that are based on partial differential equations (PDEs), especially those that were developed and used for the COVID-19 pandemic modeling. Most of our attention is given to the studies in which not only results of numerical simulations are presented but analytical results as well. In particular, traveling fronts (waves), exact solutions, and the estimation of key epidemic parameters of the epidemic models with governing PDEs (typically reaction–diffusion equations) are discussed. The review may serve as a valuable resource for researchers and practitioners in the field of mathematical modeling in epidemiology.",
+      "score": 0.685,
+      "matchedQueries": [
+        "differential equations epidemiology",
+        "differential equations epidemiology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Parameter estimation and forecasting with quantified uncertainty for ordinary differential equation models using QuantDiffForecast : A MATLAB toolbox and tutorial",
+      "authors": [
+        "Gerardo Chowell",
+        "Amanda Marie Bleichrodt",
+        "Ruiyan Luo"
+      ],
+      "year": 2024,
+      "doi": "10.1002/sim.10036",
+      "openAlexId": "W4392782023",
+      "openAccessUrl": "https://doi.org/10.1002/sim.10036",
+      "citationCount": 13,
+      "abstract": "Mathematical models based on systems of ordinary differential equations (ODEs) are frequently applied in various scientific fields to assess hypotheses, estimate key model parameters, and generate predictions about the system's state. To support their application, we present a comprehensive, easy-to-use, and flexible MATLAB toolbox, QuantDiffForecast, and associated tutorial to estimate parameters and generate short-term forecasts with quantified uncertainty from dynamical models based on systems of ODEs. We provide software ( https://github.com/gchowell/paramEstimation_forecasting_ODEmodels/) and detailed guidance on estimating parameters and forecasting time-series trajectories that are characterized using ODEs with quantified uncertainty through a parametric bootstrapping approach. It includes functions that allow the user to infer model parameters and assess forecasting performance for different ODE models specified by the user, using different estimation methods and error structures in the data. The tutorial is intended for a diverse audience, including students training in dynamic systems, and will be broadly applicable to estimate parameters and generate forecasts from models based on ODEs. The functions included in the toolbox are illustrated using epidemic models with varying levels of complexity applied to data from the 1918 influenza pandemic in San Francisco. A tutorial video that demonstrates the functionality of the toolbox is included.",
+      "score": 0.652,
+      "matchedQueries": [
+        "differential equations epidemiology tutorial"
+      ]
+    }
+  ]
+}

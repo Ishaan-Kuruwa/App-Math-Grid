@@ -27,6 +27,9 @@ export const FIELD_SLUGS = [
 
 export const DIFFICULTIES = ['intro', 'intermediate', 'advanced'] as const;
 
+// Only reviewed entries are published; drafts show up in `astro dev` only.
+export const STATUSES = ['draft', 'reviewed'] as const;
+
 const text = z.string().trim().min(1);
 const httpUrl = z.url({ protocol: /^https?$/ });
 
@@ -71,6 +74,7 @@ const entries = defineCollection({
     summary: text,
     starterQuestion: text,
     difficulty: z.enum(DIFFICULTIES),
+    status: z.enum(STATUSES).default('draft'),
     prerequisites: z.array(text).default([]),
     papers: z.array(paper).min(1),
     notebook: httpUrl.optional(),

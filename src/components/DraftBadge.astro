@@ -1,0 +1,29 @@
+---
+// Shown on draft entries. Drafts only render in `astro dev` (see getVisibleEntries),
+// so this badge never reaches the production site.
+---
+
+<span class="draft-badge">DRAFT</span>
+
+<style>
+  .draft-badge {
+    display: inline-block;
+    padding: 0.125rem 0.5rem;
+    border: 1px dashed currentColor;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    /* amber-100 / amber-900: about 9:1 contrast */
+    background: #fef3c7;
+    color: #78350f;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .draft-badge {
+      /* amber-950 / amber-200: about 10:1 contrast */
+      background: #451a03;
+      color: #fde68a;
+    }
+  }
+</style>
