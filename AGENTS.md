@@ -51,7 +51,9 @@ Fields: `ecology`, `epidemiology`, `economics`, `sports`, `public-policy`,
   OpenAlex.
 - When selecting papers automatically, avoid papers centered on suicide, self-harm,
   or other sensitive topics unsuitable for a general high school audience.
-- Never select papers from publishers widely listed as predatory.
+- Never select papers from publishers widely listed as predatory (such as IISTE).
+  Large open-access publishers such as MDPI, Hindawi, and Frontiers are allowed:
+  judge their papers individually on relevance and quality, not by publisher.
 - Prefer the peer-reviewed published version of a paper over a preprint when both exist.
 - List an entry's papers from most accessible to least accessible.
 - Never change the content schema without explicitly saying so and explaining why.

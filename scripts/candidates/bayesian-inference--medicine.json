@@ -1,12 +1,13 @@
 {
   "method": "bayesian-inference",
   "field": "medicine",
-  "generatedAt": "2026-11-02T22:14:39.643Z",
+  "generatedAt": "2026-11-03T01:32:45.325Z",
   "queries": [
     "Bayesian inference medicine",
     "Bayesian inference medicine introduction",
     "Bayesian inference medicine tutorial",
     "Bayesian inference medicine review",
+    "Bayesian inference medicine (teaching OR classroom OR undergraduate)",
     "Bayes' theorem diagnostic test interpretation",
     "positive predictive value sensitivity specificity",
     "Bayesian clinical trial introduction"
@@ -31,28 +32,9 @@
       "citationCount": 447,
       "abstract": "Sensitivity, which denotes the proportion of subjects correctly given a positive assignment out of all subjects who are actually positive for the outcome, indicates how well a test can classify subjects who truly have the outcome of interest. Specificity, which denotes the proportion of subjects correctly given a negative assignment out of all subjects who are actually negative for the outcome, indicates how well a test can classify subjects who truly do not have the outcome of interest. Positive predictive value reflects the proportion of subjects with a positive test result who truly have the outcome of interest. Negative predictive value reflects the proportion of subjects with a negative test result who truly do not have the outcome of interest. Sensitivity and specificity are inversely related, wherein one increases as the other decreases, but are generally considered stable for a given test, whereas positive and negative predictive values do inherently vary with pre-test probability (e.g., changes in population disease prevalence). This article will further detail the concepts of sensitivity, specificity, and predictive values using a recent real-world example from the medical literature.",
       "score": 0.937,
+      "fromCellQuery": true,
       "matchedQueries": [
         "positive predictive value sensitivity specificity"
-      ]
-    },
-    {
-      "needsHumanReview": false,
-      "title": "Computational Neuropsychology and Bayesian Inference",
-      "authors": [
-        "Thomas Parr",
-        "Geraint E. Rees",
-        "Karl John Friston"
-      ],
-      "year": 2018,
-      "doi": "10.3389/fnhum.2018.00061",
-      "openAlexId": "W2789196295",
-      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/fnhum.2018.00061/pdf",
-      "citationCount": 149,
-      "abstract": "Computational theories of brain function have become very influential in neuroscience. They have facilitated the growth of formal approaches to disease, particularly in psychiatric research. In this paper, we provide a narrative review of the body of computational research addressing neuropsychological syndromes, and focus on those that employ Bayesian frameworks. Bayesian approaches to understanding brain function formulate perception and action as inferential processes. These inferences combine 'prior' beliefs with a generative (predictive) model to explain the causes of sensations. Under this view, neuropsychological deficits can be thought of as false inferences that arise due to aberrant prior beliefs (that are poor fits to the real world). This draws upon the notion of a Bayes optimal pathology - optimal inference with suboptimal priors - and provides a means for computational phenotyping. In principle, any given neuropsychological disorder could be characterized by the set of prior beliefs that would make a patient's behavior appear Bayes optimal. We start with an overview of some key theoretical constructs and use these to motivate a form of computational neuropsychology that relates anatomical structures in the brain to the computations they perform. Throughout, we draw upon computational accounts of neuropsychological syndromes. These are selected to emphasize the key features of a Bayesian approach, and the possible types of pathological prior that may be present. They range from visual neglect through hallucinations to autism. Through these illustrative examples, we review the use of Bayesian approaches to understand the link between biology and computation that is at the heart of neuropsychology.",
-      "score": 0.877,
-      "matchedQueries": [
-        "Bayesian inference medicine",
-        "Bayesian inference medicine review"
       ]
     },
     {
@@ -68,46 +50,9 @@
       "citationCount": 101,
       "abstract": "Establishing an accurate diagnosis is crucial in everyday clinical practice. It forms the starting point for clinical decision-making, for instance regarding treatment options or further testing. In this context, clinicians have to deal with probabilities (instead of certainties) that are often hard to quantify. During the diagnostic process, clinicians move from the probability of disease before testing (prior or pretest probability) to the probability of disease after testing (posterior or posttest probability) based on the results of one or more diagnostic tests. This reasoning in probabilities is reflected by a statistical theorem that has an important application in diagnosis: Bayes' rule. A basic understanding of the use of Bayes' rule in diagnosis is pivotal for clinicians. This rule shows how both the prior probability (also called prevalence) and the measurement properties of diagnostic tests (sensitivity and specificity) are crucial determinants of the posterior probability of disease (predictive value), on the basis of which clinical decisions are made. This article provides a simple explanation of the interpretation and use of Bayes' rule in diagnosis.",
       "score": 0.838,
+      "fromCellQuery": true,
       "matchedQueries": [
         "Bayes' theorem diagnostic test interpretation"
-      ]
-    },
-    {
-      "needsHumanReview": false,
-      "title": "Bayesian statistics in medicine: a 25 year review",
-      "authors": [
-        "Deborah Ashby"
-      ],
-      "year": 2006,
-      "doi": "10.1002/sim.2672",
-      "openAlexId": "W2058755574",
-      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sim.2672",
-      "citationCount": 234,
-      "abstract": "This review examines the state of Bayesian thinking as Statistics in Medicine was launched in 1982, reflecting particularly on its applicability and uses in medical research. It then looks at each subsequent five-year epoch, with a focus on papers appearing in Statistics in Medicine, putting these in the context of major developments in Bayesian thinking and computation with reference to important books, landmark meetings and seminal papers. It charts the growth of Bayesian statistics as it is applied to medicine and makes predictions for the future. From sparse beginnings, where Bayesian statistics was barely mentioned, Bayesian statistics has now permeated all the major areas of medical statistics, including clinical trials, epidemiology, meta-analyses and evidence synthesis, spatial modelling, longitudinal modelling, survival modelling, molecular genetics and decision-making in respect of new technologies.",
-      "score": 0.832,
-      "matchedQueries": [
-        "Bayesian inference medicine introduction",
-        "Bayesian inference medicine tutorial",
-        "Bayesian inference medicine review"
-      ]
-    },
-    {
-      "needsHumanReview": false,
-      "title": "Exploiting Causal Independence in Bayesian Network Inference",
-      "authors": [
-        "Nevin Lianwen Zhang",
-        "David Poole"
-      ],
-      "year": 1996,
-      "doi": "10.1613/jair.305",
-      "openAlexId": "W2126653228",
-      "openAccessUrl": "https://jair.org/index.php/jair/article/download/10178/24152",
-      "citationCount": 434,
-      "abstract": "A new method is proposed for exploiting causal independencies in exact Bayesian network inference. A Bayesian network can be viewed as representing a factorization of a joint probability into the multiplication of a set of conditional probabilities. We present a notion of causal independence that enables one to further factorize the conditional probabilities into a combination of even smaller factors and consequently obtain a finer-grain factorization of the joint probability. The new formulation of causal independence lets us specify the conditional probability of a variable given its parents in terms of an associative and commutative operator, such as ``or'', ``sum'' or ``max'', on the contribution of each parent. We start with a simple algorithm VE for Bayesian network inference that, given evidence and a query variable, uses the factorization to find the posterior distribution of the query. We show how this algorithm can be extended to exploit causal independence. Empirical studies, based on the CPCS networks for medical diagnosis, show that this method is more efficient than previous methods and allows for inference in larger networks than previous algorithms.",
-      "score": 0.826,
-      "matchedQueries": [
-        "Bayesian inference medicine",
-        "Bayesian inference medicine review"
       ]
     },
     {
@@ -124,48 +69,9 @@
       "citationCount": 57,
       "abstract": "While decisions made according to Bayes' theorem are the academic normative standard, the theorem is rarely used explicitly in clinical practice. Yet the principles can be followed without intimidating mathematics. To do so, one can first categorise the prior-probability of the disease being tested for as very unlikely (less likely than 10%), unlikely (10-33%), uncertain (34-66%), likely (67-90%) or very likely (more likely than 90%). Usually, for disorders that are very unlikely or very likely, no further testing is needed. If the prior probability is unlikely, uncertain or likely, a test and a Bayesian-inspired update process incorporating the result can help. A positive result of a good test increases the probability of the disorder by one likelihood category (eg, from uncertain to likely) and a negative test decreases the probability by one category. If testing is needed to escape the extremes of likelihood (eg, a very unlikely but particularly dangerous condition or in the circumstance of population screening, or a very likely condition with a particularly noxious treatment), two tests may be needed to achieve. Negative results of tests with sensitivity ≥99% are sufficient to rule-out a diagnosis; positive results of tests with specificity ≥99% are sufficient to rule-in a diagnosis. This method overcomes some common heuristic errors: ignoring the base rate, probability adjustment errors and order effects. The simplicity of the method, while still adhering to the basic principles of Bayes' theorem, has the potential to increase its application in clinical practice.",
       "score": 0.823,
+      "fromCellQuery": true,
       "matchedQueries": [
         "Bayes' theorem diagnostic test interpretation"
-      ]
-    },
-    {
-      "needsHumanReview": false,
-      "title": "Association between suicidal ideation and suicide: meta-analyses of odds ratios, sensitivity, specificity and positive predictive value",
-      "authors": [
-        "Catherine M. McHugh",
-        "Amy Corderoy",
-        "Christopher James Ryan",
-        "Ian Bernard Hickie",
-        "Matthew M B Large"
-      ],
-      "year": 2019,
-      "doi": "10.1192/bjo.2018.88",
-      "openAlexId": "W4238249433",
-      "openAccessUrl": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D8A8A76A4AC052EEAF34E7EF44E20013/S2056472418000881a.pdf/div-class-title-association-between-suicidal-ideation-and-suicide-meta-analyses-of-odds-ratios-sensitivity-specificity-and-positive-predictive-value-div.pdf",
-      "citationCount": 213,
-      "abstract": "BACKGROUND: The expression of suicidal ideation is considered to be an important warning sign for suicide. However, the predictive properties of suicidal ideation as a test of later suicide are unclear.AimsTo assess the strength of the association between suicidal ideation and later suicide measured by odds ratio (OR), sensitivity, specificity and positive predictive value (PPV). METHOD: We located English-language studies indexed in PubMed that reported the expression or non-expression of suicidal ideation among people who later died by suicide or did not. A random effects meta-analysis was used to assess the pooled OR, sensitivity, specificity and PPV of suicidal ideation for later suicide among groups of people from psychiatric and non-psychiatric settings. RESULTS: There was a moderately strong but highly heterogeneous association between suicidal ideation and later suicide (n = 71, OR = 3.41, 95% CI 2.59-4.49, 95% prediction interval 0.42-28.1, I2 = 89.4, Q-value = 661, d.f.(Q) = 70, P ≤0.001). Studies conducted in primary care and other non-psychiatric settings had similar pooled odds to studies of current and former psychiatric patients (OR = 3.86 v. OR = 3.23, P = 0.7). The pooled sensitivity of suicidal ideation for later suicide was 41% (95% CI 35-48) and the pooled specificity was 86% (95% CI 76-92), with high between-study heterogeneity. Studies of suicidal ideation expressed by current and former psychiatric patients had a significantly higher pooled sensitivity (46% v. 22%) and lower pooled specificity (81% v. 96%) than studies conducted in non-psychiatric settings. The PPV among non-psychiatric cohorts (0.3%, 95% CI 0.1%-0.5%) was significantly lower (Q-value = 35.6, P < 0.001) than among psychiatric samples (3.9%, 95% CI 2.2-6.6). CONCLUSIONS: Estimates of the extent of the association between suicidal ideation and later suicide are limited by unexplained between-study heterogeneity. The utility of suicidal ideation as a test for later suicide is limited by a modest sensitivity and low PPV.Declaration interestM.M.L. and C.J.R. have provided expert evidence in civil, criminal and coronial matters. I.B.H. has been a Commissioner in Australia's National Mental Health Commission since 2012. He is the Co-Director, Health and Policy at the Brain and Mind Centre (BMC) University of Sydney. The BMC operates an early-intervention youth services at Camperdown under contract to Headspace. I.B.H. has previously led community-based and pharmaceutical industry-supported (Wyeth, Eli Lily, Servier, Pfizer, AstraZeneca) projects focused on the identification and better management of anxiety and depression. He is a Board Member of Psychosis Australia Trust and a member of Veterans Mental Health Clinical Reference group. He was a member of the Medical Advisory Panel for Medibank Private until October 2017. He is the Chief Scientific Advisor to, and an equity shareholder in, InnoWell. InnoWell has been formed by the University of Sydney and PricewaterhouseCoopers to administer the $30 M Australian Government Funded Project Synergy. Project Synergy is a 3-year programme for the transformation of mental health services through the use of innovative technologies.",
-      "score": 0.773,
-      "matchedQueries": [
-        "positive predictive value sensitivity specificity"
-      ]
-    },
-    {
-      "needsHumanReview": false,
-      "title": "Bayesian Regression Tree Models for Causal Inference: Regularization, Confounding, and Heterogeneous Effects (with Discussion)",
-      "authors": [
-        "P. Richard Hahn",
-        "Jared S. Murray",
-        "Carlos M. Carvalho"
-      ],
-      "year": 2020,
-      "doi": "10.1214/19-ba1195",
-      "openAlexId": "W3004404638",
-      "openAccessUrl": "https://projecteuclid.org/journals/bayesian-analysis/volume-15/issue-3/Bayesian-Regression-Tree-Models-for-Causal-Inference--Regularization-Confounding/10.1214/19-BA1195.pdf",
-      "citationCount": 306,
-      "abstract": "This paper presents a novel nonlinear regression model for estimating heterogeneous treatment effects, geared specifically towards situations with small effect sizes, heterogeneous effects, and strong confounding by observables. Standard nonlinear regression models, which may work quite well for prediction, have two notable weaknesses when used to estimate heterogeneous treatment effects. First, they can yield badly biased estimates of treatment effects when fit to data with strong confounding. The Bayesian causal forest model presented in this paper avoids this problem by directly incorporating an estimate of the propensity function in the specification of the response model, implicitly inducing a covariate-dependent prior on the regression function. Second, standard approaches to response surface modeling do not provide adequate control over the strength of regularization over effect heterogeneity. The Bayesian causal forest model permits treatment effect heterogeneity to be regularized separately from the prognostic effect of control variables, making it possible to informatively “shrink to homogeneity”. While we focus on observational data, our methods are equally useful for inferring heterogeneous treatment effects from randomized controlled experiments where careful regularization is somewhat less complicated but no less important. We illustrate these benefits via the reanalysis of an observational study assessing the causal effects of smoking on medical expenditures as well as extensive simulation studies.",
-      "score": 0.772,
-      "matchedQueries": [
-        "Bayesian inference medicine tutorial"
       ]
     },
     {
@@ -181,8 +87,49 @@
       "citationCount": 16,
       "abstract": "The most useful statistical procedure for assessing diagnostic tests is based on a theorem named after the Rev Thomas Bayes, who discovered it in about 1760. Its use in the more general field of testing statistical hypotheses has caused a good deal of controversy, and it suffered for many years from the influential criticisms of Sir Ronald Fraser. In the applications to be discussed here the use of the theorem is not controversial and has much the same status as any other theorem, such as that of Pythagoras. The ideas incorporated in it are those familiar to all clinicians making a diagnosis, where the likelihood of disease being present depends not only on the signs and symptoms but also on the frequency of the disease in the community. The latter probability is called the a priori or prior probability, and is familiar to every medical student through the maxim that common things commonly occur.",
       "score": 0.756,
+      "fromCellQuery": true,
       "matchedQueries": [
         "Bayes' theorem diagnostic test interpretation"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Understanding diagnostic tests 2: likelihood ratios, pre‐ and post‐test probabilities and their use in clinical practice",
+      "authors": [
+        "Anthony Kwaku Akobeng"
+      ],
+      "year": 2007,
+      "doi": "10.1111/j.1651-2227.2006.00179.x",
+      "openAlexId": "W2114043028",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1651-2227.2006.00179.x",
+      "citationCount": 443,
+      "abstract": "UNLABELLED: The sensitivity and specificity of a test cannot be used to estimate probability of disease in individual patients. They can, however, be combined into a single measure called the likelihood ratio which is, clinically, more useful than sensitivity or specificity. Likelihood ratios provide a summary of how many times more (or less) likely patients with a disease are to have a particular result than patients without the disease. Using the principles of the Bayes theorem, likelihood ratios can be used in conjunction with pre-test probability of disease to estimate an individual's post-test probability of disease, that is his or her chance of having disease once the result of a test is known. The Fagan's nomogram is a graphical tool which, in routine clinical practice, allows one to combine the likelihood ratio of a test with a patient's pre-test probability of disease to estimate post-test probability. CONCLUSION: Likelihood ratios summarize information about a diagnostic test by combining sensitivity and specificity. The Fagan's nomogram is a useful and convenient graphical tool that allows likelihood ratios to be used in conjunction with a patient's pre-test probability of disease to estimate the post-test probability of disease.",
+      "score": 0.751,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Bayes' theorem diagnostic test interpretation"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Understanding and using sensitivity, specificity and predictive values",
+      "authors": [
+        "Rajul S. Parikh",
+        "Annie Mathai",
+        "Shefali R. Parikh",
+        "G. Chandra Sekhar",
+        "Ravi Thomas"
+      ],
+      "year": 2008,
+      "doi": "10.4103/0301-4738.37595",
+      "openAlexId": "W2007739294",
+      "openAccessUrl": "https://doi.org/10.4103/0301-4738.37595",
+      "citationCount": 1396,
+      "abstract": "In this article, we have discussed the basic knowledge to calculate sensitivity, specificity, positive predictive value and negative predictive value. We have discussed the advantage and limitations of these measures and have provided how we should use these measures in our day-to-day clinical practice. We also have illustrated how to calculate sensitivity and specificity while combining two tests and how to use these results for our patients in day-to-day practice.",
+      "score": 0.74,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "positive predictive value sensitivity specificity"
       ]
     },
     {
@@ -203,78 +150,47 @@
       "citationCount": 9,
       "abstract": "Trials in cardiac surgery are often hampered at the design level by small sample sizes and ethical considerations. The conventional analytical approach, combining frequentist statistics with null hypothesis significance testing, has known limitations and its associated P-values are often misinterpreted, leading to dichotomous conclusions of trial results. The Bayesian statistical framework may overcome these limitations through probabilistic reasoning and is subsequently introduced in this Primer. The Bayesian framework combines prior beliefs and currently obtained data (the likelihood), resulting in updated beliefs, also known as posterior distributions. These distributions subsequently facilitate probabilistic interpretations. Several previous cardiac surgery trials have been performed under a Bayesian framework and this Primer enhances the understanding of their basic concepts by linking results to graphical presentations. Furthermore, contemporary trials that were initially analysed under a frequentist framework, are re-analysed within a Bayesian framework to demonstrate several interpretative advantages.",
       "score": 0.727,
+      "fromCellQuery": true,
       "matchedQueries": [
         "Bayesian clinical trial introduction"
       ]
     },
     {
       "needsHumanReview": false,
-      "title": "Personalized Radiotherapy Design for Glioblastoma: Integrating Mathematical Tumor Models, Multimodal Scans, and Bayesian Inference",
+      "title": "Using Bayes theorem to estimate positive and negative predictive values for continuously and ordinally scaled diagnostic tests",
       "authors": [
-        "Jana Lipková",
-        "Panagiotis Angelikopoulos",
-        "Stephen Wu",
-        "Esther Alberts",
-        "Benedikt Wiestler",
-        "Christian Diehl",
-        "Christine Preibisch",
-        "Thomas Pyka",
-        "Stephanie Elisabeth Combs",
-        "Panagiotis E. Hadjidoukas",
-        "Koen Van Leemput",
-        "Petros Koumoutsakos",
-        "John S. Lowengrub",
-        "Bjoern H. Menze"
+        "Felix H. Fischer"
       ],
-      "year": 2019,
-      "doi": "10.1109/tmi.2019.2902044",
-      "openAlexId": "W2919520822",
-      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/7170051",
-      "citationCount": 172,
-      "abstract": "Glioblastoma (GBM) is a highly invasive brain tumor, whose cells infiltrate surrounding normal brain tissue beyond the lesion outlines visible in the current medical scans. These infiltrative cells are treated mainly by radiotherapy. Existing radiotherapy plans for brain tumors derive from population studies and scarcely account for patient-specific conditions. Here, we provide a Bayesian machine learning framework for the rational design of improved, personalized radiotherapy plans using mathematical modeling and patient multimodal medical scans. Our method, for the first time, integrates complementary information from high-resolution MRI scans and highly specific FET-PET metabolic maps to infer tumor cell density in GBM patients. The Bayesian framework quantifies imaging and modeling uncertainties and predicts patient-specific tumor cell density with credible intervals. The proposed methodology relies only on data acquired at a single time point and, thus, is applicable to standard clinical settings. An initial clinical population study shows that the radiotherapy plans generated from the inferred tumor cell infiltration maps spare more healthy tissue thereby reducing radiation toxicity while yielding comparable accuracy with standard radiotherapy protocols. Moreover, the inferred regions of high tumor cell densities coincide with the tumor radioresistant areas, providing guidance for personalized dose-escalation. The proposed integration of multimodal scans and mathematical modeling provides a robust, non-invasive tool to assist personalized radiotherapy design.",
-      "score": 0.724,
+      "year": 2021,
+      "doi": "10.1002/mpr.1868",
+      "openAlexId": "W3133569970",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mpr.1868",
+      "citationCount": 9,
+      "abstract": "OBJECTIVES: Positive predictive values (PPVs) and negative predictive values (NPVs) are frequently reported to put estimates of accuracy of a diagnostic test in clinical context and to obtain risk estimates for a given patient taking into account baseline prevalence in the population. In order to calculate PPV and NPV, tests with ordinally or continuously scaled results are commonly dichotomized at the expense of a loss of information. METHODS: Extending the rationale for the calculation of PPV and NPV, Bayesian theorem is used to calculate the probability of disease given the outcome of a continuously or ordinally scaled test. Probabilities of test results conditional on disease status are modeled in a Bayesian framework and subsequently transformed to probabilities of disease status conditional on test result. RESULTS: Using publicly available data, probability of a clinical depression diagnosis given PROMIS Depression scores was estimated. Comparison with PPV and NPV based on dichotomized scores shows that a more fine-grained interpretation of test scores is possible. CONCLUSIONS: The proposed method bears the chance to facilitate accurate and meaningful interpretation of test results in clinical settings by avoiding unnecessary dichotomization of test scores.",
+      "score": 0.683,
+      "fromCellQuery": true,
       "matchedQueries": [
-        "Bayesian inference medicine review"
+        "Bayes' theorem diagnostic test interpretation"
       ]
     },
     {
       "needsHumanReview": false,
-      "title": "Bayesian Inference: Statistical Gimmick or Added Value?",
+      "title": "Application of Bayes' Theorem in Valuating Depression Tests Performance",
       "authors": [
-        "Sindhu R. Johnson"
+        "Marco Tommasi",
+        "Grazia Ferrara",
+        "Aristide Saggino"
       ],
-      "year": 2011,
-      "doi": "10.3899/jrheum.110013",
-      "openAlexId": "W2145130414",
-      "openAccessUrl": "https://www.jrheum.org/content/jrheum/38/5/794.full.pdf",
-      "citationCount": 5,
-      "abstract": "Use of the Bayesian inferential paradigm, although uncommon, is increasing in the rheumatology literature. The Bayesian school of statistical inference is based on the work of Reverend Thomas Bayes1. Using Bayes’s theorem, observations are used to calculate the probability that a hypothesis is true. Pre-existing data or knowledge are expressed as a prior probability distribution or “prior.” New observations are made and expressed as a likelihood. Using the new data, the degree of confidence in the hypothesis is recalculated. This process thus informs the reader on how this new information should change the way we think2. This contrasts with the “frequentist” statistical paradigm. Using frequentist inference, a null hypothesis of “no effect” and an alternative hypothesis that a “treatment effect exists” are specified before the conduct of a study. An allowable false-positive rate (i.e., level of significance, p value) is often arbitrarily set at 5%. A treatment is said to be effective if the p value is < 0.05 or the 95% confidence interval excludes a null effect. Bayesian statistics was the dominant statistical paradigm — prior to introduction of the now mainstream frequentist statistics. Its wide-scale application was limited by its computational complexity. In recent decades, its application became feasible with the introduction of faster computers and user-friendly statistical software. The more common day-to-day usage of the Bayesian inferential paradigm can be seen in meteorology (e.g., 20% probability of rain tomorrow) or the computer sciences (90% probability that this e-mail is spam and thus should go to the junk mail folder). In clinical medicine, we regularly apply Bayes’s theorem when interpreting a diagnostic test. The post-test probability of disease (e.g., inflammatory back disease) is determined by our pre-test probability … Address correspondence to Dr. S. Johnson, Division of Rheumatology, Ground Floor, East Wing, Toronto Western Hospital, 399 Bathurst Street, Toronto, Ontario, Canada, M5T 2S8. E-mail: Sindhu.Johnson{at}uhn.on.ca",
-      "score": 0.699,
+      "year": 2018,
+      "doi": "10.3389/fpsyg.2018.01240",
+      "openAlexId": "W2810068787",
+      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01240/pdf",
+      "citationCount": 8,
+      "abstract": "The validity of clinical diagnoses is a fundamental topic in clinical psychology, because now there are some political administrations, as the IOM or the U.K. government, which are focusing on best evidence-based practice in clinical psychology. The most problematic issue in clinical psychology is to avoid wrong diagnoses which can have negative consequences on individual life and on the utility of clinical treatments. In the case of diagnoses based on self-report tests, the diagnostic decision about individual health is based on the comparison between its score and the cutoff, according to the frequentist approach to probability. However, the frequentist approach underestimates the possible risks of incorrect diagnoses based on cutoffs only. The Bayesian approach is a valid alternative to make diagnoses on the basis of the scores from psychological tests. The Bayes' theorem estimates the posterior probability of the presence of a pathology on the basis of the knowledge about the diffusion of this pathology (prior probability) and of the knowledge of sensitivity and specificity values of the test. With all this information, it is possible to estimate the diagnostic accuracy of some self-report tests used for assessing depression. We analyzed the diagnostic accuracy of the most used psychological tests of depression (Zung's Self-Rating Depression Scale, Hamilton Rating Scale for Depression, Center for Epidemiological Studies for Depression and the Beck Depression Inventory), together with a new scale (Teate Depression Inventory) developed with the IRT procedure, by analyzing the published works in which data about sensitivity and specificity of these scales are reported. Except the TDI, none of these scales can reach a satisfactory level of diagnostic accuracy, probably for the absence of an optimal procedure to select test items and subjects with clearly defined pathological symptoms which could allow the reduction of false positives in test scoring.",
+      "score": 0.677,
+      "fromCellQuery": true,
       "matchedQueries": [
-        "Bayesian inference medicine",
-        "Bayesian inference medicine introduction",
-        "Bayesian inference medicine review"
-      ]
-    },
-    {
-      "needsHumanReview": false,
-      "title": "Natural frequencies improve Bayesian reasoning in simple and complex inference tasks",
-      "authors": [
-        "Ulrich Hoffrage",
-        "Stefan Krauß",
-        "Laura F. Martignon",
-        "Gerd Gigerenzer"
-      ],
-      "year": 2015,
-      "doi": "10.3389/fpsyg.2015.01473",
-      "openAlexId": "W2123781216",
-      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01473/pdf",
-      "citationCount": 79,
-      "abstract": "Representing statistical information in terms of natural frequencies rather than probabilities improves performance in Bayesian inference tasks. This beneficial effect of natural frequencies has been demonstrated in a variety of applied domains such as medicine, law, and education. Yet all the research and applications so far have been limited to situations where one dichotomous cue is used to infer which of two hypotheses is true. Real-life applications, however, often involve situations where cues (e.g., medical tests) have more than one value, where more than two hypotheses (e.g., diseases) are considered, or where more than one cue is available. In Study 1, we show that natural frequencies, compared to information stated in terms of probabilities, consistently increase the proportion of Bayesian inferences made by medical students in four conditions-three cue values, three hypotheses, two cues, or three cues-by an average of 37 percentage points. In Study 2, we show that teaching natural frequencies for simple tasks with one dichotomous cue and two hypotheses leads to a transfer of learning to complex tasks with three cue values and two cues, with a proportion of 40 and 81% correct inferences, respectively. Thus, natural frequencies facilitate Bayesian reasoning in a much broader class of situations than previously thought.",
-      "score": 0.696,
-      "matchedQueries": [
-        "Bayesian inference medicine",
-        "Bayesian inference medicine tutorial"
+        "Bayes' theorem diagnostic test interpretation"
       ]
     },
     {
@@ -293,6 +209,7 @@
       "citationCount": 11,
       "abstract": "This narrative review intends to provide the anesthesiologist with the basic knowledge of the Bayesian concepts and should be considered as a tutorial for anesthesiologists in the concept of Bayesian statistics. The Bayesian approach represents the mathematical formulation of the idea that we can update our initial belief about data with the evidence obtained from any kind of acquired data. It provides a theoretical framework and a statistical method to use pre-existing information within the context of new evidence. Several authors have described the Bayesian approach as capable of dealing with uncertainty in medical decision-making. This review describes the Bayes theorem and how it is used in clinical studies in anesthesia and critical care. It starts with a general introduction to the theorem and its related concepts of prior and posterior probabilities. Second, there is an explanation of the basic concepts of the Bayesian statistical inference. Last, a summary of the applicability of some of the Bayesian statistics in current literature is provided, such as Bayesian analysis of clinical trials and PKPD modeling.",
       "score": 0.674,
+      "fromCellQuery": true,
       "matchedQueries": [
         "Bayesian inference medicine tutorial",
         "Bayesian clinical trial introduction"
@@ -300,22 +217,105 @@
     },
     {
       "needsHumanReview": false,
-      "title": "Bayesian Statistical Inference in A nesthesiology",
+      "title": "A software tool for applying Bayes' theorem in medical diagnostics",
       "authors": [
-        "Timothy T. Houle",
-        "Dana P. Turner"
+        "Theodora Chatzimichail",
+        "Aristides T. Hatjimihail"
       ],
-      "year": 2013,
-      "doi": "10.1097/aln.0b013e31829764f3",
-      "openAlexId": "W2074554011",
-      "openAccessUrl": "https://pubs.asahq.org/anesthesiology/article-pdf/119/1/4/260302/20130700_0-00006.pdf",
-      "citationCount": 10,
-      "abstract": "IN this issue of Anesthesiology, Kant et al.1 demonstrate the application of the Continual Reassessment Method in the estimation of the ED95 for bupivacaine. The article is not only of clinical interest, but also serves to illustrate the utility of a formal Bayesian statistical analysis. In the field of statistics, the use of such a Bayesian approach to evaluate scientific evidence is becoming increasingly popular. For example, in the 23 leading statistical journals, the proportion of articles, which could be identified using either “Bayes” or “Bayesian” search terms, increased from 11% in 1995 to 32% in 2000.2 Since that time, improvements in the available software to conduct the analyses have, no doubt, encouraged the use of Bayesian methods to increase even further.The field of Anesthesiology has a long history of using Bayesian principles in engineering or technical applications, but such approaches have not often been used in clinical studies. Although lagging well-behind statistical journals in terms of the number of studies applying formalized Bayesian inference, numerous studies using or discussing a Bayesian approach to statistical inference have been published in Anesthesiology. Dating back to 1988, Maitre and Stanski3 published what appears to be the first use of Bayesian inference in the Journal: a prediction study of intraoperative plasma concentrations of alfentanil. Since that time, an increasing number of statistical procedures have either relied on some aspects of the Bayesian approach to estimate probability or used a formalized Bayesian system to update prior knowledge for incorporating novel information. As a few examples, several very recent studies have featured comparisons estimated using Bayesian methods,4,5 two meta-analyses have been published in the Journal using Bayesian methods,6,7 and the Journal now regularly publishes high-quality pharmacokinetic studies that rely on some part of this approach to analysis.8,9Because of its logical consistency and ever-improving software, we anticipate that the popularity of the Bayesian approach for conducting statistical analysis will grow immensely in the Journal over the next several years. However, because the approach is still novel to many analysts and many of our readers, authors must take care to adequately describe and report the results of such studies. Our goal of this editorial is to articulate the reporting elements that are required to adequately communicate the results of a Bayesian analysis to the readers of Anesthesiology. Because of its excellence in reporting, the study reported by Kant et al.1 serves as an exemplary model for illustrating both the benefits of using this approach and how it is best reported.The vast majority of published articles in Anesthesiology rely on the “frequentist” approach to statistical inference. This approach is familiar to most readers and consists of answering the question: “if the null hypothesis is true, how frequently would we expect to obtain this result (or a result more extreme than this one)?” Answering this question involves the execution of a statistical analysis that can be reported either using the best practices outlined in the guidelines to authors or those highlighted in several past editorials.10,11In contrast to the frequentist approach, a Bayesian approach answers the question: “considering our prior beliefs (about a hypothesis, a parameter, etc.), what should our new beliefs be given the collected data?” In essence, a Bayesian analysis provides a method for updating the existing knowledge or beliefs in the context of new information. This approach allows a more comprehensive view of uncertainty by allowing for a “subjective” view of probability.12 A typical analysis is characterized as consisting of a prior belief system (priors) and a summary of the new evidence (likelihood function), which are both combined to produce an updated belief system (posterior distribution). Although the intricacies of Bayesian analysis are beyond the scope of this editorial, many detailed discussions are available,13–15 including an elegant treatise published in this Journal.16Reporting a Bayesian analysis requires careful consideration of the unique elements of this type of analysis. Many of the reporting elements may not be immediately familiar to analysts trained in the classical frequentist approach. At the time of writing this article, three different reporting guidelines have been offered to assist analysts in reporting their results; these include BayesWatch,17 BaSiS*, and the more recent, Reporting Of Bayes Used in clinical STudies (ROBUST) guidelines.18 Although any of these guidelines could be used to elegantly report the results of a study based on Bayesian inference, this editorial recommends the use of the ROBUST guidelines when reporting a clinical study, such as the one conducted by Kant et al.1 In what follows, each of the elements of the ROBUST guidelines is presented in the context of how they were addressed in the study by Kant et al. Following these guidelines for all submissions of this type will help ensure that our research community best leverages the benefits of Bayesian statistical analysis.Because of their crucial importance in estimating the parameters of interest using Bayes theorem, the prior probabilities (e.g., distributions, point estimates) must be reported to the reader. Kant et al.1 clearly reported that they used an exponential unit in prior analysis. The authors’ prior beliefs about the probability of a failed block then corresponded to 0.5, 0.25, 0.10, 0.05, 0.02, and 0.01 for the respective dose levels of 12, 15, 18, 21, 24, and 27 ml of bupivacaine.Because prior beliefs are subjective (i.e., they could rationally differ among individuals) and because they can impact the inferences generated in the analysis, it is important to explicitly justify how the system of beliefs was quantified for the analysis. Kant et al.1 state that their considerations were based on referenced prior dose-finding studies and clinical judgment.Even thoughtful specification of a prior distribution might leave a skeptical reader wondering: “how might the results have been different if a different set of prior beliefs had been considered?” For this reason, consideration and reporting of how alternate prior belief systems impacted the findings is a very good practice. Kant et al.1 did not perform a formal sensitivity analysis, but used sequential estimates where the posterior of the previous cohort informed the prior of the next cohort. In this way, the original priors were replaced at each step in light of updated information.To allow evaluation, the statistical model used to describe the new information must be reported to the reader. As in any statistical analysis, the choice of the model form has important implications, therefore care should be taken to describe the model that is used to characterize the data. Kant et al.1 report a power model to predict the probability of block failure conditional on dose.The actual conduct of the analysis, including iterative design, estimation details, or any other detail required to allow replication of the model, must be provided. Although not required by the ROBUST guidelines, the software used to conduct the analyses, convergence statistics, and details on the estimation runs are all good reporting practices. Kant et al.1 have provided a wealth of information in their study including the software, nature of the starting dose, the iterative cohort design, and the stopping rules for the analysis.The posterior distribution is essential for interpreting the findings of the analysis, therefore characterizing this distribution using appropriate aspects of central tendency is a good reporting practice. Analyses will widely differ in terms of the nature of the posterior probability distributions, and the descriptive statistics used to represent these distributions should be ones relevant to the distribution and goal of the analysis. Kant et al.1 do not explicitly provide such a summary statistic (they provide one-point estimate within this distribution), but thoroughly report all of the posterior probabilities by dose range and cohort.Given the importance of the posterior, the variability in the posterior distribution, particularly for any parameter(s) of interest, must be reported. Often this will involve reporting the probability coverage for some specified range of the posterior (i.e., the credibility interval), providing an important aspect of interpretation. Kant et al.1 were specifically interested in the fifth percentile of the final posterior distribution of the dose–failure relationship, and they report the range of doses (24–28 ml) that fell into this 95% credibility interval.There are many benefits associated with using the Bayesian approach, but we shall consider only three. The first group of these relate to how the results of such analyses are interpreted. Bayesian methods condition on the collected data to make inferences about parameters and hypotheses, whereas frequentist methods condition on some null hypothesis to make inferences about the plausibility of the data.19 Using a Bayesian approach allows a simple interpretation of a hypothesis test (e.g., there is a 95% chance that the two groups differ) versus the well-known difficulties in interpreting frequentist inferences (e.g., assuming the two groups do not differ, there is less than a 5% chance that these results [or those more extreme] would have been observed). A second benefit of using a Bayesian approach is the thorough consideration of prior information or expectation in the analysis. By considering a prior probability in the calculation, prior work can be readily considered in the current calculation. Kant et al.1 nicely demonstrate this advantage when using the Continual Reassessment Method to continually update estimates using just previously collected data. The use of prior probabilities can also be useful to scrutinize extremely surprising findings. The prior probability of observing surprising findings can be postulated, discussed, fought over, and then combined with the data to estimate a posterior distribution that reflects a rational new belief under a range of prior beliefs. A third benefit of a Bayesian approach is in applications where the collected data are not samples or are otherwise not repeatable. Frequentist inference is based on the thought experiment of repeated random sampling from a population (i.e., probability as relative frequency). For applications where repeated sampling would produce the same sample, frequentist estimates of uncertainty become inappropriate, and Bayesian approaches are more conceptually sound.There are also a host of objections and challenges in using Bayesian analysis, but we will not consider any of these here (for an interesting discussion, see the paper by Gelman).20 Of note is that this editorial does not recommend a Bayesian approach to analysis but instead emphasizes good reporting practices for communicating the results of a Bayesian inference when one is conducted. Relevant submissions to the Journal will be reviewed in accordance with the ROBUST guidelines, and the authors will be required to report these elements in all submissions of this type. Doing so will ensure that our readership will have an access to the important elements that are required for interpreting such an approach, and will ensure that our research community maximally benefits from this new era of scientific inference.",
-      "score": 0.673,
+      "year": 2024,
+      "doi": "10.1186/s12911-024-02721-x",
+      "openAlexId": "W4405673724",
+      "openAccessUrl": "https://link.springer.com/content/pdf/10.1186/s12911-024-02721-x.pdf",
+      "citationCount": 3,
+      "abstract": "BACKGROUND: In medical diagnostics, estimating post-test or posterior probabilities for disease, positive and negative predictive values, and their associated uncertainty is essential for patient care. OBJECTIVE: The aim of this work is to introduce a software tool developed in the Wolfram Language for the parametric estimation, visualization, and comparison of Bayesian diagnostic measures and their uncertainty. METHODS: This tool employs Bayes' theorem to estimate positive and negative predictive values and posterior probabilities for the presence and absence of a disease. It estimates their standard sampling, measurement, and combined uncertainty, as well as their confidence intervals, applying uncertainty propagation methods based on first-order Taylor series approximations. It employs normal, lognormal, and gamma distributions. RESULTS: The software generates plots and tables of the estimates to support clinical decision-making. An illustrative case study using fasting plasma glucose data from the National Health and Nutrition Examination Survey (NHANES) demonstrates its application in diagnosing diabetes mellitus. The results highlight the significant impact of measurement uncertainty on Bayesian diagnostic measures, particularly on positive predictive value and posterior probabilities. CONCLUSION: The software tool enhances the estimation and facilitates the comparison of Bayesian diagnostic measures, which are critical for medical practice. It provides a framework for their uncertainty quantification and assists in understanding and applying Bayes' theorem in medical diagnostics.",
+      "score": 0.658,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Bayes' theorem diagnostic test interpretation"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Exploiting Causal Independence in Bayesian Network Inference",
+      "authors": [
+        "Nevin Lianwen Zhang",
+        "David Poole"
+      ],
+      "year": 1996,
+      "doi": "10.1613/jair.305",
+      "openAlexId": "W2126653228",
+      "openAccessUrl": "https://jair.org/index.php/jair/article/download/10178/24152",
+      "citationCount": 434,
+      "abstract": "A new method is proposed for exploiting causal independencies in exact Bayesian network inference. A Bayesian network can be viewed as representing a factorization of a joint probability into the multiplication of a set of conditional probabilities. We present a notion of causal independence that enables one to further factorize the conditional probabilities into a combination of even smaller factors and consequently obtain a finer-grain factorization of the joint probability. The new formulation of causal independence lets us specify the conditional probability of a variable given its parents in terms of an associative and commutative operator, such as ``or'', ``sum'' or ``max'', on the contribution of each parent. We start with a simple algorithm VE for Bayesian network inference that, given evidence and a query variable, uses the factorization to find the posterior distribution of the query. We show how this algorithm can be extended to exploit causal independence. Empirical studies, based on the CPCS networks for medical diagnosis, show that this method is more efficient than previous methods and allows for inference in larger networks than previous algorithms.",
+      "score": 0.883,
+      "fromCellQuery": false,
       "matchedQueries": [
         "Bayesian inference medicine",
-        "Bayesian inference medicine introduction",
+        "Bayesian inference medicine review",
+        "Bayesian inference medicine (teaching OR classroom OR undergraduate)"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Computational Neuropsychology and Bayesian Inference",
+      "authors": [
+        "Thomas Parr",
+        "Geraint E. Rees",
+        "Karl John Friston"
+      ],
+      "year": 2018,
+      "doi": "10.3389/fnhum.2018.00061",
+      "openAlexId": "W2789196295",
+      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/fnhum.2018.00061/pdf",
+      "citationCount": 149,
+      "abstract": "Computational theories of brain function have become very influential in neuroscience. They have facilitated the growth of formal approaches to disease, particularly in psychiatric research. In this paper, we provide a narrative review of the body of computational research addressing neuropsychological syndromes, and focus on those that employ Bayesian frameworks. Bayesian approaches to understanding brain function formulate perception and action as inferential processes. These inferences combine 'prior' beliefs with a generative (predictive) model to explain the causes of sensations. Under this view, neuropsychological deficits can be thought of as false inferences that arise due to aberrant prior beliefs (that are poor fits to the real world). This draws upon the notion of a Bayes optimal pathology - optimal inference with suboptimal priors - and provides a means for computational phenotyping. In principle, any given neuropsychological disorder could be characterized by the set of prior beliefs that would make a patient's behavior appear Bayes optimal. We start with an overview of some key theoretical constructs and use these to motivate a form of computational neuropsychology that relates anatomical structures in the brain to the computations they perform. Throughout, we draw upon computational accounts of neuropsychological syndromes. These are selected to emphasize the key features of a Bayesian approach, and the possible types of pathological prior that may be present. They range from visual neglect through hallucinations to autism. Through these illustrative examples, we review the use of Bayesian approaches to understand the link between biology and computation that is at the heart of neuropsychology.",
+      "score": 0.877,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "Bayesian inference medicine",
         "Bayesian inference medicine review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Bayesian statistics in medicine: a 25 year review",
+      "authors": [
+        "Deborah Ashby"
+      ],
+      "year": 2006,
+      "doi": "10.1002/sim.2672",
+      "openAlexId": "W2058755574",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sim.2672",
+      "citationCount": 234,
+      "abstract": "This review examines the state of Bayesian thinking as Statistics in Medicine was launched in 1982, reflecting particularly on its applicability and uses in medical research. It then looks at each subsequent five-year epoch, with a focus on papers appearing in Statistics in Medicine, putting these in the context of major developments in Bayesian thinking and computation with reference to important books, landmark meetings and seminal papers. It charts the growth of Bayesian statistics as it is applied to medicine and makes predictions for the future. From sparse beginnings, where Bayesian statistics was barely mentioned, Bayesian statistics has now permeated all the major areas of medical statistics, including clinical trials, epidemiology, meta-analyses and evidence synthesis, spatial modelling, longitudinal modelling, survival modelling, molecular genetics and decision-making in respect of new technologies.",
+      "score": 0.832,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "Bayesian inference medicine introduction",
+        "Bayesian inference medicine tutorial",
+        "Bayesian inference medicine review",
+        "Bayesian inference medicine (teaching OR classroom OR undergraduate)"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "An application of Bayesian inference to examine student retention and attrition in the STEM classroom",
+      "authors": [
+        "Roberto Bertolini",
+        "Stephen J. Finch",
+        "Ross H. Nehm"
+      ],
+      "year": 2023,
+      "doi": "10.3389/feduc.2023.1073829",
+      "openAlexId": "W4320723515",
+      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/feduc.2023.1073829/pdf",
+      "citationCount": 21,
+      "abstract": "Introduction As artificial intelligence (AI) technology becomes more widespread in the classroom environment, educators have relied on data-driven machine learning (ML) techniques and statistical frameworks to derive insights into student performance patterns. Bayesian methodologies have emerged as a more intuitive approach to frequentist methods of inference since they link prior assumptions and data together to provide a quantitative distribution of final model parameter estimates. Despite their alignment with four recent ML assessment criteria developed in the educational literature, Bayesian methodologies have received considerably less attention by academic stakeholders prompting the need to empirically discern how these techniques can be used to provide actionable insights into student performance. Methods To identify the factors most indicative of student retention and attrition, we apply a Bayesian framework to comparatively examine the differential impact that the amalgamation of traditional and AI-driven predictors has on student performance in an undergraduate in-person science, technology, engineering, and mathematics (STEM) course. Results Interaction with the course learning management system (LMS) and performance on diagnostic concept inventory (CI) assessments provided the greatest insights into final course performance. Establishing informative prior values using historical classroom data did not always appreciably enhance model fit. Discussion We discuss how Bayesian methodologies are a more pragmatic and interpretable way of assessing student performance and are a promising tool for use in science education research and assessment.",
+      "score": 0.771,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "Bayesian inference medicine tutorial",
+        "Bayesian inference medicine (teaching OR classroom OR undergraduate)"
       ]
     }
   ]

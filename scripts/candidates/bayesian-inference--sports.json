@@ -1,0 +1,334 @@
+{
+  "method": "bayesian-inference",
+  "field": "sports",
+  "generatedAt": "2026-11-03T01:32:49.116Z",
+  "queries": [
+    "Bayesian inference sports",
+    "Bayesian inference sports introduction",
+    "Bayesian inference sports tutorial",
+    "Bayesian inference sports review",
+    "Bayesian inference sports (teaching OR classroom OR undergraduate)",
+    "Bayesian hierarchical model player performance",
+    "Glicko rating system",
+    "Bayesian prediction football match outcomes"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "A Review on Football Match Outcome Prediction using Bayesian Networks",
+      "authors": [
+        "Nazim Razali",
+        "Aida Mustapha",
+        "Sunariya Utama",
+        "Roshidi Din"
+      ],
+      "year": 2018,
+      "doi": "10.1088/1742-6596/1020/1/012004",
+      "openAlexId": "W2806809999",
+      "openAccessUrl": "https://iopscience.iop.org/article/10.1088/1742-6596/1020/1/012004/pdf",
+      "citationCount": 9,
+      "abstract": "Modelling association football or soccer prediction model has become a popular issue among scholars in the last few years. This paper is set to study a Bayesian networks (BNs) for football match outcome prediction. The main objective of this paper is to review the application of Bayesian networks (BNs) in football match prediction. This review may be useful for future researchers in developing new prediction model using BNs that incorporate several new features alongside with other existing features that contribute to increase the predictive performance of football prediction model.",
+      "score": 0.69,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Bayesian prediction football match outcomes"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Hitters vs. Pitchers: A Comparison of Fantasy Baseball Player Performances Using Hierarchical Bayesian Models",
+      "authors": [
+        "Scott D. Huddleston"
+      ],
+      "year": 2012,
+      "doi": null,
+      "openAlexId": "W800557624",
+      "openAccessUrl": "https://scholarsarchive.byu.edu/etd/3173",
+      "citationCount": 4,
+      "abstract": "In recent years, fantasy baseball has seen an explosion in popularity. Major League Baseball, with its long, storied history and the enormous quantity of data available, naturally lends itself to the modern-day recreational activity known as fantasy baseball. Fantasy baseball is a game in which participants manage an imaginary roster of real players and compete against one another using those players' real-life statistics to score points. Early forms of fantasy baseball began in the early 1960s, but beginning in the 1990s, the sport was revolutionized due to the advent of powerful computers and the Internet. The data used in this project come from an actual fantasy baseball league which uses a head-to-head, points-based scoring system. The data consist of the weekly point totals that were accumulated over the first three-fourths of the 2011 regular season by the top 110 hitters and top 70 pitchers in Major League Baseball. The purpose of this project is analyze the relative value of pitchers versus hitters in this league using hierarchical Bayesian models. Three models will be compared, one which differentiates between hitters and pitchers, another which also differentiates between starting pitchers and relief pitchers, and a third which makes no distinction whatsoever between hitters and pitchers. The models will be compared using the deviance information criterion (DIC). The best model will then be used to predict weekly point totals for the last fourth of the 2011 season. Posterior predictive densities will be compared to actual weekly scores.",
+      "score": 0.663,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Bayesian hierarchical model player performance"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "An augmented rating system for Test cricket: adapting the Glicko rating system",
+      "authors": [
+        "Rhitankar Bandyopadhyay",
+        "Diganta Mukherjee"
+      ],
+      "year": 2026,
+      "doi": "10.1515/jqas-2026-0020",
+      "openAlexId": "W7133556851",
+      "openAccessUrl": "https://doi.org/10.1515/jqas-2026-0020",
+      "citationCount": 0,
+      "abstract": "Abstract The International Cricket Council’s (ICC) rating system for Test cricket updates a team’s rating from match and series results alone. It makes no allowance for the precision of a rating, nor for contextual factors such as home advantage and the outcome of the toss. This study develops an enhanced rating framework by adapting the Glicko rating system so that these influences enter a probabilistically grounded expected score. The rating scale is recalibrated for the dynamics of Test cricket, and the home-ground and toss effects enter as data-driven covariates whose statistical significance and relative weights are estimated directly from match data: playing at home is worth an advantage of about 13 rating points and winning the toss about 8, and the two effects combine additively, with no statistically significant interaction. Applied to the two completed World Test Championship cycles (2021–23 and 2023–25), the model correctly predicts 77.6 % of decisive matches in the first cycle. Benchmarked against the standard Elo and the unmodified Glicko systems, it matches the better of their predictive accuracies and produces considerably better calibrated win probabilities, with a lower Brier score and log loss in both cycles. A resampling test over 1,000 permutations of each cycle’s match sequence shows every team’s final rating to be invariant to the order in which the fixtures are played. We present this as robustness to match ordering and distinguish it from fairness with respect to the fixture list, which the unbalanced Test calendar does not allow us to assess. The resulting ordering of teams agrees very closely with the ICC’s (Spearman rank correlation 0.979 and 0.983 at the end of the two cycles), so the improvement we demonstrate is not a different ranking but what accompanies it: a calibrated win probability for every match, an explicit rating deviation on every rating and contextual adjustments whose magnitude is estimated, none of which the current ICC scheme supplies.",
+      "score": 0.6,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Glicko rating system"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Hierarchical Bayesian modeling of hitting performance in baseball",
+      "authors": [
+        "Shane T. Jensen",
+        "Blakeley B. McShane",
+        "Abraham J. Wyner"
+      ],
+      "year": 2009,
+      "doi": "10.1214/09-ba424",
+      "openAlexId": "W2167673947",
+      "openAccessUrl": "https://projecteuclid.org/journals/bayesian-analysis/volume-4/issue-4/Hierarchical-Bayesian-modeling-of-hitting-performance-in-baseball/10.1214/09-BA424.pdf",
+      "citationCount": 27,
+      "abstract": "We have developed a sophisticated statistical model for predicting the hitting performance of Major League baseball players. The Bayesian paradigm provides a principled method for balancing past performance with crucial covariates, such as player age and position. We share information across time and across players by using mixture distributions to control shrinkage for improved accuracy. We compare the performance of our model to current sabermetric methods on a held-out season (2006), and discuss both successes and limitations.",
+      "score": 0.49,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Bayesian hierarchical model player performance"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Bayesian hierarchical model for the prediction of football results",
+      "authors": [
+        "Gianluca Baio",
+        "Marta Blangiardo"
+      ],
+      "year": 2010,
+      "doi": "10.1080/02664760802684177",
+      "openAlexId": "W2109802089",
+      "openAccessUrl": "http://hdl.handle.net/10281/4811",
+      "citationCount": 164,
+      "abstract": "The problem of modelling football data has become increasingly popular in the last few years and many different models have been proposed with the aim of estimating the characteristics that bring a team to lose or win a game, or to predict the score of a particular match. We propose a Bayesian hierarchical model to fulfil both these aims and test its predictive strength based on data about the Italian Serie A 1991–1992 championship. To overcome the issue of overshrinkage produced by the Bayesian hierarchical model, we specify a more complex mixture model that results in a better fit to the observed data. We test its performance using an example of the Italian Serie A 2007–2008 championship.",
+      "score": 0.479,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Bayesian prediction football match outcomes"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Bayesian hierarchical models for predicting individual performance in soccer",
+      "authors": [
+        "Leonardo Egidi",
+        "Jonah Gabry"
+      ],
+      "year": 2018,
+      "doi": "10.1515/jqas-2017-0066",
+      "openAlexId": "W2887819955",
+      "openAccessUrl": "https://arts.units.it/bitstream/11368/2929586/1/jqas-2017-0066.pdf",
+      "citationCount": 8,
+      "abstract": "Abstract Although there is no consensus on how to measure and quantify individual performance in any sport, there has been less development in this area for soccer than for other major sports. And only once this measurement is defined, does modeling for predictive purposes make sense. We use the player ratings provided by a popular Italian fantasy soccer game as proxies for the players’ performance; we discuss the merits and flaws of a variety of hierarchical Bayesian models for predicting these ratings, comparing the models on their predictive accuracy on hold-out data. Our central goals are to explore what can be accomplished with a simple freely available dataset comprising only a few variables from the 2015–2016 season in the top Italian league, Serie A, and to focus on a small number of interesting modeling and prediction questions that arise. Among these, we highlight the importance of modeling the missing observations and we propose two models designed for this task. We validate our models through graphical posterior predictive checks and we provide out-of-sample predictions for the second half of the season, using the first half as a training set. We use Stan to sample from the posterior distributions via Markov chain Monte Carlo.",
+      "score": 0.451,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Bayesian hierarchical model player performance"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Dynamic Bayesian forecasting models of football match outcomes with estimation of the evolution variance parameter",
+      "authors": [
+        "Alun Owen"
+      ],
+      "year": 2011,
+      "doi": "10.1093/imaman/dpq018",
+      "openAlexId": "W2113003261",
+      "openAccessUrl": "https://dspace.lboro.ac.uk/2134/8929",
+      "citationCount": 40,
+      "abstract": "Statistical models of football (soccer) match outcomes have potential applications to areas such as the development of team rankings and football betting markets. Much of the published work in this context has typically focused on the use of generalized linear models, which are non-dynamic in the sense that the parameters in the model, which often represent the underlying abilities of each team, are assumed to remain constant over time. Dynamic generalized linear models (DGLMs) on the other hand allow the abilities of each team to vary over time. This paper illustrates the application of a DGLM in the context of football match outcome prediction and describes improvements on similar work previously presented by the author, in relation to the estimation of a parameter in the model, referred to as the evolution variance, which is crucial in terms of optimizing the predictive performance of these types of models. Match results data from the Scottish Premier League from 2003/2004 to 2005/2006 are used to show that the DGLM approach provides improved predictive probabilities of future match outcomes compared to the non-dynamic form of the model. DGLMs are also Bayesian in terms of their structure and so a Bayesian approach to parameter estimation is required. This paper therefore illustrates a practical implementation of the DGLM model that can easily be deployed using the freely available software WinBUGS.",
+      "score": 0.429,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Bayesian prediction football match outcomes"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Profiting from an inefficient association football gambling market: Prediction, risk and uncertainty using Bayesian networks",
+      "authors": [
+        "Anthony Costa Constantinou",
+        "Norman Fenton",
+        "Martin Neil"
+      ],
+      "year": 2013,
+      "doi": "10.1016/j.knosys.2013.05.008",
+      "openAlexId": "W2145480231",
+      "openAccessUrl": "https://www.sciencedirect.com/science/article/pii/S095070511300169X/pdf",
+      "citationCount": 69,
+      "abstract": "We present a Bayesian network (BN) model for forecasting Association Football match outcomes. Both objective and subjective information are considered for prediction, and we demonstrate how probabilities transform at each level of model component, whereby predictive distributions follow hierarchical levels of Bayesian inference. The model was used to generate forecasts for each match of the 2011/2012 English Premier League (EPL) season, and forecasts were published online prior to the start of each match. Profitability, risk and uncertainty are evaluated by considering various unit-based betting procedures against published market odds. Compared to a previously published successful BN model, the model presented in this paper is less complex and is able to generate even more profitable returns.",
+      "score": 0.428,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Bayesian prediction football match outcomes"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Bayesball: A Bayesian hierarchical model for evaluating fielding in major league baseball",
+      "authors": [
+        "Shane T. Jensen",
+        "Kenneth E. Shirley",
+        "Abraham J. Wyner"
+      ],
+      "year": 2009,
+      "doi": "10.1214/08-aoas228",
+      "openAlexId": "W2098304403",
+      "openAccessUrl": "https://arxiv.org/pdf/0802.4317",
+      "citationCount": 30,
+      "abstract": "The use of statistical modeling in baseball has received substantial attention recently in both the media and academic community. We focus on a relatively under-explored topic: the use of statistical models for the analysis of fielding based on high-resolution data consisting of on-field location of batted balls. We combine spatial modeling with a hierarchical Bayesian structure in order to evaluate the performance of individual fielders while sharing information between fielders at each position. We present results across four seasons of MLB data (2002–2005) and compare our approach to other fielding evaluation procedures.",
+      "score": 0.398,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Bayesian hierarchical model player performance"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A Bayesian In-Play Prediction Model for Association Football Outcomes",
+      "authors": [
+        "Qingrong Zou",
+        "Kai Song",
+        "Jian Shi"
+      ],
+      "year": 2020,
+      "doi": "10.3390/app10082904",
+      "openAlexId": "W3018890144",
+      "openAccessUrl": "https://www.mdpi.com/2076-3417/10/8/2904/pdf?version=1587894355",
+      "citationCount": 9,
+      "abstract": "Point process models have made a significant contribution to the prediction of football association outcomes. It is conventionally the case that defence and attack capabilities have been assumed to be constant during a match and estimated against the average performance of all other teams in history. Drawing upon a Bayesian method, this paper proposes a dynamic strength model which relaxes assumption of the constant teams’ strengths and permits applying in-match performance information to calibrate them. An empirical study demonstrates that although the Bayesian model fails to achieve improvement in goal difference prediction, it registers clear achievements with regard to the prediction of the total number of goals and Win/Draw/Loss outcome prediction. When the Bayesian model bets against the SBOBet bookmaker, one of the most popular gaming companies among Asian handicaps fans, whose odds data were obtained from both the Win/Draw/Loss market and over–under market, it may obtain positive returns; this clearly contrasts with the process model with constant strengths, which fails to win money from the bookmaker.",
+      "score": 0.397,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Bayesian prediction football match outcomes"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A Bayesian inference approach for determining player abilities in football",
+      "authors": [
+        "Gavin A. Whitaker",
+        "Ricardo Silva",
+        "Edwards, Daniel",
+        "Ioannis Kosmidis"
+      ],
+      "year": 2017,
+      "doi": "10.48550/arxiv.1710.00001",
+      "openAlexId": "W4394662568",
+      "openAccessUrl": "https://arxiv.org/pdf/1710.00001",
+      "citationCount": 0,
+      "abstract": "We consider the task of determining a football player's ability for a given event type, for example, scoring a goal. We propose an interpretable Bayesian model which is fit using variational inference methods. We implement a Poisson model to capture occurrences of event types, from which we infer player abilities. Our approach also allows the visualisation of differences between players, for a specific ability, through the marginal posterior variational densities. We then use these inferred player abilities to extend the Bayesian hierarchical model of Baio and Blangiardo (2010) which captures a team's scoring rate (the rate at which they score goals). We apply the resulting scheme to the English Premier League, capturing player abilities over the 2013/2014 season, before using output from the hierarchical model to predict whether over or under 2.5 goals will be scored in a given game in the 2014/2015 season. This validates our model as a way of providing insights into team formation and the individual success of sports teams.",
+      "score": 0.39,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Bayesian inference sports",
+        "Bayesian inference sports introduction",
+        "Bayesian inference sports review",
+        "Bayesian hierarchical model player performance"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "MrBayes 3.2: Efficient Bayesian Phylogenetic Inference and Model Choice Across a Large Model Space",
+      "authors": [
+        "Fredrik Ronquist",
+        "Maxim Teslenko",
+        "Paul van der Mark",
+        "Daniel L. Ayres",
+        "Aaron E. Darling",
+        "Sebastian Höhna",
+        "Bret R. Larget",
+        "Liang Liu",
+        "Marc A. Suchard",
+        "John P. Huelsenbeck"
+      ],
+      "year": 2012,
+      "doi": "10.1093/sysbio/sys029",
+      "openAlexId": "W2148698435",
+      "openAccessUrl": "https://academic.oup.com/sysbio/article-pdf/61/3/539/24563565/sys029.pdf",
+      "citationCount": 27981,
+      "abstract": "Since its introduction in 2001, MrBayes has grown in popularity as a software package for Bayesian phylogenetic inference using Markov chain Monte Carlo (MCMC) methods. With this note, we announce the release of version 3.2, a major upgrade to the latest official release presented in 2003. The new version provides convergence diagnostics and allows multiple analyses to be run in parallel with convergence progress monitored on the fly. The introduction of new proposals and automatic optimization of tuning parameters has improved convergence for many problems. The new version also sports significantly faster likelihood calculations through streaming single-instruction-multiple-data extensions (SSE) and support of the BEAGLE library, allowing likelihood calculations to be delegated to graphics processing units (GPUs) on compatible hardware. Speedup factors range from around 2 with SSE code to more than 50 with BEAGLE for codon problems. Checkpointing across all models allows long runs to be completed even when an analysis is prematurely terminated. New models include relaxed clocks, dating, model averaging across time-reversible substitution models, and support for hard, negative, and partial (backbone) tree constraints. Inference of species trees from gene trees is supported by full incorporation of the Bayesian estimation of species trees (BEST) algorithms. Marginal model likelihoods for Bayes factor tests can be estimated accurately across the entire model space using the stepping stone method. The new version provides more output options than previously, including samples of ancestral states, site rates, site d(N)/d(S) rations, branch rates, and node dates. A wide range of statistics on tree parameters can also be output for visualization in FigTree and compatible software.",
+      "score": 1,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "Bayesian inference sports",
+        "Bayesian inference sports introduction",
+        "Bayesian inference sports tutorial",
+        "Bayesian inference sports review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Bayesian statistics meets sports: a comprehensive review",
+      "authors": [
+        "Edgar Santos–Fernández",
+        "Paul Pao‐Yen Wu",
+        "Kerrie Lee Mengersen"
+      ],
+      "year": 2019,
+      "doi": "10.1515/jqas-2018-0106",
+      "openAlexId": "W2955440557",
+      "openAccessUrl": "https://www.degruyter.com/downloadpdf/journals/jqas/15/4/article-p289.pdf",
+      "citationCount": 49,
+      "abstract": "Abstract Bayesian methods are becoming increasingly popular in sports analytics. Identified advantages of the Bayesian approach include the ability to model complex problems, obtain probabilistic estimates and predictions that account for uncertainty, combine information sources and update learning as new data become available. The volume and variety of data produced in sports activities over recent years and the availability of software packages for Bayesian computation have contributed significantly to this growth. This comprehensive survey reviews and characterizes the latest advances in Bayesian statistics in sports, including methods and applications. We found that a large proportion of these articles focus on modeling/predicting the outcome of sports games and on the development of statistics that provides a better picture of athletes’ performance. We provide a description of some of the advances in basketball, football and baseball. We also summarise the sources of data used for the analysis and the most commonly used software for Bayesian computation. We found a similar number of publications between 2013 and 2018 as compared to those published in the three previous decades, which is an indication of the growing adoption rate of Bayesian methods in sports.",
+      "score": 0.72,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "Bayesian inference sports",
+        "Bayesian inference sports introduction",
+        "Bayesian inference sports review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Game, Site, Match: Topics in Causal Inference and Sports Statistics",
+      "authors": [
+        "Che, Jonathan"
+      ],
+      "year": 2023,
+      "doi": null,
+      "openAlexId": "W7111431783",
+      "openAccessUrl": "https://dash.harvard.edu/bitstreams/93da9761-e555-4a7d-859b-1fe6aed48e07/download",
+      "citationCount": 0,
+      "abstract": "This thesis presents three self-contained chapters: a dynamic linear model for rating athletes using their game scores (Game), new perspectives power analysis for multisite trials (Site), and a synthetic matching method for observational causal inference (Match). Matching is the most transparent strategy for conducting causal inference with observational data. In Chapter 1, we generalize Coarsened Exact Matching (Iacus et al, 2012) and augment it with local synthetic controls (Abadie et al. 2010). We demonstrate how our method improves performance while preserving the spirit of exact matching, leading to theoretical and practical benefits. Chapter 2 turns to the analysis of game data. Athletic organizations often want to rate athletes’ abilities based on their past performances. For sports with multiple competitors in each event, Bayesian dynamic linear models (DLMs) provide a natural framework for doing so. In Chapter 2, we extend DLMs using monotone transformations to account for non-normality in game scores and illustrate the use of our method on Olympic athletes. Multisite trials, where randomized experiments are conducted within each of many sites (e.g., schools), are popular in education. In Chapter 3, we consider the problem of power analysis for these trials. We clarify common misunderstandings in this setting and propose a new approach using average margins of error.",
+      "score": 0.6,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "Bayesian inference sports",
+        "Bayesian inference sports introduction",
+        "Bayesian inference sports review",
+        "Bayesian inference sports (teaching OR classroom OR undergraduate)"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Dwarfs on the Shoulders of Giants: Bayesian Analysis With Informative Priors in Elite Sports Research and Decision Making",
+      "authors": [
+        "Anne Hecksteden",
+        "Sabrina Forster",
+        "Florian Egger",
+        "Felix Buder",
+        "Ralf Kellner",
+        "Tim Meyer"
+      ],
+      "year": 2022,
+      "doi": "10.3389/fspor.2022.793603",
+      "openAlexId": "W4220946449",
+      "openAccessUrl": "https://doi.org/10.3389/fspor.2022.793603",
+      "citationCount": 21,
+      "abstract": "While sample sizes in elite sports are necessarily small, so are the effects that may be relevant. This conundrum is complicated by an understandable reluctance of athletes to comply with extensive study requirements. In Bayesian analyses, pre-existing knowledge (e.g., from sub-elite trials) can be formally included to supplement scarce data. Moreover, some design specifics for small sample research extend to the extreme case of a single subject. This provides the basis for actionable feedback (e.g., about individual responses) thereby incentivising participation. As a proof-of-concept, we conducted a replicated cross-over trial on the effect of cold-water immersion (CWI) on sprint performance recovery in soccer players. Times for 30 m linear sprint and the initial 5 m section, respectively, were measured by light gates before and 24 h after induction of fatigue. Data were analysed by Bayesian and by standard frequentist methods. Informative priors are based on a published metaanalysis. Seven players completed the trial. Sprint performance was 4.156 ± 0.193 s for 30 m linear sprint and 0.978 ± 0.064 s for the initial 5 m section. CWI improved recovery of sprint time for the initial 5 m section (difference to control: −0.060 ± 0.060 s, p = 0.004) but not for the full 30 m sprint (0.002 ± 0.115 s, p = 0.959), with general agreement between Bayesian and frequentist interval estimates. On the individual level, relevant differences between analytical approaches were present for most players. Changes in the two performance measures are correlated (p = 0.009) with a fairly good reproducibility of individual response patterns. Bayesian analyses with informative priors may be a practicable and meaningful option particularly for very small samples and when the analytical aim is decision making (use / don't use in the specific setting) rather than generalizable inference.",
+      "score": 0.592,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "Bayesian inference sports",
+        "Bayesian inference sports introduction",
+        "Bayesian inference sports tutorial",
+        "Bayesian inference sports review"
+      ]
+    }
+  ]
+}

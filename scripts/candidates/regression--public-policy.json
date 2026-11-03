@@ -1,0 +1,339 @@
+{
+  "method": "regression",
+  "field": "public-policy",
+  "generatedAt": "2026-11-03T01:32:55.557Z",
+  "queries": [
+    "regression public policy",
+    "regression public policy introduction",
+    "regression public policy tutorial",
+    "regression public policy review",
+    "regression public policy (teaching OR classroom OR undergraduate)",
+    "difference-in-differences policy evaluation introduction",
+    "regression discontinuity design policy",
+    "program evaluation regression introduction"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "Combining the regression discontinuity design and propensity score‐based weighting to improve causal inference in program evaluation",
+      "authors": [
+        "Ariel Linden",
+        "John Adams"
+      ],
+      "year": 2012,
+      "doi": "10.1111/j.1365-2753.2011.01768.x",
+      "openAlexId": "W1910000333",
+      "openAccessUrl": "http://deepblue.lib.umich.edu/bitstream/2027.42/90567/1/j.1365-2753.2011.01768.x.pdf",
+      "citationCount": 50,
+      "abstract": "The regression discontinuity (RD) design is considered to be the closest to a randomized trial that can be applied in non-experimental settings. The design relies on a cut-off point on a continuous baseline variable to assign individuals to treatment. The individuals just to the right and left of the cut-off are assumed to be exchangeable - as in a randomized trial. Any observed discontinuity in the relationship between the assignment variable and outcome is therefore considered evidence of a treatment effect. In this paper, we describe key advances in the RD design over the past decade and illustrate their implementation using data from a health management intervention. We then introduce the propensity score-based weighting technique as a complement to the RD design to correct for imbalances in baseline characteristics between treated and non-treated groups that may bias RD results. We find that the weighting strategy outperforms standard regression covariate adjustment in the present data. One clear advantage of the weighting technique over regression covariate adjustment is that we can directly inspect the degree to which balance was achieved. Because of its relative simplicity and tremendous utility, the RD design (either alone or combined with propensity score weighting adjustment) should be considered as an alternative approach to evaluate health management program effectiveness when using observational data.",
+      "score": 0.833,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "program evaluation regression introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Regression discontinuity designs in healthcare research",
+      "authors": [
+        "Atheendar S Venkataramani",
+        "Jacob H. Bor",
+        "Anupam Bapu Jena"
+      ],
+      "year": 2016,
+      "doi": "10.1136/bmj.i1216",
+      "openAlexId": "W2301997220",
+      "openAccessUrl": "https://www.bmj.com/content/bmj/352/bmj.i1216.full.pdf",
+      "citationCount": 155,
+      "abstract": "Clinical decisions are often driven by decision rules premised around specific thresholds. Specific laboratory measurements, dates, or policy eligibility criteria create cut-offs at which people become eligible for certain treatments or health services. The regression discontinuity design is a statistical approach that utilizes threshold based decision making to derive compelling causal estimates of different interventions. In this review, we argue that regression discontinuity is underutilized in healthcare research despite the ubiquity of threshold based decision making as well as the design’s simplicity and transparency. Moreover, regression discontinuity provides evidence of “real world” therapeutic and policy effects, circumventing a major limitation of randomized controlled trials. We discuss the implementation, strengths, and weaknesses of regression discontinuity and review several examples from clinical medicine, public health, and health policy. We conclude by discussing the wide array of open research questions for which regression discontinuity stands to provide meaningful insights to clinicians and policymakers",
+      "score": 0.815,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "regression public policy review",
+        "regression discontinuity design policy"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "The Impact of New Urbanization Policy on In Situ Urbanization—Policy Test Based on Difference-in-Differences Model",
+      "authors": [
+        "Jing Peng",
+        "Yanhong Liu",
+        "Qi Wang",
+        "Guoping Tu",
+        "Xinjian Huang"
+      ],
+      "year": 2021,
+      "doi": "10.3390/land10020178",
+      "openAlexId": "W3128301943",
+      "openAccessUrl": "https://www.mdpi.com/2073-445X/10/2/178/pdf?version=1613702164",
+      "citationCount": 33,
+      "abstract": "Compared with traditional urbanization, new urbanization is more closely aligned with China’s basic national conditions and reflects the basic goal of sustainable development. As the main method of new urbanization, in situ urbanization can make up for the shortcomings of traditional urbanization. The establishment of national new urbanization pilot areas is an important element of the new urbanization policy. This paper tests the policy effect of the National New-type Urbanization Plan (2014–2020) on in situ urban development through the establishment of pilot areas. We found the following: (1) In the central region, the establishment of new urbanization pilot areas has not played a significant role in promoting the process of in situ urbanization. By dividing the central cities into Yangtze River and non–Yangtze River Economic Belt areas, we also find that the effect of the new urbanization policy is not obvious, for these cities are not located in the Yangtze River Economic Belt. (2) The central cities located in the Yangtze River Economic Belt have seen significant policy effects due to their advantages in transportation, resources, industry, labor, etc. The establishment of new urbanization pilot areas has a significant promoting effect on the process of in situ urbanization.",
+      "score": 0.782,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "difference-in-differences policy evaluation introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Has the consistency evaluation policy of generic drugs promoted the innovation quality of Chinese pharmaceutical manufacturing industry? An empirical study based on the difference-in-differences model",
+      "authors": [
+        "Qiang Liu",
+        "Zhe Huang",
+        "Zhenbin Mao"
+      ],
+      "year": 2023,
+      "doi": "10.3389/fpubh.2023.1265756",
+      "openAlexId": "W4389233755",
+      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/fpubh.2023.1265756/pdf?isPublishedV2=False",
+      "citationCount": 9,
+      "abstract": "Introduction: In March 2016, the Chinese government officially launched a nationwide consistency evaluation of the quality and efficacy of generic drugs. Methods: This paper conducted an empirical study using the Difference-in-Differences method to explore the effect of this policy on the innovation quality of China's pharmaceutical manufacturing industry and further analyzed the underlying mechanism of action. Results: The results of the study show that the generic consistency evaluation policy has a significant promotion effect on the innovation quality of China's pharmaceutical manufacturing industry, and the promotion effect is the largest for non-state-owned enterprises and enterprises in the central region; in addition, the intensity of R&D capital investment and R&D personnel investment which play a mediating role. Discussion: Therefore, we should fully recognize the positive effect of generic drug consistency evaluation policy on improving the innovation quality of the pharmaceutical manufacturing industry and pay attention to the necessity of regional coordination and unification in policy implementation and the formulation of supporting policy tools. This study provides empirical evidence for the implementation effect of the generic drug consistency evaluation policy, which can provide an essential reference for the further improvement of the procedure and the R&D decision-making of pharmaceutical enterprises.",
+      "score": 0.737,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "difference-in-differences policy evaluation introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Tourism policy in Vietnam: an evaluation using the difference-in-differences model",
+      "authors": [
+        "Hoang Thi Phuong Thao"
+      ],
+      "year": 2023,
+      "doi": "10.1080/19407963.2023.2273558",
+      "openAlexId": "W4388441467",
+      "openAccessUrl": "https://www.tandfonline.com/doi/pdf/10.1080/19407963.2023.2273558?download=true",
+      "citationCount": 11,
+      "abstract": "Today Vietnam is well-known not only for its long history but also its rich culture and magnificent natural environment.Vietnam is a developing socialist-oriented market economy, which heavily depends on agriculture, the export of raw materials, foreign direct investment, and tourism.In particular, the opening of the Vietnamese economy and a complete overhaul of the government's economic policy have played a significant role in the growth of the tourist economy over the past ten years.Recognizing the outstanding contribution of tourism to the national economy, the government decided to boost the tourism industry and as a first launched Tourism policy 2017.Developed from modernization theory and policy implementation theory, this study aims to measure how successful this policy was using the difference-in-difference estimation with two observed periods: 2014-2016 and 2017-2019.This model has never been applied to the tourism sector before.Unfortunately, the effectiveness of the tourism policy is not found.The factors driving the growth of tourism revenue are the trained workforce and a dynamic environment with the participation of a large number of businesses per year.Firstly, this stage (2017-2019) could be seen as the time for the policy to reach out to localities, thus it has not been effective.Secondly, this policy was not yet powerful enough to promote breakthrough growth in comparison with the previous period.Lastly, the policy for tourism development was lack of information, funds, processes, in order for the parties involved in tourism activities could access.Based on these findings, some recommendations are made.The findings may serve as a value reference for policymakers in Vietnam and other nations.",
+      "score": 0.732,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "difference-in-differences policy evaluation introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Changes in daily mental health service use and mortality at the commencement and lifting of COVID-19 ‘lockdown’ policy in 10 UK sites: a regression discontinuity in time design",
+      "authors": [
+        "Ioannis Bakolis",
+        "Robert J. Stewart",
+        "David S. Baldwin",
+        "Jane Beenstock",
+        "Paul F Bibby",
+        "Matthew T.M. Broadbent",
+        "Rudolf N. Cardinal",
+        "Shanquan Chen",
+        "Karthik Chinnasamy",
+        "Andrea Cipriani",
+        "Simon Douglas",
+        "Philip Horner",
+        "Caroline Jackson",
+        "Ann Mary John",
+        "Dan W. Joyce",
+        "Sze Chim Lee",
+        "Jonathan R. Lewis",
+        "Andrew Mark McIntosh",
+        "Neil L. Nixon",
+        "David Osborn",
+        "Peter Phiri",
+        "Shanaya Rathod",
+        "Tanya Deurvorst Smith",
+        "Rachel Sokal",
+        "Rob Waller",
+        "Sabine Landau"
+      ],
+      "year": 2021,
+      "doi": "10.1136/bmjopen-2021-049721",
+      "openAlexId": "W3165788793",
+      "openAccessUrl": "https://bmjopen.bmj.com/content/bmjopen/11/5/e049721.full.pdf",
+      "citationCount": 40,
+      "abstract": "OBJECTIVES: To investigate changes in daily mental health (MH) service use and mortality in response to the introduction and the lifting of the COVID-19 'lockdown' policy in Spring 2020. DESIGN: A regression discontinuity in time (RDiT) analysis of daily service-level activity. SETTING AND PARTICIPANTS: Mental healthcare data were extracted from 10 UK providers. OUTCOME MEASURES: Daily (weekly for one site) deaths from all causes, referrals and discharges, inpatient care (admissions, discharges, caseloads) and community services (face-to-face (f2f)/non-f2f contacts, caseloads): Adult, older adult and child/adolescent mental health; early intervention in psychosis; home treatment teams and liaison/Accident and Emergency (A&E). Data were extracted from 1 Jan 2019 to 31 May 2020 for all sites, supplemented to 31 July 2020 for four sites. Changes around the commencement and lifting of COVID-19 'lockdown' policy (23 March and 10 May, respectively) were estimated using a RDiT design with a difference-in-difference approach generating incidence rate ratios (IRRs), meta-analysed across sites. RESULTS: Pooled estimates for the lockdown transition showed increased daily deaths (IRR 2.31, 95% CI 1.86 to 2.87), reduced referrals (IRR 0.62, 95% CI 0.55 to 0.70) and reduced inpatient admissions (IRR 0.75, 95% CI 0.67 to 0.83) and caseloads (IRR 0.85, 95% CI 0.79 to 0.91) compared with the pre lockdown period. All community services saw shifts from f2f to non-f2f contacts, but varied in caseload changes. Lift of lockdown was associated with reduced deaths (IRR 0.42, 95% CI 0.27 to 0.66), increased referrals (IRR 1.36, 95% CI 1.15 to 1.60) and increased inpatient admissions (IRR 1.21, 95% CI 1.04 to 1.42) and caseloads (IRR 1.06, 95% CI 1.00 to 1.12) compared with the lockdown period. Site-wide activity, inpatient care and community services did not return to pre lockdown levels after lift of lockdown, while number of deaths did. Between-site heterogeneity most often indicated variation in size rather than direction of effect. CONCLUSIONS: MH service delivery underwent sizeable changes during the first national lockdown, with as-yet unknown and unevaluated consequences.",
+      "score": 0.716,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "regression discontinuity design policy"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Evaluating the Effect of China’s Carbon Emission Trading Policy on Energy Efficiency of the Construction Industry Based on a Difference‐in‐Differences Method",
+      "authors": [
+        "Shasha Xie",
+        "Jinjing Wang"
+      ],
+      "year": 2022,
+      "doi": "10.1155/2022/6096435",
+      "openAlexId": "W4293686377",
+      "openAccessUrl": "https://downloads.hindawi.com/journals/ace/2022/6096435.pdf",
+      "citationCount": 10,
+      "abstract": "China’s construction industry makes important contributions to energy consumption and pollution emissions. It is significant to improve energy efficiency in the construction industry. Since 2011, the introduction of China’s carbon emission trading policy has had a great impact on energy conservation and emission reduction. The implementation of the carbon emission trading policy provides us with an opportunity to find solutions to improve the energy efficiency of the construction industry (EECI) in China. In this article, the implementation of carbon emission trading is regarded as a quasi‐natural experiment, and the impact of the carbon emission trading policy on the energy efficiency of the construction industry is evaluated by analyzing the panel data related to the energy of the construction industry in 30 provincial regions from 2008 to 2016 through a difference‐in‐differences method. The main conclusions are as follows. First, the carbon emission trading policy can improve EECI. Second, the carbon emission trading policy can achieve the policy effect of improving EECI by optimizing the allocation of construction machinery resources and enhancing regional technical innovation. At the same time, strengthening government environmental regulation can strengthen the policy effect as well. Finally, some policy implications based on the study are proposed.",
+      "score": 0.715,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "difference-in-differences policy evaluation introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Regression Discontinuity Designs Based on Population Thresholds: Pitfalls and Solutions",
+      "authors": [
+        "Andrew C. Eggers",
+        "Ronny Freier",
+        "Veronica Grembi",
+        "Tommaso Nannicini"
+      ],
+      "year": 2017,
+      "doi": "10.1111/ajps.12332",
+      "openAlexId": "W3125144267",
+      "openAccessUrl": "http://hdl.handle.net/2434/545347",
+      "citationCount": 151,
+      "abstract": "Abstract In many countries, important features of municipal government (such as the electoral system, mayors' salaries, and the number of councillors) depend on whether the municipality is above or below arbitrary population thresholds. Several papers have used a regression discontinuity design (RDD) to measure the effects of these threshold‐based policies on political and economic outcomes. Using evidence from France, Germany, and Italy, we highlight two common pitfalls that arise in exploiting population‐based policies (compound treatment and sorting), and we provide guidance for detecting and addressing these pitfalls. Even when these problems are present, population‐threshold RDD may be the best available research design for studying the effects of certain policies and political institutions.",
+      "score": 0.699,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "regression discontinuity design policy"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Do Parties Matter for Economic Outcomes? A Regression-Discontinuity Approach",
+      "authors": [
+        "Per Pettersson‐Lidbom"
+      ],
+      "year": 2008,
+      "doi": "10.1162/jeea.2008.6.5.1037",
+      "openAlexId": "W3121149816",
+      "openAccessUrl": "https://doi.org/10.2139/ssrn.988343",
+      "citationCount": 388,
+      "abstract": "A long-standing issue in political economics is whether party control makes a difference in determining fiscal and economics policies. This question is very difficult to answer empirically since parties are not randomly selected to govern political entities. This paper uses a regression-discontinuity design, i.e., party control changes discontinuously at 50 percent of the vote share, which can produce near experimental causal estimates of the effect of party control on economic outcomes. The method is applied to a large panel data set from Swedish local governments with a number of attractive features. The results show that there is an economically significant party effect: left-wing governments spend and tax 2-3 percent more than right-wing governments. Left-wing governments also have 7 percent lower unemployment rates, which is partly due to that left-wing governments employ 4 percent more workers than right-wing governments.",
+      "score": 0.698,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "regression discontinuity design policy"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A causal framework for evaluating drivers of policy effect heterogeneity using difference-in-differences",
+      "authors": [
+        "Gary Hettinger",
+        "Youjin Lee",
+        "Nandita Mitra"
+      ],
+      "year": 2025,
+      "doi": "10.1007/s10742-025-00358-5",
+      "openAlexId": "W4415535097",
+      "openAccessUrl": "https://link.springer.com/content/pdf/10.1007/s10742-025-00358-5.pdf",
+      "citationCount": 3,
+      "abstract": "Policymakers and researchers often seek to understand how a policy differentially affects a population and the pathways driving this heterogeneity. For example, when studying an excise tax on sweetened beverages, researchers might assess the roles of cross-border shopping, economic competition, and store-level price changes on beverage sales trends. However, traditional policy evaluation tools, like the difference-in-differences (DiD) approach, primarily target average effects of the observed intervention rather than the underlying drivers of effect heterogeneity. Common approaches to evaluate sources of heterogeneity often lack a causal framework, making it difficult to determine whether observed outcome differences are truly driven by the proposed source of heterogeneity or by other confounding factors. In this paper, we present a framework for evaluating such policy drivers by representing questions of effect heterogeneity under hypothetical interventions and use it to evaluate drivers of the Philadelphia sweetened beverage tax policy effects. Building on recent advancements in estimating causal effect curves under DiD designs, we provide tools to assess policy effect heterogeneity while addressing practical challenges including confounding and neighborhood dynamics. Supplementary Information: The online version contains supplementary material available at 10.1007/s10742-025-00358-5.",
+      "score": 0.668,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "difference-in-differences policy evaluation introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Spill-Over Effect of Tax Policy on the Environment: Evidence from Regression Discontinuity Design",
+      "authors": [
+        "Dingwen Wu",
+        "Hongjian Wang",
+        "Haiyan Jiang",
+        "Carl Hsin‐han Shen"
+      ],
+      "year": 2025,
+      "doi": "10.1007/s10640-025-00993-z",
+      "openAlexId": "W4410961497",
+      "openAccessUrl": "https://link.springer.com/content/pdf/10.1007/s10640-025-00993-z.pdf",
+      "citationCount": 2,
+      "abstract": "Abstract This study investigates how the stringent administration of taxes resulting from the Chinese corporate income tax collection reform (the 2002 CITC Reform) affects the intensity of the discharge of pollution by firms. The 2002 CITC Reform, launched on 1 January 2002, required state tax bureaus (STBs) to start collecting income tax from firms incorporated on and after 1 January 2002, while the income tax from firms incorporated before this date is still collected by local tax bureaus (LTBs). Leveraging a Regression Discontinuity Design, we reveal that newly established firms strategically responded to the reform with high levels of wastewater and sulphur dioxide (SO2) emissions. The main finding is robust to a battery of robustness tests. Cross-sectional tests demonstrate that the discontinuity in pollution discharge among the firms whose taxes are managed by STBs is more pronounced among non-state-owned enterprises and firms located in provinces with less strict environmental regulations. Collectively, the findings suggest an unintended spill-over effect of the government’s tax policy on the environment.",
+      "score": 0.665,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "regression discontinuity design policy"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Multilevel modelling and public health policy",
+      "authors": [
+        "Alastair H. Leyland",
+        "Peter Groenewegen"
+      ],
+      "year": 2003,
+      "doi": "10.1080/14034940210165028",
+      "openAlexId": "W2010046844",
+      "openAccessUrl": "https://www.nivel.nl/nl/publicaties/1539",
+      "citationCount": 185,
+      "abstract": "BACKGROUND: Multilevel modelling is a statistical technique that extends ordinary regression analysis to the situation where the data are hierarchical. Such data form an increasingly common evidence base for public health policy, and as such it is important that policy makers should be aware of this methodology. METHOD: This paper therefore lays out the a basic description of multilevel modelling, discusses the problems of alternative approaches, and details the relevance for public health policy before describing which levels are relevant and illustrating the different kinds of hypotheses that can be tested using multilevel modelling. A series of examples is used throughout the paper. These relate to regional variations in the incidence of heart disease, the allocation of health resources, the relationship between neighbourhood disorder and mental health, the demand-control model in occupational health, and a school intervention to prevent cardiovascular disease.",
+      "score": 0.91,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "regression public policy",
+        "regression public policy introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Driving innovation: Public policy and human capital",
+      "authors": [
+        "Helena Lenihan",
+        "Helen McGuirk",
+        "Kevin R. Murphy"
+      ],
+      "year": 2019,
+      "doi": "10.1016/j.respol.2019.04.015",
+      "openAlexId": "W2948560909",
+      "openAccessUrl": "https://www.sciencedirect.com/science/article/pii/S0048733319300940/pdf",
+      "citationCount": 243,
+      "abstract": "Human capital, the set of skills, knowledge, capabilities and attributes embodied in people, is crucial to firms’ capacity to absorb and organize knowledge and to innovate. Research on human capital has traditionally focused on education and training. A concern with the motivationally-relevant elements of human capital such as employees’ job satisfaction, organizational commitment, and willingness to change in the workplace (all of which have been shown to drive innovation), has often been overlooked in economic research and by public policy interventions to date. The paper addresses this gap in two ways: First, by studying firms’ human resource systems that can enhance these elements of human capital, and second, using the results of this research as a springboard for a public policy program targeted at elements of human capital that have been ignored by traditional education and training interventions. Using a sample of 1070 employee-managers in Ireland, we apply a series of probit regressions to understand how different human resources systems influence the probability of employee-managers reporting the motivationally-relevant elements of human capital. The research: (1) Finds that respondents in organizations with certain human resource systems are more likely to report motivationally-relevant elements of human capital. Specifically, employee-managers in organizations with proactive work practices and that consult with their employee-managers increase the predicted probability of reporting that they are satisfied with their job, willing to change, and are committed to the organization; (2) Highlights the need to consider the role of policy interventions to support the motivationally-relevant elements of human capital; (3) Proposes a new policy program offer to support the motivationally-relevant elements of human capital in order to increase firms’ innovation activity.",
+      "score": 0.895,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "regression public policy",
+        "regression public policy introduction",
+        "regression public policy review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "DETERMINANT FACTORS FOR UNDERGRADUATE STUDENT’S DROPOUT IN AN ACCOUNTING STUDIES DEPARTMENT OF A BRAZILIAN PUBLIC UNIVERSITY",
+      "authors": [
+        "Samuel de Oliveira Durso",
+        "Jacqueline Veneroso Alves da Cunha"
+      ],
+      "year": 2018,
+      "doi": "10.1590/0102-4698186332",
+      "openAlexId": "W2799963283",
+      "openAccessUrl": "http://www.scielo.br/pdf/edur/v34/1982-6621-edur-34-e186332.pdf",
+      "citationCount": 34,
+      "abstract": "ABSTRACT: The purpose of this article was to identify explanatory factors for undergraduate student’s dropout from the Accounting program of a Brazilian public university. The theoretical platform that guided the study was formulated using three evasion models related to higher education. The survey database consisted of socioeconomic and demographic information of 371 students. The research used quantitative and qualitative methodologies to reach the proposed goal. Quantitative data analysis was performed through logistic regression. The model proposed by the study was able to accurately predict 77% of the cases of dropout/completion from the sample. The qualitative step was based on five semi-structured interviews with those in the sample who dropped out of their studies. The findings of the research have helped understand the phenomenon of undergraduate student dropout from the Accounting program and stresses the importance of rethinking public policies for the retention of talent and, especially, of those students who depend on their work to maintain their studies.",
+      "score": 0.811,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "regression public policy (teaching OR classroom OR undergraduate)"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Enabling digital education: from official statistics to public policy",
+      "authors": [
+        "Ciprian IFTIMOAE",
+        "Adrian Victor VEVERA"
+      ],
+      "year": 2024,
+      "doi": "10.58503/icvl-v19y202421",
+      "openAlexId": "W4404701945",
+      "openAccessUrl": "https://icvl.eu/documents/94/art._21_S3_IFTIMOAEI.pdf",
+      "citationCount": 1,
+      "abstract": "This study adopts a theoretical and empirical approach to digital education structured on three levels: the definition of digital education, the statistical analysis of data on digital education, and the evaluation of public policies in digitization.The study aims to provide a comprehensive view of the benchmarks and trends regarding digital education in the post-COVID-19 period, as reflected in official statistics and policies at the European and national levels.The evaluation of digital education in Romania, within EU member countries, is based on a series of statistical indicators provided by Eurostat and the National Institute of Statistics.These indicators include the early school leaving rate, the share of NEETs, the share of people with higher education in the total population, the participation of adults in lifelong learning, the DESI index, the level of digital skills, and computer skills.The research methodology comprises descriptive analysis, boxplot analysis, and regression analysis, ensuring a comprehensive and robust evaluation.The study's results can be used to evaluate progress in achieving the targets proposed by public policies for the digitization of the economy and society in Romania in a European context, providing reassurance of the thoroughness and reliability of the research.",
+      "score": 0.641,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "regression public policy tutorial"
+      ]
+    }
+  ]
+}
