@@ -1,5 +1,7 @@
 ---
+import { fieldAccent } from '../lib/fields';
 import type { GridData } from '../lib/grid';
+import { focus } from '../lib/styles';
 import GridCell from './GridCell.astro';
 
 // Desktop layout (768px and up). Below that, FieldAccordion takes over.
@@ -8,26 +10,28 @@ type Props = GridData;
 
 const { methods, fields, cellFor } = Astro.props;
 
-const headerLink =
-  'rounded underline-offset-4 hover:text-indigo-700 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:hover:text-indigo-300 dark:focus-visible:outline-indigo-400';
+const headerLink = ['rounded underline-offset-4 transition-colors hover:text-brand hover:underline', focus];
 ---
 
-<div class="hidden overflow-x-auto pb-2 md:block" data-grid>
-  <table class="w-full min-w-[72rem] table-fixed border-separate border-spacing-0">
+<div class="hidden overflow-x-auto pb-4 md:block" data-grid>
+  <table class="w-full min-w-[80rem] table-fixed border-separate border-spacing-0">
     <caption class="sr-only">Applied math methods (rows) by research field (columns)</caption>
     <colgroup>
-      <col class="w-40" />
+      <col class="w-44" />
       {fields.map(() => <col />)}
     </colgroup>
     <thead>
       <tr>
-        <td class="sticky left-0 z-10 bg-white dark:bg-slate-950"></td>
+        <td class="sticky left-0 z-10 bg-canvas"></td>
         {
           fields.map((field) => (
-            <th scope="col" class="px-1 pb-3 text-left align-bottom text-sm font-semibold">
-              <a href={`/field/${field.data.slug}`} class={headerLink}>
-                {field.data.name}
-              </a>
+            <th scope="col" class="px-1.5 pb-4 text-left align-bottom font-display text-sm font-semibold">
+              <span class="flex items-center gap-2">
+                <span aria-hidden="true" class:list={['size-2 shrink-0 rounded-full', fieldAccent[field.data.slug]]} />
+                <a href={`/field/${field.data.slug}`} class:list={headerLink}>
+                  {field.data.name}
+                </a>
+              </span>
             </th>
           ))
         }
@@ -35,22 +39,23 @@ const headerLink =
     </thead>
     <tbody>
       {
-        methods.map((method) => (
+        methods.map((method, row) => (
           <tr>
             <th
               scope="row"
-              class="sticky left-0 z-10 bg-white py-1 pr-3 text-left align-middle text-sm font-semibold dark:bg-slate-950"
+              class="sticky left-0 z-10 bg-canvas py-1.5 pr-5 text-left align-middle font-display text-sm font-semibold"
             >
-              <a href={`/method/${method.data.slug}`} class={headerLink}>
+              <a href={`/method/${method.data.slug}`} class:list={headerLink}>
                 {method.data.name}
               </a>
             </th>
-            {fields.map((field) => (
-              <td class="h-px p-1 align-top">
+            {fields.map((field, col) => (
+              <td class="h-px p-1.5 align-top">
                 <GridCell
                   entry={cellFor(method.data.slug, field.data.slug)}
                   methodName={method.data.name}
                   fieldName={field.data.name}
+                  order={row + col}
                 />
               </td>
             ))}

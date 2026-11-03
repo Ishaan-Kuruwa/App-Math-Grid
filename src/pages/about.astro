@@ -1,17 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import DifficultyBadge from '../components/DifficultyBadge.astro';
+import { DIFFICULTIES } from '../content.config';
+import { difficultyStyles } from '../lib/difficulty';
 import { heading, link } from '../lib/styles';
 
-const levels = [
-  { difficulty: 'intro', text: 'A good first project. The math and the papers are the most approachable.' },
-  { difficulty: 'intermediate', text: 'Combines a few ideas or takes more setup, like a solver or a simulation.' },
-  { difficulty: 'advanced', text: 'Harder math and papers. Best after you have done a project before.' },
-] as const;
+const levels = DIFFICULTIES.map((difficulty) => ({ difficulty, text: difficultyStyles[difficulty].description }));
 ---
 
 <Layout title="About" description="What the Applied Math Method Map is and how to use it to start a research project.">
-  <main class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+  <main class="motion-safe:animate-fade-up mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
     <h1 class="text-3xl font-bold tracking-tight">About the map</h1>
     <p class="mt-4 text-lg leading-relaxed text-slate-700 dark:text-slate-300">
       Math shows up in almost every kind of research, from tracking disease outbreaks to planning sports strategy.
@@ -27,7 +25,7 @@ const levels = [
       <li>Try the starter question. It's a small project you can begin with real or made-up data.</li>
     </ol>
 
-    <h2 class:list={[heading, 'mt-10']}>Difficulty levels</h2>
+    <h2 id="difficulty-levels" class:list={[heading, 'mt-10']}>Difficulty levels</h2>
     <dl class="mt-4 space-y-3">
       {
         levels.map(({ difficulty, text }) => (

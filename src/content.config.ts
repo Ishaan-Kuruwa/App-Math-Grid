@@ -44,6 +44,9 @@ const paper = z.object({
     .trim()
     .regex(/^10\.\d{4,9}\/\S+$/, 'DOI must look like "10.xxxx/..." (no https://doi.org/ prefix)')
     .optional(),
+  // Optional, shown on the entry page: what this paper does or what to notice
+  // in it. Written only from what the entry already says about the paper.
+  lookFor: text.optional(),
 });
 
 const methods = defineCollection({
@@ -73,6 +76,11 @@ const entries = defineCollection({
     field: reference('fields'),
     summary: text,
     starterQuestion: text,
+    // Optional structure for the entry page. Entries without these fields show
+    // the full summary as one section, as before.
+    bigIdea: text.optional(), // 1–2 plain sentences: what the method does here
+    keyTerms: z.array(z.object({ term: text, definition: text })).max(5).default([]),
+    steps: z.array(text).max(7).default([]), // how to tackle the starter question, in order
     difficulty: z.enum(DIFFICULTIES),
     status: z.enum(STATUSES).default('draft'),
     prerequisites: z.array(text).default([]),

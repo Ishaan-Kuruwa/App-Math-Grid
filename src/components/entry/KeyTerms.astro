@@ -1,0 +1,21 @@
+---
+// Glossary of the words an entry uses, as a two-column table on wider screens
+// and stacked term-over-definition on phones.
+
+interface Props {
+  terms: { term: string; definition: string }[];
+}
+
+const { terms } = Astro.props;
+---
+
+<dl class="divide-y divide-line overflow-hidden rounded-xl border border-line bg-surface shadow-card">
+  {
+    terms.map(({ term, definition }) => (
+      <div class="grid gap-1 px-5 py-4 sm:grid-cols-[11rem_1fr] sm:gap-6">
+        <dt class="font-display font-semibold">{term}</dt>
+        <dd class="leading-relaxed text-ink-muted">{definition}</dd>
+      </div>
+    ))
+  }
+</dl>

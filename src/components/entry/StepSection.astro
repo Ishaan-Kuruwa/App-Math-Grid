@@ -1,0 +1,30 @@
+---
+import { fadeDelay, fadeUp } from '../../lib/styles';
+
+// One numbered section of the entry page. The numbers make the page read as a
+// path (idea → words → question → papers → what next). They're decorative: the
+// headings carry the meaning, and "On this page" links to each `id`.
+
+interface Props {
+  id: string;
+  number: number;
+  title: string;
+}
+
+const { id, number, title } = Astro.props;
+---
+
+<section id={id} aria-labelledby={`${id}-heading`} class:list={['scroll-mt-28', fadeUp]} style={fadeDelay(number, 80)}>
+  <h2 id={`${id}-heading`} class="flex items-center gap-3 text-2xl font-bold tracking-tight">
+    <span
+      aria-hidden="true"
+      class="grid size-9 shrink-0 place-items-center rounded-full bg-brand-soft font-display text-base font-bold text-brand"
+    >
+      {number}
+    </span>
+    {title}
+  </h2>
+  <div class="mt-5">
+    <slot />
+  </div>
+</section>

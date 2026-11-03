@@ -1,1 +1,169 @@
 @import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/plus-jakarta-sans";
+
+/*
+  Design tokens. Colors are semantic (canvas, surface, ink, brand...) and switch
+  with the system light/dark setting, so components rarely need `dark:` classes.
+  Every text color meets WCAG AA on every background here (most are 7:1+), and
+  line-strong meets the 3:1 non-text minimum.
+*/
+
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans Variable", "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --text-display: 3.5rem;
+  --text-display--line-height: 1.05;
+  --text-display--letter-spacing: -0.03em;
+
+  /* Layout spacing (Tailwind's 0.25rem scale still works alongside these) */
+  --spacing-gutter: 1.25rem; /* page side padding on phones */
+  --spacing-section: 5rem; /* between page sections */
+  --spacing-card: 1.5rem; /* card padding */
+  --spacing-cell: 1rem; /* grid cell padding */
+  --container-prose: 44rem;
+
+  --radius-sm: 0.5rem; /* search results, small chips */
+  --radius-md: 0.75rem; /* inputs, buttons */
+  --radius-lg: 1rem; /* grid cells */
+  --radius-xl: 1.5rem; /* cards, accordion panels */
+
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  /* `backwards` so the animation never holds on to properties after it ends */
+  --animate-fade-up: fade-up 0.5s var(--ease-soft) backwards;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+  }
+}
+
+@theme inline {
+  --color-canvas: var(--ui-canvas);
+  --color-surface: var(--ui-surface);
+  --color-surface-2: var(--ui-surface-2);
+  --color-line: var(--ui-line);
+  --color-line-strong: var(--ui-line-strong);
+  --color-ink: var(--ui-ink);
+  --color-ink-muted: var(--ui-ink-muted);
+  --color-brand: var(--ui-brand);
+  --color-brand-strong: var(--ui-brand-strong);
+  --color-brand-soft: var(--ui-brand-soft);
+  --color-graph: var(--ui-graph);
+  --shadow-card: var(--ui-shadow-card);
+  --shadow-lift: var(--ui-shadow-lift);
+}
+
+:root {
+  --ui-canvas: #f8f7fc; /* page background */
+  --ui-surface: #ffffff; /* cards, cells, inputs */
+  --ui-surface-2: #f1effa; /* hover / raised */
+  --ui-line: #e4e1f0; /* borders */
+  --ui-line-strong: #8f89aa; /* dashed open cells, input borders */
+  --ui-ink: #15131f; /* main text */
+  --ui-ink-muted: #4a4660; /* secondary text */
+  --ui-brand: #5b4bdb; /* links, accents, focus */
+  --ui-brand-strong: #4535c4;
+  --ui-brand-soft: #eeebff; /* tinted backgrounds */
+  --ui-graph: rgb(91 75 219 / 0.08); /* graph-paper lines behind the hero */
+  --ui-shadow-card: 0 1px 2px rgb(20 16 40 / 0.04), 0 4px 16px rgb(20 16 40 / 0.06);
+  --ui-shadow-lift: 0 12px 32px -8px rgb(91 75 219 / 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ui-canvas: #0b0a12;
+    --ui-surface: #14121f;
+    --ui-surface-2: #1c1a2b;
+    --ui-line: #2a2740;
+    --ui-line-strong: #6e6893;
+    --ui-ink: #f3f2f8;
+    --ui-ink-muted: #b4b0c8;
+    --ui-brand: #a79bff;
+    --ui-brand-strong: #c4bcff;
+    --ui-brand-soft: #221d45;
+    --ui-graph: rgb(167 155 255 / 0.07);
+    /* Shadows vanish on dark backgrounds, so use a hairline and a violet glow */
+    --ui-shadow-card: 0 0 0 1px rgb(255 255 255 / 0.03);
+    --ui-shadow-lift: 0 0 0 1px rgb(167 155 255 / 0.35), 0 12px 40px -10px rgb(124 108 255 / 0.5);
+  }
+}
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+  }
+}
+
+/* Faint graph paper that fades out toward the bottom. Decorative only. */
+@utility bg-graph-paper {
+  background-image:
+    linear-gradient(to right, var(--color-graph) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-graph) 1px, transparent 1px);
+  background-size: 2rem 2rem;
+  mask-image: radial-gradient(ellipse 80% 100% at 50% 0%, black 30%, transparent 75%);
+}
+
+/* Smooth open/close for <details data-animate>. Browsers without
+   ::details-content or interpolate-size just open instantly. */
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    interpolate-size: allow-keywords;
+  }
+
+  details[data-animate]::details-content {
+    block-size: 0;
+    overflow: hidden;
+    transition:
+      block-size 0.35s var(--ease-soft),
+      content-visibility 0.35s allow-discrete;
+  }
+
+  details[data-animate][open]::details-content {
+    block-size: auto;
+  }
+}
+
+/* Page transitions (Astro ClientRouter). The page cross-fades, the header holds
+   still, and an entry title glides from its grid cell or card into the entry
+   page heading. */
+::view-transition-group(root),
+::view-transition-group(*.entry-title) {
+  animation-duration: 0.4s;
+  animation-timing-function: var(--ease-soft);
+}
+
+/* Titles change size and line breaks as they move, so keep each snapshot at its
+   own size and anchored top-left rather than stretched. */
+::view-transition-old(*.entry-title),
+::view-transition-new(*.entry-title) {
+  width: auto;
+  height: auto;
+  object-fit: none;
+  object-position: left top;
+}
+
+/* Safety net for visitors who ask for less motion: stop every animation and
+   transition, including ones added later. Astro already skips its own page
+   transition animations in this case. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0s !important;
+    scroll-behavior: auto !important;
+  }
+}

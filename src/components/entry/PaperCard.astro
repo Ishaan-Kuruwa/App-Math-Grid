@@ -1,0 +1,48 @@
+---
+import { focus } from '../../lib/styles';
+
+// One paper in "Read the research". Papers are already listed from most to least
+// accessible, so the first one is tagged "Start here" and gets the main button.
+
+interface Props {
+  paper: { title: string; authors: string[]; year: number; url: string; lookFor?: string | undefined };
+  number: number;
+}
+
+const { paper, number } = Astro.props;
+const first = number === 1;
+
+const button = [
+  'mt-4 inline-flex items-center gap-1.5 rounded-md px-4 py-2 text-sm font-semibold transition-colors duration-200',
+  first
+    ? 'bg-brand text-canvas hover:bg-brand-strong'
+    : 'border border-line-strong text-brand hover:border-brand hover:bg-brand-soft',
+  focus,
+];
+---
+
+<article
+  class:list={[
+    'rounded-xl border bg-surface p-card shadow-card',
+    first ? 'border-brand' : 'border-line',
+  ]}
+>
+  <div class="flex flex-wrap items-center gap-2 text-sm font-semibold text-ink-muted">
+    <span>Paper {number}</span>
+    {first && <span class="rounded-full bg-brand-soft px-2.5 py-0.5 text-xs font-bold text-brand">Start here</span>}
+  </div>
+  <h3 class="mt-2 text-lg leading-snug font-semibold">{paper.title}</h3>
+  <p class="mt-1 text-sm text-ink-muted">{paper.authors.join(', ')} ({paper.year})</p>
+  {
+    paper.lookFor && (
+      <p class="mt-4 leading-relaxed">
+        <span class="font-semibold">What to look for: </span>
+        {paper.lookFor}
+      </p>
+    )
+  }
+  <a href={paper.url} class:list={button} target="_blank" rel="noopener noreferrer">
+    Read the paper<span class="sr-only">: {paper.title} (opens in a new tab)</span>
+    <span aria-hidden="true">↗</span>
+  </a>
+</article>

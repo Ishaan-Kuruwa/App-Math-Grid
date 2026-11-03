@@ -1,0 +1,41 @@
+---
+import type { Entry } from '../../lib/entries';
+import { entryTitleTransition, focus, lift } from '../../lib/styles';
+import DifficultyBadge from '../DifficultyBadge.astro';
+
+// "Keep exploring" cards: other entries that share this entry's method or field.
+
+interface Props {
+  related: { entry: Entry; context: string }[];
+}
+
+const { related } = Astro.props;
+---
+
+<ul class="grid gap-4 sm:grid-cols-2">
+  {
+    related.map(({ entry, context }) => (
+      <li>
+        <a
+          href={`/entry/${entry.id}`}
+          class:list={[
+            'flex h-full flex-col gap-3 rounded-xl border border-line bg-surface p-5 shadow-card hover:border-brand focus-visible:border-brand',
+            lift,
+            focus,
+          ]}
+        >
+          <span class="text-xs font-semibold tracking-wide text-ink-muted uppercase">{context}</span>
+          <span
+            transition:name={entryTitleTransition(entry.id)}
+            class="font-display leading-snug font-semibold [view-transition-class:entry-title]"
+          >
+            {entry.data.title}
+          </span>
+          <span class="mt-auto">
+            <DifficultyBadge difficulty={entry.data.difficulty} />
+          </span>
+        </a>
+      </li>
+    ))
+  }
+</ul>

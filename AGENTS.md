@@ -26,7 +26,12 @@ schemas in the content config. Three collections:
 - `fields` — name, slug, description
 - `entries` — title, method (reference), field (reference), summary, starterQuestion,
   difficulty (intro | intermediate | advanced), prerequisites, papers
-  (title, authors, year, url, optional doi), optional notebook URL, optional dataset URL
+  (title, authors, year, url, optional doi, optional lookFor note), optional notebook URL,
+  optional dataset URL
+- Optional entry-page structure: `bigIdea` (1–2 plain sentences), `keyTerms`
+  (term + one-sentence definition, max 5), `steps` (how to tackle the starter
+  question, max 7). Write these only from facts already in the entry; `lookFor`
+  only when the summary already describes that paper's work.
 
 Entry filenames follow the pattern `{method-slug}--{field-slug}.md`.
 There is at most one entry per method × field cell.

@@ -11,14 +11,33 @@ const grid = await getGridData();
 <Layout
   description="A map of applied math methods and the research fields that use them, with starter research questions and real papers for high school students."
 >
-  <main class="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
-    <h1 class="text-3xl font-bold tracking-tight">Applied Math Method Map</h1>
-    <p class="mt-2 mb-6 max-w-2xl text-slate-700 dark:text-slate-300">
-      Each row is a math method and each column is a research field. Pick a filled square to see how
-      that method is used in that field, with a starter research question and real papers to read.
-    </p>
-    <DifficultyFilter />
-    <MethodGrid {...grid} />
-    <FieldAccordion {...grid} />
+  <main class="relative isolate">
+    <!-- Decorative backdrop: graph paper and a soft violet glow behind the intro -->
+    <div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[32rem] overflow-hidden">
+      <div class="bg-graph-paper absolute inset-0"></div>
+      <div
+        class="absolute top-[-12rem] left-1/2 h-[28rem] w-[56rem] -translate-x-1/2 rounded-full bg-brand/15 blur-3xl"
+      >
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-screen-2xl px-gutter pt-16 pb-section sm:px-8 sm:pt-24 lg:px-12">
+      <section class="motion-safe:animate-fade-up">
+        <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-display">
+          Applied Math <span class="text-brand">Method Map</span>
+        </h1>
+        <div aria-hidden="true" class="mt-6 h-1 w-24 rounded-full bg-brand"></div>
+        <p class="mt-6 max-w-prose text-lg leading-relaxed text-ink-muted sm:text-xl">
+          Each row is a math method and each column is a research field. Pick a filled square to see how
+          that method is used in that field, with a starter research question and real papers to read.
+        </p>
+      </section>
+
+      <div class="mt-14 sm:mt-16">
+        <DifficultyFilter />
+        <MethodGrid {...grid} />
+        <FieldAccordion {...grid} />
+      </div>
+    </div>
   </main>
 </Layout>

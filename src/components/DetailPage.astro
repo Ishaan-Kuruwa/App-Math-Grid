@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { link } from '../lib/styles';
+import { fadeUp, link } from '../lib/styles';
 
 // Shell for the method and field pages: back links, then a header with the
 // kind of page ("Method" / "Field"), its name, and its description.
@@ -25,7 +25,7 @@ const { kind, name, description, metaDescription } = Astro.props;
   >
     <a href="/" class={link} data-pagefind-ignore>← Back to the map</a>
 
-    <header class="mt-6 space-y-3">
+    <header class:list={['mt-6 space-y-3', fadeUp]}>
       <p class="text-sm font-semibold tracking-wide text-slate-600 uppercase dark:text-slate-400">
         {kind}
       </p>

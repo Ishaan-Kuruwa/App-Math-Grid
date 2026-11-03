@@ -1,11 +1,17 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import { getEntry } from 'astro:content';
 import DifficultyBadge from '../../components/DifficultyBadge.astro';
 import DraftBadge from '../../components/DraftBadge.astro';
+import KeyTerms from '../../components/entry/KeyTerms.astro';
+import PaperCard from '../../components/entry/PaperCard.astro';
+import RelatedEntries from '../../components/entry/RelatedEntries.astro';
+import StepSection from '../../components/entry/StepSection.astro';
 import Layout from '../../layouts/Layout.astro';
+import { difficultyStyles } from '../../lib/difficulty';
 import { getVisibleEntries, isDraft, type Entry } from '../../lib/entries';
-import { heading, link } from '../../lib/styles';
+import { fieldAccent } from '../../lib/fields';
+import { getGridData } from '../../lib/grid';
+import { entryTitleTransition, focus, link } from '../../lib/styles';
 
 // Same visibility rules as the grid: drafts get a page in `astro dev` only.
 export const getStaticPaths = (async () => {
@@ -18,10 +24,44 @@ interface Props {
 }
 
 const { entry } = Astro.props;
-const { title, summary, starterQuestion, difficulty, prerequisites, papers, notebook, dataset } =
+const { title, summary, bigIdea, keyTerms, starterQuestion, steps, difficulty, prerequisites, papers, notebook, dataset } =
   entry.data;
 
-const [method, field] = await Promise.all([getEntry(entry.data.method), getEntry(entry.data.field)]);
+const { methods, fields, cellFor } = await getGridData();
+const method = methods.find((m) => m.data.slug === entry.data.method.id)!;
+const field = fields.find((f) => f.data.slug === entry.data.field.id)!;
+
+// Up to 3 other entries: same method in other fields first, then other methods in this field.
+const related = [
+  ...fields
+    .filter((f) => f !== field)
+    .map((f) => ({ entry: cellFor(method.data.slug, f.data.slug), context: `${method.data.name} in ${f.data.name}` })),
+  ...methods
+    .filter((m) => m !== method)
+    .map((m) => ({ entry: cellFor(m.data.slug, field.data.slug), context: `${m.data.name} in ${field.data.name}` })),
+]
+  .filter((item): item is { entry: Entry; context: string } => item.entry !== undefined)
+  .slice(0, 3);
+
+// The page is a numbered path. Sections whose content is missing are skipped,
+// so entries without the optional fields still get a complete page.
+const sections = [
+  { id: 'big-idea', title: 'The big idea', show: true },
+  { id: 'key-terms', title: 'Key terms', show: keyTerms.length > 0 },
+  { id: 'starter-question', title: 'Your starter question', show: true },
+  { id: 'papers', title: 'Read the research', show: true },
+  { id: 'keep-exploring', title: 'Keep exploring', show: true },
+]
+  .filter((section) => section.show)
+  .map(({ id, title }, index) => ({ id, title, number: index + 1 }));
+const section = Object.fromEntries(sections.map((s) => [s.id, s]));
+
+const chip = [
+  'inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-sm font-medium text-ink',
+  'transition-colors hover:border-brand hover:text-brand',
+  focus,
+];
+const sidebarHeading = 'text-xs font-bold tracking-wide text-ink-muted uppercase';
 ---
 
 <Layout
@@ -29,94 +69,210 @@ const [method, field] = await Promise.all([getEntry(entry.data.method), getEntry
   description={`${title}: a starter research project using ${method.data.name} in ${field.data.name}, with papers to read.`}
 >
   <main
-    class="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8"
+    class="mx-auto max-w-6xl px-gutter pt-10 pb-section sm:px-8 sm:pt-14 lg:px-12"
     data-pagefind-body
     data-pagefind-meta="type:entry"
   >
-    <a href="/" class={link} data-pagefind-ignore>← Back to the map</a>
+    <nav aria-label="Breadcrumb" data-pagefind-ignore>
+      <ol class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-ink-muted">
+        <li><a href="/" class:list={[link, 'font-medium']}>Map</a></li>
+        <li aria-hidden="true">›</li>
+        <li><a href={`/method/${method.data.slug}`} class:list={[link, 'font-medium']}>{method.data.name}</a></li>
+        <li aria-hidden="true">›</li>
+        <li><a href={`/field/${field.data.slug}`} class:list={[link, 'font-medium']}>{field.data.name}</a></li>
+      </ol>
+    </nav>
 
-    <header class="mt-6 space-y-3">
-      <div class="flex flex-wrap items-center gap-2" data-pagefind-meta={`difficulty:${difficulty}`}>
-        <DifficultyBadge difficulty={difficulty} />
-        {isDraft(entry) && <DraftBadge />}
-      </div>
-      <h1 class="text-3xl font-bold tracking-tight">{title}</h1>
-      <p class="text-slate-700 dark:text-slate-300">
-        <a href={`/method/${method.data.slug}`} class={link} data-pagefind-meta="method">{method.data.name}</a>
-        <span aria-hidden="true"> · </span>
+    <header class="mt-8 max-w-3xl">
+      <!-- Shares a transition name with the grid cell / card title, so it morphs in -->
+      <h1
+        transition:name={entryTitleTransition(entry.id)}
+        class="text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl [view-transition-class:entry-title]"
+      >
+        {title}
+      </h1>
+      <div class="mt-5 flex flex-wrap items-center gap-2">
+        <span data-pagefind-meta={`difficulty:${difficulty}`} class="flex items-center gap-2">
+          <DifficultyBadge difficulty={difficulty} />
+          {isDraft(entry) && <DraftBadge />}
+        </span>
+        <a href={`/method/${method.data.slug}`} class:list={chip}>
+          <span data-pagefind-meta="method">{method.data.name}</span>
+        </a>
         <span class="sr-only">in</span>
-        <a href={`/field/${field.data.slug}`} class={link} data-pagefind-meta="field">{field.data.name}</a>
-      </p>
+        <a href={`/field/${field.data.slug}`} class:list={chip}>
+          <span aria-hidden="true" class:list={['size-2 rounded-full', fieldAccent[field.data.slug]]}></span>
+          <span data-pagefind-meta="field">{field.data.name}</span>
+        </a>
+      </div>
     </header>
 
-    <p class="mt-6 text-lg leading-relaxed">{summary}</p>
+    <div class="mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_17rem] lg:gap-14">
+      <!-- First in reading order (what you need before starting); moves to the
+           right-hand column on large screens. -->
+      <aside aria-label="Before you start" class="lg:col-start-2 lg:row-start-1">
+        <div class="space-y-6 rounded-xl border border-line bg-surface p-card shadow-card lg:sticky lg:top-28">
+          <div>
+            <h2 class={sidebarHeading}>Difficulty</h2>
+            <div class="mt-2"><DifficultyBadge difficulty={difficulty} /></div>
+            <p class="mt-2 text-sm leading-relaxed text-ink-muted">{difficultyStyles[difficulty].description}</p>
+            <a href="/about#difficulty-levels" class:list={[link, 'mt-1 inline-block text-sm']} data-pagefind-ignore>
+              What the levels mean
+            </a>
+          </div>
+          {
+            prerequisites.length > 0 && (
+              <div>
+                <h2 class={sidebarHeading}>What you should know first</h2>
+                <ul class="mt-3 space-y-2 text-sm">
+                  {prerequisites.map((item) => (
+                    <li class="flex gap-2.5">
+                      <span aria-hidden="true" class="mt-0.5 text-brand">
+                        ✓
+                      </span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )
+          }
+          <nav aria-label="On this page" class="hidden lg:block" data-pagefind-ignore>
+            <h2 class={sidebarHeading}>On this page</h2>
+            <ol class="mt-3 space-y-1.5 text-sm">
+              {
+                sections.map(({ id, title, number }) => (
+                  <li>
+                    <a
+                      href={`#${id}`}
+                      class:list={['flex gap-2.5 rounded text-ink-muted transition-colors hover:text-brand', focus]}
+                    >
+                      <span aria-hidden="true" class="w-4 text-right font-semibold">
+                        {number}
+                      </span>
+                      {title}
+                    </a>
+                  </li>
+                ))
+              }
+            </ol>
+          </nav>
+        </div>
+      </aside>
 
-    <section class="mt-8 rounded-lg border border-indigo-200 bg-indigo-50 p-5 dark:border-indigo-900 dark:bg-indigo-950">
-      <h2 class={heading}>Starter question</h2>
-      <p class="mt-2 leading-relaxed">{starterQuestion}</p>
-    </section>
+      <div class="space-y-16 lg:col-start-1 lg:row-start-1">
+        <StepSection {...section['big-idea']}>
+          {
+            bigIdea ? (
+              <>
+                <p class="text-xl leading-relaxed">{bigIdea}</p>
+                <details data-animate class="group mt-5 rounded-xl border border-line bg-surface">
+                  <summary
+                    class:list={[
+                      'flex cursor-pointer list-none items-center justify-between gap-3 rounded-xl px-5 py-4 font-semibold [&::-webkit-details-marker]:hidden',
+                      focus,
+                    ]}
+                  >
+                    Read the full overview
+                    <span
+                      aria-hidden="true"
+                      class="text-ink-muted transition-transform duration-300 ease-soft group-open:rotate-180"
+                    >
+                      ▾
+                    </span>
+                  </summary>
+                  <p class="border-t border-line px-5 py-4 leading-relaxed text-ink-muted">{summary}</p>
+                </details>
+              </>
+            ) : (
+              <p class="text-lg leading-relaxed">{summary}</p>
+            )
+          }
+        </StepSection>
 
-    {
-      prerequisites.length > 0 && (
-        <section class="mt-8">
-          <h2 class={heading}>What you should know first</h2>
-          <ul class="mt-3 list-disc space-y-1 pl-6">
-            {prerequisites.map((item) => (
-              <li>{item}</li>
-            ))}
-          </ul>
-        </section>
-      )
-    }
-
-    <section class="mt-8">
-      <h2 class={heading}>Papers to read</h2>
-      <ul class="mt-3 space-y-4">
         {
-          papers.map((paper) => (
-            <li class="rounded-lg border border-slate-300 p-4 dark:border-slate-700">
-              <p class="font-semibold">{paper.title}</p>
-              <p class="mt-1 text-sm text-slate-700 dark:text-slate-300">
-                {paper.authors.join(', ')} ({paper.year})
-              </p>
-              <a
-                href={paper.url}
-                class:list={[link, 'mt-2 inline-block text-sm']}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Read the paper<span class="sr-only">: {paper.title} (opens in a new tab)</span> ↗
+          section['key-terms'] && (
+            <StepSection {...section['key-terms']}>
+              <KeyTerms terms={keyTerms} />
+            </StepSection>
+          )
+        }
+
+        <StepSection {...section['starter-question']}>
+          <div class="rounded-xl border border-brand/40 bg-brand-soft p-card">
+            <p class="text-sm font-bold tracking-wide text-brand uppercase">Question</p>
+            <p class="mt-2 font-display text-xl leading-relaxed font-semibold">{starterQuestion}</p>
+          </div>
+          {
+            steps.length > 0 && (
+              <>
+                <h3 class="mt-8 text-lg font-semibold">How to tackle it</h3>
+                <ol role="list" class="mt-4 space-y-4">
+                  {steps.map((step, index) => (
+                    <li class="flex gap-4">
+                      <span
+                        aria-hidden="true"
+                        class="grid size-7 shrink-0 place-items-center rounded-full border border-line-strong font-display text-sm font-semibold text-ink-muted"
+                      >
+                        {index + 1}
+                      </span>
+                      <span class="pt-0.5 leading-relaxed">{step}</span>
+                    </li>
+                  ))}
+                </ol>
+              </>
+            )
+          }
+          {
+            (notebook || dataset) && (
+              <div class="mt-8 flex flex-wrap gap-x-6 gap-y-2">
+                {notebook && (
+                  <a href={notebook} class={link} target="_blank" rel="noopener noreferrer">
+                    Open the notebook<span class="sr-only"> (opens in a new tab)</span> ↗
+                  </a>
+                )}
+                {dataset && (
+                  <a href={dataset} class={link} target="_blank" rel="noopener noreferrer">
+                    Get the dataset<span class="sr-only"> (opens in a new tab)</span> ↗
+                  </a>
+                )}
+              </div>
+            )
+          }
+        </StepSection>
+
+        <StepSection {...section['papers']}>
+          <p class="mb-5 text-ink-muted">These are listed from easiest to hardest to read. Start with the first one.</p>
+          <ol role="list" class="space-y-4">
+            {
+              papers.map((paper, index) => (
+                <li>
+                  <PaperCard paper={paper} number={index + 1} />
+                </li>
+              ))
+            }
+          </ol>
+        </StepSection>
+
+        <StepSection {...section['keep-exploring']}>
+          {related.length > 0 && <RelatedEntries related={related} />}
+          <ul class="mt-6 space-y-2" data-pagefind-ignore>
+            <li>
+              <a href={`/method/${method.data.slug}`} class={link}>
+                Every field that uses {method.data.name}
               </a>
             </li>
-          ))
-        }
-      </ul>
-    </section>
-
-    {
-      (notebook || dataset) && (
-        <section class="mt-8">
-          <h2 class={heading}>Try it yourself</h2>
-          <ul class="mt-3 space-y-2">
-            {notebook && (
-              <li>
-                <a href={notebook} class={link} target="_blank" rel="noopener noreferrer">
-                  Open the notebook<span class="sr-only"> (opens in a new tab)</span> ↗
-                </a>
-              </li>
-            )}
-            {dataset && (
-              <li>
-                <a href={dataset} class={link} target="_blank" rel="noopener noreferrer">
-                  Get the dataset<span class="sr-only"> (opens in a new tab)</span> ↗
-                </a>
-              </li>
-            )}
+            <li>
+              <a href={`/field/${field.data.slug}`} class={link}>
+                Every method used in {field.data.name}
+              </a>
+            </li>
+            <li>
+              <a href="/" class={link}>Back to the map</a>
+            </li>
           </ul>
-        </section>
-      )
-    }
-
-    <a href="/" class:list={[link, 'mt-10 inline-block']} data-pagefind-ignore>← Back to the map</a>
+        </StepSection>
+      </div>
+    </div>
   </main>
 </Layout>
