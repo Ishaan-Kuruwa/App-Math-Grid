@@ -16,6 +16,7 @@ student-facing text should be clear, concrete, and free of unexplained jargon.
 ## Commands
 - `npm run dev` — local dev server
 - `npm run build` — production build (also validates all content)
+- `npm run check` — type-checks Astro and TypeScript files
 - `npm run verify` — checks every paper citation against the OpenAlex API
 
 ## Content model
@@ -49,8 +50,8 @@ Fields: `ecology`, `epidemiology`, `economics`, `sports`, `public-policy`,
 - When selecting papers automatically, avoid papers centered on suicide, self-harm,
   or other sensitive topics unsuitable for a general high school audience.
 - Never change the content schema without explicitly saying so and explaining why.
-- Run `npm run build` before declaring any task done. If content was touched, also
-  run `npm run verify`.
+- Run `npm run build` and `npm run check` before declaring any task done. If content
+  was touched, also run `npm run verify`.
 - Keep changes scoped to the task requested; don't refactor unrelated files.
 
 ## Design

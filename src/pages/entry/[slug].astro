@@ -5,6 +5,7 @@ import DifficultyBadge from '../../components/DifficultyBadge.astro';
 import DraftBadge from '../../components/DraftBadge.astro';
 import Layout from '../../layouts/Layout.astro';
 import { getVisibleEntries, isDraft, type Entry } from '../../lib/entries';
+import { heading, link } from '../../lib/styles';
 
 // Same visibility rules as the grid: drafts get a page in `astro dev` only.
 export const getStaticPaths = (async () => {
@@ -21,10 +22,6 @@ const { title, summary, starterQuestion, difficulty, prerequisites, papers, note
   entry.data;
 
 const [method, field] = await Promise.all([getEntry(entry.data.method), getEntry(entry.data.field)]);
-
-const link =
-  'rounded font-medium text-indigo-700 underline underline-offset-4 hover:text-indigo-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:text-indigo-300 dark:hover:text-indigo-100 dark:focus-visible:outline-indigo-400';
-const heading = 'text-xl font-semibold tracking-tight';
 ---
 
 <Layout title={`${title} · Applied Math Method Map`}>

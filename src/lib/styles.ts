@@ -1,4 +1,4 @@
-// Tailwind class strings shared by the method and field detail pages.
+// Tailwind class strings shared by the method, field, and entry detail pages.
 
 export const focus =
   'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:focus-visible:outline-indigo-400';

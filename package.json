@@ -11,7 +11,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "verify": "node scripts/verify-papers.mjs",
-    "find-papers": "node scripts/find-papers.mjs"
+    "find-papers": "node scripts/find-papers.mjs",
+    "check": "astro check"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.4",
@@ -19,6 +20,8 @@
     "tailwindcss": "^4.3.4"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "typescript": "^6.0.3",
     "yaml": "^2.9.1"
   }
 }
