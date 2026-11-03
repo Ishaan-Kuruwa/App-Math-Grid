@@ -22,6 +22,12 @@ prerequisites:
   - "Derivatives as rates of change"
   - "Basic algebra"
 papers:
+  - title: "The SIR model and the Foundations of Public Health"
+    authors:
+      - "Howard M. Weiss"
+    year: 2013
+    # No DOI on OpenAlex; cited by its OpenAlex ID (W888141997).
+    url: "https://openalex.org/W888141997"
   - title: "An Introduction to Compartmental Modeling for the Budding Infectious Disease Modeler"
     authors:
       - "Julie C. Blackwood"
@@ -29,12 +35,6 @@ papers:
     year: 2018
     url: "https://doi.org/10.30707/lib5.1blackwood"
     doi: "10.30707/lib5.1blackwood"
-  - title: "The SIR model and the Foundations of Public Health"
-    authors:
-      - "Howard M. Weiss"
-    year: 2013
-    # No DOI on OpenAlex; cited by its OpenAlex ID (W888141997).
-    url: "https://openalex.org/W888141997"
   - title: "An Introduction to The Basic Reproduction Number in Mathematical Epidemiology"
     authors:
       - "Antoine Perasso"

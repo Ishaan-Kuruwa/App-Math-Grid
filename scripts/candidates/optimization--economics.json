@@ -1,0 +1,308 @@
+{
+  "method": "optimization",
+  "field": "economics",
+  "generatedAt": "2026-11-03T01:16:25.695Z",
+  "queries": [
+    "optimization economics",
+    "optimization economics introduction",
+    "optimization economics tutorial",
+    "optimization economics review",
+    "optimization economics (teaching OR classroom OR undergraduate)",
+    "mean-variance portfolio optimization introduction",
+    "linear programming economics introduction",
+    "utility maximization consumer choice"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "A MEAN-VARIANCE-SKEWNESS PORTFOLIO OPTIMIZATION MODEL",
+      "authors": [
+        "Hiroshi Konno",
+        "Kenichi G. N. Suzuki"
+      ],
+      "year": 1995,
+      "doi": "10.15807/jorsj.38.173",
+      "openAlexId": "W2029239567",
+      "openAccessUrl": "https://www.jstage.jst.go.jp/article/jorsj/38/2/38_KJ00001202975/_pdf",
+      "citationCount": 193,
+      "abstract": "We will propose a mean-variance-skewness(MVS) portfolio optimization model, a direct extension of the classical mean-variance model to the situation where the skewness of the rate of return of assets and the third order derivative of a utility function play significant roles in choosing an optimal portfolio. The MVS model enables one to calculate an approximate mean-variance-skewness efficient surface, by which one can compute a portfolio with maximal expected utility for any decreasingly risk averse utility functions. Also, we propose three computational schemes for solving an associated nonconcave maximization problem, and some preliminary computational results will be reported.",
+      "score": 0.793,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "mean-variance portfolio optimization introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "THE MEAN-VARIANCE APPROACH TO PORTFOLIO OPTIMIZATION SUBJECT TO TRANSACTION COSTS",
+      "authors": [
+        "Atsushi Yoshimoto"
+      ],
+      "year": 1996,
+      "doi": "10.15807/jorsj.39.99",
+      "openAlexId": "W2109635221",
+      "openAccessUrl": "https://www.jstage.jst.go.jp/article/jorsj/39/1/39_KJ00001203007/_pdf",
+      "citationCount": 192,
+      "abstract": "Transaction costs are a source of concern for portfolio managers. Due to nonlinearity of the cost function, the ordinary quadratic programming solution technique cannot be applied. This paper addresses the portfolio optimization problem subject to transaction costs. The transaction cost is assumed to be a V-shaped function of difference between an existing and new portfolio. A nonlinear programming solution technique is used to solve the proposed problem. The portfolio optimization system called POSTRAC (Portfolio Optimization System with TRAnsaction Costs) is proposed. The experimental analysis indicates that ignoring the transaction costs results in inefficient portfolios. It is also shown that there does not exist statistically significant difference in portfolio performance with different methods to estimate the expected return of securities, when considering the transaction costs into the portfolio return.",
+      "score": 0.737,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "mean-variance portfolio optimization introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Firefly Algorithm for Cardinality Constrained Mean-Variance Portfolio Optimization Problem with Entropy Diversity Constraint",
+      "authors": [
+        "Nebojša Bačanin",
+        "Milan Tuba"
+      ],
+      "year": 2014,
+      "doi": "10.1155/2014/721521",
+      "openAlexId": "W2064663555",
+      "openAccessUrl": "https://downloads.hindawi.com/journals/tswj/2014/721521.pdf",
+      "citationCount": 126,
+      "abstract": "Portfolio optimization (selection) problem is an important and hard optimization problem that, with the addition of necessary realistic constraints, becomes computationally intractable. Nature-inspired metaheuristics are appropriate for solving such problems; however, literature review shows that there are very few applications of nature-inspired metaheuristics to portfolio optimization problem. This is especially true for swarm intelligence algorithms which represent the newer branch of nature-inspired algorithms. No application of any swarm intelligence metaheuristics to cardinality constrained mean-variance (CCMV) portfolio problem with entropy constraint was found in the literature. This paper introduces modified firefly algorithm (FA) for the CCMV portfolio model with entropy constraint. Firefly algorithm is one of the latest, very successful swarm intelligence algorithm; however, it exhibits some deficiencies when applied to constrained problems. To overcome lack of exploration power during early iterations, we modified the algorithm and tested it on standard portfolio benchmark data sets used in the literature. Our proposed modified firefly algorithm proved to be better than other state-of-the-art algorithms, while introduction of entropy diversity constraint further improved results.",
+      "score": 0.721,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "mean-variance portfolio optimization introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Separability in farm-household economics: An experiment with linear programming",
+      "authors": [
+        "Julie C. Delforce"
+      ],
+      "year": 1994,
+      "doi": "10.1016/0169-5150(94)90005-1",
+      "openAlexId": "W1980067728",
+      "openAccessUrl": "https://ageconsearch.umn.edu/record/173361/files/agec1994v010i002a005.pdf",
+      "citationCount": 22,
+      "abstract": "The assumption of separability between farm-household production and consumption facilitates analysis, but entails several important restrictions. The implications of assuming separability are discussed here in relation to the modelling of a representative Tongan farm-household. Econometric estimation of household demand is coupled with a linear programming (LP) model of farm-household production. When analysing consumer demand, separable farm-household economics is undoubtedly preferable to ignoring the production/ consumption linkages entirely. However, the restrictions which must be imposed on the production side of the separable model are such that a realistic LP solution is unlikely to be obtained. This is likely to be a major deterrent to adopting the separable approach for studies in which the main focus is on production rather than consumption.",
+      "score": 0.711,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "linear programming economics introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Efficient Algorithms For Mean-Variance Portfolio Optimization With Hard Real-World Constraints",
+      "authors": [
+        "Francesco Cesarone",
+        "Andrea Scozzari",
+        "Fabio Tardella"
+      ],
+      "year": 2009,
+      "doi": null,
+      "openAlexId": "W2794222053",
+      "openAccessUrl": "http://host.uniroma3.it/docenti/cesarone/Store/CesaroneScozzariTardella2009-EfficientAlgorithmsForMean-Variance.pdf",
+      "citationCount": 33,
+      "abstract": "The Markowitz mean-variance optimization model is a widely used tool for portfolio \\nselection. However, in order to capture real world restrictions on actual \\ninvestments, a Limited Asset Markowitz (LAM) model with the introduction of \\nquantity and cardinality constraints has been considered. These two constraints \\nhave been modelled by adding binary variables to the Markowitz model, thus resulting \\nin a Mixed Integer Quadratic Programming problem that is considerably \\nmore difficult to solve. We propose a new method for solving the LAM model \\nbased on a reformulation as a Standard Quadratic Program and on some recent \\ntheoretical results by the last two authors. We report optimal solutions of \\nsome previously unsolved benchmark problems used by several other authors and \\navailable from Beasley’s OR-Library. We also test our method on five new data \\nsets involving real-world capital market indices from major stock markets. On \\nthese data sets we have been able to evaluate, on out-of-sample data, the performance \\nof the portfolios obtained from the LAM model and to compare them \\nto the classical Markowitz portfolio, and to the market index. This comparison \\nseems to point in favour of the solutions obtained with the LAM model. We \\nmade our data sets and the solutions that we found publicly available for use by \\nother researchers in this field.",
+      "score": 0.683,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "mean-variance portfolio optimization introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Convex duality in constrained mean-variance portfolio optimization",
+      "authors": [
+        "Chantal Labbé",
+        "Andrew J. Heunis"
+      ],
+      "year": 2007,
+      "doi": "10.1017/s0001867800001610",
+      "openAlexId": "W2050511960",
+      "openAccessUrl": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0E2AA4591A45FF1E13405E706C192824/S0001867800001610a.pdf/div-class-title-convex-duality-in-constrained-mean-variance-portfolio-optimization-div.pdf",
+      "citationCount": 35,
+      "abstract": "We apply conjugate duality to establish the existence of optimal portfolios in an asset-allocation problem, with the goal of minimizing the variance of the final wealth which results from trading over a fixed, finite horizon in a continuous-time, complete market, subject to the constraints that the expected final wealth equal a specified target value and the portfolio of the investor (defined by the dollar amount invested in each stock) take values in a given closed, convex set. The asset prices are modelled by Itô processes, for which the market parameters are random processes adapted to the information filtration available to the investor. We synthesize a dual optimization problem and establish a set of optimality relations, similar to the Euler-Lagrange and transversality relations of calculus of variations, giving necessary and sufficient conditions for the given optimization problem and its dual to each have a solution, with zero duality gap. We then solve these relations, to establish the existence of an optimal portfolio.",
+      "score": 0.676,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "mean-variance portfolio optimization introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Replica approach to mean-variance portfolio optimization",
+      "authors": [
+        "Istvan Varga-Haszonits",
+        "Fabio Caccioli",
+        "Imre Kondor"
+      ],
+      "year": 2016,
+      "doi": "10.1088/1742-5468/aa4f9c",
+      "openAlexId": "W2475273347",
+      "openAccessUrl": "https://iopscience.iop.org/article/10.1088/1742-5468/aa4f9c/pdf",
+      "citationCount": 25,
+      "abstract": "Abstract We consider the problem of mean-variance portfolio optimization for a generic covariance matrix subject to the budget constraint and the constraint for the expected return, with the application of the replica method borrowed from the statistical physics of disordered systems. We find that the replica symmetry of the solution does not need to be assumed, but emerges as the unique solution of the optimization problem. We also check the stability of this solution and find that the eigenvalues of the Hessian are positive for r = N / T < 1, where N is the dimension of the portfolio and T the length of the time series used to estimate the covariance matrix. At the critical point r = 1 a phase transition is taking place. The out of sample estimation error blows up at this point as 1/(1 − r ), independently of the covariance matrix or the expected return, displaying the universality not only of the critical exponent, but also the critical point. As a conspicuous illustration of the dangers of in-sample estimates, the optimal in-sample variance is found to vanish at the critical point inversely proportional to the divergent estimation error.",
+      "score": 0.674,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "mean-variance portfolio optimization introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Portfolio Optimization with Mental Accounts",
+      "authors": [
+        "Sanjiv Ranjan Das",
+        "Harry M. Markowitz",
+        "Jonathan Scheid",
+        "Meir Statman"
+      ],
+      "year": 2010,
+      "doi": "10.1017/s0022109010000141",
+      "openAlexId": "W2137428051",
+      "openAccessUrl": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4B23CFB326982C52014A1BA447FA9244/S0022109010000141a.pdf/div-class-title-portfolio-optimization-with-mental-accounts-div.pdf",
+      "citationCount": 277,
+      "abstract": "Abstract We integrate appealing features of Markowitz’s mean-variance portfolio theory (MVT) and Shefrin and Statman’s behavioral portfolio theory (BPT) into a new mental accounting (MA) framework. Features of the MA framework include an MA structure of portfolios, a definition of risk as the probability of failing to reach the threshold level in each mental account, and attitudes toward risk that vary by account. We demonstrate a mathematical equivalence between MVT, MA, and risk management using value at risk (VaR). The aggregate allocation across MA subportfolios is mean-variance efficient with short selling. Short-selling constraints on mental accounts impose very minor reductions in certainty equivalents, only if binding for the aggregate portfolio, offsetting utility losses from errors in specifying risk-aversion coefficients in MVT applications. These generalizations of MVT and BPT via a unified MA framework result in a fruitful connection between investor consumption goals and portfolio production.",
+      "score": 0.65,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "mean-variance portfolio optimization introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A Review of the Use of Linear Programming to Optimize Diets, Nutritiously, Economically and Environmentally",
+      "authors": [
+        "Corné van Dooren"
+      ],
+      "year": 2018,
+      "doi": "10.3389/fnut.2018.00048",
+      "openAlexId": "W2808732972",
+      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/fnut.2018.00048/pdf",
+      "citationCount": 178,
+      "abstract": "The \"Diet Problem\" (the search of a low-cost diet that would meet the nutritional needs of a US Army soldier) is characterized by a long history, whereas most solutions for comparable diet problems were developed in 2000 or later, during which computers with large calculation capacities became widely available and linear programming (LP) tools were developed. Based on the selected literature (52 papers), LP can be applied to a variety of diet problems, from food aid, national food programmes, and dietary guidelines to individual issues. This review describes the developments in the search for constraints. After nutritional constraints, costs constraints, acceptability constraints and ecological constraints were introduced. The 12 studies that apply ecological constraints were analyzed and compared in detail. Most studies have used nutritional constraints and cost constraints in the analysis of dietary problems and solutions, but such research begin showing weaknesses under situations featuring a small number of food items and/or nutritional constraints. Introducing acceptability constraints is recommended, but no study has provided the ultimate solution to calculating acceptability. Future possibilities lie in finding LP solutions for diets by combining nutritional, costs, ecological and acceptability constraints. LP is an important tool for environmental optimization and shows considerable potential as an instrument for finding solutions to a variety of very complex diet problems.",
+      "score": 0.644,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "linear programming economics introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Investigation of the Stochastic Utility Maximization Process of Consumer Brand Choice by Semiparametric Modeling",
+      "authors": [
+        "Makoto Abe",
+        "Yasemin Boztuğ",
+        "Hildebrandt, Lutz"
+      ],
+      "year": 2000,
+      "doi": "10.18452/3405",
+      "openAlexId": "W2114584133",
+      "openAccessUrl": "https://doi.org/10.18452/3405",
+      "citationCount": 0,
+      "abstract": "The use of nonparametric methods, which posit fewer assumptions and greater model flexibility than parametric methods, could provide useful insights when studying brand choice. It was found, however, that the data requirement for a fully nonparametric brand choice model is so great that obtaining such large data sets is difficult even in marketing. Semiparametric methods balance model flexibility and data requirement by imposing some parametric structure on components that are not sensitive to such assumptions while leaving the essential component nonparametric. In this paper, the authors compare two semiparametric brand choice models that are based on the generalized additive models (GAM). One model is specified as a nonparametric logistic regression of GAM (Hastie and Tibshirani 1986) with one equation for each brand. The other model is a multinomial logit (MNL) formulation with a nonparametric utility function, which is derived by extending the GAM framework (Abe 1999). Both models assume a parametric distribution for the random component, but capture the response of covariates nonparametrically. The competitive structure of the logistic regression formulation is specified by data through nonparametric response functions of the attributes for the competitive brands, whereas that of the MNL formulation is guided by the choice theory of stochastic utility maximization (SUM). Simulation study and application to actual scanner panel data seem to support the behavioral assumption of SUM. In addition, if we relax the SUM assumption by letting data specify the competitive structure, a substantially larger amount of data, perhaps an order of magnitude more, would be required. Therefore, if alternative brands are chosen carefully, nonparametric relaxation to capture cross effect (i.e., nonparametrization of the MNL structure) may not be warranted unless the size of database becomes substantially larger than the one currently used.",
+      "score": 0.577,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "utility maximization consumer choice"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Engineering Optimization: An Introduction with Metaheuristic Applications",
+      "authors": [
+        "Xin‐She Yang"
+      ],
+      "year": 2010,
+      "doi": null,
+      "openAlexId": "W1480600971",
+      "openAccessUrl": "http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470582464.html",
+      "citationCount": 1048,
+      "abstract": "An accessible introduction to metaheuristics and optimization, featuring powerful and modern algorithms for application across engineering and the sciences. \\n From engineering and computer science to economics and management science, optimization is a core component for problem solving. Highlighting the latest developments that have evolved in recent years, Engineering Optimization: An Introduction with Metaheuristic Applications outlines popular metaheuristic algorithms and equips readers with the skills needed to apply these techniques to their own optimization problems. With insightful examples from various fields of study, the author highlights key concepts and techniques for the successful application of commonly-used metaheuristc algorithms, including simulated annealing, particle swarm optimization, harmony search, and genetic algorithms. \\n(from publisher's website)",
+      "score": 0.854,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization economics introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Multi-Objective Optimization Applications in Chemical Process Engineering: Tutorial and Review",
+      "authors": [
+        "Gade Pandu Rangaiah",
+        "Zemin Feng",
+        "Andrew Hoadley"
+      ],
+      "year": 2020,
+      "doi": "10.3390/pr8050508",
+      "openAlexId": "W3018763633",
+      "openAccessUrl": "https://www.mdpi.com/2227-9717/8/5/508/pdf?version=1590547284",
+      "citationCount": 144,
+      "abstract": "This tutorial and review of multi-objective optimization (MOO) gives a detailed explanation of the 5 steps to create, solve, and then select the optimum result. Unlike single-objective optimization, the fifth step of selection or ranking of solutions is often overlooked by the authors of papers dealing with MOO applications. It is necessary to undertake a multi-criteria analysis to choose the best solution. A review of the recent publications using MOO for chemical process engineering problems shows a doubling of publications between 2016 and 2019. MOO applications in the energy area have seen a steady increase of over 20% annually over the last 10 years. The three key methods for solving MOO problems are presented in detail, and an emerging area of surrogate-assisted MOO is also described. The objectives used in MOO trade off conflicting requirements of a chemical engineering problem; these include fundamental criteria such as reaction yield or selectivity; economics; energy requirements; environmental performance; and process control. Typical objective functions in these categories are described, selection/ranking techniques are outlined, and available software for MOO are listed. It is concluded that MOO is gaining popularity as an important tool and is having an increasing use and impact in chemical process engineering.",
+      "score": 0.782,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization economics tutorial",
+        "optimization economics review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Principles of (Behavioral) Economics",
+      "authors": [
+        "David Laibson",
+        "John A. List"
+      ],
+      "year": 2015,
+      "doi": "10.1257/aer.p20151047",
+      "openAlexId": "W1954272905",
+      "openAccessUrl": "https://dash.harvard.edu/bitstreams/7312037d-dddd-6bd4-e053-0100007fdf3b/download",
+      "citationCount": 121,
+      "abstract": "Behavioral economics has become an important and integrated component of modern economics. Behavioral economists embrace the core principles of economics—optimization and equilibrium—and seek to develop and extend those ideas to make them more empirically accurate. Behavioral models assume that economic actors try to pick the best feasible option and those actors sometimes make mistakes. Behavioral ideas should be incorporated throughout the first-year undergraduate course. Instructors should also considering allocating a lecture (or more) to a focused discussion of behavioral concepts. We describe our approach to such a lecture, highlighting six modular principles and empirical examples that support them.",
+      "score": 0.776,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization economics review",
+        "optimization economics (teaching OR classroom OR undergraduate)"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Supply-Demand-Based Optimization: A Novel Economics-Inspired Algorithm for Global Optimization",
+      "authors": [
+        "Weiguo Zhao",
+        "Liying Wang",
+        "Zhenxing Zhang"
+      ],
+      "year": 2019,
+      "doi": "10.1109/access.2019.2918753",
+      "openAlexId": "W2946329373",
+      "openAccessUrl": "https://doi.org/10.1109/access.2019.2918753",
+      "citationCount": 229,
+      "abstract": "A novel metaheuristic optimization algorithm, named supply-demand-based optimization (SDO), is presented in this paper. SDO is a swarm-based optimizer motivated by the supply-demand mechanism in economics. This algorithm mimics both the demand relation of consumers and supply relation of producers. The proposed algorithm is compared with other state-of-the-art counterparts on 29 benchmark test functions and six engineering optimization problems. The results on the unconstrained test functions prove that SDO is able to provide very promising results in terms of exploration, exploitation, local optima avoidance, and convergence rate. The results on the constrained engineering problems suggest that SDO is considerately competitive in terms of computational expense, convergence rate, and solution accuracy. The codes are available at https://www.mathworks.com/matlabcentral/fileexchange/71764-supply-demand-based-optimization.",
+      "score": 0.724,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization economics"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "The Use of Evolutionary Algorithms for Optimization in the Modern Entrepreneurial Economy: Interdisciplinary Perspective",
+      "authors": [
+        "Marek Sieja",
+        "Krzysztof Wach"
+      ],
+      "year": 2019,
+      "doi": "10.15678/eber.2019.070407",
+      "openAlexId": "W3003419156",
+      "openAccessUrl": "https://eber.uek.krakow.pl/index.php/eber/article/view/617/587",
+      "citationCount": 40,
+      "abstract": "Objective: The objective of the article is to present the concept of evolutionary algorithms and indicates the possibility of their implementation for the needs of the economy, especially the entrepreneurial economy.Research Design & Methods: This conceptual article relies on literature review and desk research.The article elaborates on available literature via a systematic literature review methodology.Findings: The article elaborates on the idea of action and typology of evolutionary algorithms as the broadly applied search and optimisation technique based on Darwin's theory of evolution and modern natural genetics.The article focuses on the examples of evolutionary algorithms application in economics and management. Implications & Recommendations:The current state of applications of evolutionary algorithms for the needs of the economy and business confirms that we still await an implementation breakthrough.The growing interest in evolutionary algorithms in connection with the dynamic development of information technologies may lead to the use of evolutionary algorithms in hybrid systems, which in turn will contribute to significant progress in optimization theory. Contribution & Value Added:The article structures scientific knowledge on the application of evolutionary algorithms in business and economy.The promotion of the application of evolutionary algorithms in economics, finance, and management is mainly limited to journals in operational research, decision-making process, or financial engineering, whereas this article includes entrepreneurship.",
+      "score": 0.569,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization economics review",
+        "optimization economics (teaching OR classroom OR undergraduate)"
+      ]
+    }
+  ]
+}

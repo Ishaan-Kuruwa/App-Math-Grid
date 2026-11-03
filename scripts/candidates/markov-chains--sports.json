@@ -1,0 +1,319 @@
+{
+  "method": "markov-chains",
+  "field": "sports",
+  "generatedAt": "2026-11-03T01:16:11.383Z",
+  "queries": [
+    "Markov chain sports",
+    "Markov chain sports introduction",
+    "Markov chain sports tutorial",
+    "Markov chain sports review",
+    "Markov chain sports (teaching OR classroom OR undergraduate)",
+    "Markov chain baseball run expectancy",
+    "Markov model tennis win probability",
+    "Markov chain basketball possession"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "A Markov process approach to untangling intention versus execution in tennis",
+      "authors": [
+        "Timothy C. Y. Chan",
+        "Douglas Fearing",
+        "Craig Fernandes",
+        "Stephanie Ann Kovalchik"
+      ],
+      "year": 2022,
+      "doi": "10.1515/jqas-2021-0077",
+      "openAlexId": "W3204457198",
+      "openAccessUrl": "https://arxiv.org/pdf/2110.01527",
+      "citationCount": 7,
+      "abstract": "Abstract Value functions are used in sports to determine the optimal action players should employ. However, most literature implicitly assumes that players can perform the prescribed action with known and fixed probability of success. The effect of varying this probability or, equivalently, “execution error” in implementing an action (e.g., hitting a tennis ball to a specific location on the court) on the design of optimal strategies, has received limited attention. In this paper, we develop a novel modeling framework based on Markov reward processes and Markov decision processes to investigate how execution error impacts a player’s value function and strategy in tennis. We power our models with hundreds of millions of simulated tennis shots with 3D ball and 2D player tracking data. We find that optimal shot selection strategies in tennis become more conservative as execution error grows, and that having perfect execution with the empirical shot selection strategy is roughly equivalent to choosing one or two optimal shots with average execution error. We find that execution error on backhand shots is more costly than on forehand shots, and that optimal shot selection on a serve return is more valuable than on any other shot, over all values of execution error.",
+      "score": 0.738,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov model tennis win probability"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A new markovian model for tennis matches",
+      "authors": [
+        "Andrea Carrari",
+        "Marco Ferrante",
+        "Giovanni Fonseca"
+      ],
+      "year": 2017,
+      "doi": "10.1285/i20705948v10n3p693",
+      "openAlexId": "W2770945943",
+      "openAccessUrl": "https://ese-journals.unisalento.it/index.php/ejasa/article/download/16462/15602",
+      "citationCount": 7,
+      "abstract": "In this paper we present a generalisation of previously considered Markovian models for Tennis that overcome the assumption that the points played are i.i.d. Indeed, we postulate that in any game there are two different situations: the first 6 points and the, possible, additional points after the first deuce, with different winning probabilities. We are able to compute the winning probabilities and the expected number of points played to complete a game and a set in this more general setting. We apply our results considering scores of matches between Novak Djokovic, Roger Federer and Rafael Nadal.",
+      "score": 0.732,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov model tennis win probability"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Analysis of basketball game states and transition probabilities using the Markov chains",
+      "authors": [
+        "Igor D. Jelaska",
+        "Slavko Trninić",
+        "Ante Perica"
+      ],
+      "year": 2012,
+      "doi": "10.5937/fizkul1201015j",
+      "openAlexId": "W2148168865",
+      "openAccessUrl": "https://scindeks-clanci.ceon.rs/data/pdf/0350-3828/2012/0350-38281201015J.pdf",
+      "citationCount": 5,
+      "abstract": "The abstract system of a basketball game has been established in the paper. Parts of the game are marked with the common characteristics; they are repeated, therefore, they can be denoted with the category: game states. The presented model enables the recognition and analysis of interaction between the set of system states. The discretization of the continuous course or flow of a basketball game and the definition of equivalence among game states have given the prerequisites for the determination of transition probabilities between system states. Discrete stochastic processes and Markov chains were used for events modeling and transition probabilities calculation between the states. The matrix of transition probabilities has been structured between particular states of the Markov chain. The proposed model differentiates game states within four phases of game flow and enables the prediction of the future states.",
+      "score": 0.719,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov chain sports",
+        "Markov chain sports review",
+        "Markov model tennis win probability",
+        "Markov chain basketball possession"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Markov-chain Modelling and Simulative Assessment of the Impact of Selected Tactical Behaviours in Modern Tennis",
+      "authors": [
+        "Frederic Rothe",
+        "Martin Lames"
+      ],
+      "year": 2023,
+      "doi": "10.30827/ijrss.33243",
+      "openAlexId": "W4409278752",
+      "openAccessUrl": "https://revistaseug.ugr.es/index.php/IJRSS/article/download/33243/28950",
+      "citationCount": 5,
+      "abstract": "Game behaviour in net games or other sports is often captured in the form of discrete performance indicators which represent frequencies or relative frequencies of key behavioural variables. In this regard however, discrete performance indicators are often of low practical relevance as they lack information on the sequence of actions and the underlying interaction of players in a match. Thereby, establishing a connection between performance indicators and sport success also remains an open challenge. In tennis, finite Markov chain modelling based on a transition matrix has shown promise in circumventing these issues. The transition matrix allows the capture of equivalent classes of strokes as a sequence of states with the possibility of transitions between them, basically representing a rally. Furthermore, finite Markov chain modelling enables the determination of the relevance of state transitions regarding performance. Since existing state transition models may be outdated a major aim of the current study was to establish a newly designed transition matrix which is representative of the game structure of tennis. The sufficiency of the transition matrix as a descriptive tool was demonstrated using actual match data. Furthermore, the relevance of selected state transitions was determined using finite Markov chain modelling. Match data and emerging values for performance relevance were analysed with regard to the influencing factors of sex and court surface. This revealed only minor differences regarding both factors, specifically indicating a convergence of game structure in men and women.",
+      "score": 0.693,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov chain sports",
+        "Markov chain sports (teaching OR classroom OR undergraduate)",
+        "Markov model tennis win probability"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Performance Analysis in Table Tennis - Stochastic Simulation by Numerical Derivation",
+      "authors": [
+        "Simon Wenninger",
+        "Martin Lames"
+      ],
+      "year": 2016,
+      "doi": "10.1515/ijcss-2016-0002",
+      "openAlexId": "W2492912650",
+      "openAccessUrl": "https://content.sciendo.com/downloadpdf/journals/ijcss/15/1/article-p22.pdf",
+      "citationCount": 28,
+      "abstract": "Abstract The aim of this study was to identify the impact of different tactical behaviors on the winning probability in table tennis. The performance analysis was done by mathematical simulation using a Markov chain model. 259 high-level table tennis games were evaluated by means of a new simulation approach using numerical derivation to remove the necessity to perform a second modeling step in order to determine the difficulty of tactical behaviors. Based on the derivation, several mathematical constructs like directional derivations and the gradient are examined for application in table tennis. Results reveal errors and long rallies as the most influencing game situations, together with the positive effect of risky play on the winning probability of losing players.",
+      "score": 0.68,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov model tennis win probability"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Markov Chain Models and Data Science Applications",
+      "authors": [
+        "Li-Hsuan Huang"
+      ],
+      "year": 2018,
+      "doi": null,
+      "openAlexId": "W2903478078",
+      "openAccessUrl": "https://escholarship.org/uc/item/6ch8z986",
+      "citationCount": 1,
+      "abstract": "National Basketball Association basketball is a dynamic sport played by various 5-person units (lineups) from two teams for 48 minutes. Researchers have attempted to model the dynamics of the game using play-by-play data, which contains a game log of events on the court and times at which those events happened. Recent work involving NBA play-by-play data used discrete-time Markov chains to model team possession-related events to predict final game scores. Moreover, the availability of optical player tracking data has allowed researchers to model game progression on an individual player level. While the work captured details of games, game progression driven by lineups used by each team and the amount of time played by each lineup on the court were not considered. Using NBA play-by-play data, we sought models for time series detailing transitions of lineups (states) and the times at which a new lineup was used. Because substitutions occur at random times, we built a continuous-time Markov chain (CTMC) model for each NBA team in which each state corresponds to a unique lineup. Using the 2014-15 NBA season, we correctly predicted 12 out of 15 playoff outcomes. Nevertheless, all CTMC models suffered from absorbing states. Each time series might have a final state which has never been reached previously. In this case, the final state will end up being an absorbing state for the maximum-likelihood-estimate Markov model. In the long run, an absorbing Markov chain has equilibrium distribution supported entirely on the set of absorbing states. To remedy this problem in a basketball simulation, we considered three strategies: i) reroute to a more probable state if an absorbing state is reached, ii) remove lineups that played less than 2 minutes and lineups corresponding to absorbing states in a season, and iii) allow simulation to stay in the absorbing state if it is the final state reached before the game is over. Combining these strategies with scoring-rate models built using singular value decomposition and weighted observations, we obtained best training and test accuracy of 75% and 70%, training on the first 75 games and testing on the remaining 7 games for the 2015-16 NBA season. A test accuracy of 70% compares favorably with state-of-the-art models. These ad hoc absorbing-state strategies, developed for NBA data, however, might not be valid in other applications; hence, we developed stable optimization algorithms that systematically solve the issue of absorbing states so that the Markov chains reach desired equilibria and achieve zero long-term training error. We defined long-term training error as the one-norm difference between the equilibrium distribution of an MLE derived Markov chain and the actual fraction of time spent in each state on the training data. We then applied the optimization methods to the NBA data and to two finite-state, discrete-time biomedical data sets. The results showed smaller long-term training and test errors compared to naive MLE models. Furthermore, for the biomedical data, the methods yield similar long-term errors as hidden Markov models while requiring significantly less training time.",
+      "score": 0.646,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov chain sports introduction",
+        "Markov chain sports tutorial",
+        "Markov chain sports review",
+        "Markov chain sports (teaching OR classroom OR undergraduate)",
+        "Markov chain basketball possession"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Prediction of in-play tennis",
+      "authors": [
+        "Viney, Michelle"
+      ],
+      "year": 2015,
+      "doi": "10.25439/rmt.27588903",
+      "openAlexId": "W2604219493",
+      "openAccessUrl": "https://doi.org/10.25439/rmt.27588903",
+      "citationCount": 2,
+      "abstract": "Tennis is one of the most volatile sports, as the favourite to win the match can change within a couple of service games. The growth of technology over the past decade has also resulted in an exponential increase of in-play wagering. Thus, the aim of this thesis was to investigate the game of tennis whilst in-play in order to increase the accuracy of predictions by updating the probability of winning a point on serve using various approaches. Analysis was performed to determine whether incorporating in-play serving and winning statistics, court-side dominance and point importance provided an accurate representation of match progression. Analysis on the efficiency of the in-play wagering markets was also performed and a method to incorporate over-round into a Markov Chain model was establish.",
+      "score": 0.644,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov model tennis win probability"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Markov decision processes with dynamic transition probabilities: An analysis of shooting strategies in basketball",
+      "authors": [
+        "Nathan Sandholtz",
+        "Luke Bornn"
+      ],
+      "year": 2020,
+      "doi": "10.1214/20-aoas1348",
+      "openAlexId": "W3018701121",
+      "openAccessUrl": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-14/issue-3/Markov-decision-processes-with-dynamic-transition-probabilities--An-analysis/10.1214/20-AOAS1348.pdf",
+      "citationCount": 28,
+      "abstract": "In this paper we model basketball plays as episodes from team-specific nonstationary Markov decision processes (MDPs) with shot clock dependent transition probabilities. Bayesian hierarchical models are employed in the modeling and parametrization of the transition probabilities to borrow strength across players and through time. To enable computational feasibility, we combine lineup-specific MDPs into team-average MDPs using a novel transition weighting scheme. Specifically, we derive the dynamics of the team-average process such that the expected transition count for an arbitrary state-pair is equal to the weighted sum of the expected counts of the separate lineup-specific MDPs. We then utilize these nonstationary MDPs in the creation of a basketball play simulator with uncertainty propagated via posterior samples of the model components. After calibration, we simulate seasons both on-policy and under altered policies and explore the net changes in efficiency and production under the alternate policies. Additionally, we discuss the game-theoretic ramifications of testing alternative decision policies.",
+      "score": 0.642,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov chain basketball possession"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A Bayesian regression approach to handicapping tennis players based on a rating system",
+      "authors": [
+        "Timothy C. Y. Chan",
+        "Raghav Singal"
+      ],
+      "year": 2018,
+      "doi": "10.1515/jqas-2017-0103",
+      "openAlexId": "W2888738118",
+      "openAccessUrl": "https://utoronto.scholaris.ca/bitstreams/20be7013-0cf4-4de3-81ef-7713db5861cc/download",
+      "citationCount": 1,
+      "abstract": "Abstract This paper builds on a recently developed Markov Decision Process-based (MDP) handicap system for tennis, which aims to make amateur matches more competitive. The system gives points to the weaker player based on skill difference, which is measured by the point-win probability. However, estimating point-win probabilities at the amateur level is challenging since point-level data is generally only available at the professional level. On the other hand, tennis rating systems are widely used and provide an estimate of the difference in ability between players, but a rigorous determination of handicap using rating systems is lacking. Therefore, our goal is to develop a mapping between the Universal Tennis Rating (UTR) system and the MDP-based handicaps, so that two amateur players can determine an appropriate handicap for their match based only on their UTRs. We first develop and validate an approach to extract server-independent point-win probabilities from match scores. Then, we show how to map server-independent point-win probabilities to server-specific point-win probabilities. Finally, we use the estimated probabilities to produce handicaps via the MDP model, which are regressed against UTR differences between pairs of players. We conclude with thoughts on how a handicap system could be implemented in practice.",
+      "score": 0.585,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov model tennis win probability"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A momentum synthesis model of the tennis ball based on the TERFAS",
+      "authors": [
+        "<p>Boya Zhan</p>"
+      ],
+      "year": 2024,
+      "doi": "10.25236/ajcis.2024.071214",
+      "openAlexId": "W4406129267",
+      "openAccessUrl": "http://francis-press.com/uploads/papers/kOpSf7qnWmoVcBVywqM2Au48Zvw2oWDNJWiwLkMp.pdf",
+      "citationCount": 1,
+      "abstract": "The 2023 Wimbledon final showcased momentum shifts in Carlos Alcaraz's victory over Novak Djokovic. This study investigates momentum in tennis to inform tactical strategies. Firstly, we developed the Tennis Elite Rating and Factor Analysis System (TERFAS). Specifically, the factor analysis and combined weighting were used to quantify the impact of serve, break points and player skill. Then, 10 key metrics were identified and their impact on match performance as measured by real-time momentum insights was assessed using non-linear regression models. Additionally, we confirmed that momentum influences match outcomes using a logistic regression model validated by Pearson correlation. Furthermore, the ARIMA and Markov models were integrated into the MarkoRima Tennis Forecaster (MRTF) to provide strategy recommendations in order to improve accuracy. Meanwhile, we verified the validity and generalisability of the models using entropy analysis. Finally, simulation experiments show that the model designed in the article has good robustness and sensitivity.",
+      "score": 0.576,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov model tennis win probability"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Evaluating the Efficiency of Off-Ball Screens in Elite Basketball Teams via Second-Order Markov Modelling",
+      "authors": [
+        "Nikolaos Stavropoulos",
+        "Alexandra Papadopoulou",
+        "Pavlos Kolias"
+      ],
+      "year": 2021,
+      "doi": "10.3390/math9161991",
+      "openAlexId": "W3194234593",
+      "openAccessUrl": "https://www.mdpi.com/2227-7390/9/16/1991/pdf?version=1629767917",
+      "citationCount": 15,
+      "abstract": "In basketball, the offensive movements on both strong and weak sides and tactical behavior play major roles in the effectiveness of a team’s offense. In the literature, studies are mostly focused on offensive actions, such as ball screens on the strong side. In the present paper, for the first time a second-order Markov model is defined to evaluate players’ interactions on the weak side, particularly for exploring the effectiveness of tactical structures and off-ball screens regarding the final outcome. The sample consisted of 1170 possessions of the FIBA Basketball Champions League 2018–2019. The variables of interest were the type of screen on the weak side, the finishing move, and the outcome of the shot. The model incorporates partial non-homogeneity according to the time of the execution (0–24″) and the quarter of playtime, and it is conditioned on the off-ball screen type. Regarding the overall performance, the results indicated that the outcome of each possession was influenced not only by the type of the executed shot, but also by the specific type of screen that took place earlier on the weak side of the offense. Thus, the proposed model could operate as an advisory tool for the coach’s strategic plans.",
+      "score": 0.572,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov chain basketball possession"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A Study of Tennis Momentum Based on Markov Chains and Lgbms",
+      "authors": [
+        "Yilan Xie"
+      ],
+      "year": 2024,
+      "doi": "10.54097/3ncc8778",
+      "openAlexId": "W4400997483",
+      "openAccessUrl": "https://drpress.org/ojs/index.php/HSET/article/download/21639/21180",
+      "citationCount": 0,
+      "abstract": "The heightened focus on competition has captured people's attention, elevating the significance of athletic endeavors. This study aimed to explore the effects of changes in sports competition. Through data preprocessing and principal component analysis, 13 factors influencing posture were confirmed and dynamic expressions were derived to measure athlete performance using entropy weighting. We further investigated the effect of competition fluctuations on the performance of future athletes, revealing the close relationship between situation size and subsequent scoring. Specifically, we used two methods, Markov Chain and Light Gradient Boosting Machine (LGBM), to predict match swings. Overall, this study deeply dissected the dynamic changes in athlete performance, reveals the interaction between posture and athlete outcomes, and provides practical suggestions for optimizing athlete status and competition strategies.",
+      "score": 0.571,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov chain sports",
+        "Markov model tennis win probability"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Modeling state duration and emission dependence in hidden Markov and hidden semi-Markov models",
+      "authors": [
+        "Shirley Rojas Salazar"
+      ],
+      "year": 2022,
+      "doi": "10.32469/10355/93987",
+      "openAlexId": "W4319336312",
+      "openAccessUrl": "https://mospace.umsystem.edu/xmlui/bitstream/10355/93987/1/RojasSalazarShirleyResearch.pdf",
+      "citationCount": 0,
+      "abstract": "Hidden Markov models (HMM) are composed of a latent state sequence and an observation sequence conditionally independent on the states, which follows an emission distribution. Hidden semi-Markov models (HSMM) extend the HMM by explicitly modeling the duration in the states. This dissertation expands the HSMM by introducing non-homogeneity in the duration model, with duration parameters defined as functions of time-varying covariates, which has not been considered to date. This model is applied to high-frequency environmental data. The variable transition HMM (VTHMM) also expands the HMM by considering the duration in the state transition probabilities. We present a VTHMM for team sports data to obtain inference on the dynamic network of players in a game, and model high temporal resolution player location data. Lastly, the conditional independence assumption in the emission distribution can be violated, in particular with high-frequency data. We propose two novel approaches to address the conditional dependence, by introducing data subsampling in the MCMC sampling algorithm for parameter inference in HMMs and HSMMs, and by considering basis function expansions in the emission distribution.",
+      "score": 0.451,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov chain sports tutorial",
+        "Markov chain basketball possession"
+      ]
+    },
+    {
+      "needsHumanReview": true,
+      "reviewReason": "no abstract on OpenAlex; read the paper before using it",
+      "title": "Markov League Baseball: Baseball Analysis Using Markov Chains",
+      "authors": [
+        "Victor Joseph Asaro"
+      ],
+      "year": 2016,
+      "doi": null,
+      "openAlexId": "W2468386040",
+      "openAccessUrl": "https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1063&context=statsp",
+      "citationCount": 0,
+      "abstract": null,
+      "score": 0.45,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Markov chain sports",
+        "Markov chain baseball run expectancy"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Current Approaches to the Use of Artificial Intelligence for Injury Risk Assessment and Performance Prediction in Team Sports: a Systematic Review",
+      "authors": [
+        "João Gustavo Claudino",
+        "Daniel de Oliveira Capanema",
+        "Thiago Vieira de Souza",
+        "Júlio Cerca Serrão",
+        "Adriano C. M. Pereira",
+        "George P. Nassis"
+      ],
+      "year": 2019,
+      "doi": "10.1186/s40798-019-0202-3",
+      "openAlexId": "W2954570505",
+      "openAccessUrl": "https://sportsmedicine-open.springeropen.com/track/pdf/10.1186/s40798-019-0202-3",
+      "citationCount": 416,
+      "abstract": "BACKGROUND: The application of artificial intelligence (AI) opens an interesting perspective for predicting injury risk and performance in team sports. A better understanding of the techniques of AI employed and of the sports that are using AI is clearly warranted. The purpose of this study is to identify which AI approaches have been applied to investigate sport performance and injury risk and to find out which AI techniques each sport has been using. METHODS: Systematic searches through the PubMed, Scopus, and Web of Science online databases were conducted for articles reporting AI techniques or methods applied to team sports athletes. RESULTS: Fifty-eight studies were included in the review with 11 AI techniques or methods being applied in 12 team sports. Pooled sample consisted of 6456 participants (97% male, 25 ± 8 years old; 3% female, 21 ± 10 years old) with 76% of them being professional athletes. The AI techniques or methods most frequently used were artificial neural networks, decision tree classifier, support vector machine, and Markov process with good performance metrics for all of them. Soccer, basketball, handball, and volleyball were the team sports with more applications of AI. CONCLUSIONS: The results of this review suggest a prevalent application of AI methods in team sports based on the number of published studies. The current state of development in the area proposes a promising future with regard to AI use in team sports. Further evaluation research based on prospective methods is warranted to establish the predictive performance of specific AI techniques and methods.",
+      "score": 0.782,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "Markov chain sports review",
+        "Markov chain sports (teaching OR classroom OR undergraduate)"
+      ]
+    }
+  ]
+}

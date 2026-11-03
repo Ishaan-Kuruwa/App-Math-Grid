@@ -33,13 +33,6 @@ papers:
     year: 2010
     # No DOI on OpenAlex; cited by its OpenAlex ID (W1554211603).
     url: "https://openalex.org/W1554211603"
-  - title: "Fitting functional responses: Direct parameter estimation by simulating differential equations"
-    authors:
-      - "Benjamin Rosenbaum"
-      - "Björn Christian Rall"
-    year: 2018
-    url: "https://doi.org/10.1111/2041-210x.13039"
-    doi: "10.1111/2041-210x.13039"
   - title: "The Impact of Microplastic Particles on Population Dynamics of Predator and Prey: Implication of the Lotka-Volterra Model"
     authors:
       - "Qi Huang"
@@ -50,4 +43,11 @@ papers:
     year: 2020
     url: "https://doi.org/10.1038/s41598-020-61414-3"
     doi: "10.1038/s41598-020-61414-3"
+  - title: "Fitting functional responses: Direct parameter estimation by simulating differential equations"
+    authors:
+      - "Benjamin Rosenbaum"
+      - "Björn Christian Rall"
+    year: 2018
+    url: "https://doi.org/10.1111/2041-210x.13039"
+    doi: "10.1111/2041-210x.13039"
 ---

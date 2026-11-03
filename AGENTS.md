@@ -45,10 +45,15 @@ Fields: `ecology`, `epidemiology`, `economics`, `sports`, `public-policy`,
   in the prompt or already present in the content files. If an entry needs papers
   and none were given, stop and ask.
 - NEVER cite a paper from memory. Papers may only come from (a) the prompt,
-  (b) existing content files, or (c) results returned by `npm run find-papers`.
-  Every paper must include the OpenAlex ID or DOI from those results.
+  (b) existing content files, (c) `npm run find-papers` results, or (d) a direct
+  OpenAlex lookup made to check or replace a specific paper, such as finding its
+  published version. Every paper must include the DOI or OpenAlex ID returned by
+  OpenAlex.
 - When selecting papers automatically, avoid papers centered on suicide, self-harm,
   or other sensitive topics unsuitable for a general high school audience.
+- Never select papers from publishers widely listed as predatory.
+- Prefer the peer-reviewed published version of a paper over a preprint when both exist.
+- List an entry's papers from most accessible to least accessible.
 - Never change the content schema without explicitly saying so and explaining why.
 - Run `npm run build` and `npm run check` before declaring any task done. If content
   was touched, also run `npm run verify`.

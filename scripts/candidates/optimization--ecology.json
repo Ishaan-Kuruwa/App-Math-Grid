@@ -1,0 +1,347 @@
+{
+  "method": "optimization",
+  "field": "ecology",
+  "generatedAt": "2026-11-03T01:16:21.360Z",
+  "queries": [
+    "optimization ecology",
+    "optimization ecology introduction",
+    "optimization ecology tutorial",
+    "optimization ecology review",
+    "optimization ecology (teaching OR classroom OR undergraduate)",
+    "optimal harvesting fisheries model",
+    "reserve selection conservation planning",
+    "maximum sustainable yield model"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "USE OF POPULATION VIABILITY ANALYSIS AND RESERVE SELECTION ALGORITHMS IN REGIONAL CONSERVATION PLANS",
+      "authors": [
+        "Carlos Carroll",
+        "Reed F. Noss",
+        "Paul C. Paquet",
+        "Nathan H. Schumaker"
+      ],
+      "year": 2003,
+      "doi": "10.1890/02-5195",
+      "openAlexId": "W2114134447",
+      "openAccessUrl": "https://stars.library.ucf.edu/facultybib2000/3658",
+      "citationCount": 141,
+      "abstract": "Current reserve selection algorithms have difficulty evaluating connectivity and other factors necessary to conserve wide‐ranging species in developing landscapes. Conversely, population viability analyses may incorporate detailed demographic data, but often lack sufficient spatial detail or are limited to too few taxa to be relevant to regional conservation plans. We developed a regional conservation plan for mammalian carnivores in the Rocky Mountain region using both a reserve selection algorithm (SITES) and a spatially explicit population model (PATCH). The spatially explicit population model informed reserve selection and network design by producing data on the locations of population sources, the degree of threat to those areas from landscape change, the existence of thresholds to population viability as the size of the reserve network increased, and the effect of linkage areas on population persistence. A 15% regional decline in carrying capacity for large carnivores was predicted within 25 years if no addition to protected areas occurred. Increasing the percentage of the region in reserves from the current 17.2% to 36.4% would result in a 1–4% increase over current carrying capacity, despite the effects of landscape change. The population model identified linkage areas that were not chosen by the reserve selection algorithm, but whose protection strongly affected population viability. A reserve network based on carnivore conservation goals incidentally protected 76% of ecosystem types, but was poor at capturing localized rare species. Although it is unlikely that planning for focal species requirements alone will capture all facets of biodiversity, when used in combination with other planning foci, it may help to forestall the effects of loss of connectivity on a larger group of threatened species and ecosystems. A better integration of current reserve selection tools and spatial simulation models should produce reserve designs that are simultaneously biologically realistic and taxonomically inclusive.",
+      "score": 0.9,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "reserve selection conservation planning"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Fish should not be in isolation: Calculating maximum sustainable yield using an ensemble model",
+      "authors": [
+        "Michael A. Spence",
+        "Khatija Alliji",
+        "Hayley J. Bannister",
+        "Nicola Walker",
+        "Angela Muench"
+      ],
+      "year": 2020,
+      "doi": "10.48550/arxiv.2005.02001",
+      "openAlexId": "W3023659349",
+      "openAccessUrl": "https://arxiv.org/pdf/2005.02001",
+      "citationCount": 8,
+      "abstract": "Many jurisdictions have a legal requirement to manage fish stocks to maximum sustainable yield (MSY). Generally, MSY is calculated on a single-species basis, however in reality, the yield of one species depends, not only on its own fishing level, but that of other species. We show that bold assumptions about the effect of interacting species on MSY are made when managing on a single-species basis, often leading to inconsistent and conflicting advice, demonstrating the requirement of a multispecies MSY (MMSY). Although there are several definitions of MMSY, there is no consensus. Furthermore, calculating a MMSY can be difficult as there are many models, of varying complexity, each with their own strengths and weaknesses, and the value if MMSY can be sensitive to the model used. Here, we use an ensemble model to combine different multispecies models, exploiting their individual strengths and quantifying their uncertainties and discrepancies, to calculate a more robust MMSY. We demonstrate this by calculating a MMSY for nine species in the North Sea. We found that it would be impossible to fish at single-species MSY and that MMSY led to higher yields and revenues than current levels.",
+      "score": 0.733,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "maximum sustainable yield model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Dynamics and Optimal Harvesting for Fishery Models with Reserved Areas",
+      "authors": [
+        "Wenjun Gao",
+        "Xiu Jia",
+        "Ruiqing Shi"
+      ],
+      "year": 2024,
+      "doi": "10.3390/sym16070800",
+      "openAlexId": "W4400079134",
+      "openAccessUrl": "https://doi.org/10.3390/sym16070800",
+      "citationCount": 5,
+      "abstract": "This paper analyzes the dynamic behavior of a fishery model described by differential algebraic equations. Two patches, namely free fishing area and protected area, are included in the model. The migration of fish is symmetrical, i.e., the fish can migrate between the two patches. It is observed that a singularity-induced bifurcation occurs when the economic benefit of harvesting changes. When the economic benefit is positive, a state feedback controller is added to stabilize the system. Some examples and numerical simulations are presented to verify the theoretical results. In addition, harvesting of prey populations is used as a control measure to obtain the maximum economic benefits and ecological sustainability. The optimal solution is derived by using Pontryagin’s maximum principle. Through extensive numerical simulations, it is shown that the optimal solution is capable of achieving ecosystem sustainability.",
+      "score": 0.709,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "optimal harvesting fisheries model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Where to with reserve selection and conservation planning in South Africa?",
+      "authors": [
+        "A. S. van Jaarsveld"
+      ],
+      "year": 1995,
+      "doi": "10.1080/02541858.1995.11448383",
+      "openAlexId": "W2563307763",
+      "openAccessUrl": "https://www.tandfonline.com/doi/pdf/10.1080/02541858.1995.11448383?needAccess=true",
+      "citationCount": 10,
+      "abstract": "A critical evaluation of the strengths and weaknesses associated with the ‘minimal set’ approach to designing an optimal reserve network tor vertebrate species is offered. Strengths are the rational and efficient manner in which full species representation is achieved, and the planning benefits that can be gained through its flexibility. Weaknesses include the inappropriateness of the ‘minimal set’ as a framework for a reserve network, and the frequent confusion between top-down relational species criteria and bottom-up site attributes. It is suggested that the distinct ‘top-down’ relational and ‘bottom-up’ representation approaches may act synergistically to form the basis of a National Biodiversity Conservation Strategy. These complementary approaches may require different forms of protection and monitoring, but could also be amalgamated to develop a conservation strategy for non-protected areas. Sufficient attention should also be paid to encouraging the free flow of information and to incorporating the principles of taxonomic and environmental uncertainty into future conservation policies.",
+      "score": 0.679,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "reserve selection conservation planning"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Mathematical modeling of Fish Resources Harvesting with Predator at Maximum Sustainable Yield",
+      "authors": [
+        "Kinfe Hailemariam Hntsa"
+      ],
+      "year": 2016,
+      "doi": null,
+      "openAlexId": "W2462465796",
+      "openAccessUrl": "http://iiste.org/Journals/index.php/MTM/article/view/31423",
+      "citationCount": 2,
+      "abstract": "In this study, the population dynamic of fish is considered following Logistic model with the inclusion of harvesting.The prey-predator interaction is also considered with an assumption that the predator population which is completely theoretical and not physically defined has a little effect on the growth of prey population provided that there are no limiting factors other than the predators.This is to say that the prey-predator cycle remains stable as far as other factors are constant in the natural environment.The growth function of the predator population is constructed corresponding to the prey population, and its results showed that the predator population size is either convergent to a finite positive limit, zero or diverges to positive infinity; while the fish population size follows Logistic function and grows to an upper asymptote.Furthermore, the prey-predator interaction is considered with the assumption that the predator population has an effect on the growth of the prey population and the predator population has intra-specific competition for a limited environmental resource.Its result showed that both the prey-predator population size settle down to their corresponding coexistence equilibrium point.In both cases the maximum sustainable yield is obtained, numerical simulation and stability analysis of the model are included.",
+      "score": 0.665,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "maximum sustainable yield model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Analysis of a Fishery Model with two competing prey species in the presence of a predator species for Optimal Harvesting",
+      "authors": [
+        "Sutimin Sutimin",
+        "Siti Khabibah",
+        "Dita Anies Munawwaroh"
+      ],
+      "year": 2018,
+      "doi": "10.1051/e3sconf/20183108008",
+      "openAlexId": "W2789157883",
+      "openAccessUrl": "https://www.e3s-conferences.org/articles/e3sconf/pdf/2018/06/e3sconf_icenis2018_08008.pdf",
+      "citationCount": 4,
+      "abstract": "A harvesting fishery model is proposed to analyze the effects of the presence of red devil fish population, as a predator in an ecosystem. In this paper, we consider an ecological model of three species by taking into account two competing species and presence of a predator (red devil), the third species, which incorporates the harvesting efforts of each fish species. The stability of the dynamical system is discussed and the existence of biological and bionomic equilibrium is examined. The optimal harvest policy is studied and the solution is derived in the equilibrium case applying Pontryagin’s maximal principle. The simulation results is presented to simulate the dynamical behavior of the model and show that the optimal equilibrium solution is globally asymptotically stable. The results show that the optimal harvesting effort is obtained regarding to bionomic and biological equilibrium.",
+      "score": 0.637,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "optimal harvesting fisheries model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Stochastic surplus production and length-based assessment models to compare Maximum Sustainable Yield advice for the Moroccan Atlantic chub mackerel",
+      "authors": [
+        "Ghoufrane Derhy",
+        "Khalid Elkalay",
+        "Margarita M. Rincón",
+        "Karima Khalil"
+      ],
+      "year": 2024,
+      "doi": "10.3389/fmars.2024.1386541",
+      "openAlexId": "W4402694023",
+      "openAccessUrl": "https://public-pages-files-2025.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1386541/pdf",
+      "citationCount": 9,
+      "abstract": "Fisheries management needs to ensure that resources are exploited sustainably and the risk of depletion is at an acceptable level. In developing countries, multi-gear, multispecies fisheries often lack data, making conventional stock assessment approaches unsuitable. Data-limited methods have been developed to compare quantitative measures of fishery and stock status with management and biological reference points. In Morocco, despite its large productive ecosystems, most of the fishing stocks remain unassessed. We selected a stock of chub mackerel, considering the availability of survey data, and the fact that it occupies an important place in small pelagic resources. Although this is an important stock, there is a lack of new information on migration and possible exchange between the two stocks of chub mackerel (central and southern). This study presents the first attempt at a combined assessment to provide Maximum Sustainable Yield (MSY) estimates and related indicators of the Moroccan chub mackerel (center and south) by using two of the most used data-limited approaches, the Stochastic Surplus Production model in Continuous Time (SPiCT) and the Length Based Spawning Potential Ratio estimation (LBSPR). These two approaches were applied to analyze the chub mackerel stock state and estimate how far away it was from the estimated harvest relative to MSY using all available time series data. The findings provide valuable information on MSY advice for this stock while remarking the advantages and limitations of two data-limited approaches for the assessment of chub mackerel. The SPiCT results show that the current harvest level closely aligns with the estimated MSY, and that the estimated biomass (B) is below BMSY, and the estimated fishing mortality (F) exceeds FMSY. For LBSPR, most SPR values are lower than the reference point of 40%, which serves as a proxy for BMSY, indicating also a biomass below BMSY. Both models suggest full to overexploited stock status mainly for the period (2016-2020), and this is a different perception to the one provided only by analyzing survey indices fluctuations that indicate critical status over a longer period. Then, this exercise is also pointing out the importance of having different data sources for a better stock status estimation.",
+      "score": 0.624,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "maximum sustainable yield model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Enhancing maximum sustainable yield in a multi-patch Rosenzweig–Macarthur model with symmetrical prey and asymmetrical predator migration",
+      "authors": [
+        "Ali Moussaoui",
+        "Pierre M. Auger",
+        "Bilel Elbetch"
+      ],
+      "year": 2025,
+      "doi": "10.1051/mmnp/2025004",
+      "openAlexId": "W4406752652",
+      "openAccessUrl": "https://www.mmnp-journal.org/articles/mmnp/pdf/forth/mmnp240123.pdf",
+      "citationCount": 3,
+      "abstract": "In this paper, we formulate a Rosenzweig–MacArthur (RM) predator–prey model incorporating the dispersal of both prey and predator among n discrete habitat patches. We assume that only the predator is harvested and not its prey, growing logistically on each site. Our aim is to investigate whether the total catch in a system of interconnected patches through migration can surpass the sum of the optimal catch from n isolated patches, known as the maximum sustainable yield (MSY). We start by revisiting some fundamental properties of the RM model examining the stability of its equilibrium points. We then analyze the MSY for a single patch, deriving conditions on the fishing effort required to achieve MSY. Next, we consider the MSY of the RM model for both separated and connected patches, and provide different answers to the aforementioned question for different cases. In the homogeneous case with symmetric movement of the prey between patches, we show that the total yield at MSY for the interconnected system is equivalent to the sum of the yields at MSY for each isolated patch. In contrast, in the heterogeneous case, we show that the total maximum sustainable yield for the connected patches can surpass the sum of the maximum sustainable yields for each isolated patch. Our analysis establishes the conditions under which one scenario is more favorable in terms of yield.",
+      "score": 0.608,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "maximum sustainable yield model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Optimal harvesting of prey-predator fishery modeling in a two patch environment and harvesting in unprotected area",
+      "authors": [
+        "Syamsuddin Toaha",
+        "Kasbawati Kasbawati"
+      ],
+      "year": 2019,
+      "doi": "10.1088/1755-1315/279/1/012014",
+      "openAlexId": "W2971533825",
+      "openAccessUrl": "https://iopscience.iop.org/article/10.1088/1755-1315/279/1/012014/pdf",
+      "citationCount": 4,
+      "abstract": "Abstract This article deals with the dynamics of prey and predator populations in a two patch environment, a protected area and an unprotected area for fishing. The prey disperses between the two patches and migrates easily. There are two predators, one is in the protected area and another is in the unprotected area. The predators cannot migrate. Both prey and predator in unprotected area are harvested with constant efforts. The dynamical behavior of the populations is stated as a system of differential equations. The existence of a positive equilibrium point and its stability are investigated. We discuss the local stability of the positive equilibrium point. The stable equilibrium point is then associated with optimal harvesting problems. Based on the analysis, we found that there exist a stable positive equilibrium point when there is no harvesting. For model with constant efforts for both prey and predator, we found that over fishing will maximize the profit but the predator in the unprotected area will be extinct. With the help of Pontryagin’s maximum principle in maximizing the present value of revenues, we found the extremal of the efforts that maximize the present value of revenues. This means that both prey and predator in the protected area as well as the prey and predator in the unprotected area are possibly coexist although the prey and the predator in the unprotected area are harvested with constant efforts. Some numerical simulations area given to confirm the result of analysis.",
+      "score": 0.605,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "optimal harvesting fisheries model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A new method for conservation planning for the persistence of multiple species",
+      "authors": [
+        "Emily Nicholson",
+        "Michael Westphal",
+        "Karin Frank",
+        "Wayne Rochester",
+        "Robert L. Pressey",
+        "David B. Lindenmayer",
+        "Hugh Philip Possingham"
+      ],
+      "year": 2006,
+      "doi": "10.1111/j.1461-0248.2006.00956.x",
+      "openAlexId": "W2145477809",
+      "openAccessUrl": "https://figshare.com/articles/journal_contribution/A_new_method_for_conservation_planning_for_the_persistence_of_multiple_species/20906308",
+      "citationCount": 152,
+      "abstract": "Although the aim of conservation planning is the persistence of biodiversity, current methods trade-off ecological realism at a species level in favour of including multiple species and landscape features. For conservation planning to be relevant, the impact of landscape configuration on population processes and the viability of species needs to be considered. We present a novel method for selecting reserve systems that maximize persistence across multiple species, subject to a conservation budget. We use a spatially explicit metapopulation model to estimate extinction risk, a function of the ecology of the species and the amount, quality and configuration of habitat. We compare our new method with more traditional, area-based reserve selection methods, using a ten-species case study, and find that the expected loss of species is reduced 20-fold. Unlike previous methods, we avoid designating arbitrary weightings between reserve size and configuration; rather, our method is based on population processes and is grounded in ecological theory.",
+      "score": 0.603,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "reserve selection conservation planning"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A Tutorial for Competent Memetic Algorithms: Model, Taxonomy, and Design Issues",
+      "authors": [
+        "Natalio Krasnogor",
+        "James Edward Smith"
+      ],
+      "year": 2005,
+      "doi": "10.1109/tevc.2005.850260",
+      "openAlexId": "W2170186790",
+      "openAccessUrl": "http://eprints.uwe.ac.uk/11069/1/01514472.pdf",
+      "citationCount": 728,
+      "abstract": "The combination of evolutionary algorithms with local search was named \"memetic algorithms\" (MAs) (Moscato, 1989). These methods are inspired by models of natural systems that combine the evolutionary adaptation of a population with individual learning within the lifetimes of its members. Additionally, MAs are inspired by Richard Dawkin's concept of a meme, which represents a unit of cultural evolution that can exhibit local refinement (Dawkins, 1976). In the case of MA's, \"memes\" refer to the strategies (e.g., local refinement, perturbation, or constructive methods, etc.) that are employed to improve individuals. In this paper, we review some works on the application of MAs to well-known combinatorial optimization problems, and place them in a framework defined by a general syntactic model. This model provides us with a classification scheme based on a computable index D, which facilitates algorithmic comparisons and suggests areas for future research. Also, by having an abstract model for this class of metaheuristics, it is possible to explore their design space and better understand their behavior from a theoretical standpoint. We illustrate the theoretical and practical relevance of this model and taxonomy for MAs in the context of a discussion of important design issues that must be addressed to produce effective and efficient MAs.",
+      "score": 0.999,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization ecology tutorial"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "The ecology of human fear: survival optimization and the nervous system",
+      "authors": [
+        "Dean Mobbs",
+        "Cindy C. Hagan",
+        "Tim Dalgleish",
+        "Brian Silston",
+        "Charlotte PrÃ©vost"
+      ],
+      "year": 2015,
+      "doi": "10.3389/fnins.2015.00055",
+      "openAlexId": "W1988558220",
+      "openAccessUrl": "https://www.frontiersin.org/articles/10.3389/fnins.2015.00055/pdf",
+      "citationCount": 498,
+      "abstract": "We propose a Survival Optimization System (SOS) to account for the strategies that humans and other animals use to defend against recurring and novel threats. The SOS attempts to merge ecological models that define a repertoire of contextually relevant threat induced survival behaviors with contemporary approaches to human affective science. We first propose that the goal of the nervous system is to reduce surprise and optimize actions by (i) predicting the sensory landscape by simulating possible encounters with threat and selecting the appropriate pre-encounter action and (ii) prevention strategies in which the organism manufactures safe environments. When a potential threat is encountered the (iii) threat orienting system is engaged to determine whether the organism ignores the stimulus or switches into a process of (iv) threat assessment, where the organism monitors the stimulus, weighs the threat value, predicts the actions of the threat, searches for safety, and guides behavioral actions crucial to directed escape. When under imminent attack, (v) defensive systems evoke fast reflexive indirect escape behaviors (i.e., fight or flight). This cascade of responses to threat of increasing magnitude are underwritten by an interconnected neural architecture that extends from cortical and hippocampal circuits, to attention, action and threat systems including the amygdala, striatum, and hard-wired defensive systems in the midbrain. The SOS also includes a modulatory feature consisting of cognitive appraisal systems that flexibly guide perception, risk and action. Moreover, personal and vicarious threat encounters fine-tune avoidance behaviors via model-based learning, with higher organisms bridging data to reduce face-to-face encounters with predators. Our model attempts to unify the divergent field of human affective science, proposing a highly integrated nervous system that has evolved to increase the organism's chances of survival.",
+      "score": 0.976,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization ecology",
+        "optimization ecology introduction",
+        "optimization ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Optimizing the use of biologgers for movement ecology research",
+      "authors": [
+        "Hannah J. Williams",
+        "Lucy A. Taylor",
+        "Simon Benhamou",
+        "Allert Imre Bijleveld",
+        "Thomas A. Clay",
+        "Sophie de Grissac",
+        "Urška Demšar",
+        "Holly M. English",
+        "Novella Franconi",
+        "Agustina Gómez‐Laich",
+        "Rachael C. Griffiths",
+        "William P. Kay",
+        "Juan M. Morales",
+        "Jonathan R. Potts",
+        "Katharine F. Rogerson",
+        "Christian Rutz",
+        "Anouk Spelt",
+        "Alice Marie Trevail",
+        "Rory Paul Wilson",
+        "Luca Börger"
+      ],
+      "year": 2019,
+      "doi": "10.1111/1365-2656.13094",
+      "openAlexId": "W2969700004",
+      "openAccessUrl": "https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2656.13094",
+      "citationCount": 333,
+      "abstract": "The paradigm-changing opportunities of biologging sensors for ecological research, especially movement ecology, are vast, but the crucial questions of how best to match the most appropriate sensors and sensor combinations to specific biological questions and how to analyse complex biologging data, are mostly ignored. Here, we fill this gap by reviewing how to optimize the use of biologging techniques to answer questions in movement ecology and synthesize this into an Integrated Biologging Framework (IBF). We highlight that multisensor approaches are a new frontier in biologging, while identifying current limitations and avenues for future development in sensor technology. We focus on the importance of efficient data exploration, and more advanced multidimensional visualization methods, combined with appropriate archiving and sharing approaches, to tackle the big data issues presented by biologging. We also discuss the challenges and opportunities in matching the peculiarities of specific sensor data to the statistical models used, highlighting at the same time the large advances which will be required in the latter to properly analyse biologging data. Taking advantage of the biologging revolution will require a large improvement in the theoretical and mathematical foundations of movement ecology, to include the rich set of high-frequency multivariate data, which greatly expand the fundamentally limited and coarse data that could be collected using location-only technology such as GPS. Equally important will be the establishment of multidisciplinary collaborations to catalyse the opportunities offered by current and future biologging technology. If this is achieved, clear potential exists for developing a vastly improved mechanistic understanding of animal movements and their roles in ecological processes and for building realistic predictive models.",
+      "score": 0.952,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization ecology",
+        "optimization ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Bioaerosol biomonitoring: Sampling optimization for molecular microbial ecology",
+      "authors": [
+        "Robert Ferguson",
+        "Sonia Garcia Alcega",
+        "Frédéric Coulon",
+        "Alex J. Dumbrell",
+        "Corinne B. Whitby",
+        "I. Colbeck"
+      ],
+      "year": 2019,
+      "doi": "10.1111/1755-0998.13002",
+      "openAlexId": "W2911328177",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1755-0998.13002",
+      "citationCount": 87,
+      "abstract": "Bioaerosols (or biogenic aerosols) have largely been overlooked by molecular ecologists. However, this is rapidly changing as bioaerosols play key roles in public health, environmental chemistry and the dispersal ecology of microbes. Due to the low environmental concentrations of bioaerosols, collecting sufficient biomass for molecular methods is challenging. Currently, no standardized methods for bioaerosol collection for molecular ecology research exist. Each study requires a process of optimization, which greatly slows the advance of bioaerosol science. Here, we evaluated air filtration and liquid impingement for bioaerosol sampling across a range of environmental conditions. We also investigated the effect of sampling matrices, sample concentration strategies and sampling duration on DNA yield. Air filtration using polycarbonate filters gave the highest recovery, but due to the faster sampling rates possible with impingement, we recommend this method for fine -scale temporal/spatial ecological studies. To prevent bias for the recovery of Gram-positive bacteria, we found that the matrix for impingement should be phosphate-buffered saline. The optimal method for bioaerosol concentration from the liquid matrix was centrifugation. However, we also present a method using syringe filters for rapid in-field recovery of bioaerosols from impingement samples, without compromising microbial diversity for high -throughput sequencing approaches. Finally, we provide a resource that enables molecular ecologists to select the most appropriate sampling strategy for their specific research question.",
+      "score": 0.797,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization ecology",
+        "optimization ecology introduction",
+        "optimization ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Effectiveness of Technology-Enhanced Simulations in Teaching Mathematical Concepts in Ecology and Human Physiology",
+      "authors": [
+        "Muhammad Hayatu Yusuf",
+        "Zaharaddeen Aliyu",
+        "Adamu Murza Dede",
+        "Sani Abdul'aziz Zarewa"
+      ],
+      "year": 2025,
+      "doi": "10.63561/jmns.v2i3.862",
+      "openAlexId": "W4414682500",
+      "openAccessUrl": "https://fnasjournals.com/index.php/FNAS-JMNS/article/download/862/800",
+      "citationCount": 0,
+      "abstract": "This study examined how well technology-enhanced simulations taught mathematical models in secondary school biology classes that focused on ecology and human physiology. The study examined how virtual simulations can help close the pedagogical gap between abstract mathematical concepts and intricate biological systems. It was based on the Technological Pedagogical Content Knowledge (TPACK) framework, Constructivist Learning Theory, and Cognitive Load Theory. 300 Senior Secondary School Two (SS2) students from six purposefully chosen public schools participated in a quasi-experimental design with a pretest-posttest control group. While the control group was instructed using traditional teacher-led techniques, the experimental group was instructed using AI-supported virtual simulations. Data gathered using the Student Engagement and Comprehension Questionnaire and the Biology-Mathematical Modeling Achievement Test (BMMAT) and the Student Engagement and Comprehension Questionnaire (SECQ) were examined using descriptive and inferential statistics, such as ANCOVA and effect size calculations. The results showed that students in the experimental group performed significantly better than those in the control group in terms of understanding and applying mathematical models in biology, with large effect sizes (Cohen’s d = 1.35 for ecology; 1.49 for physiology) and strong explained variances (Partial Eta² = 0.172 and 0.195). The study also confirmed that simulation-based instruction improves cognitive engagement, lowers unnecessary cognitive load, and supports experiential and collaborative learning. These results are consistent with current research that supports the use of virtual simulations in STEM education to promote interdisciplinary competencies and scientific reasoning, and the study concluded that virtual simulations are transformative pedagogical tools that can increase student engagement and conceptual understanding in biology through dynamic and interactive modeling experiences. It recommends curriculum reforms, teacher professional development, infrastructural investment, AI-driven personalization, and interdisciplinary collaboration to optimize the use of virtual simulations in science education.",
+      "score": 0.6,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "optimization ecology (teaching OR classroom OR undergraduate)"
+      ]
+    }
+  ]
+}
