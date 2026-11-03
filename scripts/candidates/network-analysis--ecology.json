@@ -1,0 +1,359 @@
+{
+  "method": "network-analysis",
+  "field": "ecology",
+  "generatedAt": "2026-11-03T01:26:39.483Z",
+  "queries": [
+    "network analysis ecology",
+    "network analysis ecology introduction",
+    "network analysis ecology tutorial",
+    "network analysis ecology review",
+    "network analysis ecology (teaching OR classroom OR undergraduate)",
+    "food web network structure",
+    "plant pollinator network",
+    "habitat connectivity graph theory"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "Food-web structure and network theory: The role of connectance and size",
+      "authors": [
+        "Jennifer A. Dunne",
+        "Richard J. Williams",
+        "Neo D. Martinez"
+      ],
+      "year": 2002,
+      "doi": "10.1073/pnas.192407699",
+      "openAlexId": "W1972106549",
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/130560",
+      "citationCount": 1524,
+      "abstract": "Networks from a wide range of physical, biological, and social systems have been recently described as \"small-world\" and \"scale-free.\" However, studies disagree whether ecological networks called food webs possess the characteristic path lengths, clustering coefficients, and degree distributions required for membership in these classes of networks. Our analysis suggests that the disagreements are based on selective use of relatively few food webs, as well as analytical decisions that obscure important variability in the data. We analyze a broad range of 16 high-quality food webs, with 25-172 nodes, from a variety of aquatic and terrestrial ecosystems. Food webs generally have much higher complexity, measured as connectance (the fraction of all possible links that are realized in a network), and much smaller size than other networks studied, which have important implications for network topology. Our results resolve prior conflicts by demonstrating that although some food webs have small-world and scale-free structure, most do not if they exceed a relatively low level of connectance. Although food-web degree distributions do not display a universal functional form, observed distributions are systematically related to network connectance and size. Also, although food webs often lack small-world structure because of low clustering, we identify a continuum of real-world networks including food webs whose ratios of observed to random clustering coefficients increase as a power-law function of network size over 7 orders of magnitude. Although food webs are generally not small-world, scale-free networks, food-web topology is consistent with patterns found within those classes of networks.",
+      "score": 0.988,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "food web network structure"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Network structure and robustness of marine food webs",
+      "authors": [
+        "JA Dunne",
+        "RJ Williams",
+        "Neo D. Martinez"
+      ],
+      "year": 2004,
+      "doi": "10.3354/meps273291",
+      "openAlexId": "W2079032822",
+      "openAccessUrl": "https://www.int-res.com/articles/meps2004/273/m273p291.pdf",
+      "citationCount": 423,
+      "abstract": "MEPS Marine Ecology Progress Series Contact the journal Facebook Twitter RSS Mailing List Subscribe to our mailing list via Mailchimp HomeLatest VolumeAbout the JournalEditorsTheme Sections MEPS 273:291-302 (2004) - doi:10.3354/meps273291 Network structure and robustness of marine food webs Jennifer A. Dunne1,4,*, Richard J. Williams2,4, Neo D. Martinez3,4 1Santa Fe Institute, 1399 Hyde Park Road, Santa Fe, New Mexico 87501, USA 2National Center for Ecological Analysis and Synthesis, University of California Santa Barbara, 735 State St., Suite 300, Santa Barbara, California 93101-3351, USA 3Center for Applied Mathematics, 657 Frank HT Rhodes Hall, Cornell University, Ithaca, New York 14853, USA 4Pacific Ecoinformatics and Computational Ecology Lab, Rocky Mountain Biological Laboratory, PO Box 519, Crested Butte, Colorado 81224, USA *Email: jdunne@santafe.edu ABSTRACT: Previous studies suggest that food-web theory has yet to account for major differences in food-web properties of marine versus other types of ecosystems. We examined this issue by analyzing the network structure of food webs for the Northeast US Shelf, a Caribbean reef, and Benguela, off South Africa. The values of connectance (links per species2), link density (links per species), mean chain length, and fractions of intermediate, omnivorous, and cannibalistic taxa of these marine webs are somewhat high but still within the ranges observed in other webs. We further compared the marine webs by using the empirically corroborated niche model that accounts for observed variation in diversity (taxon number) and complexity (connectance). Our results substantiate previously reported results for estuarine, fresh-water, and terrestrial datasets, which suggests that food webs from different types of ecosystems with variable diversity and complexity share fundamental structural and ordering characteristics. Analyses of potential secondary extinctions resulting from species loss show that the structural robustness of marine food webs is also consistent with trends from other food webs. As expected, given their relatively high connectance, marine food webs appear fairly robust to loss of most-connected taxa as well as random taxa. Still, the short average path length between marine taxa (1.6 links) suggests that effects from perturbations, such as overfishing, can be transmitted more widely throughout marine ecosystems than previously appreciated. KEY WORDS: Food webs · Network structure · Marine ecosystems · Robustness · Connectance · Niche model · Biodiversity loss Full text in pdf format PreviousExport citation RSS - Facebook - Tweet - linkedIn Cited by Published in MEPS Vol. 273. Online publication date: June 08, 2004 Print ISSN: 0171-8630; Online ISSN: 1616-1599 Copyright © 2004 Inter-Research.",
+      "score": 0.93,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "food web network structure"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Evaluating sampling completeness in a desert plant–pollinator network",
+      "authors": [
+        "Natacha Paola Chacoff",
+        "Diego Pedro Vázquez",
+        "Silvia Beatriz Lomáscolo",
+        "Erica L. Stevani",
+        "Jimena Dorado",
+        "Benigno Padrón"
+      ],
+      "year": 2011,
+      "doi": "10.1111/j.1365-2656.2011.01883.x",
+      "openAlexId": "W1608252895",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1365-2656.2011.01883.x",
+      "citationCount": 364,
+      "abstract": "1. The study of plant-pollinator interactions in a network context is receiving increasing attention. This approach has helped to identify several emerging network patterns such as nestedness and modularity. However, most studies are based only on qualitative information, and some ecosystems, such as deserts and tropical forests, are underrepresented in these data sets. 2. We present an exhaustive analysis of the structure of a 4-year plant-pollinator network from the Monte desert in Argentina using qualitative and quantitative tools. We describe the structure of this network and evaluate sampling completeness using asymptotic species richness estimators. Our goal is to assess the extent to which the realized sampling effort allows for an accurate description of species interactions and to estimate the minimum number of additional censuses required to detect 90% of the interactions. We evaluated completeness of detection of the community-wide pollinator fauna, of the pollinator fauna associated with each plant species and of the plant-pollinator interactions. We also evaluated whether sampling completeness was influenced by plant characteristics, such as flower abundance, flower life span, number of interspecific links (degree) and selectiveness in the identity of their flower visitors, as well as sampling effort. 3. We found that this desert plant-pollinator network has a nested structure and that it exhibits modularity and high network-level generalization. 4. In spite of our high sampling effort, and although we sampled 80% of the pollinator fauna, we recorded only 55% of the interactions. Furthermore, although a 64% increase in sampling effort would suffice to detect 90% of the pollinator species, a fivefold increase in sampling effort would be necessary to detect 90% of the interactions. 5. Detection of interactions was incomplete for most plant species, particularly specialists with a long flowering season and high flower abundance, or generalists with short flowering span and scant flowers. Our results suggest that sampling of a network with the same effort for all plant species is inadequate to sample interactions. 6. Sampling the diversity of interactions is labour intensive, and most plant-pollinator networks published to date are likely to be undersampled. Our analysis allowed estimating the completeness of our sampling, the additional effort needed to detect most interactions and the plant traits that influence the detection of their interactions.",
+      "score": 0.918,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "plant pollinator network"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Plant Pollinator Networks along a Gradient of Urbanisation",
+      "authors": [
+        "Benoît Geslin",
+        "Benoît Gauzens",
+        "Élisa Thébault",
+        "Isabelle Dajoz"
+      ],
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0063421",
+      "openAlexId": "W2156250512",
+      "openAccessUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0063421&type=printable",
+      "citationCount": 252,
+      "abstract": "BACKGROUND: Habitat loss is one of the principal causes of the current pollinator decline. With agricultural intensification, increasing urbanisation is among the main drivers of habitat loss. Consequently studies focusing on pollinator community structure along urbanisation gradients have increased in recent years. However, few studies have investigated how urbanisation affects plant-pollinator interaction networks. Here we assessed modifications of plant-pollinator interactions along an urbanisation gradient based on the study of their morphological relationships. METHODOLOGY/PRINCIPAL FINDINGS: Along an urbanisation gradient comprising four types of landscape contexts (semi-natural, agricultural, suburban, urban), we set up experimental plant communities containing two plant functional groups differing in their morphological traits (\"open flowers\" and \"tubular flowers\"). Insect visitations on these communities were recorded to build plant-pollinator networks. A total of 17 857 interactions were recorded between experimental plant communities and flower-visitors. The number of interactions performed by flower-visitors was significantly lower in urban landscape context than in semi-natural and agricultural ones. In particular, insects such as Syrphidae and solitary bees that mostly visited the open flower functional group were significantly impacted by urbanisation, which was not the case for bumblebees. Urbanisation also impacted the generalism of flower-visitors and we detected higher interaction evenness in urban landscape context than in agricultural and suburban ones. Finally, in urban context, these modifications lowered the potential reproductive success of the open flowers functional group. CONCLUSIONS/SIGNIFICANCE: Our findings show that open flower plant species and their specific flower-visitors are especially sensitive to increasing urbanisation. These results provide new clues to improve conservation measures within urbanised areas in favour of specialist flower-visitors. To complete this functional approach, studies using networks resolved to the species level along urbanised gradients would be required.",
+      "score": 0.902,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "plant pollinator network"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Honeybees disrupt the structure and functionality of plant-pollinator networks",
+      "authors": [
+        "Alfredo Valido",
+        "María C. Rodríguez‐Rodríguez",
+        "Pedro Jordano"
+      ],
+      "year": 2019,
+      "doi": "10.1038/s41598-019-41271-5",
+      "openAlexId": "W2921962488",
+      "openAccessUrl": "https://www.nature.com/articles/s41598-019-41271-5.pdf",
+      "citationCount": 284,
+      "abstract": "The honeybee is the primary managed species worldwide for both crop pollination and honey production. Owing to beekeeping activity, its high relative abundance potentially affects the structure and functioning of pollination networks in natural ecosystems. Given that evidences about beekeeping impacts are restricted to observational studies of specific species and theoretical simulations, we still lack experimental data to test for their larger-scale impacts on biodiversity. Here we used a three-year field experiment in a natural ecosystem to compare the effects of pre- and post-establishment stages of beehives on the pollination network structure and plant reproductive success. Our results show that beekeeping reduces the diversity of wild pollinators and interaction links in the pollination networks. It disrupts their hierarchical structural organization causing the loss of interactions by generalist species, and also impairs pollination services by wild pollinators through reducing the reproductive success of those plant species highly visited by honeybees. High-density beekeeping in natural areas appears to have lasting, more serious negative impacts on biodiversity than was previously assumed.",
+      "score": 0.891,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "plant pollinator network"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Interaction rewiring and the rapid turnover of plant–pollinator networks",
+      "authors": [
+        "Paul J. CaraDonna",
+        "William K. Petry",
+        "Ross M. Brennan",
+        "James L. Cunningham",
+        "Judith L. Bronstein",
+        "Nickolas M. Waser",
+        "Nathan James Sanders"
+      ],
+      "year": 2017,
+      "doi": "10.1111/ele.12740",
+      "openAlexId": "W2585482648",
+      "openAccessUrl": "https://repository.arizona.edu/bitstream/10150/623072/1/CaraDonna_Main_Document_ELE-00803-2016.R2_Accepted.pdf",
+      "citationCount": 395,
+      "abstract": "Whether species interactions are static or change over time has wide-reaching ecological and evolutionary consequences. However, species interaction networks are typically constructed from temporally aggregated interaction data, thereby implicitly assuming that interactions are fixed. This approach has advanced our understanding of communities, but it obscures the timescale at which interactions form (or dissolve) and the drivers and consequences of such dynamics. We address this knowledge gap by quantifying the within-season turnover of plant-pollinator interactions from weekly censuses across 3 years in a subalpine ecosystem. Week-to-week turnover of interactions (1) was high, (2) followed a consistent seasonal progression in all years of study and (3) was dominated by interaction rewiring (the reassembly of interactions among species). Simulation models revealed that species' phenologies and relative abundances constrained both total interaction turnover and rewiring. Our findings reveal the diversity of species interactions that may be missed when the temporal dynamics of networks are ignored.",
+      "score": 0.888,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "plant pollinator network"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A year‐long plant‐pollinator network",
+      "authors": [
+        "Alicia Mabel Basilio",
+        "Diego Medán",
+        "Juan Pablo Torretta",
+        "Norberto José Bartoloni"
+      ],
+      "year": 2006,
+      "doi": "10.1111/j.1442-9993.2006.01666.x",
+      "openAlexId": "W2018479176",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1442-9993.2006.01666.x",
+      "citationCount": 120,
+      "abstract": "Abstract In this work we analyse the pollination community in a South American forest known as ‘talar’. This is a vegetal woody community that inhabits fossil coastal banks characterized by seasonal temperate weather and calcareous soil, at the coast of the Río de la Plata, in the province of Buenos Aires, Argentina. We obtained data of the interactions between anthophylous insects and entomophylous flowering plants over an extensive period of time. We showed that pollination system parameters, such as partners’ identity, system size, and connectance, fluctuated among months, when sampled year‐long. Maximal network size occurred in early spring and early autumn, when both the number of mutualistic species and the number of interactions peaked, and this was also when network asymmetry was higher than average. Monthly connectance of the plant‐flower visitor matrix decreased to its lowest values at these peaks. Available data suggest that cumulative traditional connectance (i.e. the connectance calculated as the whole number of interactions registered in the community divided by the full size system) underestimates actual connectance values by a factor of c. 3 ×. Monthly values of connectance decreased exponentially as system size increased, and the distribution of interactions per species followed power‐law regimes for animals, and truncated power‐law regimes for plants, in accordance with patterns previously deduced from among‐network cumulative communities studies. We think that either within or and among pollination networks, systems that are organized as power‐law regimes may be a basic property of these webs, and provide examples of the fact. Both seasonal changes and interactions between mutualists like competition, and some degree of facilitation, may be very important to understand the performance of the system as a whole, and the role and importance of different species in the community. We suggest that communities of plant – pollinators that exhibit extended activity, such as temperate or tropical seasonal ones, should be studied through consecutive plant‐pollinator webs rather than cumulative ones. The partition of the system into smaller serial parts allows us to obtain outstanding information of every short period. This information is flattened by the average effect when we considered the combined analysis of the whole data.",
+      "score": 0.852,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "plant pollinator network"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Invasive plant integration into native plant–pollinator networks across Europe",
+      "authors": [
+        "Montserrat Vilà",
+        "Ígnasi Bartomeus",
+        "Anke Christiane Dietzsch",
+        "Theodora Petanidou",
+        "Ingolf D Steffan-Dewenter",
+        "Jane C. Stout",
+        "Thomas Tscheulin"
+      ],
+      "year": 2009,
+      "doi": "10.1098/rspb.2009.1076",
+      "openAlexId": "W2147181938",
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/2817287",
+      "citationCount": 221,
+      "abstract": "The structure of plant-pollinator networks has been claimed to be resilient to changes in species composition due to the weak degree of dependence among mutualistic partners. However, detailed empirical investigations of the consequences of introducing an alien plant species into mutualistic networks are lacking. We present the first cross-European analysis by using a standardized protocol to assess the degree to which a particular alien plant species (i.e. Carpobrotus affine acinaciformis, Impatiens glandulifera, Opuntia stricta, Rhododendron ponticum and Solanum elaeagnifolium) becomes integrated into existing native plant-pollinator networks, and how this translates to changes in network structure. Alien species were visited by almost half of the pollinator species present, accounting on average for 42 per cent of the visits and 24 per cent of the network interactions. Furthermore, in general, pollinators depended upon alien plants more than on native plants. However, despite the fact that invaded communities received more visits than uninvaded communities, the dominant role of alien species over natives did not translate into overall changes in network connectance, plant linkage level and nestedness. Our results imply that although supergeneralist alien plants can play a central role in the networks, the structure of the networks appears to be very permeable and robust to the introduction of invasive alien species into the network.",
+      "score": 0.851,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "plant pollinator network"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Rareness and specialization in plant–pollinator networks",
+      "authors": [
+        "Jimena Dorado",
+        "Diego Pedro Vázquez",
+        "Erica L. Stevani",
+        "Natacha Paola Chacoff"
+      ],
+      "year": 2010,
+      "doi": "10.1890/10-0794.1",
+      "openAlexId": "W2146238108",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1890/10-0794.1",
+      "citationCount": 100,
+      "abstract": "Most rare species appear to be specialists in plant-pollinator networks. This observation could result either from real ecological processes or from sampling artifacts. Several methods have been proposed to overcome these artifacts, but they have the limitation of being based on visitation data, causing interactions involving rare visitor species to remain undersampled. We propose the analysis of food composition in bee trap nests to assess the reliability of network specialization estimates. We compared data from a plant-pollinator network in the Monte Desert of Villavicencio Nature Reserve, Argentina, sampled by visit observation, and data from trap nests sampled at the same time and location. Our study shows that trap nest sampling was good for estimating rare species degree. The rare species in the networks appear to be more specialized than they really are, and the bias in the estimation of the species degree increases with the rareness. The low species degree of these rare species in the visitation networks results from insufficient sampling of the rare interactions, which could have important consequences for network structure.",
+      "score": 0.847,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "plant pollinator network"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Graph models of habitat mosaics",
+      "authors": [
+        "Dean L. Urban",
+        "Emily S. Minor",
+        "Eric A. Treml",
+        "Robert S. Schick"
+      ],
+      "year": 2009,
+      "doi": "10.1111/j.1461-0248.2008.01271.x",
+      "openAlexId": "W2143786089",
+      "openAccessUrl": "https://figshare.com/articles/journal_contribution/Graph_models_of_habitat_mosaics/20811409",
+      "citationCount": 623,
+      "abstract": "Graph theory is a body of mathematics dealing with problems of connectivity, flow, and routing in networks ranging from social groups to computer networks. Recently, network applications have erupted in many fields, and graph models are now being applied in landscape ecology and conservation biology, particularly for applications couched in metapopulation theory. In these applications, graph nodes represent habitat patches or local populations and links indicate functional connections among populations (i.e. via dispersal). Graphs are models of more complicated real systems, and so it is appropriate to review these applications from the perspective of modelling in general. Here we review recent applications of network theory to habitat patches in landscape mosaics. We consider (1) the conceptual model underlying these applications; (2) formalization and implementation of the graph model; (3) model parameterization; (4) model testing, insights, and predictions available through graph analyses; and (5) potential implications for conservation biology and related applications. In general, and for a variety of ecological systems, we find the graph model a remarkably robust framework for applications concerned with habitat connectivity. We close with suggestions for further work on the parameterization and validation of graph models, and point to some promising analytic insights.",
+      "score": 0.796,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "habitat connectivity graph theory"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Unifying spatial and social network analysis in disease ecology",
+      "authors": [
+        "Gregory F. Albery",
+        "Lucinda Kirkpatrick",
+        "Josh A. Firth",
+        "Shweta Bansal"
+      ],
+      "year": 2020,
+      "doi": "10.1111/1365-2656.13356",
+      "openAlexId": "W3088858001",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2656.13356",
+      "citationCount": 124,
+      "abstract": "Social network analysis has achieved remarkable popularity in disease ecology, and is sometimes carried out without investigating spatial heterogeneity. Many investigations into sociality and disease may nevertheless be subject to cryptic spatial variation, so ignoring spatial processes can limit inference regarding disease dynamics. Disease analyses can gain breadth, power and reliability from incorporating both spatial and social behavioural data. However, the tools for collecting and analysing these data simultaneously can be complex and unintuitive, and it is often unclear when spatial variation must be accounted for. These difficulties contribute to the scarcity of simultaneous spatial-social network analyses in disease ecology thus far. Here, we detail scenarios in disease ecology that benefit from spatial-social analysis. We describe procedures for simultaneous collection of both spatial and social data, and we outline statistical approaches that can control for and estimate spatial-social covariance in disease ecology analyses. We hope disease researchers will expand social network analyses to more often include spatial components and questions. These measures will increase the scope of such analyses, allowing more accurate model estimates, better inference of transmission modes, susceptibility effects and contact scaling patterns, and ultimately more effective disease interventions.",
+      "score": 0.863,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "network analysis ecology",
+        "network analysis ecology tutorial",
+        "network analysis ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Describe, understand and predict: why do we need networks in ecology?",
+      "authors": [
+        "Timothée Poisot",
+        "Daniel B. Stouffer",
+        "Sonia Kéfi"
+      ],
+      "year": 2016,
+      "doi": "10.1111/1365-2435.12799",
+      "openAlexId": "W2564998989",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2435.12799",
+      "citationCount": 106,
+      "abstract": "Networks are collections of nodes that are connected to each other by links. Innumerable objects around us can be seen as networks, for example, the Internet (where nodes are computers and links are data connections between them), transportation systems (where nodes are train stations or airports and links are roads or connections between them), human and animal societies (where nodes are individuals and links are social interactions) and food webs (where nodes are species and links are feeding interactions). Although it goes back much further, the scientific study of networks has seen a resurgence since the late 1990s with the publication of seminal studies of the structure of the World Wide Web and other complex networks (Barabási & Albert 1999; Albert et al. 2000; Jeong et al. 2000). Many of the network science tools developed since then have percolated through to ecology where networks have proven remarkably useful. Ecological networks can take on a variety of forms. For example, nodes can be individuals and the links contacts between those individuals (Melian et al. 2011), nodes can be species and the links the interactions (e.g. feeding, mutualistic, parasitic) between them (de Ruiter et al. 1995), or nodes can be ecological communities or ecosystems and the links fluxes between these localities (Proulx et al. 2005; Chadès et al. 2011). Without a doubt, it is the second case that has dominated the ecological literature (Berlow et al. 2004; Ings et al. 2009), in particular when studying the structure of ecological communities (de Ruiter et al. 1995; Neutel et al. 2002; Bascompte et al. 2003; Krause et al. 2003) and the dynamic or functional consequences of this structure (Thébault & Fontaine 2010; Stouffer & Bascompte 2011). Ecological networks have so far attracted attention in the literature in mainly two ways: (i) providing sets of tools to visualize and describe ecological systems and (ii) contributing more fundamentally to the understanding of some of the longest standing and core questions in ecology (e.g. Why and how do so many species coexist?). As networks are becoming more popular, tools developed in network science keep increasing. At the same time, new types of ecological data are emerging, placing us at an opportune crossroad to reflect on when and how looking at ecological communities as networks leads to new and useful insights. In this Special Feature, the contributors present research at the frontier of what networks can do for ecologists, and outline an ambitious research agenda to integrate network approaches into the standard ecological toolkit. In this editorial, we use these studies as a platform from which to provide a broader overview of where we feel the field is headed. The study of ecological networks has benefited heavily from the development of tools, concepts and models developed outside of ecology, and in particular in network science (Newman 2010; Barabási 2016). For example, community detection approaches provide a way of partitioning a network into communities, i.e. 'groups of nodes that have a higher likelihood of connecting to each other than to nodes from other communities' (Barabási (2016); p. 322). These descriptive approaches have allowed us to observe and quantify the structure of ecological communities in ways that simply were not available previously. When applied to food web data, for example, they have suggested that food webs tend to be more compartmented than expected by chance (Krause et al. 2003) and that such compartmentalization could improve the resilience of ecological communities to perturbations (Thébault & Fontaine 2010; Stouffer & Bascompte 2011). Excitingly, the newest tools and approaches from network science (Mucha et al. 2010; Kivelä et al. 2014; Miele et al. 2014) are constantly being transferred to ecology (Kéfi et al. 2016) and are help to improve our fundamental understanding of the structure of ecological networks, the underlying ecological mechanisms and the functional consequences of these structures for the dynamics of ecological communities. More recently, these descriptive metrics have even been expanded to the study of multilayer ecological networks, allowing us to capture the structure of multiple types of interactions at once (Fontaine et al. 2011; Kéfi et al. 2016). Descriptive or otherwise, anything we can infer from network data can only be as good as our understanding of the network itself; that is, our understanding of (i) which species are present (Jordano 2016b), (ii) the ways they interact (Nielsen & Bascompte 2007) and (iii) their local characteristics when observed (Poisot et al. 2012). While describing the identity of species that are present locally is comparatively simpler, documenting interactions proves far more challenging (Poisot et al. 2015; Gilarranz et al. 2015). This intuitively follows from the ecological reality that observing an interaction requires the observation of both species at the same time and place, and species co-occurrence is in itself a difficult phenomenon to accurately describe (Sanderson & Pimm 2015). Moreover, knowledge about the outcome, cost or benefit of the interaction itself often requires more than just a single observation at a given moment of time. Although the identification of trophic interactions may rely on observations alone (although several observations of a feeding event are needed to make sure that the prey is actually part of the diet of the predator), other interaction types typically require experiments (Berlow et al. 2004; Godoy et al. 2014; Kéfi et al. 2015). As ecological data sets have been limited by our observation capacity (number of observers, time and cost involved, accessibility of the sites, etc.), ecologists have had to rely on indirect lines of evidence or diversify their toolkit (see Jordano (2016b) in this Special Feature). In the case of ecological networks, where the information needed to fully characterize them includes not only species identity and interaction details but also covariates like traits and/or species abundances, the observational approach alone is always going to be limited by logistic contingencies. To this end, Evans et al. (2016) (in this Special Feature) highlight how metabarcoding approaches can reveal ecological interactions at the ecosystem scale; this can significantly reduce the time needed to document ecological interactions, in addition to provide fine-grained information about interactions at the individual scale. Another approach consists in inferring interactions, rather than observing them. Bartomeus et al. (2016) (in this Special Feature) demonstrate that existing records of interactions coupled with species traits allow the inference of other interactions when only traits are known. This is an important expansion upon previous work (Gravel et al. 2013), which now allows interactions to be quantified as probabilities rather than the presence/absence events. In parallel with the recent development of a toolkit for probabilistic networks (Poisot et al. 2016), there is an opportunity to compensate the uncertainty introduced using inference over sampling through the introduction of methods designed specifically to work on probabilistic data. Phylogeny, as a proxy for evolutionary history, has also been recognized as one of the factors shaping species interactions. Indeed, phylogenetic signal has been detected in multiple types of species interaction networks (Eklöf et al. 2012; Rohr et al. 2014), and in network structure in particular. In this Special Feature, Peralta (2016) reviews the main findings and the methodological approaches for including phylogenetic information in ecological-network studies. A clearer picture of how evolutionary history shapes ecological networks could vastly improve our understanding of the drivers of ecological network structure and our ability to infer and predict interactions. In summary, what ultimately makes an ecological network are the interactions, for the most part, and as Jordano (2016b) points out in this Special Feature, these remain notoriously difficult to document. Nevertheless, diversifying the tools we use to assemble networks offers some assurance that data collection, even at large scales, is in fact possible. Coupled with increasingly powerful predictive models and an expanding toolbox from network science, we anticipate that the next years of network ecology will see an even greater growth in the type of methods used to quantify network structure, re-analysis of existing data, and the emergence of new types of data (e.g. networks with multiple interaction types Kéfi et al. (2015) or rich network time series Olesen et al. (2011)). It is not uncommon within the ecological network literature to encounter statements that argue that networks are an accurate representation of the complexity underpinning ecological communities. Some adherents of this idea have even gone so far as to suggest that the study of ecological networks represents a fundamental paradigm shift within ecology (Bascompte 2009). Such studies have promoted the use of networks in ecology as a powerful representation of ecological communities, which allows description and quantification their complexity (Bascompte 2009) and could contribute to finally unlocking key questions such as community assembly (Montoya & Sole 2003; Barberán et al. 2012), coexistence (Allesina & Levine 2011; Ulrich et al. 2014) and the concept of trophic niches (Dehling et al. 2016). Others have warned against the pitfalls of network analysis, and unclear and incautious interpretations that are not uncommon within the ecological-network literature (Blüthgen 2010). Yet, those of us with 'physics envy' may be on the right path: networks can be far more than a set of tools to describe and visualize ecological communities (in fact, network visualization has very little to do with network science itself). Therefore, if ecologists are to be encouraged to embrace networks even more, we argue that it should be in a way that reframes descriptive questions and the never-ending quest for non-random 'patterns' into the testing of specific hypotheses, whether expressed at the scale of a single communities or at a global scale. Reflecting this tension, the most enticing of recent network studies have taken this road. For example, Emer et al. (2016) use network analysis to show that invasive species tend to conserve their functional role in native and alien assemblages. Likewise, Gilarranz et al. (2015) test the hypothesis that peripheral communities in a metacommunity have networks with a lower resilience. Although these are but two examples among many, they firmly illustrate how the full potential of networks is revealed when they are used not as a descriptive tool but as an investigative one. The contributions by Trøjelsgaard & Olesen (2016) and Bartomeus et al. (2016) (both in this Special Feature) similarly strive to take this challenge head on. Specifically, they work from background knowledge, on the spatial and temporal dynamics of ecological communities and on the role of traits in determining interactions, respectively, to present networks as tools to help sort competing hypotheses. In general, we eagerly welcome this change and look forward to the trend continuing in the coming years. When the relative novelty of networks has worn off and we have developed the necessary hindsight to establish best practices about what to measure and how, using networks for understanding and prediction – and not description – should also become orders of magnitude easier. That said, we argue that much more can be done at the crossroads between networks as an ecological paradigm and networks as a useful conceptual or quantitative tool to study ecological data. Indeed, just as metrics used to study presence–absence matrices (e.g. nestedness or beta diversity) or techniques like rarefaction from sampling theory have made enormous impacts in network ecology (Bascompte et al. 2003; Poisot et al. 2015; Jordano 2016b), there is a growing suite of network 'tools' that have barely made a dent elsewhere in ecology despite the potential payoff (but see Carstensen et al. 2012 or Carstensen et al. 2013 for applications of networks to biogeography). By better pinning network studies on the underlying ecological hypotheses and/or better explaining the versatility of the methodologies, we hope to see the reintegration of network tools into the rest of the field, and even if this means that networks as standalone paradigm will fall by the wayside. Since networks are actively used outside ecology in fields that currently have challenging data sets, and where methodological development have been faster, ecology will probably continue to benefit from those tools, metrics and models developed in other fields. One of the exiting new developments in network science of the last few years is the study of multilayer networks (Boccaletti et al. 2014; Kivelä et al. 2014). A multilayer network consists in several networks (each being a layer) linked to each other (Boccaletti et al. 2014; Kivelä et al. 2014; Pilosof et al. 2015). In ecology, such multilayer networks can represent different instances of a given community in time (each layer would then be a snapshot of the ecological network at a given moment in time), in space or a network where the layers represent different interaction types that link a given set of species (e.g. predation, facilitation, competition; Pilosof et al. 2015). As such multilayer data sets are also emerging recently in ecology (Melián et al. 2009; Olesen et al. 2011; Pocock et al. 2012; Kéfi et al. 2015, 2016; Pilosof et al. 2015; Sander et al. 2015), the application of these new tools to ecological data sets will provide a more detailed understanding of the spatio-temporal variability of ecological networks, their drivers and functional consequences but also of the multi-interaction architecture of natural communities (Kéfi et al. 2012). Interestingly, and in what may be a departure from other fields of ecology, the study of ecological networks has produced a lot of methodological literature. Although far from entirely robust (because a lot of network measures remain untested; because the field does not have best practices established other than by tradition; and because the methodological development was often driven more by ecological thinking than by mathematical correctness), this means that ecologists have at their disposal a toolkit to explore most questions that can be asked with networks. This also means that the field is due to take a step back from methodological issues, and focus more on establishing networks as an investigative tool. In a way, we need to be prepared to accept some methodological ambiguity and chip away at larger conceptual issues. One of the most exciting issue, which is largely unsolved, is to understand where the structure of ecological networks comes from. Although there are simple generative models, they tend to be phenomenological rather than mechanistic. This calls for a deeper understanding of the ecological, evolutionary and stochastic constraints that act on and shape, network structure. Because this will lead to an improved knowledge of the mechanisms that regulate the existence of ecological interactions, a return to a more small-scale, species-centric understanding of networks may help solve the issues of the difficulty to sample interactions (Jordano 2016b), give additional weight to statistical models of interactions (Bartomeus et al. 2016), and help predict changes in network structure over time and space (Trøjelsgaard & Olesen 2016). It will also, hopefully, keep the amount of hand-waving about 'complexity' to a much lower level than at the moment. These are exciting times to practice network ecology, as we are slowly but surely moving out of the descriptive phase and into an era of understanding and prediction. As Jordano (2016a) recently pointed out, the study of networks essentially re-purposes the study of biodiversity by linking species together through their interactions. This contrasts to other analysis paradigms geared towards measuring community structure (e.g. Legendre & Legendre 2012) that tend to treat species as disconnected, discrete and independent entities. As networks provide an additional layer of information by making relationships between species explicit, approaches grounded in network science and graph theory ready to have the potential to transform the way we approach community ecology (Bascompte & Jordano 2007). By overcoming the incorrect assumption of treating species as disconnected entities, the central tenet of network ecology is that this level of observation – although less familiar than standard approaches to community ecology – is ultimately a more accurate reflection of the natural world.",
+      "score": 0.821,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "network analysis ecology",
+        "network analysis ecology introduction",
+        "network analysis ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Analyzing networks in industrial ecology – a review of Social-Material Network Analyses",
+      "authors": [
+        "Frank Schiller",
+        "Alexandra S. Penn",
+        "Lauren Basson"
+      ],
+      "year": 2014,
+      "doi": "10.1016/j.jclepro.2014.03.029",
+      "openAlexId": "W2086269088",
+      "openAccessUrl": "https://www.sciencedirect.com/science/article/pii/S0959652614002509/pdf",
+      "citationCount": 84,
+      "abstract": "This review concerns the methodological challenges that industrial ecology faces in integrating natural and social sciences. Network analysis can be seen as the most promising method to mediate between industrial ecology's overall systems approach and the complex structures found in society. It is a well established method across scientific disciplines, including the social sciences. It has been successfully applied in industrial ecology, in which localized phenomena of industrial symbiosis have been a key focus, and where metrics from both the social and natural sciences are used to understand socio-metabolic structures. In this paper we classify such studies as Social-Material Network Analyses and we discuss the body of work, drawing on network analyses from various disciplines. A challenge is the hierarchical nature of industrial networks and how it can be addressed socially. We discuss the opportunities and limitations of metric-driven network analysis and offer a review of methodological options for Social-Material Network Analyses.",
+      "score": 0.788,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "network analysis ecology",
+        "network analysis ecology introduction",
+        "network analysis ecology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "The bien r package: A tool to access the Botanical Information and Ecology Network (BIEN) database",
+      "authors": [
+        "Brian Maitner",
+        "Brad L. Boyle",
+        "Nathan Casler",
+        "Rick Condit",
+        "John C. Donoghue",
+        "Sandra Milena Durán",
+        "Daniel Guaderrama",
+        "Cody E. Hinchliff",
+        "Peter M. Jørgensen",
+        "Nathan J. B. Kraft",
+        "Brian J. McGill",
+        "Cory Merow",
+        "Naia Morueta‐Holme",
+        "Robert K. Peet",
+        "Brody Sandel",
+        "Mark P. Schildhauer",
+        "Stephen A. Smith",
+        "Jens‐Christian Svenning",
+        "Barbara M. Thiers",
+        "Cyrille Violle",
+        "Susan K. Wiser",
+        "Brian Joseph Enquist"
+      ],
+      "year": 2017,
+      "doi": "10.1111/2041-210x.12861",
+      "openAlexId": "W2751943544",
+      "openAccessUrl": "https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.12861",
+      "citationCount": 403,
+      "abstract": "Abstract There is an urgent need for large‐scale botanical data to improve our understanding of community assembly, coexistence, biogeography, evolution, and many other fundamental biological processes. Understanding these processes is critical for predicting and handling human‐biodiversity interactions and global change dynamics such as food and energy security, ecosystem services, climate change, and species invasions. The Botanical Information and Ecology Network (BIEN) database comprises an unprecedented wealth of cleaned and standardised botanical data, containing roughly 81 million occurrence records from c. 375,000 species, c. 915,000 trait observations across 28 traits from c. 93,000 species, and co‐occurrence records from 110,000 ecological plots globally, as well as 100,000 range maps and 100 replicated phylogenies (each containing 81,274 species) for New World species. Here, we describe an r package that provides easy access to these data. The bien r package allows users to access the multiple types of data in the BIEN database. Functions in this package query the BIEN database by turning user inputs into optimised PostgreSQL functions. Function names follow a convention designed to make it easy to understand what each function does. We have also developed a protocol for providing customised citations and herbarium acknowledgements for data downloaded through the bien r package. The development of the BIEN database represents a significant achievement in biological data integration, cleaning and standardization. Likewise, the bien r package represents an important tool for open science that makes the BIEN database freely and easily accessible to everyone.",
+      "score": 0.769,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "network analysis ecology tutorial"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Going Organic: Mobilising Networks for Environmentally Responsible Food Production",
+      "authors": [
+        "Stewart Lockie",
+        "Kristen Lyons",
+        "Geoffrey Lawrence",
+        "DARREN R. HALPIN"
+      ],
+      "year": 2006,
+      "doi": null,
+      "openAlexId": "W1578098364",
+      "openAccessUrl": "http://hdl.handle.net/10072/12714",
+      "citationCount": 72,
+      "abstract": "Organic food is produced by farmers who emphasise the use of renewable resources and the conservation of soil and water to enhance environmental quality for future generations.Organic meat, poultry, eggs, and dairy products come from animals that are given no antibiotics or growth hormones.Organic food is produced without using most conventional pesticides; fertilisers made with synthetic ingredients or sewage sludge",
+      "score": 0.694,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "network analysis ecology (teaching OR classroom OR undergraduate)"
+      ]
+    }
+  ]
+}

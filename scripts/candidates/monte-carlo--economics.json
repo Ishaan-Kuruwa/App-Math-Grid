@@ -1,0 +1,309 @@
+{
+  "method": "monte-carlo",
+  "field": "economics",
+  "generatedAt": "2026-11-03T01:26:47.432Z",
+  "queries": [
+    "Monte Carlo simulation economics",
+    "Monte Carlo simulation economics introduction",
+    "Monte Carlo simulation economics tutorial",
+    "Monte Carlo simulation economics review",
+    "Monte Carlo simulation economics (teaching OR classroom OR undergraduate)",
+    "Monte Carlo option pricing introduction",
+    "Monte Carlo value at risk",
+    "retirement savings Monte Carlo simulation"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "A Survey of Sequential Monte Carlo Methods for Economics and Finance",
+      "authors": [
+        "Drew Creal"
+      ],
+      "year": 2011,
+      "doi": "10.1080/07474938.2011.607333",
+      "openAlexId": "W1999674105",
+      "openAccessUrl": "https://research.vu.nl/en/publications/991e471a-a074-42a1-8206-0fbef56a3d93",
+      "citationCount": 301,
+      "abstract": "This article serves as an introduction and survey for economists to the field of sequential Monte Carlo methods which are also known as particle filters. Sequential Monte Carlo methods are simulation-based algorithms used to compute the high-dimensional and/or complex integrals that arise regularly in applied work. These methods are becoming increasingly popular in economics and finance; from dynamic stochastic general equilibrium models in macro-economics to option pricing. The objective of this article is to explain the basics of the methodology, provide references to the literature, and cover some of the theoretical results that justify the methods in practice.",
+      "score": 1,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo simulation economics",
+        "Monte Carlo simulation economics introduction",
+        "Monte Carlo option pricing introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A short introduction to quasi-Monte Carlo option pricing",
+      "authors": [
+        "Gunther Leobacher"
+      ],
+      "year": 2014,
+      "doi": "10.1515/9783110317930.191",
+      "openAlexId": "W2482857707",
+      "openAccessUrl": "https://arxiv.org/pdf/1707.04293",
+      "citationCount": 1,
+      "abstract": "One of the main practical applications of quasi-Monte Carlo (QMC) methods is the valuation of financial derivatives. We aim to give a short introduction into option pricing and show how it is facilitated using QMC. We give some practical examples for illustration.",
+      "score": 0.649,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo option pricing introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Gas Swing Options: Introduction and Pricing using Monte Carlo Methods",
+      "authors": [
+        "Andrea Klimešová",
+        "Tomáš Václavík"
+      ],
+      "year": 2016,
+      "doi": "10.18267/j.aop.496",
+      "openAlexId": "W2320124622",
+      "openAccessUrl": "http://aop.vse.cz/doi/10.18267/j.aop.496.pdf",
+      "citationCount": 3,
+      "abstract": "Motivated by the changing nature of the natural gas industry in the European Union, driven by the liberalisation process, we focus on the introduction and pricing of gas swing options.These options are embedded in typical gas sales agreements in the form of offtake flexibility concerning volume and time.The gas swing option is actually a set of several American puts on a spread between prices of two or more energy commodities.This fact, together with the fact that the energy markets are fundamentally different from traditional financial security markets, is important for our choice of valuation technique.Due to the specific features of the energy markets, the existing analytic approximations for spread option pricing are hardly applicable to our framework.That is why we employ Monte Carlo methods to model the spot price dynamics of the underlying commodities.The price of an arbitrarily chosen gas swing option is then computed in accordance with the concept of risk-neutral expectations.Finally, our result is compared with the real payoff from the option realised at the time of the option execution and the maximum ex-post payoff that the buyer could generate in case he knew the future, discounted to the original time of the option pricing.",
+      "score": 0.649,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo option pricing introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Monte Carlo Value At Risk Introduction",
+      "authors": [
+        "Tim Xiao"
+      ],
+      "year": 2020,
+      "doi": "10.17613/ahneq-peg46",
+      "openAlexId": "W3111245185",
+      "openAccessUrl": "https://doi.org/10.17613/ahneq-peg46",
+      "citationCount": 0,
+      "abstract": "Value at Risk (VaR) is the regulatory measurement for assessing market risk. It reports the maximum likely loss on a portfolio for a given probability defined as x% confidence level over N days. VaR is vital in market risk management and control. Also regulatory and economic capital computation is based on VaR results. Although VaR measure is objective and intuitive, it doesn't capture tail risk. There are three commonly used methodologies to calculate VaR – parametric, historical simulation and Monte Carlo simulation. This presentation focuses on Monte Carlo VaR.",
+      "score": 0.6,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo value at risk"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A Retirement Planning Model Using Monte Carlo Simulation",
+      "authors": [
+        "Peter E. Hanlon"
+      ],
+      "year": 2000,
+      "doi": null,
+      "openAlexId": "W1730031219",
+      "openAccessUrl": "http://hdl.handle.net/10945/9184",
+      "citationCount": 0,
+      "abstract": "Uncertainty exists in retirement planning. The purpose of this thesis was to develop a stochastic retirement planning model to aid military personnel and decision/policy makers in evaluating retirement planning issues from a probabilistic perspective. The stochastic model developed differs from the ubiquitous retirement planning calculators available from many financial institutions and at many finance-related websites in that it accounts for the effects of uncertainty surrounding inflation and investment rates of return during one's investing \"lifetime\" by using Monte Carlo simulation techniques. The major components of the model are an input/output worksheet, a fund accumulation worksheet, a fund withdrawal worksheet, a probability distribution worksheet and a pay table lookup worksheet. After completing 17 inputs and running a simulation, a user is able to determine the probability of achieving a specific amount of retirement savings as well as the probability associated with how many years the retirement savings, supplemented by military retirement benefits and Social Security, may last. The information gained by using the model allows military personnel to evaluate their current retirement plans and make necessary adjustments. Additionally, the model allows decision/policy makers to evaluate specific military retirement issues in order to determine how changes may affect service members.",
+      "score": 0.6,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "retirement savings Monte Carlo simulation"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Savings needed to fund health insurance and health care expenses in retirement: findings from a simulation model.",
+      "authors": [
+        "Paul Fronstin",
+        "Dallas L. Salisbury",
+        "Jack L. VanDerhei"
+      ],
+      "year": 2008,
+      "doi": null,
+      "openAlexId": "W2142032670",
+      "openAccessUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1139175",
+      "citationCount": 8,
+      "abstract": "MODELING RETIREE HEALTH COSTS: This Issue Brief examines the uncertainty of health care expenses in retirement by using a Monte Carlo simulation model to estimate the amount of savings needed to cover health insurance premiums and out-of-pocket health care expenses. This type of simulation is able to account for the uncertainty related to individual mortality and rates of return, and computes the present value of the savings needed to cover health insurance premiums and out-of-pocket expenses in retirement. These observations were used to determine asset targets for having adequate savings to cover retiree health costs 50, 75, and 90 percent of the time. NOT ENOUGH SAVINGS: Many individuals will need more money than the amounts reported in this Issue Brief because this analysis does not factor in the savings needed to cover long-term care expenses, nor does it take into account the fact that many individuals retire prior to becoming eligible for Medicare. However, some workers will need to save less than what is reported if they keep working in retirement and receive health benefits as active workers. WHO HAS RETIREE HEALTH BENEFITS BEYOND MEDICARE?: About 12 percent of private-sector employers report offering any Medicare supplemental health insurance. This increases to about 40 percent among large employers. Overall, nearly 22 percent of retirees age 65 and older had retiree health benefits in 2005 to supplement Medicare coverage. As recently as 2006, 53 percent of retirees age 65 and older were covered by Medicare Part D, 24 percent had outpatient prescription drug coverage through an employment-based plan. Only 10 percent had no prescription drug coverage. INDIVIDUALLY PURCHASED MEDICARE SUPPLEMENTS, 2008: Among those who purchase Medigap and Medicare Part D prescription drug coverage at age 65 in 2008, men would need between $79,000 and $159,000 with median prescription drug expenses (50th percentile and 90th percentiles, respectively), and between $156,000 and $331,000 with prescription spending that is at the 90th percentile. Women would need between $108,000 and $184,000 with median prescription drug expenses (50th and 90th percentiles, respectively), and between $217,000 and $390,000 with prescription spending that is at the 90th percentile. The savings needed for couples would range from $194,000 at the 50th percentile to $635,000 at the 90th percentile. EMPLOYMENT-BASED BENEFITS, 2008: Among those who have employment-based retiree health benefits to supplement Medicare, but who must pay their own premiums, men would need between $102,000 and $196,000 in current savings (50th and 90th percentiles, respectively) to cover health care costs in retirement. Women would need between $137,000 and $224,000, respectively, due to their greater longevity. The savings needed for couples would range from $154,000 to $376,000. INDIVIDUALLY PURCHASED MEDICARE SUPPLEMENTS, 2018: Among those who purchase Medigap and Medicare Part D prescription drug coverage at age 65 in 2018 (currently age 55), men would need between $132,000 and $266,000 with median prescription drug expenses (50th and 90th percentiles, respectively), and between $261,000 and $555,000 with prescription spending that is at the 90th percentile. Women would need between $181,000 and S308,000 with median prescription drug expenses (50th and 90th percentiles), and between S364,000 and $654,000 with prescription spending that is at the 90th percentile. The savings needed for couples would range from $325,000 at the 50th percentile to S1,064,000 at the 90th percentile. RETIREE HEALTH MAY BE DRIVING LONGER TIME IN THE WORK FORCE: The declining availability of retiree health benefits may partly explain the rising labor force participation rate among individuals ages 55-64. Between 1996 and 2006, the labor force participation rate increased from 67 percent to 69.6 percent for men and from 49.6 percent to 58.2 percent for women.",
+      "score": 0.57,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "retirement savings Monte Carlo simulation"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Outcomes-Based Investing with Efficient Monte Carlo Simulation",
+      "authors": [
+        "Jason Scott"
+      ],
+      "year": 2000,
+      "doi": null,
+      "openAlexId": "W2972575064",
+      "openAccessUrl": "https://repository.upenn.edu/prc_papers/485",
+      "citationCount": 5,
+      "abstract": "Defined contribution pension plans have become an increasingly important component of many people's retirement plans.More than ∑≠ million Americans participated in these plans as of ∞ΩΩ∫ (PSCA ∞ΩΩΩ), and their assets exceed $≤ trillion (EBRI ∞ΩΩΩ).A distinguishing characteristic of defined contribution plans is that participants have much greater responsibility for determining both the contribution level and the investment allocation, as compared to the norm in defined benefit plans.In view of this increase in the need for individual responsibility for retirement saving and investing, it is of interest to explore whether workers are financially literature enough, and sufficiently prepared, to be do an effective job of saving for retirement.The news is not particularly encouraging.In a recent survey on retirement readiness, EBRI (∞ΩΩΩ) found that only ∫ percent of workers were doing a ''very good'' job of retirement preparation.The same survey found that only about half of workers had ever even assessed their retirement needs.Other studies have uncovered similarly discouraging findings: Bernheim et al. (this volume) report that households need roughly to triple their retirement assets to secure a comfortable retirement; Moore and Mitchell (≤≠≠≠) conclude that the typical older household needs to save an additional ∞∏ percent of income to maintain its preretirement standard of living; and Warshawsky and Ameriks (≤≠≠≠) estimate that more than half of U.S. households will fail to fund their retirement sufficiently.Given this apparent lack of readiness, the question becomes: why are so many people underprepared for retirement?One answer may be that they are already saving as much as they possibly can.However, Moore and Mitchell (≤≠≠≠) concluded that this is unlikely for all but the poorest of households studied.A more likely answer may be that the difficulty and enormity of the computations simply overwhelm people, and certainly the",
+      "score": 0.557,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "retirement savings Monte Carlo simulation"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Underinsurance in Malaysia: The Application of the Monte Carlo Simulation",
+      "authors": [
+        "Hendon Redzuan",
+        "Rubayah Yakob",
+        "Zaidi Isa"
+      ],
+      "year": 2016,
+      "doi": "10.17576/pengurusan-2016-47-11",
+      "openAlexId": "W2551608877",
+      "openAccessUrl": "http://ejournals.ukm.my/pengurusan/article/download/9401/5268",
+      "citationCount": 5,
+      "abstract": "This study seeks to estimate the extent of underinsurance among Malaysian families in 2012. Underinsurance is quantified by the extent to which the citizens in a country are inadequately covered by the life insurance protection. To measure underinsurance, we use the concept of the life insurance protection gap as proposed by Swiss Re (2004). The mortality protection gap is the difference between the resources needed and the resources available. The resources needed refer to the resources the surviving dependents require for income replacement, debt repayment and other major expenses. The resources available refer to those resources actually available to the dependents from financial assets, social security and life insurance coverage. The data collected are simulated using the Monte Carlo simulation process. Statistical analysis of the results of the simulation runs indicates that, on average, the extent of underinsurance in Malaysia is about RM500,000 per household. Keywords: Underinsurance; protection gap; life insurance; Monte Carlo simulation ABSTRAK Kajian ini bertujuan untuk menganggar tahap terkurang-insurans dalam kalangan keluarga Malaysia pada tahun 2012. Terkurang-insurans diukur melalui tahap rakyat sesebuah negara tidak dilindungi oleh insurans hayat yang mencukupi. Untuk mengukur terkurang-insurans, kami menggunakan konsep jurang perlindungan insurans hayat seperti yang diperkenalkan oleh Swiss Re. Jurang perlindungan mortaliti adalah perbezaan di antara sumber yang diperlukan dan sumber yang ada. Sumber yang diperlukan merujuk kepada sumber yang diperlukan oleh tanggungan yang masih hidup untuk penggantian pendapatan, pembayaran hutang dan perbelanjaan besar yang lain. Sumber yang ada merujuk kepada sumber yang boleh diperoleh oleh tanggungan daripada asset kewangan, keselamatan sosial dan perlindungan insurans hayat. Data yang dikumpul disimulasi menggunakan proses simulasi Monte Carlo. Analisa statistik ke atas hasil larian simulasi menunjukkan bahawa, pada puratanya, tahap terkurang insurans adalah lebih kurang RM500,000 bagi setiap keluarga. Kata kunci: Terkurang-insurans; jurang perlindungan; insurans hayat; simulasi Monte Carlo",
+      "score": 0.556,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo simulation economics",
+        "Monte Carlo simulation economics introduction",
+        "Monte Carlo simulation economics review",
+        "retirement savings Monte Carlo simulation"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Dynamic retirement withdrawal planning",
+      "authors": [
+        "R. Gene Stout",
+        "John B. Mitchell"
+      ],
+      "year": 2006,
+      "doi": "10.61190/fsr.v15i2.4851",
+      "openAlexId": "W1529754032",
+      "openAccessUrl": "https://openjournals.libs.uga.edu/fsr/article/download/4851/3807",
+      "citationCount": 39,
+      "abstract": "This paper develops a dynamic model of retirement withdrawal planning that allows retirees and financial planners to improve the probability of retirement portfolio success while simultaneously increasing the average withdrawal rate. The key elements of the model are periodic adjustments of retirement withdrawal rates based on both portfolio performance and remaining life expectancy, and Monte Carlo simulation of both investment returns and mortality. The inclusion of mortality in fixed planning horizon models reduces the probability of retirement-portfolio ruin by almost 50%. When compared to fixed withdrawal rate models, dynamic withdrawal management incorporating mortality reduces the probability of ruin by another 35– 40% while increasing average lifetime withdrawal rates by nearly 50%.",
+      "score": 0.543,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "retirement savings Monte Carlo simulation"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "PENGUKURAN VALUE AT RISK PADA ASET TUNGGAL DAN PORTOFOLIO DENGAN SIMULASI MONTE CARLO",
+      "authors": [
+        "Di Asih I Maruddani",
+        "Ari Purbowati"
+      ],
+      "year": 2012,
+      "doi": "10.14710/medstat.2.2.93-104",
+      "openAlexId": "W1607365511",
+      "openAccessUrl": "https://ejournal.undip.ac.id/index.php/media_statistika/article/download/2499/2233",
+      "citationCount": 38,
+      "abstract": "Value at Risk (VaR) is the established standard for measuring market risk. VaR measures the worst expected loss under normal market conditions over a specific time interval at a given confidence level. A VaR statistic has three components: a time period, a confidence level and a loss amount (or loss percentage). The Monte Carlo simulation method calculates the change in the value of positions by using a random sample generated by price scenarios. Instead of using the past value of risk factors, Monte Carlo simulation generates models to estimate the risk factors from past portfolio returns by specifying the distributions and their parameters. Using these distributions and parameters, we can generate thousands of hypothetical scenarios for risk factors and, finally, we can determine future prices or rates based on hypothetical scenarios. VaRs can be derived from the cumulative distribution of future prices or rates for given confidence levels. In this paper, we calculate VaR at PT Astra International Tbk., PT Telekomunikasi Tbk., and the portfolio of the two assets. PT. Astra International Tbk has higher VaR than PT. Telekomunikasi Tbk. The VaR of a portfolio has lower result than VaR of each single asset. Keywords : Value at Risk, Time Period, Confidence Level, Monte Carlo Simulation.",
+      "score": 0.537,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo value at risk"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "impact of asset allocation, savings, and retirement horizons, savings rates, and social security income in retirement planning",
+      "authors": [
+        "Danny M. Ervin",
+        "Gregory K. Faulk",
+        "Joseph C. Smolira"
+      ],
+      "year": 2009,
+      "doi": "10.61190/fsr.v18i4.4954",
+      "openAlexId": "W7134120531",
+      "openAccessUrl": "https://openjournals.libs.uga.edu/fsr/article/download/4954/3904",
+      "citationCount": 0,
+      "abstract": "This study uses Monte Carlo simulation to evaluate the ability of various deposit percentages and asset allocation weights to support withdrawals in retirement that permit smoothed income over the life of an individual. The results indicate that, in general, individuals need to deposit at least 15% of pre-retirement salary for 30 or more years in a portfolio consisting of at least 50% equity to achieve a high success rate for portfolio withdrawals. When Social Security payments are excluded from the retirement income, the success rate is greatly impacted by the savings rate, the savings period, and the amount of equity investment in the portfolio.",
+      "score": 0.486,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "retirement savings Monte Carlo simulation"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A backward Monte Carlo approach to exotic option pricing",
+      "authors": [
+        "Giacomo Bormetti A",
+        "Giorgia Callegaro",
+        "Giulia Livieri",
+        "Andrea Pallavicini"
+      ],
+      "year": 2017,
+      "doi": "10.1017/s0956792517000079",
+      "openAlexId": "W2950550907",
+      "openAccessUrl": "https://arxiv.org/pdf/1511.00848",
+      "citationCount": 23,
+      "abstract": "We propose a novel algorithm which allows to sample paths from an underlying price process in a local volatility model and to achieve a substantial variance reduction when pricing exotic options. The new algorithm relies on the construction of a discrete multinomial tree. The crucial feature of our approach is that – in a similar spirit to the Brownian Bridge – each random path runs backward from a terminal fixed point to the initial spot price. We characterize the tree in two alternative ways: (i) in terms of the optimal grids originating from the Recursive Marginal Quantization algorithm, (ii) following an approach inspired by the finite difference approximation of the diffusion's infinitesimal generator. We assess the reliability of the new methodology comparing the performance of both approaches and benchmarking them with competitor Monte Carlo methods.",
+      "score": 0.485,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo option pricing introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Value at risk analysis with Monte Carlo simulation",
+      "authors": [
+        "Roy Endré Dahl"
+      ],
+      "year": 2009,
+      "doi": null,
+      "openAlexId": "W2472856196",
+      "openAccessUrl": "http://hdl.handle.net/11250/181907",
+      "citationCount": 1,
+      "abstract": "Value at Risk (VaR) is a commonly used measurement for financial institutions and investment parties to valuate the risk in a portfolio, and defines the worst case scenario within a certain confidence level over a specified time horizon.Although it is a popular tool it has been criticized for being procyclical and underestimating the market risk.Recently the Turner Review concluded that these characteristics of VaR had been one of the factors which fuelled the financial crisis seen in 2008.Statoil Hydro ASA experienced underestimation during the extremely volatile period after the summer of 2008.The oil market itself is characterised by shifts between periods of low volatility and periods of high volatility.It is therefore important to find a VaR method which can adjust to these changes rapidly.As this thesis will show the last years until the summer of 2008 was a period of relatively calm and stable market development, after which it has become more volatile with bigger fluctuations from day to day.These sudden shifts in market are difficult to include in a VaR estimation method and Statoil Hydro ASA's historical simulation failed to do this in the fall of 2008.",
+      "score": 0.474,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo simulation economics introduction",
+        "Monte Carlo simulation economics review",
+        "Monte Carlo value at risk"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Monte Carlo Simulation Based Performance Analysis of Supply Chains",
+      "authors": [
+        "Gabor Belvardi"
+      ],
+      "year": 2012,
+      "doi": "10.5121/ijmvsc.2012.3201",
+      "openAlexId": "W2329462425",
+      "openAccessUrl": "https://doi.org/10.5121/ijmvsc.2012.3201",
+      "citationCount": 15,
+      "abstract": "Since supply chain management is one of the most important management practices that impacts the financial results of services and companies, it is important to optimize and analyze the performance of supply chains.Simulation provides a way to get closer to real life complex situations and uses less simplifications and assumptions than needed with analytical solutions.This paper proposes the application of Monte Carlo simulation based optimization and sensitivity analysis of supply chains to handle modeling uncertainties and stochastic nature of the processes and to extract and visualize relationship among the decision variables and the Key Performance Indicators.In this article the authors utilize their own interactive simulator, SIMWARE, capable to simulate complex multi-echelon supply chains based on simple configurable connection of building blocks.They introduce a sensitivity analysis technique to extract and visualize the relationships among the decision variables and key performance indicators. .The proposed robust sensitivity analysis is based on an improved method used to extract gradients from Monte Carlo simulation.The extracted gradients (sensitivities) are visualized by a technique developed by the authors.The results illustrate that the sensitivity analysis tool is flexible enough to handle complex situations and straightforward and simple enough to be used for decision support.",
+      "score": 0.794,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "Monte Carlo simulation economics tutorial",
+        "Monte Carlo simulation economics review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "The unit ratio-extended Weibull family and the dropout rate in Brazilian undergraduate courses",
+      "authors": [
+        "Fernando A. Peña-Ramírez",
+        "Renata Rojas Guerra",
+        "Charles Peixoto Mafalda"
+      ],
+      "year": 2023,
+      "doi": "10.1371/journal.pone.0290885",
+      "openAlexId": "W4388721372",
+      "openAccessUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0290885&type=printable",
+      "citationCount": 6,
+      "abstract": "We propose a new family of distributions, so-called the unit ratio-extended Weibull family ([Formula: see text]). It is derived from ratio transformation in an extended Weibull random variable. The use of this transformation is a novelty of the work since it has been less explored than the exponential and has not yet been studied within the extended Weibull class. Moreover, we offer a valuable alternative to model double-bounded variables on the unit interval. Five [Formula: see text] special models are studied in detail, namely the: i) unit ratio-Gompertz; ii) unit ratio-Burr XII; iii) unit ratio-Lomax; v) unit ratio-Rayleigh, and vi) unit ratio-Weibull distributions. We propose a quantile-parameterization for the new family. The maximum likelihood estimators (MLEs) are presented. A Monte Carlo study is performed to evaluate the behavior of the MLEs of unit ratio-Gompertz and unit ratio-Rayleigh distributions. This last model has closed-form and approximately unbiased MLE for small sample sizes. Further, the [Formula: see text] submodels are adjusted to the dropout rate in Brazilian undergraduate courses. We focus on the areas of civil engineering, economics, computer sciences, and control engineering. The applications show that the new family is suitable for modeling educational data and may provide effective alternatives compared to other usual unit models, such as the Beta, Kumaraswamy, and unit gamma distributions. They can also outperform some recent contributions in the unit distribution literature. Thus, the [Formula: see text] family can provide competitive alternatives when those models are unsuitable.",
+      "score": 0.711,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "Monte Carlo simulation economics (teaching OR classroom OR undergraduate)"
+      ]
+    }
+  ]
+}

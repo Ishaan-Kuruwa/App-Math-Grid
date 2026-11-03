@@ -1,0 +1,342 @@
+{
+  "method": "monte-carlo",
+  "field": "climate",
+  "generatedAt": "2026-11-03T01:26:43.442Z",
+  "queries": [
+    "Monte Carlo simulation climate",
+    "Monte Carlo simulation climate introduction",
+    "Monte Carlo simulation climate tutorial",
+    "Monte Carlo simulation climate review",
+    "Monte Carlo simulation climate (teaching OR classroom OR undergraduate)",
+    "Monte Carlo uncertainty climate projection",
+    "stochastic weather generator",
+    "Latin hypercube sampling climate model"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "Comparison of the WGEN and LARS-WG stochastic weather generators for diverse climates",
+      "authors": [
+        "Mikhail A. Semenov",
+        "Roger J. Brooks",
+        "EM Barrow",
+        "CW Richardson"
+      ],
+      "year": 1998,
+      "doi": "10.3354/cr010095",
+      "openAlexId": "W2055578622",
+      "openAccessUrl": "https://www.int-res.com/articles/cr/10/c010p095.pdf",
+      "citationCount": 622,
+      "abstract": "Stochastic weather generators are used in a wide range of studies, such as hydrological applications, environmental management and agricultural risk assessments.Such studies often require long series of daily weather data for risk assessment and weather generators can produce time series of synthetic daily weather data of any length.Weather generators are also used to interpolate observed data to produce synthetic weather data at new sites, and they have recently been employed in the construction of climate change scenarios.Any generator should be tested to ensure that the data that it produces is satisfactory for the purposes for which it is to be used.The accuracy required will depend on the application of the data, and the performance of the generator may vary considerably for different climates.The aim of this paper is to test and compare 2 commonly-used weather generators, namely WGEN and LARS-WG, at 18 sites in the USA, Europe and Asia, chosen to represent a range of climates.Statistical tests were selected to compare a variety of different weather characteristics of the observed and synthetic weather data such as, for example, the lengths of wet and dry series, the distribution of precipitation and the lengths of frost spells.The LARS-WG generator used more complex distributions for weather variables and tended to match the observed data more closely than WGEN, although there are certain characteristics of the data that neither generator reproduced accurately.The implications for the development and use of stochastic weather generators are discussed.",
+      "score": 0.944,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "stochastic weather generator"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Simulation of extreme weather events by a stochastic weather generator",
+      "authors": [
+        "Mikhail A. Semenov"
+      ],
+      "year": 2008,
+      "doi": "10.3354/cr00731",
+      "openAlexId": "W1976217616",
+      "openAccessUrl": "https://www.int-res.com/articles/cr2007/35/c035p203.pdf",
+      "citationCount": 248,
+      "abstract": "A stochastic weather generator is a model capable of generating daily weather patterns that are statistically similar to the observed patterns. Weather generators are commonly used in climate change studies as a computationally inexpensive tool to generate high resolution climate change scenarios based on the output from global climate models. Considering that the frequency and the magnitude of extreme weather events are likely to increase under climate change, there is a growing need to investigate how well weather extremes are simulated by weather generators. The aim of this study was to test the skill of the LARS-WG stochastic weather generator to simulate extreme weather events at 20 locations with diverse climates. Yearly maxima of daily precipitation, maximum temperature and length of heat waves, and their 10 and 20 yr return values were compared for observed and synthetic data by fitting the generalized extreme value distribution and computing confidence intervals. Means of yearly maxima and return values of daily synthetic precipitation were within the 95% confidence intervals (CI95) of observed data for all sites. Daily maximum temperature extremes were reproduced less accurately. Although the root mean squared error (RMSE) calculated for the means of maxima of maximum temperature was <1°C, synthetic means for approximately half of the sites were outside the CI95 for observed values. This indicates that the assumption used in LARS-WG, that daily temperature could be approximated by the normal distribution, is inadequate. Means of yearly maxima for length of heat waves and 10 and 20 yr return values were within the CI95 for all sites except 3. For those sites where LARS-WG performance was inadequate, daily maximum temperature was not normally distributed but was skewed.",
+      "score": 0.925,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "stochastic weather generator"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Stochastic weather generators: an overview of weather type models",
+      "authors": [
+        "Pierre Ailliot",
+        "Allard, Denis",
+        "Valérie Monbet",
+        "Philippe Naveau"
+      ],
+      "year": 2015,
+      "doi": null,
+      "openAlexId": "W1909397057",
+      "openAccessUrl": "https://hal.inrae.fr/hal-02641587v1/document",
+      "citationCount": 157,
+      "abstract": "A recurrent issue encountered in environmental, ecological or agricultural impact studies in which climate is an important driving force is to provide fast and realistic simulations of atmospheric variables such as temperature, precipitation and wind at a few specific locations, at daily or hourly temporal scales. Spatio-temporal dynamics and correlation structures among the variables of interest, as well as weather persistence and natural variability have to be reproduced accurately in a distributional sense. This quest leads to a large variety of so-called stochastic weather generators (WGs) in the literature. Here, we provide an up-to-date overview of weather type WG models.Weather types classically represent daily characteristics of the relevant atmospheric information at hand. There are many ways to build such weather states, either hidden or observed, and to infer their properties. This overview should help statisticians as well as meteorologists and climate product users to understand the probabilistic concepts and models behind weather type WGs, and to identify their advantages and limits.",
+      "score": 0.87,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "stochastic weather generator"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Uncertainty Quantification in Climate Modeling and Projection",
+      "authors": [
+        "Yun Qian",
+        "Charles S. Jackson",
+        "Filippo Giorgi",
+        "Ben B. B. Booth",
+        "Qingyun Duan",
+        "Chris E. Forest",
+        "Dave Higdon",
+        "Zhangshuan Hou",
+        "Gabriel Huerta"
+      ],
+      "year": 2016,
+      "doi": "10.1175/bams-d-15-00297.1",
+      "openAlexId": "W2224064364",
+      "openAccessUrl": "https://www.osti.gov/servlets/purl/1327127",
+      "citationCount": 80,
+      "abstract": "The projection of future climate is one of the most complex problems undertaken by the scientific community. Although scientists have been striving to better understand the physical basis of the climate system and to improve climate models, the overall uncertainty in projections of future climate has not been significantly reduced (e.g., from the IPCC AR4 to AR5). With the rapid increase of complexity in Earth system models, reducing uncertainties in climate projections becomes extremely challenging. Since uncertainties always exist in climate models, interpreting the strengths and limitations of future climate projections is key to evaluating risks, and climate change information for use in Vulnerability, Impact, and Adaptation (VIA) studies should be provided with both well-characterized and well-quantified uncertainty. The workshop reported herein aimed at providing participants, many of them from developing countries, information on strategies to quantify the uncertainty in climate model projections and assess the reliability of climate change information for decision-making. The program included a mixture of lectures on fundamental concepts in Bayesian inference and sampling, applications, and hands-on computer laboratory exercises employing software packages for Bayesian inference, Markov Chain Monte Carlo methods, and global sensitivity analyses. The lectures covered a range of scientific issues underlying the evaluation of uncertainties in climate projections, such as the effects of uncertain initial and boundary conditions, uncertain physics, and limitations of observational records. Progress in quantitatively estimating uncertainties in hydrologic, land surface, and atmospheric models at both regional and global scales was also reviewed. The application of Uncertainty Quantification (UQ) concepts to coupled climate system models is still in its infancy. The Coupled Model Intercomparison Project (CMIP) multi-model ensemble currently represents the primary data for assessing reliability and uncertainties of climate change information. An alternative approach is to generate similar ensembles by perturbing parameters within a single-model framework. One of workshop’s objectives was to give participants a deeper understanding of these approaches within a Bayesian statistical framework. However, there remain significant challenges still to be resolved before UQ can be applied in a convincing way to climate models and their projections.",
+      "score": 0.859,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo uncertainty climate projection"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Multisite downscaling of daily precipitation with a stochastic weather generator",
+      "authors": [
+        "Daniel S. Wilks"
+      ],
+      "year": 1999,
+      "doi": "10.3354/cr011125",
+      "openAlexId": "W2049030309",
+      "openAccessUrl": "https://www.int-res.com/articles/cr/11/c011p125.pdf",
+      "citationCount": 248,
+      "abstract": "Stochastic models of daily precipitation are useful both for characterizing different precipitation climates and for stochastic simulation of these climates in conjunction with agricultural, hydrological, or other response models.A simple stochastic precipitation model is used to downscalei .e .disaggregate from area-average to individual station -precipitation statistics for 6 groups of 5 U.S. stations, in a way that is consistent with observed relationships between the area-averaged series and their constituent station series.Each group of stations is located within a General Circulation Model grid-box-sized area, and collectively they exhibit a broad range of precipitation climates.The downscaling procedure is validated using natural climate variability in the observed precipitation records as an analog for climate change, by alternately considering collections of the driest and wettest seasons as 'base' and 'future' climates, and comparing the 2 sets of downscaled station parameters to those fit directly to the respective withheld observations.The resulting downscaled stochastic model parameters can be readily used for local-scale simulation of climate-change impacts.",
+      "score": 0.841,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "stochastic weather generator"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Exploring uncertainty in glacier mass balance modelling with Monte Carlo simulation",
+      "authors": [
+        "Horst Machguth",
+        "Ross Stuart Purves",
+        "J. Oerlemans",
+        "Martin Hoelzle",
+        "F. Paul"
+      ],
+      "year": 2008,
+      "doi": "10.5194/tc-2-191-2008",
+      "openAlexId": "W2160820194",
+      "openAccessUrl": "https://tc.copernicus.org/articles/2/191/2008/tc-2-191-2008.pdf",
+      "citationCount": 75,
+      "abstract": "Abstract. By means of Monte Carlo simulations we calculated uncertainty in modelled cumulative mass balance over 400 days at one particular point on the tongue of Morteratsch Glacier, Switzerland, using a glacier energy balance model of intermediate complexity. Before uncertainty assessment, the model was tuned to observed mass balance for the investigated time period and its robustness was tested by comparing observed and modelled mass balance over 11 years, yielding very small deviations. Both systematic and random uncertainties are assigned to twelve input parameters and their respective values estimated from the literature or from available meteorological data sets. The calculated overall uncertainty in the model output is dominated by systematic errors and amounts to 0.7 m w.e. or approximately 10% of total melt over the investigated time span. In order to provide a first order estimate on variability in uncertainty depending on the quality of input data, we conducted a further experiment, calculating overall uncertainty for different levels of uncertainty in measured global radiation and air temperature. Our results show that the output of a well calibrated model is subject to considerable uncertainties, in particular when applied for extrapolation in time and space where systematic errors are likely to be an important issue.",
+      "score": 0.823,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo simulation climate",
+        "Monte Carlo simulation climate introduction",
+        "Monte Carlo simulation climate review",
+        "Monte Carlo uncertainty climate projection"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Generalized linear modeling approach to stochastic weather generators",
+      "authors": [
+        "Eva Furrer",
+        "Richard W. Katz"
+      ],
+      "year": 2007,
+      "doi": "10.3354/cr034129",
+      "openAlexId": "W2034533584",
+      "openAccessUrl": "https://www.int-res.com/articles/cr2007/34/c034p129.pdf",
+      "citationCount": 115,
+      "abstract": "Stochastic weather generators are a popular method for producing synthetic sequences of daily weather.We demonstrate that generalized linear models (GLMs) can provide a general modeling framework, allowing the straightforward incorporation of annual cycles and other covariates (e.g. an index of the El Niño-Southern Oscillation, ENSO) into stochastic weather generators.We apply the GLM technique to daily time series of weather variables (i.e.precipitation and minimum and maximum temperature) from Pergamino, Argentina.Besides annual cycles, the fit is significantly improved by permitting both the transition probabilities of the first-order Markov chain for daily precipitation occurrence, as well as the means of both daily minimum and maximum temperature, to depend on the ENSO state.Although it is more parsimonious than typical weather generators, the GLMbased weather generator performs comparably, particularly in terms of extremes and overdispersion.",
+      "score": 0.816,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "stochastic weather generator"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Spatial interpolation of the LARS-WG stochastic weather generator in Great Britain",
+      "authors": [
+        "Mikhail A. Semenov",
+        "Roger J. Brooks"
+      ],
+      "year": 1999,
+      "doi": "10.3354/cr011137",
+      "openAlexId": "W2147983357",
+      "openAccessUrl": "https://www.int-res.com/articles/cr/11/c011p137.pdf",
+      "citationCount": 179,
+      "abstract": "The paper describes a method for the spatial interpolation of the site-specific LARS-WG stochastic weather generator to produce 'realistic' daily weather data for the gaps between observed sites.One of the uses of LARS-WG has been site-scale climate change impact assessments.However, such assessments are often applied across regions and so there is a need for an interpolation method to provide input daily weather at many sites or grid-boxes where observed weather data is not available.The interpolation method devised combines the local interpolation of the weather generator parameters from observed sites near the unobserved location with the use of globally interpolated monthly mean statistics for a large number of sites.Thin plate smoothing splines with elevation as an independent variable were used for the global interpolation of mean monthly rainfall and temperature.The data sets used allow daily weather to be generated for any location in Great Britain and the methodology was tested at 3 locations with different local characteristics.The interpolation method showed a good performance at the 3 sites when compared to the observed data, the main differences occurring when the spline method was unable to reproduce closely the observed mean values.The limitations of the interpolation method, its applicability to other regions and its potential use in climate change and other studies are also discussed.",
+      "score": 0.813,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "stochastic weather generator"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Toward a Monte Carlo approach to selecting climate variables in MaxEnt",
+      "authors": [
+        "John L. Schnase",
+        "Mark Carroll",
+        "Roger L. Gill",
+        "Glenn S. Tamkin",
+        "Jian Li",
+        "Savannah L. Strong",
+        "Thomas P. Maxwell",
+        "Mary E. Aronne",
+        "Caleb S. Spradlin"
+      ],
+      "year": 2021,
+      "doi": "10.1371/journal.pone.0237208",
+      "openAlexId": "W3134212458",
+      "openAccessUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0237208&type=printable",
+      "citationCount": 62,
+      "abstract": "MaxEnt is an important aid in understanding the influence of climate change on species distributions. There is growing interest in using IPCC-class global climate model outputs as environmental predictors in this work. These models provide realistic, global representations of the climate system, projections for hundreds of variables (including Essential Climate Variables), and combine observations from an array of satellite, airborne, and in-situ sensors. Unfortunately, direct use of this important class of data in MaxEnt modeling has been limited by the large size of climate model output collections and the fact that MaxEnt can only operate on a relatively small set of predictors stored in a computer's main memory. In this study, we demonstrate the feasibility of a Monte Carlo method that overcomes this limitation by finding a useful subset of predictors in a larger, externally-stored collection of environmental variables in a reasonable amount of time. Our proposed solution takes an ensemble approach wherein many MaxEnt runs, each drawing on a small random subset of variables, converges on a global estimate of the top contributing subset of variables in the larger collection. In preliminary tests, the Monte Carlo approach selected a consistent set of top six variables within 540 runs, with the four most contributory variables of the top six accounting for approximately 93% of overall permutation importance in a final model. These results suggest that a Monte Carlo approach could offer a viable means of screening environmental predictors prior to final model construction that is amenable to parallelization and scalable to very large data sets. This points to the possibility of near-real-time multiprocessor implementations that could enable broader and more exploratory use of global climate model outputs in environmental niche modeling and aid in the discovery of viable predictors.",
+      "score": 0.775,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo simulation climate introduction",
+        "Monte Carlo simulation climate tutorial",
+        "Monte Carlo simulation climate review",
+        "Monte Carlo uncertainty climate projection"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "An advanced stochastic weather generator for simulating 2‐D high‐resolution climate variables",
+      "authors": [
+        "Nadav Peleg",
+        "Simone Fatichi",
+        "Athanasios Paschalis",
+        "Péter Molnár",
+        "Paolo Burlando"
+      ],
+      "year": 2017,
+      "doi": "10.1002/2016ms000854",
+      "openAlexId": "W2682952058",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016MS000854",
+      "citationCount": 165,
+      "abstract": "Abstract A new stochastic weather generator, Advanced WEather GENerator for a two‐dimensional grid (AWE‐GEN‐2d) is presented. The model combines physical and stochastic approaches to simulate key meteorological variables at high spatial and temporal resolution: 2 km × 2 km and 5 min for precipitation and cloud cover and 100 m × 100 m and 1 h for near‐surface air temperature, solar radiation, vapor pressure, atmospheric pressure, and near‐surface wind. The model requires spatially distributed data for the calibration process, which can nowadays be obtained by remote sensing devices (weather radar and satellites), reanalysis data sets and ground stations. AWE‐GEN‐2d is parsimonious in terms of computational demand and therefore is particularly suitable for studies where exploring internal climatic variability at multiple spatial and temporal scales is fundamental. Applications of the model include models of environmental systems, such as hydrological and geomorphological models, where high‐resolution spatial and temporal meteorological forcing is crucial. The weather generator was calibrated and validated for the Engelberg region, an area with complex topography in the Swiss Alps. Model test shows that the climate variables are generated by AWE‐GEN‐2d with a level of accuracy that is sufficient for many practical applications.",
+      "score": 0.774,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "stochastic weather generator"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Quantifying different sources of uncertainty in hydrological projections in an Alpine watershed",
+      "authors": [
+        "Christian Dobler",
+        "Stefan Hagemann",
+        "Robert Leonard Wilby",
+        "Johann Stötter"
+      ],
+      "year": 2012,
+      "doi": "10.5194/hess-16-4343-2012",
+      "openAlexId": "W1977848091",
+      "openAccessUrl": "https://doi.org/10.5194/hess-16-4343-2012",
+      "citationCount": 177,
+      "abstract": "Abstract. Many studies have investigated potential climate change impacts on regional hydrology; less attention has been given to the components of uncertainty that affect these scenarios. This study quantifies uncertainties resulting from (i) General Circulation Models (GCMs), (ii) Regional Climate Models (RCMs), (iii) bias-correction of RCMs, and (iv) hydrological model parameterization using a multi-model framework. This consists of three GCMs, three RCMs, three bias-correction techniques, and sets of hydrological model parameters. The study is performed for the Lech watershed (~ 1000 km2), located in the Northern Limestone Alps, Austria. Bias-corrected climate data are used to drive the hydrological model HQsim to simulate runoff under present (1971–2000) and future (2070–2099) climate conditions. Hydrological model parameter uncertainty is assessed by Monte Carlo sampling. The model chain is found to perform well under present climate conditions. However, hydrological projections are associated with high uncertainty, mainly due to the choice of GCM and RCM. Uncertainty due to bias-correction is found to have greatest influence on projections of extreme river flows, and the choice of method(s) is an important consideration in snowmelt systems. Overall, hydrological model parameterization is least important. The study also demonstrates how an improved understanding of the physical processes governing future river flows can help focus attention on the scientifically tractable elements of the uncertainty.",
+      "score": 0.746,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo uncertainty climate projection"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Multi‐Level Monte Carlo Models for Flood Inundation Uncertainty Quantification",
+      "authors": [
+        "Gordon Aitken",
+        "Lindsay C. Beevers",
+        "Mike Christie"
+      ],
+      "year": 2022,
+      "doi": "10.1029/2022wr032599",
+      "openAlexId": "W4306653034",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2022WR032599",
+      "citationCount": 25,
+      "abstract": "Abstract Flood events are the most commonly occurring natural disaster, with over 5 million properties at risk in the UK alone. Changes in the global climate are expected to increase the frequency and magnitude of flood events. Flood hazard assessments, using climate projections as input, guide policy decisions and engineering projects to reduce the impact of large return period events. Probabilistic flood modeling is required to take into account uncertainties in climate model projections. However, the dichotomous relationship between probabilistic modeling, computational cost and model resolution limits the applicability of such techniques. This paper examines improvements to traditional Monte Carlo methods using Latin hypercube sampling (LHS) and Multi‐level Monte Carlo (MLMC) to quantify the uncertainty in flood extent resulting from input hydrograph uncertainty. The results demonstrate that MLMC is a more efficient modeling strategy than current methods (i.e., traditional Monte Carlo) with high resolution outputs produced in less time than previously possible. The novel application of MLMC technique to three Scottish case studies, demonstrating a variety of river characteristics, domain sizes and computational costs, using a high resolution 5 m grid resulted in a 99.2% reduction in computational cost compared to traditional Monte Carlo methods and up to 2.3 times speedup over Latin Hypercube Sampling.",
+      "score": 0.738,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo uncertainty climate projection",
+        "Latin hypercube sampling climate model"
+      ]
+    },
+    {
+      "needsHumanReview": true,
+      "reviewReason": "no abstract on OpenAlex; read the paper before using it",
+      "title": "Improving probabilistic hydroclimatic projections through high-resolution convection-permitting climate modeling and Markov chain Monte Carlo simulations",
+      "authors": [
+        "Shuo Wang",
+        "Yonggang Wang"
+      ],
+      "year": 2019,
+      "doi": "10.1007/s00382-019-04702-7",
+      "openAlexId": "W2922179055",
+      "openAccessUrl": "http://ira.lib.polyu.edu.hk/bitstream/10397/100698/1/Wang_Improving_Probabilistic_Hydroclimatic.pdf",
+      "citationCount": 38,
+      "abstract": null,
+      "score": 0.529,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo simulation climate",
+        "Monte Carlo simulation climate tutorial",
+        "Monte Carlo uncertainty climate projection"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Assessing Climate Change under Uncertainty: A Monte Carlo Approach",
+      "authors": [
+        "Jeeyoung Park"
+      ],
+      "year": 2008,
+      "doi": null,
+      "openAlexId": "W2102372770",
+      "openAccessUrl": "http://hdl.handle.net/10161/525",
+      "citationCount": 0,
+      "abstract": "Climate change has emerged as one of the most multifaceted manifestations of global change of our time. However, there is less confidence about exactly how the climate will change in the future, and lesser confidence still about the adjustments it will induce to natural and human system. Thus, policy formulation for climate change poses a great challenge because of a problem of decision-making under uncertainty. To facilitate climate policy decision, quantification of the uncertainty in climate outcomes under possible policies is needed. This paper presents an approach to assess climate change under uncertainty using Monte Carlo simulations. Here, I find that in the absence of climate policy, the 95% bound on temperature change in 2100 is 5.79°C. The stringent climate policies with aggressive emissions reductions over time lower significantly the temperature change, compared to no policy case.",
+      "score": 0.508,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo simulation climate",
+        "Monte Carlo simulation climate introduction",
+        "Monte Carlo simulation climate review",
+        "Monte Carlo uncertainty climate projection"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Monte Carlo strategies for calibration in climate models",
+      "authors": [
+        "Alejandro Villagran-Hernandez"
+      ],
+      "year": 2009,
+      "doi": null,
+      "openAlexId": "W1484482748",
+      "openAccessUrl": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=1068&context=math_etds",
+      "citationCount": 0,
+      "abstract": "Intensive computational methods have been used by Earth scientists in a wide range of problems in data inversion and uncertainty quantification such as earthquake epicenter location and climate projections. To quantify the uncertainties resulting from a range of plausible model configurations it is necessary to estimate a multidimensional probability distribution. The computational cost of estimating these distributions for geoscience applications is impractical using traditional methods such as Metropolis/Gibbs algorithms as simulation costs limit the number of experiments that can be obtained reasonably. Several alternate sampling strategies have been proposed that could improve on the sampling efficiency including Multiple Very Fast Simulated Annealing (MVFSA) and Adaptive Metropolis algorithms. As a goal of this research, the performance of these proposed sampling strategies are evaluated with a surrogate climate model that is able to approximate the noise and response behavior of a realistic atmospheric general circulation model (AGCM). The surrogate model is fast enough that its evaluation can be embedded in these Monte Carlo algorithms. The goal of this thesis is to show that adaptive methods can be superior to MVFSA to approximate the known posterior distribution with fewer forward evaluations. However, the adaptive methods can also be limited by inadequate sample mixing. The Single Component and Delayed Rejection Adaptive Metropolis algorithms were found to resolve these limitations, although challenges remain to approximating multi-modal distributions. The results show that these advanced methods of statistical inference can provide practical solutions to the climate model calibration problem and challenges in quantifying climate projection uncertainties. The computational methods would also be useful to problems outside climate prediction, particularly those where sampling is limited by availability of computational resources.",
+      "score": 0.499,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "Monte Carlo simulation climate",
+        "Monte Carlo simulation climate introduction",
+        "Monte Carlo simulation climate review",
+        "Monte Carlo simulation climate (teaching OR classroom OR undergraduate)",
+        "Monte Carlo uncertainty climate projection"
+      ]
+    }
+  ]
+}

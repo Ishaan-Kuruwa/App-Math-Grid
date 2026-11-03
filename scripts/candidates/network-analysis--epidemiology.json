@@ -1,0 +1,330 @@
+{
+  "method": "network-analysis",
+  "field": "epidemiology",
+  "generatedAt": "2026-11-03T01:26:33.823Z",
+  "queries": [
+    "network analysis epidemiology",
+    "network analysis epidemiology introduction",
+    "network analysis epidemiology tutorial",
+    "network analysis epidemiology review",
+    "network analysis epidemiology (teaching OR classroom OR undergraduate)",
+    "contact network disease transmission",
+    "epidemics on networks introduction",
+    "superspreading network model"
+  ],
+  "candidates": [
+    {
+      "needsHumanReview": false,
+      "title": "Infectious disease transmission and contact networks in wildlife and livestock",
+      "authors": [
+        "Meggan E. Craft"
+      ],
+      "year": 2015,
+      "doi": "10.1098/rstb.2014.0107",
+      "openAlexId": "W2152132956",
+      "openAccessUrl": "https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2014.0107",
+      "citationCount": 359,
+      "abstract": "The use of social and contact networks to answer basic and applied questions about infectious disease transmission in wildlife and livestock is receiving increased attention. Through social network analysis, we understand that wild animal and livestock populations, including farmed fish and poultry, often have a heterogeneous contact structure owing to social structure or trade networks. Network modelling is a flexible tool used to capture the heterogeneous contacts of a population in order to test hypotheses about the mechanisms of disease transmission, simulate and predict disease spread, and test disease control strategies. This review highlights how to use animal contact data, including social networks, for network modelling, and emphasizes that researchers should have a pathogen of interest in mind before collecting or using contact data. This paper describes the rising popularity of network approaches for understanding transmission dynamics in wild animal and livestock populations; discusses the common mismatch between contact networks as measured in animal behaviour and relevant parasites to match those networks; and highlights knowledge gaps in how to collect and analyse contact data. Opportunities for the future include increased attention to experiments, pathogen genetic markers and novel computational tools.",
+      "score": 0.887,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "contact network disease transmission"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "A high-resolution human contact network for infectious disease transmission",
+      "authors": [
+        "Marcel Salathé",
+        "Maria A. Kazandjieva",
+        "Jung Woo Lee",
+        "Philip A. Levis",
+        "Marcus William Feldman",
+        "James Holland Jones"
+      ],
+      "year": 2010,
+      "doi": "10.1073/pnas.1009094108",
+      "openAlexId": "W2131499531",
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/3009790",
+      "citationCount": 739,
+      "abstract": "The most frequent infectious diseases in humans--and those with the highest potential for rapid pandemic spread--are usually transmitted via droplets during close proximity interactions (CPIs). Despite the importance of this transmission route, very little is known about the dynamic patterns of CPIs. Using wireless sensor network technology, we obtained high-resolution data of CPIs during a typical day at an American high school, permitting the reconstruction of the social network relevant for infectious disease transmission. At 94% coverage, we collected 762,868 CPIs at a maximal distance of 3 m among 788 individuals. The data revealed a high-density network with typical small-world properties and a relatively homogeneous distribution of both interaction time and interaction partners among subjects. Computer simulations of the spread of an influenza-like disease on the weighted contact graph are in good agreement with absentee data during the most recent influenza season. Analysis of targeted immunization strategies suggested that contact network data are required to design strategies that are significantly more effective than random immunization. Immunization strategies based on contact network data were most effective at high vaccination coverage.",
+      "score": 0.868,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "contact network disease transmission"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "An event-based model of superspreading in epidemics",
+      "authors": [
+        "Alex James",
+        "Jonathan W. Pitchford",
+        "Michael John Plank"
+      ],
+      "year": 2006,
+      "doi": "10.1098/rspb.2006.0219",
+      "openAlexId": "W1981018941",
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/2197209",
+      "citationCount": 71,
+      "abstract": "Many recent disease outbreaks (e.g. SARS, foot-and-mouth disease) exhibit superspreading, where relatively few individuals cause a large number of secondary cases. Epidemic models have previously treated this as a demographic phenomenon where each individual has an infectivity allocated at random from some distribution. Here, it is shown that superspreading can also be regarded as being caused by environmental variability, where superspreading events (SSEs) occur as a stochastic consequence of the complex network of interactions made by individuals. This interpretation based on SSEs is compared with data and its efficacy in evaluating epidemic control strategies is discussed.",
+      "score": 0.808,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "superspreading network model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Evidence that coronavirus superspreading is fat-tailed",
+      "authors": [
+        "Felix J. Wong",
+        "James J. Collins"
+      ],
+      "year": 2020,
+      "doi": "10.1073/pnas.2018490117",
+      "openAlexId": "W3095263534",
+      "openAccessUrl": "https://doi.org/10.1073/pnas.2018490117",
+      "citationCount": 132,
+      "abstract": "Superspreaders, infected individuals who result in an outsized number of secondary cases, are believed to underlie a significant fraction of total SARS-CoV-2 transmission. Here, we combine empirical observations of SARS-CoV and SARS-CoV-2 transmission and extreme value statistics to show that the distribution of secondary cases is consistent with being fat-tailed, implying that large superspreading events are extremal, yet probable, occurrences. We integrate these results with interaction-based network models of disease transmission and show that superspreading, when it is fat-tailed, leads to pronounced transmission by increasing dispersion. Our findings indicate that large superspreading events should be the targets of interventions that minimize tail exposure.",
+      "score": 0.796,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "superspreading network model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "COVID-19 Superspreading Suggests Mitigation by Social Network Modulation",
+      "authors": [
+        "Bjarke Frost Nielsen",
+        "Lone Simonsen",
+        "Kim Sneppen"
+      ],
+      "year": 2021,
+      "doi": "10.1103/physrevlett.126.118301",
+      "openAlexId": "W3136258650",
+      "openAccessUrl": "http://link.aps.org/pdf/10.1103/PhysRevLett.126.118301",
+      "citationCount": 107,
+      "abstract": "A new model shows that restricting the number of social interactions among members of a population is effective at controlling outbreaks dominated by ``superspreaders,'' explaining the unexpected success of last year's lockdowns.",
+      "score": 0.734,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "superspreading network model"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Epidemics and immunization in scale‐free networks",
+      "authors": [
+        "Romualdo Pastor‐Satorras",
+        "Alessandro Vespignani"
+      ],
+      "year": 2002,
+      "doi": "10.1002/3527602755.ch5",
+      "openAlexId": "W2123279152",
+      "openAccessUrl": "http://hdl.handle.net/2117/126697",
+      "citationCount": 251,
+      "abstract": "Introduction Computers and epidemiology Epidemic spreading in homogeneous networks Real data analysis Epidemic spreading in scale-free networks Analytic solution for the Barabási-Albert network Finite size scale-free networks Immunization of scale-free networks Uniform immunization Targeted immunization Conclusions References",
+      "score": 0.72,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "network analysis epidemiology introduction",
+        "epidemics on networks introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Epidemic processes in complex networks",
+      "authors": [
+        "Romualdo Pastor‐Satorras",
+        "Claudio Castellano",
+        "Piet Van Mieghem",
+        "Alessandro Vespignani"
+      ],
+      "year": 2015,
+      "doi": "10.1103/revmodphys.87.925",
+      "openAlexId": "W1878853999",
+      "openAccessUrl": "http://hdl.handle.net/2117/77005",
+      "citationCount": 3697,
+      "abstract": "Complex networks arise in a wide range of biological and sociotechnical systems. Epidemic spreading is central to our understanding of dynamical processes in complex networks, and is of interest to physicists, mathematicians, epidemiologists, and computer and social scientists. This review presents the main results and paradigmatic models in infectious disease modeling and generalized social contagion processes.",
+      "score": 0.704,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "epidemics on networks introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Epidemic outbreaks in complex heterogeneous networks",
+      "authors": [
+        "Yamir Moreno",
+        "Romualdo Pastor‐Satorras",
+        "Alessandro Vespignani"
+      ],
+      "year": 2002,
+      "doi": null,
+      "openAlexId": "W3103141125",
+      "openAccessUrl": "http://hdl.handle.net/2117/126040",
+      "citationCount": 808,
+      "abstract": "We present a detailed analytical and numerical study for the spreading of infections with acquired immunity in complex population networks. We show that the large connectivity fluctuations usually found in these networks strengthen considerably the incidence of epidemic outbreaks. Scale-free networks, which are characterized by diverging connectivity fluctuations in the limit of a very large number of nodes, exhibit the lack of an epidemic threshold and always show a finite fraction of infected individuals. This particular weakness, observed also in models without immunity, defines a new epidemiological framework characterized by a highly heterogeneous response of the system to the introduction of infected individuals with different connectivity. The understanding of epidemics in complex networks might deliver new insights in the spread of information and diseases in biological and technological networks that often appear to be characterized by complex heterogeneous architectures.",
+      "score": 0.674,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "epidemics on networks introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Space and contact networks: capturing the locality of disease transmission",
+      "authors": [
+        "Paul Edward Parham",
+        "Neil M. Ferguson"
+      ],
+      "year": 2005,
+      "doi": "10.1098/rsif.2005.0105",
+      "openAlexId": "W2153296467",
+      "openAccessUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/1664645",
+      "citationCount": 43,
+      "abstract": "While an arbitrary level of complexity may be included in simulations of spatial epidemics, computational intensity and analytical intractability mean that such models often lack transparency into the determinants of epidemiological dynamics. Although numerous approaches attempt to resolve this complexity-tractability trade-off, moment closure methods arguably offer the most promising and robust frameworks for capturing the role of the locality of contact processes on global disease dynamics. While a close analogy may be made between full stochastic spatial transmission models and dynamic network models, we consider here the special case where the dynamics of the network topology change on time-scales much longer than the epidemiological processes imposed on them; in such cases, the use of static network models are justified. We show that in such cases, static network models may provide excellent approximations to the underlying spatial contact process through an appropriate choice of the effective neighbourhood size. We also demonstrate the robustness of this mapping by examining the equivalence of deterministic approximations to the full spatial and network models derived under third-order moment closure assumptions. For systems where deviation from homogeneous mixing is limited, we show that pair equations developed for network models are at least as good an approximation to the underlying stochastic spatial model as more complex spatial moment equations, with both classes of approximation becoming less accurate only for highly localized kernels.",
+      "score": 0.663,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "contact network disease transmission"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Highly dynamic animal contact network and implications on disease transmission",
+      "authors": [
+        "Shi Chen",
+        "Brad J. White",
+        "Michael W. Sanderson",
+        "David E. Amrine",
+        "Amiyaal Ilany",
+        "Cristina Lanzas"
+      ],
+      "year": 2014,
+      "doi": "10.1038/srep04472",
+      "openAlexId": "W2036143660",
+      "openAccessUrl": "https://www.nature.com/articles/srep04472.pdf",
+      "citationCount": 62,
+      "abstract": "Contact patterns among hosts are considered as one of the most critical factors contributing to unequal pathogen transmission. Consequently, networks have been widely applied in infectious disease modeling. However most studies assume static network structure due to lack of accurate observation and appropriate analytic tools. In this study we used high temporal and spatial resolution animal position data to construct a high-resolution contact network relevant to infectious disease transmission. The animal contact network aggregated at hourly level was highly variable and dynamic within and between days, for both network structure (network degree distribution) and individual rank of degree distribution in the network (degree order). We integrated network degree distribution and degree order heterogeneities with a commonly used contact-based, directly transmitted disease model to quantify the effect of these two sources of heterogeneity on the infectious disease dynamics. Four conditions were simulated based on the combination of these two heterogeneities. Simulation results indicated that disease dynamics and individual contribution to new infections varied substantially among these four conditions under both parameter settings. Changes in the contact network had a greater effect on disease dynamics for pathogens with smaller basic reproduction number (i.e. R0 < 2).",
+      "score": 0.66,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "contact network disease transmission"
+      ]
+    },
+    {
+      "needsHumanReview": true,
+      "reviewReason": "no abstract on OpenAlex; read the paper before using it",
+      "title": "An Introduction to Networks in Epidemic Modeling",
+      "authors": [
+        "Fred Brauer"
+      ],
+      "year": 2008,
+      "doi": "10.1007/978-3-540-78911-6_4",
+      "openAlexId": "W2166203279",
+      "openAccessUrl": "https://link.springer.com/content/pdf/10.1007/978-3-540-78911-6_4.pdf",
+      "citationCount": 37,
+      "abstract": null,
+      "score": 0.627,
+      "fromCellQuery": true,
+      "matchedQueries": [
+        "epidemics on networks introduction"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Substance use disorders: a comprehensive update of classification, epidemiology, neurobiology, clinical aspects, treatment and prevention",
+      "authors": [
+        "Nora D. Volkow",
+        "Carlos Blanco"
+      ],
+      "year": 2023,
+      "doi": "10.1002/wps.21073",
+      "openAlexId": "W4376132878",
+      "openAccessUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wps.21073",
+      "citationCount": 503,
+      "abstract": "Substance use disorders (SUDs) are highly prevalent and exact a large toll on individuals' health, well-being, and social functioning. Long-lasting changes in brain networks involved in reward, executive function, stress reactivity, mood, and self-awareness underlie the intense drive to consume substances and the inability to control this urge in a person who suffers from addiction (moderate or severe SUD). Biological (including genetics and developmental life stages) and social (including adverse childhood experiences) determinants of health are recognized factors that contribute to vulnerability for or resilience against developing a SUD. Consequently, prevention strategies that target social risk factors can improve outcomes and, when deployed in childhood and adolescence, can decrease the risk for these disorders. SUDs are treatable, and evidence of clinically significant benefit exists for medications (in opioid, nicotine and alcohol use disorders), behavioral therapies (in all SUDs), and neuromodulation (in nicotine use disorder). Treatment of SUDs should be considered within the context of a Chronic Care Model, with the intensity of intervention adjusted to the severity of the disorder and with the concomitant treatment of comorbid psychiatric and physical conditions. Involvement of health care providers in detection and management of SUDs, including referral of severe cases to specialized care, offers sustainable models of care that can be further expanded with the use of telehealth. Despite advances in our understanding and management of SUDs, individuals with these conditions continue to be stigmatized and, in some countries, incarcerated, highlighting the need to dismantle policies that perpetuate their criminalization and instead develop policies to ensure support and access to prevention and treatment.",
+      "score": 0.903,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "network analysis epidemiology (teaching OR classroom OR undergraduate)"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Networks and the Epidemiology of Infectious Disease",
+      "authors": [
+        "León Danon",
+        "Ashley P. Ford",
+        "Thomas House",
+        "Chris Jewell",
+        "Matt J. Keeling",
+        "Gareth O. Roberts",
+        "Joshua V. Ross",
+        "Matthew C. Vernon"
+      ],
+      "year": 2011,
+      "doi": "10.1155/2011/284909",
+      "openAlexId": "W3100351146",
+      "openAccessUrl": "https://downloads.hindawi.com/journals/ipid/2011/284909.pdf",
+      "citationCount": 457,
+      "abstract": "The science of networks has revolutionised research into the dynamics of interacting elements. It could be argued that epidemiology in particular has embraced the potential of network theory more than any other discipline. Here we review the growing body of research concerning the spread of infectious diseases on networks, focusing on the interplay between network theory and epidemiology. The review is split into four main sections, which examine: the types of network relevant to epidemiology; the multitude of ways these networks can be characterised; the statistical methods that can be applied to infer the epidemiological parameters on a realised network; and finally simulation and analytical methods to determine epidemic dynamics on a given network. Given the breadth of areas covered and the ever-expanding number of publications, a comprehensive review of all work is impossible. Instead, we provide a personalised overview into the areas of network epidemiology that have seen the greatest progress in recent years or have the greatest potential to provide novel insights. As such, considerable importance is placed on analytical approaches and statistical methods which are both rapidly expanding fields. Throughout this review we restrict our attention to epidemiological issues.",
+      "score": 0.857,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "network analysis epidemiology",
+        "network analysis epidemiology introduction",
+        "network analysis epidemiology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Social network analysis and agent-based modeling in social epidemiology",
+      "authors": [
+        "Abdulrahman M. El‐Sayed",
+        "Peter Scarborough",
+        "Lars Seemann",
+        "Sandro Galea"
+      ],
+      "year": 2012,
+      "doi": "10.1186/1742-5573-9-1",
+      "openAlexId": "W2122094048",
+      "openAccessUrl": "https://epi-perspectives.biomedcentral.com/track/pdf/10.1186/1742-5573-9-1",
+      "citationCount": 224,
+      "abstract": "The past five years have seen a growth in the interest in systems approaches in epidemiologic research. These approaches may be particularly appropriate for social epidemiology. Social network analysis and agent-based models (ABMs) are two approaches that have been used in the epidemiologic literature. Social network analysis involves the characterization of social networks to yield inference about how network structures may influence risk exposures among those in the network. ABMs can promote population-level inference from explicitly programmed, micro-level rules in simulated populations over time and space. In this paper, we discuss the implementation of these models in social epidemiologic research, highlighting the strengths and weaknesses of each approach. Network analysis may be ideal for understanding social contagion, as well as the influences of social interaction on population health. However, network analysis requires network data, which may sacrifice generalizability, and causal inference from current network analytic methods is limited. ABMs are uniquely suited for the assessment of health determinants at multiple levels of influence that may couple with social interaction to produce population health. ABMs allow for the exploration of feedback and reciprocity between exposures and outcomes in the etiology of complex diseases. They may also provide the opportunity for counterfactual simulation. However, appropriate implementation of ABMs requires a balance between mechanistic rigor and model parsimony, and the precision of output from complex models is limited. Social network and agent-based approaches are promising in social epidemiology, but continued development of each approach is needed.",
+      "score": 0.833,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "network analysis epidemiology",
+        "network analysis epidemiology introduction",
+        "network analysis epidemiology review"
+      ]
+    },
+    {
+      "needsHumanReview": false,
+      "title": "Network Analysis in Systems Epidemiology",
+      "authors": [
+        "JooYong Park",
+        "Jaesung Choi",
+        "Ji‐Yeob Choi"
+      ],
+      "year": 2021,
+      "doi": "10.3961/jpmph.21.190",
+      "openAlexId": "W3183087805",
+      "openAccessUrl": "https://www.jpmph.org/upload/pdf/jpmph-21-190.pdf",
+      "citationCount": 20,
+      "abstract": "Traditional epidemiological studies have identified a number of risk factors for various diseases using regression-based methods that examine the association between an exposure and an outcome (i.e., one-to-one correspondences). One of the major limitations of this approach is the \"black-box\" aspect of the analysis, in the sense that this approach cannot fully explain complex relationships such as biological pathways. With high-throughput data in current epidemiology, comprehensive analyses are needed. The network approach can help to integrate multi-omics data, visualize their interactions or relationships, and make inferences in the context of biological mechanisms. This review aims to introduce network analysis for systems epidemiology, its procedures, and how to interpret its findings.",
+      "score": 0.748,
+      "fromCellQuery": false,
+      "matchedQueries": [
+        "network analysis epidemiology",
+        "network analysis epidemiology tutorial",
+        "network analysis epidemiology review"
+      ]
+    }
+  ]
+}
