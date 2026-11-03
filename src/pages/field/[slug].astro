@@ -1,0 +1,44 @@
+---
+import type { GetStaticPaths } from 'astro';
+import DetailPage from '../../components/DetailPage.astro';
+import EntryGroupList from '../../components/EntryGroupList.astro';
+import OpenCellList from '../../components/OpenCellList.astro';
+import { getGridData, type Field } from '../../lib/grid';
+
+// Every field gets a page, even with no entries yet: its open methods are the point.
+export const getStaticPaths = (async () => {
+  const { fields } = await getGridData();
+  return fields.map((field) => ({ params: { slug: field.data.slug }, props: { field } }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  field: Field;
+}
+
+const { field } = Astro.props;
+const { name, slug, description } = field.data;
+
+// Same visibility rules as the grid: getGridData only returns drafts in `astro dev`.
+const { methods, cellFor } = await getGridData();
+const filled = methods.flatMap((method) => {
+  const entry = cellFor(method.data.slug, slug);
+  return entry ? [{ name: method.data.name, href: `/method/${method.data.slug}`, entry }] : [];
+});
+const open = methods
+  .filter((method) => !cellFor(method.data.slug, slug))
+  .map((method) => ({ label: method.data.name, methodName: method.data.name, fieldName: name }));
+---
+
+<DetailPage kind="Field" name={name} description={description}>
+  <EntryGroupList
+    title="Methods used in this field"
+    emptyText="No entries yet. Every method below is open for a contribution."
+    groups={filled}
+  />
+
+  <OpenCellList
+    title="Open methods"
+    intro="Nobody has written an entry for these methods in this field yet. Want to be the first?"
+    cells={open}
+  />
+</DetailPage>

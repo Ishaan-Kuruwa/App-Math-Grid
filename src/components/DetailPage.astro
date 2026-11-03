@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { link } from '../lib/styles';
+
+// Shell for the method and field pages: back links, then a header with the
+// kind of page ("Method" / "Field"), its name, and its description.
+
+interface Props {
+  kind: string;
+  name: string;
+  description: string;
+}
+
+const { kind, name, description } = Astro.props;
+---
+
+<Layout title={`${name} · Applied Math Method Map`}>
+  <main class="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
+    <a href="/" class={link}>← Back to the map</a>
+
+    <header class="mt-6 space-y-3">
+      <p class="text-sm font-semibold tracking-wide text-slate-600 uppercase dark:text-slate-400">
+        {kind}
+      </p>
+      <h1 class="text-3xl font-bold tracking-tight">{name}</h1>
+      <p class="text-lg leading-relaxed">{description}</p>
+    </header>
+
+    <slot />
+
+    <a href="/" class:list={[link, 'mt-10 inline-block']}>← Back to the map</a>
+  </main>
+</Layout>
