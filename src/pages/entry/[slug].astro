@@ -1,0 +1,118 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getEntry } from 'astro:content';
+import DifficultyBadge from '../../components/DifficultyBadge.astro';
+import DraftBadge from '../../components/DraftBadge.astro';
+import Layout from '../../layouts/Layout.astro';
+import { getVisibleEntries, isDraft, type Entry } from '../../lib/entries';
+
+// Same visibility rules as the grid: drafts get a page in `astro dev` only.
+export const getStaticPaths = (async () => {
+  const entries = await getVisibleEntries();
+  return entries.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  entry: Entry;
+}
+
+const { entry } = Astro.props;
+const { title, summary, starterQuestion, difficulty, prerequisites, papers, notebook, dataset } =
+  entry.data;
+
+const [method, field] = await Promise.all([getEntry(entry.data.method), getEntry(entry.data.field)]);
+
+const link =
+  'rounded font-medium text-indigo-700 underline underline-offset-4 hover:text-indigo-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:text-indigo-300 dark:hover:text-indigo-100 dark:focus-visible:outline-indigo-400';
+const heading = 'text-xl font-semibold tracking-tight';
+---
+
+<Layout title={`${title} · Applied Math Method Map`}>
+  <main class="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
+    <a href="/" class={link}>← Back to the map</a>
+
+    <header class="mt-6 space-y-3">
+      <div class="flex flex-wrap items-center gap-2">
+        <DifficultyBadge difficulty={difficulty} />
+        {isDraft(entry) && <DraftBadge />}
+      </div>
+      <h1 class="text-3xl font-bold tracking-tight">{title}</h1>
+      <p class="text-slate-700 dark:text-slate-300">
+        <a href={`/method/${method.data.slug}`} class={link}>{method.data.name}</a>
+        <span aria-hidden="true"> · </span>
+        <span class="sr-only">in</span>
+        <a href={`/field/${field.data.slug}`} class={link}>{field.data.name}</a>
+      </p>
+    </header>
+
+    <p class="mt-6 text-lg leading-relaxed">{summary}</p>
+
+    <section class="mt-8 rounded-lg border border-indigo-200 bg-indigo-50 p-5 dark:border-indigo-900 dark:bg-indigo-950">
+      <h2 class={heading}>Starter question</h2>
+      <p class="mt-2 leading-relaxed">{starterQuestion}</p>
+    </section>
+
+    {
+      prerequisites.length > 0 && (
+        <section class="mt-8">
+          <h2 class={heading}>What you should know first</h2>
+          <ul class="mt-3 list-disc space-y-1 pl-6">
+            {prerequisites.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <section class="mt-8">
+      <h2 class={heading}>Papers to read</h2>
+      <ul class="mt-3 space-y-4">
+        {
+          papers.map((paper) => (
+            <li class="rounded-lg border border-slate-300 p-4 dark:border-slate-700">
+              <p class="font-semibold">{paper.title}</p>
+              <p class="mt-1 text-sm text-slate-700 dark:text-slate-300">
+                {paper.authors.join(', ')} ({paper.year})
+              </p>
+              <a
+                href={paper.url}
+                class:list={[link, 'mt-2 inline-block text-sm']}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Read the paper<span class="sr-only">: {paper.title} (opens in a new tab)</span> ↗
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    {
+      (notebook || dataset) && (
+        <section class="mt-8">
+          <h2 class={heading}>Try it yourself</h2>
+          <ul class="mt-3 space-y-2">
+            {notebook && (
+              <li>
+                <a href={notebook} class={link} target="_blank" rel="noopener noreferrer">
+                  Open the notebook<span class="sr-only"> (opens in a new tab)</span> ↗
+                </a>
+              </li>
+            )}
+            {dataset && (
+              <li>
+                <a href={dataset} class={link} target="_blank" rel="noopener noreferrer">
+                  Get the dataset<span class="sr-only"> (opens in a new tab)</span> ↗
+                </a>
+              </li>
+            )}
+          </ul>
+        </section>
+      )
+    }
+
+    <a href="/" class:list={[link, 'mt-10 inline-block']}>← Back to the map</a>
+  </main>
+</Layout>
