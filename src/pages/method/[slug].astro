@@ -30,7 +30,12 @@ const open = fields
   .map((field) => ({ label: field.data.name, methodName: name, fieldName: field.data.name }));
 ---
 
-<DetailPage kind="Method" name={name} description={description}>
+<DetailPage
+  kind="Method"
+  name={name}
+  description={description}
+  metaDescription={`${name} in applied research: the fields that use it, starter research questions, and open spots to contribute an entry.`}
+>
   {
     prerequisites.length > 0 && (
       <section class="mt-8">

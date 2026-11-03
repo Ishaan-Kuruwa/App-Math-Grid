@@ -24,7 +24,10 @@ const { title, summary, starterQuestion, difficulty, prerequisites, papers, note
 const [method, field] = await Promise.all([getEntry(entry.data.method), getEntry(entry.data.field)]);
 ---
 
-<Layout title={`${title} · Applied Math Method Map`}>
+<Layout
+  title={`${method.data.name} × ${field.data.name}`}
+  description={`${title}: a starter research project using ${method.data.name} in ${field.data.name}, with papers to read.`}
+>
   <main
     class="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8"
     data-pagefind-body

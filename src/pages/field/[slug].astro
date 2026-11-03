@@ -29,7 +29,12 @@ const open = methods
   .map((method) => ({ label: method.data.name, methodName: method.data.name, fieldName: name }));
 ---
 
-<DetailPage kind="Field" name={name} description={description}>
+<DetailPage
+  kind="Field"
+  name={name}
+  description={description}
+  metaDescription={`${name} and applied math: the methods researchers use, starter research questions, and open spots to contribute an entry.`}
+>
   <EntryGroupList
     title="Methods used in this field"
     emptyText="No entries yet. Every method below is open for a contribution."

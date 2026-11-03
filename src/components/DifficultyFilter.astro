@@ -1,0 +1,90 @@
+---
+import { DIFFICULTIES } from '../content.config';
+import { difficultyStyles } from '../lib/difficulty';
+import { focus } from '../lib/styles';
+
+// Homepage difficulty filter. Each button toggles one difficulty on or off;
+// grid cells whose difficulty is off are dimmed (see GridCell) so the grid keeps
+// its shape. The controls start hidden and the script reveals them, so without
+// JavaScript there are no dead buttons and every entry shows normally.
+
+// Off state: neutral outline instead of the difficulty color. The ✓ also
+// disappears, so the state doesn't rely on color alone.
+const off = [
+  'aria-[pressed=false]:border-slate-300 aria-[pressed=false]:bg-white aria-[pressed=false]:text-slate-700',
+  'dark:aria-[pressed=false]:border-slate-700 dark:aria-[pressed=false]:bg-slate-950 dark:aria-[pressed=false]:text-slate-300',
+];
+---
+
+<div
+  role="group"
+  aria-labelledby="difficulty-filter-label"
+  class="mb-6 flex flex-wrap items-center gap-2"
+  data-difficulty-filter
+  hidden
+>
+  <span id="difficulty-filter-label" class="mr-1 text-sm font-semibold">Show difficulty:</span>
+  {
+    DIFFICULTIES.map((difficulty) => {
+      const { label, classes } = difficultyStyles[difficulty];
+      return (
+        <button
+          type="button"
+          aria-pressed="true"
+          data-difficulty-toggle={difficulty}
+          class:list={[
+            'group inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-transparent px-3 py-1.5 text-sm font-semibold',
+            classes,
+            off,
+            focus,
+          ]}
+        >
+          <span aria-hidden="true" class="w-3 group-aria-[pressed=false]:invisible">
+            ✓
+          </span>
+          {label}
+        </button>
+      );
+    })
+  }
+  <p role="status" aria-live="polite" class="sr-only" data-difficulty-status></p>
+</div>
+
+<script>
+  const group = document.querySelector<HTMLElement>('[data-difficulty-filter]');
+
+  if (group) {
+    const buttons = [...group.querySelectorAll<HTMLButtonElement>('[data-difficulty-toggle]')];
+    const status = group.querySelector<HTMLElement>('[data-difficulty-status]')!;
+    // Each entry appears twice in the page (desktop grid and mobile accordion),
+    // so count only the desktop copies when announcing results.
+    const cells = [...document.querySelectorAll<HTMLElement>('[data-cell-difficulty]')];
+    const total = document.querySelectorAll('[data-grid] [data-cell-difficulty]').length;
+
+    function update() {
+      const shown = new Set(
+        buttons
+          .filter((button) => button.getAttribute('aria-pressed') === 'true')
+          .map((button) => button.dataset.difficultyToggle),
+      );
+      for (const cell of cells) {
+        cell.toggleAttribute('data-dimmed', !shown.has(cell.dataset.cellDifficulty));
+      }
+      const matching = document.querySelectorAll(
+        '[data-grid] [data-cell-difficulty]:not([data-dimmed])',
+      ).length;
+      status.textContent =
+        matching === total ? `Showing all ${total} entries.` : `Highlighting ${matching} of ${total} entries.`;
+    }
+
+    for (const button of buttons) {
+      button.addEventListener('click', () => {
+        const pressed = button.getAttribute('aria-pressed') === 'true';
+        button.setAttribute('aria-pressed', String(!pressed));
+        update();
+      });
+    }
+
+    group.hidden = false;
+  }
+</script>

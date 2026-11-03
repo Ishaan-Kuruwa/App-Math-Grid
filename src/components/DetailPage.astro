@@ -10,12 +10,14 @@ interface Props {
   kind: string;
   name: string;
   description: string;
+  /** One sentence for the meta description. */
+  metaDescription: string;
 }
 
-const { kind, name, description } = Astro.props;
+const { kind, name, description, metaDescription } = Astro.props;
 ---
 
-<Layout title={`${name} · Applied Math Method Map`}>
+<Layout title={name} description={metaDescription}>
   <main
     class="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8"
     data-pagefind-body
