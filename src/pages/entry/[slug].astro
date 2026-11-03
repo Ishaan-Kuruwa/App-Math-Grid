@@ -25,20 +25,24 @@ const [method, field] = await Promise.all([getEntry(entry.data.method), getEntry
 ---
 
 <Layout title={`${title} · Applied Math Method Map`}>
-  <main class="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
-    <a href="/" class={link}>← Back to the map</a>
+  <main
+    class="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8"
+    data-pagefind-body
+    data-pagefind-meta="type:entry"
+  >
+    <a href="/" class={link} data-pagefind-ignore>← Back to the map</a>
 
     <header class="mt-6 space-y-3">
-      <div class="flex flex-wrap items-center gap-2">
+      <div class="flex flex-wrap items-center gap-2" data-pagefind-meta={`difficulty:${difficulty}`}>
         <DifficultyBadge difficulty={difficulty} />
         {isDraft(entry) && <DraftBadge />}
       </div>
       <h1 class="text-3xl font-bold tracking-tight">{title}</h1>
       <p class="text-slate-700 dark:text-slate-300">
-        <a href={`/method/${method.data.slug}`} class={link}>{method.data.name}</a>
+        <a href={`/method/${method.data.slug}`} class={link} data-pagefind-meta="method">{method.data.name}</a>
         <span aria-hidden="true"> · </span>
         <span class="sr-only">in</span>
-        <a href={`/field/${field.data.slug}`} class={link}>{field.data.name}</a>
+        <a href={`/field/${field.data.slug}`} class={link} data-pagefind-meta="field">{field.data.name}</a>
       </p>
     </header>
 
@@ -110,6 +114,6 @@ const [method, field] = await Promise.all([getEntry(entry.data.method), getEntry
       )
     }
 
-    <a href="/" class:list={[link, 'mt-10 inline-block']}>← Back to the map</a>
+    <a href="/" class:list={[link, 'mt-10 inline-block']} data-pagefind-ignore>← Back to the map</a>
   </main>
 </Layout>

@@ -1,0 +1,282 @@
+---
+import { focus } from '../lib/styles';
+
+// Header search box. Queries the Pagefind index built by `npm run build`
+// (see the `data-pagefind-*` attributes on the entry, method, and field pages).
+// Follows the ARIA combobox pattern: arrow keys move through results, Enter
+// opens one, Escape closes the list, and "/" focuses the box from anywhere.
+---
+
+<form role="search" class="relative w-full sm:w-80" data-search>
+  <label for="site-search" class="sr-only">Search entries, methods, and fields</label>
+  <input
+    id="site-search"
+    type="search"
+    role="combobox"
+    autocomplete="off"
+    spellcheck="false"
+    aria-autocomplete="list"
+    aria-expanded="false"
+    aria-controls="site-search-results"
+    aria-describedby="site-search-hint"
+    placeholder="Search (press /)"
+    class:list={[
+      'w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-600',
+      'dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-400',
+      focus,
+    ]}
+  />
+  <p id="site-search-hint" class="sr-only">
+    Type to search. Use the up and down arrow keys to pick a result and Enter to open it.
+  </p>
+  <ul
+    id="site-search-results"
+    role="listbox"
+    aria-label="Search results"
+    hidden
+    class:list={[
+      'absolute right-0 left-0 z-50 mt-2 max-h-[70vh] overflow-y-auto rounded-lg border border-slate-300 bg-white p-1 shadow-lg',
+      'dark:border-slate-700 dark:bg-slate-900',
+    ]}
+  >
+  </ul>
+  <p role="status" aria-live="polite" class="sr-only" data-search-status></p>
+</form>
+
+<script>
+  import { badgeBase, difficultyStyles, type Difficulty } from '../lib/difficulty';
+
+  // The parts of Pagefind's browser API this component uses.
+  interface PagefindResultData {
+    url: string;
+    meta: Record<string, string | undefined>;
+  }
+  interface PagefindResult {
+    id: string;
+    data: () => Promise<PagefindResultData>;
+  }
+  interface Pagefind {
+    init: () => Promise<void>;
+    debouncedSearch: (
+      term: string,
+      options?: object,
+      debounceMs?: number,
+    ) => Promise<{ results: PagefindResult[] } | null>;
+  }
+
+  const MAX_RESULTS = 8;
+
+  const optionClasses = [
+    'block cursor-pointer rounded-md px-3 py-2 text-slate-900 dark:text-slate-100',
+    'hover:bg-indigo-50 dark:hover:bg-slate-800',
+    'aria-selected:bg-indigo-100 aria-selected:outline-2 aria-selected:outline-indigo-600',
+    'dark:aria-selected:bg-slate-800 dark:aria-selected:outline-indigo-400',
+  ].join(' ');
+
+  let pagefindPromise: Promise<Pagefind | null> | undefined;
+
+  // The index only exists after `npm run build`, so load it on first use and
+  // treat a failed load (e.g. in `astro dev`) as "search unavailable".
+  function loadPagefind(): Promise<Pagefind | null> {
+    pagefindPromise ??= (async () => {
+      try {
+        const url = '/pagefind/pagefind.js';
+        const pagefind = (await import(/* @vite-ignore */ url)) as Pagefind;
+        await pagefind.init();
+        return pagefind;
+      } catch {
+        return null;
+      }
+    })();
+    return pagefindPromise;
+  }
+
+  function isDifficulty(value: string | undefined): value is Difficulty {
+    return value !== undefined && value in difficultyStyles;
+  }
+
+  function renderOption(data: PagefindResultData, index: number): HTMLLIElement {
+    const { meta } = data;
+    const li = document.createElement('li');
+    li.id = `site-search-option-${index}`;
+    li.setAttribute('role', 'option');
+    li.setAttribute('aria-selected', 'false');
+    li.dataset.href = data.url;
+    li.className = optionClasses;
+
+    const title = document.createElement('span');
+    title.className = 'block font-medium';
+    title.textContent = meta.title ?? data.url;
+    li.append(title);
+
+    const details = document.createElement('span');
+    details.className =
+      'mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-slate-700 dark:text-slate-300';
+
+    if (meta.type === 'entry') {
+      const where = document.createElement('span');
+      where.textContent = [meta.method, meta.field].filter(Boolean).join(' · ');
+      details.append(where);
+      if (isDifficulty(meta.difficulty)) {
+        const { label, classes } = difficultyStyles[meta.difficulty];
+        const badge = document.createElement('span');
+        badge.className = `${badgeBase} ${classes}`;
+        badge.textContent = label;
+        details.append(badge);
+      }
+    } else if (meta.type) {
+      details.textContent = meta.type === 'method' ? 'Method' : 'Field';
+    }
+
+    if (details.hasChildNodes()) li.append(details);
+    return li;
+  }
+
+  function setUp(form: HTMLFormElement) {
+    const input = form.querySelector<HTMLInputElement>('input[role="combobox"]')!;
+    const list = form.querySelector<HTMLUListElement>('[role="listbox"]')!;
+    const status = form.querySelector<HTMLElement>('[data-search-status]')!;
+    let active = -1;
+    let options: HTMLLIElement[] = [];
+
+    function setActive(index: number) {
+      options[active]?.setAttribute('aria-selected', 'false');
+      active = index;
+      const option = options[active];
+      if (option) {
+        option.setAttribute('aria-selected', 'true');
+        option.scrollIntoView({ block: 'nearest' });
+        input.setAttribute('aria-activedescendant', option.id);
+      } else {
+        input.removeAttribute('aria-activedescendant');
+      }
+    }
+
+    function open() {
+      if (!list.hasChildNodes()) return;
+      list.hidden = false;
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function close() {
+      setActive(-1);
+      list.hidden = true;
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    function showMessage(text: string) {
+      const li = document.createElement('li');
+      li.className = 'px-3 py-2 text-sm text-slate-700 dark:text-slate-300';
+      li.textContent = text;
+      list.replaceChildren(li);
+      options = [];
+      setActive(-1);
+      status.textContent = text;
+      open();
+    }
+
+    async function runSearch() {
+      const term = input.value.trim();
+      if (!term) {
+        list.replaceChildren();
+        options = [];
+        status.textContent = '';
+        close();
+        return;
+      }
+
+      const pagefind = await loadPagefind();
+      if (!pagefind) {
+        showMessage('Search is not available here. It works on the built site (npm run build).');
+        return;
+      }
+
+      const search = await pagefind.debouncedSearch(term, {}, 200);
+      // null means a newer keystroke replaced this search.
+      if (!search || input.value.trim() !== term) return;
+
+      const data = await Promise.all(
+        search.results.slice(0, MAX_RESULTS).map((result) => result.data()),
+      );
+      if (input.value.trim() !== term) return;
+
+      if (data.length === 0) {
+        showMessage(`No results for “${term}”.`);
+        return;
+      }
+
+      options = data.map(renderOption);
+      list.replaceChildren(...options);
+      setActive(-1);
+      const total = search.results.length;
+      status.textContent =
+        total > data.length
+          ? `Showing ${data.length} of ${total} results.`
+          : `${total} result${total === 1 ? '' : 's'}.`;
+      open();
+    }
+
+    function go(option: HTMLLIElement | undefined) {
+      if (option?.dataset.href) window.location.href = option.dataset.href;
+    }
+
+    input.addEventListener('input', runSearch);
+    input.addEventListener('focus', () => {
+      loadPagefind();
+      open();
+    });
+
+    input.addEventListener('keydown', (event) => {
+      switch (event.key) {
+        case 'ArrowDown':
+          event.preventDefault();
+          if (list.hidden) open();
+          if (options.length) setActive((active + 1) % options.length);
+          break;
+        case 'ArrowUp':
+          event.preventDefault();
+          if (list.hidden) open();
+          if (options.length) setActive(active <= 0 ? options.length - 1 : active - 1);
+          break;
+        case 'Enter':
+          event.preventDefault();
+          go(options[active] ?? options[0]);
+          break;
+        case 'Escape':
+          if (!list.hidden) {
+            event.preventDefault();
+            close();
+          } else if (input.value) {
+            event.preventDefault();
+            input.value = '';
+            runSearch();
+          }
+          break;
+      }
+    });
+
+    form.addEventListener('submit', (event) => event.preventDefault());
+
+    // Mouse: keep focus in the input while clicking, then follow the result.
+    list.addEventListener('mousedown', (event) => event.preventDefault());
+    list.addEventListener('click', (event) => {
+      const option = (event.target as Element).closest<HTMLLIElement>('[role="option"]');
+      go(option ?? undefined);
+    });
+
+    input.addEventListener('blur', close);
+
+    // "/" focuses search unless the user is already typing somewhere.
+    document.addEventListener('keydown', (event) => {
+      if (event.key !== '/' || event.ctrlKey || event.metaKey || event.altKey) return;
+      const target = event.target as HTMLElement;
+      if (target.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName)) {
+        return;
+      }
+      event.preventDefault();
+      input.focus();
+    });
+  }
+
+  document.querySelectorAll<HTMLFormElement>('form[data-search]').forEach(setUp);
+</script>

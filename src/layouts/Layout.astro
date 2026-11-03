@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import Search from '../components/Search.astro';
+import { focus } from '../lib/styles';
 
 interface Props {
 	title?: string;
@@ -19,6 +21,12 @@ const { title = 'Applied Math Method Map' } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body class="min-h-screen bg-white text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100">
+		<header class="border-b border-slate-200 dark:border-slate-800">
+			<div class="mx-auto flex max-w-screen-2xl flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+				<a href="/" class:list={['rounded font-semibold tracking-tight', focus]}>Applied Math Method Map</a>
+				<Search />
+			</div>
+		</header>
 		<slot />
 	</body>
 </html>
